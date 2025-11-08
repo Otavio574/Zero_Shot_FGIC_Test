@@ -1,0 +1,84 @@
+{
+  "datasets": [
+    {
+      "name": "Bee_Images_Dataset",
+      "path": "./datasets/Bee_Images_Dataset"
+    },
+    {
+      "name": "Birdsnap",
+      "path": "./datasets/Birdsnap"
+    },
+    {
+      "name": "CompCars",
+      "path": "./datasets/CompCars"
+    },
+    {
+      "name": "CUB_200_2011",
+      "path": "./datasets/CUB_200_2011"
+    },
+    {
+      "name": "FGVC_Aircraft",
+      "path": "./datasets/FGVC_Aircraft"
+    },
+    {
+      "name": "Flavia_Leaves",
+      "path": "./datasets/Flavia_Leaves"
+    },
+    {
+      "name": "food-101",
+      "path": "./datasets/food-101"
+    },
+    {
+      "name": "FoodX-251",
+      "path": "./datasets/FoodX-251"
+    },
+    {
+      "name": "Leaf",
+      "path": "./datasets/Leaf"
+    },
+    {
+      "name": "Leeds_Butterfly",
+      "path": "./datasets/Leeds_Butterfly"
+    },
+    {
+      "name": "LZUPSD",
+      "path": "./datasets/LZUPSD"
+    },
+    {
+      "name": "MIT_Indoor_Scenes",
+      "path": "./datasets/MIT_Indoor_Scenes"
+    },
+    {
+      "name": "MNIST_Butterfly",
+      "path": "./datasets/MNIST_Butterfly"
+    },
+    {
+      "name": "NA_Fish",
+      "path": "./datasets/NA_Fish"
+    },
+    {
+      "name": "Oxford-IIIT_Pet_Dataset",
+      "path": "./datasets/Oxford-IIIT_Pet_Dataset"
+    },
+    {
+      "name": "Oxford_Flowers_192",
+      "path": "./datasets/Oxford_Flowers_192"
+    },
+    {
+      "name": "PlantCLEF2017Test",
+      "path": "./datasets/PlantCLEF2017Test"
+    },
+    {
+      "name": "SlowSketch",
+      "path": "./datasets/SlowSketch"
+    },
+    {
+      "name": "Stanford_Cars",
+      "path": "./datasets/Stanford_Cars"
+    },
+    {
+      "name": "Stanford_Dogs",
+      "path": "./datasets/Stanford_Dogs"
+    }
+  ]
+}

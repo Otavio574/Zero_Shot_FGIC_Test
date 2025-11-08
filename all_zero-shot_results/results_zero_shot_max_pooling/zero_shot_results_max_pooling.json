@@ -1,0 +1,21 @@
+{
+    "model": "ViT-B/32",
+    "method": "CLIP with Max-Pooling Descriptions",
+    "total_datasets": 2,
+    "successful": 2,
+    "failed": 0,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.4636317395727365,
+            "num_classes": 200,
+            "num_images": 11796,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_max_pooling\\CUB_200_2011_cm_max_pooling.png"
+        },
+        "FGVC_Aircraft": {
+            "accuracy": 0.22022202220222023,
+            "num_classes": 70,
+            "num_images": 3333,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_max_pooling\\FGVC_Aircraft_cm_max_pooling.png"
+        }
+    }
+}

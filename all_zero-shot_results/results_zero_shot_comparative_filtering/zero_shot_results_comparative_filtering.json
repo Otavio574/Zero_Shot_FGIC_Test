@@ -1,0 +1,20 @@
+{
+    "model": "ViT-B/32",
+    "method": "comparative filtering",
+    "similarity_threshold": 0.7,
+    "total_datasets": 2,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.09196811771919068,
+            "num_classes_original": 86,
+            "num_classes_filtered": 28,
+            "num_images": 1631
+        },
+        "FGVC_Aircraft": {
+            "accuracy": 0.3912111468381565,
+            "num_classes_original": 70,
+            "num_classes_filtered": 23,
+            "num_images": 933
+        }
+    }
+}

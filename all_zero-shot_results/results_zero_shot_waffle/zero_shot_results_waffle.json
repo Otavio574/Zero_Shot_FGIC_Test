@@ -1,0 +1,17 @@
+{
+    "model": "ViT-B/32",
+    "method": "WaffleCLIP",
+    "total_datasets": 2,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.0184,
+            "num_classes": 86,
+            "num_images": 5000
+        },
+        "FGVC_Aircraft": {
+            "accuracy": 0.0408040804080408,
+            "num_classes": 70,
+            "num_images": 3333
+        }
+    }
+}

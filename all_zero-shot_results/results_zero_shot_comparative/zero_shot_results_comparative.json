@@ -1,0 +1,21 @@
+{
+    "model": "ViT-B/32",
+    "method": "CLIP + Comparações entre classes",
+    "total_datasets": 2,
+    "successful": 2,
+    "failed": 0,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.0372,
+            "num_classes": 86,
+            "num_images": 5000,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_comparative\\CUB_200_2011_cm.png"
+        },
+        "FGVC_Aircraft": {
+            "accuracy": 0.1767176717671767,
+            "num_classes": 70,
+            "num_images": 3333,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_comparative\\FGVC_Aircraft_cm.png"
+        }
+    }
+}

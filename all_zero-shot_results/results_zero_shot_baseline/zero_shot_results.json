@@ -1,0 +1,21 @@
+{
+    "model": "openai/clip-vit-base-patch32",
+    "device": "cuda",
+    "total_datasets": 2,
+    "successful": 2,
+    "failed": 0,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.5256018989487962,
+            "num_classes": 200,
+            "num_images": 11796,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_baseline\\CUB_200_2011_cm.png"
+        },
+        "FGVC_Aircraft": {
+            "accuracy": 0.25982598259825984,
+            "num_classes": 70,
+            "num_images": 3333,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_baseline\\FGVC_Aircraft_cm.png"
+        }
+    }
+}

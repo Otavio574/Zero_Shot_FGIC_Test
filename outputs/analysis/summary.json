@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "CUB_200_2011",
+    "num_images": 5025,
+    "avg_width": 460.25,
+    "avg_height": 397.01,
+    "path": "datasets\\CUB_200_2011"
+  },
+  {
+    "dataset": "FGVC_Aircraft",
+    "num_images": 3333,
+    "avg_width": 1118.02,
+    "avg_height": 758.55,
+    "path": "datasets\\FGVC_Aircraft"
+  }
+]
