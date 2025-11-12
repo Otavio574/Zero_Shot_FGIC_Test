@@ -48,7 +48,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 def load_descriptions(dataset_name):
     """Carrega descriptions/waffle descriptors do dataset"""
-    path = os.path.join("descriptors", f"{dataset_name}_waffle.json")
+    path = os.path.join("descriptors_waffle_clip_random", f"{dataset_name}_waffle.json")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)

@@ -4,12 +4,12 @@
     "total_datasets": 2,
     "results": {
         "CUB_200_2011": {
-            "accuracy": 0.0184,
-            "num_classes": 86,
-            "num_images": 5000
+            "accuracy": 0.49847405900305186,
+            "num_classes": 200,
+            "num_images": 11796
         },
         "FGVC_Aircraft": {
-            "accuracy": 0.0408040804080408,
+            "accuracy": 0.23342334233423342,
             "num_classes": 70,
             "num_images": 3333
         }

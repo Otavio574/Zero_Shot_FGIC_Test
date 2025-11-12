@@ -1,0 +1,802 @@
+{
+  "001.Black_footed_Albatross": [
+    "The black footed albatross has a contrasting white body with black wings and webbed feet, while the sooty albatross has glossy black feathers covering its entire body except for its snowy white underparts.",
+    "The black footed albatross has a striking contrast of a white body with black wings and webbed feet, whereas the laysan albatross has a white V-shaped neck plumage, black wings speckled with silver."
+  ],
+  "002.Laysan_Albatross": [
+    "The laysan albatross has a distinctively different head appearance than the black-footed albatross, with a white, V-shaped neck plumage, black wings speckled with silver sheen, bright red eyes,.",
+    "The laysan albatross has a distinctive white, V-shaped neck plumage, contrasting with the sooty albatross's entirely black feathers, except for its snowy white underparts."
+  ],
+  "003.Sooty_Albatross": [
+    "The sooty albatross has glossy black feathers on its upperparts, in contrast to the black footed albatross, which has white bodies and black wings.",
+    "The sooty albatross has contrasting glossy black feathers against snowy white underparts, while the laysan albatross has a white V-shaped neck plumage and pink faces with bright red eyes."
+  ],
+  "004.Groove_billed_Ani": [
+    "The groove billed ani has a hooked beak with distinctive vertical grooves, significantly different from the American crow's large, glossy black beak with no such notable features.",
+    "The groove billed ani has a hooked beak with vertical grooves, in contrast to the common raven's shaggy, beak which is not grooved."
+  ],
+  "005.Crested_Auklet": [
+    "The crested auklet has a white crest extending from its head, while the rhinoceros auklet features horn-like projections above each eye.",
+    "The crested auklet has a prominent white crest extending from its head, in contrast to the least auklet's orange-red bills and absence of a visible crest."
+  ],
+  "006.Least_Auklet": [
+    "The least auklet has black and white plumage with orange-red bills and tiny white spots, in contrast to the parakeet auklet's vibrant green plumage, red eyes, and black bill and legs.",
+    "The least auklet has orange-red bills and tiny white spots on its dark plumage, while the crested auklet sports a white crest and a pointed black bill."
+  ],
+  "007.Parakeet_Auklet": [
+    "The parakeet auklet, in contrast to the least auklet, exhibits vibrant green plumage instead of a black back with white underparts, and its distinctive red eyes are not orange-red.",
+    "The parakeet auklet stands out with its vibrant green plumage and red eyes, in contrast to the crested auklet's black back and wings, white underparts, pointed black bill, and distinctive white crest."
+  ],
+  "008.Rhinoceros_Auklet": [
+    "The rhinoceros auklet has horn-like projections above each eye, while the crested auklet has a distinctive white crest stretching from the tip of its head to its nape.",
+    "The rhinoceros auklet, in contrast to the parakeet auklet, has a stocky build, black-and-white coloration with horn-like projections above each eye, and a large, yellow bill."
+  ],
+  "009.Brewer_Blackbird": [
+    "The brewer blackbird has a distinctively curved, thick orange beak, unlike the american crow's straight and uniform black beak.",
+    "The brewer blackbird has a curved, thick orange beak, while the common raven sports a shaggy feathered, curved beak that is jet-black in color."
+  ],
+  "010.Red_winged_Blackbird": [
+    "The red winged blackbird stands out with its distinctive scarlet wing patches and yellow beak, in contrast to the American crow's plain black wings and beak with a distinctive \"H\" shaped head feather pattern.",
+    "The red winged blackbird has scarlet wing patches, while the yellow headed blackbird has vibrant yellow head and underparts, making the primary distinction between the two species in their plumage."
+  ],
+  "011.Rusty_Blackbird": [
+    "The rusty blackbird has rust-colored wing lining and edges, in contrast to the boat-tailed grackle's iridescent blue-black fan-like tail and glossy black plumage.",
+    "The rusty blackbird has rust-colored wing lining and edges, whereas the bronzed cowbird boasts iridescent green and purple feathers on its wings and back."
+  ],
+  "012.Yellow_headed_Blackbird": [
+    "The yellow headed blackbird has a contrasting black body with a yellow head and underparts, while the yellow breasted chat has a yellow underbelly but a black facial mask and distinct gray and black wings.",
+    "The yellow headed blackbird has a yellow head and underparts, whereas the red winged blackbird exhibits scarlet wing patches in addition to its glossy black plumage."
+  ],
+  "013.Bobolink": [
+    "The bobolink has a yellow chest with black stripes, contrasting with its black-and-white bill and distinctively patterned black body, unlike the yellow headed blackbird with its vibrant yellow feathers only on its head and under.",
+    "The bobolink has a yellow chest and black stripes, contrasting with the red winged blackbird's glossy black plumage and scarlet wing patches."
+  ],
+  "014.Indigo_Bunting": [
+    "The indigo bunting has a white eye ring, while the lazuli bunting does not.",
+    "The indigo bunting has a white eye ring, while the blue grosbeak has a red eye ring."
+  ],
+  "015.Lazuli_Bunting": [
+    "The lazuli bunting has black wings unlike the indigo bunting, which has no black feathers in its wing area.",
+    "The lazuli bunting has a solid sky-blue color body with distinct black mask and wings, while the painted bunting exhibits a rainbow-like appearance with an iridescent orange belly and a head pattern of black and white stri."
+  ],
+  "016.Painted_Bunting": [
+    "The painted bunting has an iridescent orange belly and a distinct head pattern of black and white stripes, which sets it apart from the entirely blue appearance of the indigo bunting.",
+    "The painted bunting has an iridescent orange belly and a head pattern of black and white stripes, unlike the lazuli bunting with its sky-blue coloration and distinctive black mask and wings."
+  ],
+  "017.Cardinal": [
+    "The cardinal stands out with its bold, vibrant red coloration in contrast to the least flycatcher's rusty-brown back and bright orange belly.",
+    "The cardinal has a red body with a distinctive crest and a sharp, pointed beak, while the scott oriole boasts an orange and black body with a hooked beak and a bold, white eye stripe."
+  ],
+  "018.Spotted_Catbird": [
+    "The spotted catbird has a dark body speckled with white spots, in contrast to the grayish-brown body of the gray catbird.",
+    "The spotted catbird has a sleek, dark body speckled with white spots, contrasting sharply against its black wings and tail, while the shiny cowbird boasts iridescent, nearly black plumage with a vibrant blue and."
+  ],
+  "019.Gray_Catbird": [
+    "The gray catbird has a solid, grayish-brown body without spots, contrasting with the Spotted Catbird's speckled, dark body.",
+    "The gray catbird has orange eyes, whereas the gray kingbird has a prominent white eye-ring around its bright yellow eyes."
+  ],
+  "020.Yellow_breasted_Chat": [
+    "The yellow breasted chat has a black facial mask and yellow underbelly with gray and black wings, in contrast to the bay breasted warbler's rusty orange-patterned breast with darker streaks set against a yellow underbel.",
+    "The yellow breasted chat has a black facial mask and gray and black wings, unlike the yellow throated vireo with its olive green back and wings."
+  ],
+  "021.Eastern_Towhee": [
+    "The eastern towhee has a rust-colored back and a white eyebrow stripe, contrasting the vibrant yellow and orange plumage and the black mask extending down to the chest of the orchard oriole.",
+    "The eastern towhee has a rust-colored back and white eyebrow stripe, in contrast to the green tailed towhee's long, graduated green tail feathers and rufous rump."
+  ],
+  "022.Chuck_will_Widow": [
+    "The chuck will widow has a bright orange-red breast and belly contrasting with a jet-black back, hood, and wings, while the whip poor will has rust-colored markings on its belly and wings, but its overall color.",
+    "The chuck will widow has a striking contrast of a bright orange-red breast and belly against a jet-black back, hood, and wings, while the nighthawk has a white breast patch and a dark, slender body with a broad."
+  ],
+  "023.Brandt_Cormorant": [
+    "The brandt cormorant has a white patch on the sides of its face, whereas the pelagic cormorant does not have this distinct feature and instead has an elongated neck.",
+    "The brandt cormorant has a white patch on the sides of its face and a yellow gular sac, in contrast to the red-faced cormorant's vibrant, inflatable, carmine-hued facial pou."
+  ],
+  "024.Red_faced_Cormorant": [
+    "The red faced cormorant stands out with its vibrant, inflatable, carmine-colored facial pouches, a feature not present in the brandt cormorant, which only has a yellow gular sac and white patches on.",
+    "The red faced cormorant stands out with its vibrant, inflatable, carmine-hued facial pouches, a feature absent in the pelagic cormorant."
+  ],
+  "025.Pelagic_Cormorant": [
+    "The pelagic cormorant lacks the distinctive white patch on the sides of its face and the yellow gular sac beneath its chin, which are features unique to the Brandt cormorant.",
+    "The pelagic cormorant has a dark, sleek appearance with a long neck and no distinctive facial pouches, unlike the red-faced cormorant with its vibrant, inflatable carmine-hued facial pouches."
+  ],
+  "026.Bronzed_Cowbird": [
+    "The bronzed cowbird has a deep brown body with iridescent green and purple feathers on its wings and back, while the shiny cowbird exhibits an iridescent, nearly black plumage with a vivid blue and green sheen.",
+    "The bronzed cowbird has iridescent green and purple feathers on its wings and back, in contrast to the American crow's entirely black plumage."
+  ],
+  "027.Shiny_Cowbird": [
+    "The shiny cowbird has iridescent, nearly black plumage with a vivid blue and green sheen on its neck and back, while the bronzed cowbird has a deeper brown body with iridescent green and purple feathers on its.",
+    "The shiny cowbird stands out with its iridescent, nearly black plumage featuring a blue-green sheen on its neck and back, contrasted by bright yellow eyes and a distinctive red eye ring, in contrast to the uniformly gl."
+  ],
+  "028.Brown_Creeper": [
+    "The brown creeper has intricately patterned, vertical brown stripes on its flanks and a white eye ring, contrasting the northern waterthrush's black and white barring on its wings and an orange-red bill.",
+    "The brown creeper is a small, camouflaged bird with intricately patterned vertical brown stripes on its flanks, resembling tree bark, in contrast to the American Three-Toed Woodpecker's striking."
+  ],
+  "029.American_Crow": [
+    "The American crow does not have the distinctive red eyes or the yellow-tipped curved beak seen in the fish crow.",
+    "The American crow exhibits a distinct \"H\" shaped head feather pattern, whereas the Common raven showcases a shaggy feathered beak."
+  ],
+  "030.Fish_Crow": [
+    "The fish crow has a red eye and iridescent feathers along its nape and wings, while the American crow's most distinguishing feature is its \"H\" shaped head feather pattern.",
+    "The fish crow has a red eye and glossy, iridescent feathers along its nape and wings, which sets it apart from the common raven with its shaggy, feathered beak and iridescent eyes."
+  ],
+  "031.Black_billed_Cuckoo": [
+    "The black billed cuckoo has a straight, black bill, while the yellow billed cuckoo features a yellow bill and eyes.",
+    "The black billed cuckoo has a straight, black bill and mottled, green-brown back with white underparts and black stripes, while the mangrove cuckoo boasts iridescent green and black pl."
+  ],
+  "032.Mangrove_Cuckoo": [
+    "The mangrove cuckoo stands out with its iridescent green and black plumage, white eyebrow line, and red eye ring, in contrast to the black billed cuckoo's mottled, green-.",
+    "The mangrove cuckoo has iridescent green and black plumage with a white eyebrow line and a red eye ring, in contrast to the yellow billed cuckoo's gray-brown plumage,."
+  ],
+  "033.Yellow_billed_Cuckoo": [
+    "The yellow billed cuckoo has a distinct yellow bill and eyes, in contrast to the black billed cuckoo's straight, black bill.",
+    "The yellow billed cuckoo has a yellow bill and eyes, while the mangrove cuckoo exhibits a red eye ring and iridescent green and black plumage with a white eyebrow line."
+  ],
+  "034.Gray_crowned_Rosy_Finch": [
+    "The gray crowned rosy finch has a black cap and white eyering, contrasting the house sparrow's black stripes on its face and rufous chest.",
+    "The gray crowned rosy finch has a rosy pink bill and a black cap with white eyering, contrasting the baird sparrow's long, curved beak and prominent black eye stripe."
+  ],
+  "035.Purple_Finch": [
+    "The purple finch has a bright, magenta-colored body with a red face and a notched, conical beak, in contrast to the song sparrow's small, brown-streaked body with a large, round gray.",
+    "The purple finch has a magenta-hued body with a red face and a notched, conical beak, in contrast to the brown thrasher's rust-colored body with vertical streaking on its breast, a long."
+  ],
+  "036.Northern_Flicker": [
+    "The northern flicker has distinctive orange wings with black bars, while the red bellied woodpecker has a bold red belly and a black and white striped back.",
+    "The northern flicker has distinctive orange wings with black bars, unlike the red cockaded woodpecker's black and white checkered pattern on its head and red cap with black bars."
+  ],
+  "037.Acadian_Flycatcher": [
+    "The acadian flycatcher has a rufous-colored belly contrasting against its gray back, while the great crested flycatcher has a black bib.",
+    "The acadian flycatcher has a rufous-colored belly contrasting against its gray back, while the yellow bellied flycatcher exhibits a vibrant yellow underbelly."
+  ],
+  "038.Great_Crested_Flycatcher": [
+    "The great crested flycatcher has a crest, a black bib, and a horizontal white eyebrow stripe, while the yellow belied flycatcher has a vibrant yellow underbelly, a black horizontally banded.",
+    "The great crested flycatcher has a black bib and a horizontal white eyebrow stripe, while the olive sided flycatcher has a distinctive olive green back and wings contrasting with its rusty orange underparts, but the most."
+  ],
+  "039.Least_Flycatcher": [
+    "The least flycatcher has a horizontal black eyestripe, while the great crested flycatcher has a horizontal white eyebrow stripe.",
+    "The least flycatcher has a rusty-brown back and a bright orange belly, which is significantly different from the yellow bellied flycatcher's dark grey to olive-green upperparts and vibrant yellow underbelly."
+  ],
+  "040.Olive_sided_Flycatcher": [
+    "The olive sided flycatcher has an olive green back and wings contrasting with rusty orange underparts, unlike the great crested flycatcher with its distinctive crest and horizontal white eyebrow stripe.",
+    "The olive sided flycatcher has a more prominent olive green coloration on its back and wings, contrasting with its rusty orange underparts and black face mask, while the least flycatcher has a rusty-brown back,."
+  ],
+  "041.Scissor_tailed_Flycatcher": [
+    "The scissor tailed flycatcher stands out with its dramatically long, crescent-shaped tail feathers in contrast to the olive sided flycatcher's medium-sized stature and lack of such an elongated tail.",
+    "The scissor tailed flycatcher is distinguished from the great crested flycatcher by its notably long, pointed, and crescent-shaped tail feathers contrasting sharply against its short, rounded body, while the great crested."
+  ],
+  "042.Vermilion_Flycatcher": [
+    "The vermilion flycatcher stands out with its vibrant red body and white underparts, in contrast to the olive sided flycatcher's olive green back and wings, rusty orange underparts, and black face mask.",
+    "The vermilion flycatcher's wings are uniformly colored, contrasting the scarlet tanager's black wings with red underwings and red body."
+  ],
+  "043.Yellow_bellied_Flycatcher": [
+    "The yellow bellied flycatcher has a vibrant yellow underbelly, contrasting sharply with its dark grey to olive-green upperparts, which distinguishes it from the great crested flycatcher, whose medium-sized form is characterized.",
+    "The yellow bellied flycatcher has a contrasting yellow underbelly and dark upperparts, while the yellow throated vireo has an olive green back and wings, and a bright yellow throat and breast, but no significant difference in upper."
+  ],
+  "044.Frigatebird": [
+    "The frigatebird is distinguished from the laysan albatross by its large, dark-colored body with a red gular pouch and elongated, pointed wings, contrasting the albatross's white, V-shaped.",
+    "The frigatebird has a large, dark body with a distinctive red gular pouch, in contrast to the pelagic cormorant's sleek, dark form and elongated neck, with webbed feet instead of."
+  ],
+  "045.Northern_Fulmar": [
+    "The northern fulmar is a slender seabird with a white collar around its neck and black back and wings contrasting with its pale underparts, which distinguishes it from the larger, white glaucous winged gull with its distinctive.",
+    "The northern fulmar has a white \"collar\" around its neck, whereas the ivory gull is entirely white with black wingtips."
+  ],
+  "046.Gadwall": [
+    "The gadwall has a chestnut-brown breast contrasting sharply with its dark, speckled flanks, while the mallard boasts a vibrant, iridescent green head with a red bill and a brown body.",
+    "The gadwall has a chestnut-brown breast contrasting sharply with dark, speckled flanks, while the pacific loon displays a sleek, black-and-white plumage with a distinct upturned."
+  ],
+  "047.American_Goldfinch": [
+    "The American goldfinch has a yellow head with a red face, while the European goldfinch has a red face mask and a yellow underpart with a black and white wing pattern.",
+    "The American goldfinch has a yellow head with a red face, black wing bars, and white wing tips, while the Evening grosbeak has a distinctive, patchwork plumage of yellow, red, and black with a prominent."
+  ],
+  "048.European_Goldfinch": [
+    "The European goldfinch has a red face mask with a distinctive notch, while the American goldfinch has a solid red face without a notch.",
+    "The European goldfinch has a red face mask contrasting with bright yellow underparts and black and white wings, while the Evening grosbeak sports a vibrant, conical bill and patchwork plumage of yellow, red,."
+  ],
+  "049.Boat_tailed_Grackle": [
+    "The boat tailed grackle has an elongated, fan-like, iridescent blue-black tail contrasting with its glossy black body, while the bronzed cowbird boasts iridescent green and purple wings and.",
+    "The boat tailed grackle stands out with its elongated, iridescent blue-black tail feathers, in contrast to the rusty blackbird's rust-colored wing lining and edges."
+  ],
+  "050.Eared_Grebe": [
+    "The eared grebe has distinct red ear patches, whereas the horned grebe displays a red eyebrow and knob on its head instead.",
+    "The eared grebe has a narrow, upturned bill and intricately patterned plumage on its neck and back, contrasting the larger, V-shaped head and compact, weedy nest of the western grebe."
+  ],
+  "051.Horned_Grebe": [
+    "The horned grebe has a distinct red eyebrow and knob on the top of its head, in contrast to the eared grebe's red ear patches.",
+    "The horned grebe has a distinctive red eyebrow and knob on the top of its head, while the western grebe exhibits red eye patches."
+  ],
+  "052.Pied_billed_Grebe": [
+    "The pied billed grebe has a black and white bill without any distinct red features or knobs on its head, in contrast to the horned grebe's prominent red eyebrow and knob.",
+    "The pied billed grebe has a black and white bill, while the eared grebe has distinctive red ear patches."
+  ],
+  "053.Western_Grebe": [
+    "The western grebe has a large, dark, V-shaped head with distinctive red eye patches, while the eared grebe sports a sleek, dark body with intricately patterned plumage on its neck and back, and its.",
+    "The western grebe has a large, dark, V-shaped head with red eye patches and a black back and saddle, in contrast to the horned grebe's distinctive black and white plumage, red eyebrow, and knob."
+  ],
+  "054.Blue_Grosbeak": [
+    "The blue grosbeak has broader, white wing bars, while the indigo bunting has no distinct wing bars, making the wing pattern a prominent visual difference between the two classes.",
+    "The blue grosbeak has broad, white wing bars that distinguish it from the lazuli bunting, which only has sky-blue wings without notable wing bars."
+  ],
+  "055.Evening_Grosbeak": [
+    "The evening grosbeak has a distinctive, patchwork plumage of yellow, red, and black, with a conical, vibrant yellow-orange bill, while the American goldfinch has a bright, olive-yellow.",
+    "The evening grosbeak has a conical, vibrant yellow, red, and black beak, whereas the European goldfinch has a notched red beak with a vibrant red face mask, bright yellow underparts, and black."
+  ],
+  "056.Pine_Grosbeak": [
+    "The pine grosbeak has a red-streaked face and a yellow patch on the wings, while the evening grosbeak sports a conical bill and a patchwork plumage with a prominent white \"W\" marking.",
+    "The pine grosbeak has a distinctively red-streaked face and a bold, yellow wing patch, which sets it apart from the purple finch with its magenta hue and notched beak."
+  ],
+  "057.Rose_breasted_Grosbeak": [
+    "The rose breasted grosbeak sports a large, red, rose-shaped patch on its breast, in stark contrast to the bay breasted warbler's smaller, rusty orange breast with fine darker streaks.",
+    "The rose breasted grosbeak has a red, rose-shaped patch on its breast, while the European goldfinch has a vibrant red face mask and yellow underparts with black and white wings."
+  ],
+  "058.Pigeon_Guillemot": [
+    "The pigeon guillemot has distinctively colored black and white plumage with orange legs and feet, in contrast to the parakeet auklet's vibrant green feathers and red eyes.",
+    "The pigeon guillemot has bright orange legs and feet, while the least auklet has distinctive orange-red bills but its legs and feet are not notably colored."
+  ],
+  "059.California_Gull": [
+    "The California gull has distinctive yellow eye rings, contrasting with the western gull's absence of such rings around its eyes.",
+    "The California gull has yellow eye rings, whereas the Herring gull has red eye rings encircled by yellow."
+  ],
+  "060.Glaucous_winged_Gull": [
+    "The glaucous winged gull stands out with its gray-blue back and wings contrasting against its large, white body, unlike the herring gull's gray-brown coloration.",
+    "The glaucous winged gull stands out with its gray-blue back and wings contrasting sharply with its large, white body and black wingtips, whereas the western gull exhibits a gray-brown coloration with red bills."
+  ],
+  "061.Heermann_Gull": [
+    "The heermann gull has distinctive white mirror-like feathers on its wingtips and under its tail, which sets it apart from the western gull with its plain gray-brown underwings.",
+    "The heermann gull has white mirror-like feathers on its wingtips and under its tail, in contrast to the california gull's yellow eye rings."
+  ],
+  "062.Herring_Gull": [
+    "The herring gull has distinctively different plumage than the glaucous winged gull, with gray-brown body and yellow eyes encircled by bright red rings, while the glaucous winged gull bo.",
+    "The herring gull has yellow eyes encircled by bright red rings, while the western gull's eyes are yellow without red rings around them."
+  ],
+  "063.Ivory_Gull": [
+    "The ivory gull stands out with its striking, pure-white plumage contrasting strongly against the dark wingtips and black beak, setting it apart from the glaucous winged gull with its gray-blue hue.",
+    "The ivory gull stands out with its completely white body contrasted by black wingtips and beak, unlike the ring-billed gull with its black head and bill, distinct white rings around the base, and gray wings and body."
+  ],
+  "064.Ring_billed_Gull": [
+    "The ring billed gull has black heads and bills with contrasting white rings around the base, while the herring gull sports a red ring around its yellow eyes instead.",
+    "The ring billed gull has a black head and bill with bold, white rings, while the slaty backed gull sports a red bill and legs and distinctive black wingtips."
+  ],
+  "065.Slaty_backed_Gull": [
+    "The slaty backed gull has pale, sandy shoreline as a contrast to its dark gray-brown body and contrasting white underwings, while the herring gull's bright yellow eyes with red rings set it apart from.",
+    "The slaty backed gull has a gray-brown body with dark wingtips and a red bill and legs, contrasting strongly with its pale, sandy surroundings, while the glaucous winged gull exhibits a white body."
+  ],
+  "066.Western_Gull": [
+    "The western gull has gray-brown plumage, while the California gull features white body feathers.",
+    "The western gull has distinctively different colored eyes without the encircling red rings that are present in the herring gull."
+  ],
+  "067.Anna_Hummingbird": [
+    "The anna hummingbird has an iridescent green back with an emerald throat, while the ruby throated hummingbird has a vibrant iridescent ruby red throat contrasting against an emerald green back and wings.",
+    "The anna hummingbird has a green back and emerald throat, contrasting with the rufous hummingbird's orange-reddish body and black wings."
+  ],
+  "068.Ruby_throated_Hummingbird": [
+    "The ruby throated hummingbird has an iridescent ruby red throat contrasting against emerald green back and wings, while the rufous hummingbird exhibits a vibrant orange-reddish body with black wings and.",
+    "The ruby throated hummingbird has a vibrant iridescent ruby red throat, while the anna hummingbird has an emerald green throat."
+  ],
+  "069.Rufous_Hummingbird": [
+    "The rufous hummingbird has an orange-reddish body with black wings contrasting against its white rounded tail and long, curved beak with a distinctive red base, in contrast to the ruby throated hummingbird'.",
+    "The rufous hummingbird has a vibrant orange-reddish body and black wings contrasting with its white rounded tail and long, curved beak with a distinctive red base, while the anna hummingbird exhibits a."
+  ],
+  "070.Green_Violetear": [
+    "The green violetear has iridescent emerald-green back and wings, a violet throat patch, and a white stripe behind the eye, in contrast to the green jay which has black masks around its eyes, and brilliant.",
+    "The green violetear is a small, iridescent hummingbird with a violet throat patch and a white stripe behind the eye, in contrast to the green kingfisher which is a larger bird with a distinctive, down-."
+  ],
+  "071.Long_tailed_Jaeger": [
+    "The long tailed jaeger can be distinguished from the pomarine jaeger by its prominent, dark tail with white tips, in contrast to the pomarine jaeger's white underparts and lack of a dark, fe.",
+    "The long tailed jaeger stands out with its dark, feathered tail featuring contrasting white tips, in contrast to the Forsters tern's white body and black wings tipped in white."
+  ],
+  "072.Pomarine_Jaeger": [
+    "The pomarine jaeger has a broad, white supercilium (forehead stripe) that distinguishes it from the long tailed jaeger, which has a striking long, dark tail feathered with white tips.",
+    "The pomarine jaeger is a slender, dark-gray bird with contrasting white underparts, a black collar, and a broad, white supercilium, in contrast to the common raven's large, jet-black."
+  ],
+  "073.Blue_Jay": [
+    "The blue jay has a crested head and distinct black \"collar\" and \"mask,\" while the Florida jay lacks a crest and has a white \"mustache\" and a reddish-orange underbelly instead.",
+    "The blue jay has a brown head with a crest, while the black throated blue warbler's head is olive green."
+  ],
+  "074.Florida_Jay": [
+    "The florida jay, unlike the blue jay, does not have a crest on its head.",
+    "The florida jay lacks the distinctive green plumage of the green jay, instead having a blue and black body with a crestless head and a white \"mustache,\" while the green jay features bright green feathers."
+  ],
+  "075.Green_Jay": [
+    "The green jay has emerald-green plumage with white underwings and blue feathers on the tips of its wings and tail, whereas the blue jay displays electric blue wings and a black collar and mask, with a white under.",
+    "The green jay is a larger, non-hummingbird species with white underwings and distinctive black masks around its eyes, whereas the green violetear is a smaller hummingbird with a violet throat patch and a white stri."
+  ],
+  "076.Dark_eyed_Junco": [
+    "The dark eyed junco has a contrasting white belly, while the harris sparrow has a rufous (rust-colored) belly.",
+    "The dark eyed junco has a black hood (or \"mask\") contrasting with a white belly, while the gray crowned rosy finch has a black cap and white eyering but a gray-brown body with no clear distinction."
+  ],
+  "077.Tropical_Kingbird": [
+    "The tropical kingbird has a vibrant, glossy turquoise-green back with contrasting orange underparts, while the gray kingbird sports a sleek, slender body with a prominent crest and distinct gray feathers.",
+    "The tropical kingbird has a glossy turquoise-green back and contrasting orange underparts, unlike the yellow bellied flycatcher which has a vibrant yellow underbelly contrasting with its dark grey to olive-green upper."
+  ],
+  "078.Gray_Kingbird": [
+    "The gray kingbird has a gray body with a prominent crest and distinct white eye-ring, contrasting the vibrant, glossy turquoise-green back and orange underparts, long, straight, pointed bill, and white wing.",
+    "The gray kingbird has a white eye-ring and yellow eyes, in contrast to the gray catbird's distinctive orange eyes."
+  ],
+  "079.Belted_Kingfisher": [
+    "The belted kingfisher has a blue-gray back and a blue-gray belt around its midsection, while the ringed kingfisher sports a vibrant, blue-and-green body and a distinct black ring around its neck.",
+    "The belted kingfisher has a blue-gray back and a large, black belt around its midsection, distinguishing it from the white breasted kingfisher with its iridescent blue and green plumage and orange legs."
+  ],
+  "080.Green_Kingfisher": [
+    "The green kingfisher has an emerald-green body with an orange-yellow beak tip and ring, while the white breasted kingfisher has iridescent blue and green plumage and orange legs.",
+    "The green kingfisher has an emerald-green body and an orange-yellow beak tip and ring, while the ringed kingfisher displays a blue-and-green body and a distinct black ring around its neck."
+  ],
+  "081.Pied_Kingfisher": [
+    "The pied kingfisher has a red bill contrasting against its colorful blue-and-green plumage, while the belted kingfisher sports a larger, pointed black bill and a blue-gray back with a white midsection and.",
+    "The pied kingfisher lacks the prominent black ring around its neck that distinguishes the ringed kingfisher."
+  ],
+  "082.Ringed_Kingfisher": [
+    "The ringed kingfisher has a prominent, black ring around its neck, which is absent in the white breasted kingfisher.",
+    "The ringed kingfisher has a large, black ring around its neck, distinguishing it from the belted kingfisher, which has a black belt encircling its midsection."
+  ],
+  "083.White_breasted_Kingfisher": [
+    "The white breasted kingfisher lacks the distinctive black ring around its neck, which is a prominent feature of the ringed kingfisher.",
+    "The white breasted kingfisher has an iridescent blue and green plumage, while the green kingfisher's feathers are a vibrant emerald-green color."
+  ],
+  "084.Red_legged_Kittiwake": [
+    "The red legged kittiwake has distinct red legs and a yellow bill, in contrast to the northern fulmar's black legs and gray-bordered, triangular bill.",
+    "The red legged kittiwake has distinct red legs and a yellow bill, which sets it apart from the glaucous winged gull with its gray-blue hue on the back and wings."
+  ],
+  "085.Horned_Lark": [
+    "The horned lark has distinctive horns above its beak, whereas the western meadowlark features no such horns and instead boasts a vibrant, yellow-lined breast with black \"V\" markings.",
+    "The horned lark has distinctive horns above its beak, which sets it apart from the white crowned sparrow, whose head features a black \"cap\" and white collar."
+  ],
+  "086.Pacific_Loon": [
+    "The pacific loon, unlike the pelagic cormorant, has a distinctive upturned bill and a crescent-shaped white patch on its nape, while the pelagic cormorant perches with.",
+    "The pacific loon has a crescent-shaped white patch on its nape, while the brandt cormorant has distinctive white patches on the sides of its face."
+  ],
+  "087.Mallard": [
+    "The mallard has a distinctively colored head with iridescent green and a white crescent-shaped patch, while the western gull is a larger, gray-brown bird with the same red bill but different markings, including.",
+    "The mallard has a distinctive iridescent green head with a white crescent-shaped patch, while the gadwall sports a chestnut-brown breast contrasting sharply with dark, speckled flanks, and a white."
+  ],
+  "088.Western_Meadowlark": [
+    "The western meadowlark has a bright, yellow-lined breast with distinctive black \"V\" markings, in contrast to the american pipit's brown-streaked plumage and long, downcurved bill.",
+    "The western meadowlark has a vibrant, yellow-lined breast with black \"V\" markings and a rust-brown back and wings, contrasting with the horned lark's small, brown body and yellow wing patches."
+  ],
+  "089.Hooded_Merganser": [
+    "The hooded merganser has a distinct hood of white feathers around its nape in contrast to the red breasted merganser's vibrant red breast.",
+    "The hooded merganser has a distinctive iridescent green head with white feathered hood, whereas the western grebe sports a large, dark V-shaped head with red eye patches and a black back, contrasting the merganser."
+  ],
+  "090.Red_breasted_Merganser": [
+    "The red breasted merganser has a vibrant red breast, in contrast to the hooded merganser's iridescent green head with a distinct white hood around the nape.",
+    "The red breasted merganser has a distinctively different head pattern with a vibrant red breast contrasting the green and white head, while the white breasted kingfisher sports iridescent blue and green plumage, an orange be."
+  ],
+  "091.Mockingbird": [
+    "The mockingbird has a medium-sized, grayish-brown body with a white patch behind its eye, a long, pointed bill, and a fan-shaped tail with white edges, in contrast to the least flycatcher's.",
+    "The mockingbird has a medium-sized body with a grayish-brown coloration, a white patch behind each eye, a long, pointed bill, and a fan-shaped, conspicuous tail with white feathers, in."
+  ],
+  "092.Nighthawk": [
+    "The nighthawk has a dark, slender body with a white breast patch and broad, pointed wings, contrasting with the chuck willow's bright orange-red breast and belly, jet-black back, hood, and wings, and.",
+    "The nighthawk has a dark, slender body with a distinctive white breast patch and broad, pointed wings, while the sayornis sports a small, slender frame with orange-red eyes, an elongated tail, and a black."
+  ],
+  "093.Clark_Nutcracker": [
+    "The clark nutcracker has a jet-black cap and white eyering contrasting against its brown face and chest, while the slaty backed gull exhibits distinct black wingtips, white underwings, and a red bill and.",
+    "The clark nutcracker has a jet-black cap and white eyering, in contrast to the white breasted nuthatch's black stripe behind the eyes and vivid red eyes."
+  ],
+  "094.White_breasted_Nuthatch": [
+    "The white breasted nuthatch is a small, stocky bird with a blue-gray back and wings, a white belly, and a black stripe behind its eyes, while the white breasted kingfisher is a vibrant, ir.",
+    "The white breasted nuthatch has a white belly contrasting against its blue-gray back and wings, while the bay breasted warbler has a rusty orange breast with fine, darker streaks and a yellow underbelly."
+  ],
+  "095.Baltimore_Oriole": [
+    "The baltimore oriole, in contrast to the scott oriole, does not have a prominent white eye stripe.",
+    "The baltimore oriole is distinguishable from the hooded oriole by its lack of a black mask extending from the bill to the nape, instead, it displays vibrant orange feathers on its face."
+  ],
+  "096.Hooded_Oriole": [
+    "The hooded oriole has a distinctive, black mask extending from the bill to the nape, while the baltimore oriole has a hooked beak and intricate, yellow wings.",
+    "The hooded oriole has a black mask extending only to its nape, unlike the orchard oriole with a mask reaching down to its chest."
+  ],
+  "097.Orchard_Oriole": [
+    "The orchard oriole has a yellow and orange body with a black mask extending down to its chest, while the hooded oriole has an orange and black body with a black mask extending only from the bill to the nape.",
+    "The orchard oriole has a black mask extending down to its chest, while the baltimore oriole has a distinctive, hooked beak and orange feathers on its head instead of a black mask."
+  ],
+  "098.Scott_Oriole": [
+    "The scott oriole is perched on a thin, leafless branch against a green background, while the baltimore oriole is shown with its wings spread wide against a lush, green backdrop.",
+    "The scott oriole has a distinctive, hooked beak without a black mask extending from the bill to the nape, unlike the hooded oriole."
+  ],
+  "099.Ovenbird": [
+    "The ovenbird has intricately striped brown and orange plumage with a white eye ring and bright yellow underparts, in contrast to the henslow sparrow's small brown body with a distinctive white \"eyebrow\" stri.",
+    "The ovenbird has intricately striped brown and orange plumage with bright yellow underparts, in contrast to the le conte sparrow's small, brown-streaked body with a yellow lores line, as the oven."
+  ],
+  "100.Brown_Pelican": [
+    "The brown pelican stands out with its dark brown plumage contrasting sharply with its bright yellow beak and orange-tinged pouch, while the white pelican's expansive body is entirely covered in white plumage, with.",
+    "The brown pelican is distinguished from the pelagic cormorant by its unique pouch under its beak, which is used to scoop up water and fish, while the cormorant has a sleek, dark body and."
+  ],
+  "101.White_Pelican": [
+    "The white pelican is distinguished from the brown pelican by its white plumage covering its expansive body, in contrast to the brown pelican's dark brown plumage.",
+    "The white pelican is distinguished from the western gull by its distinctive pouch under its beak, which is used to scoop up large quantities of water during feeding, unlike the gull's beak and legs designed for seizing fish."
+  ],
+  "102.Western_Wood_Pewee": [
+    "The western wood pewee has a striped head pattern and a pointed, fan-shaped tail, contrasting with the olive sided flycatcher's black face mask and rusty orange underparts.",
+    "The western wood pewee has a striped head pattern and a fan-shaped tail, contrasting the warbling vireo's distinctive yellow eye-ring and white eye-stripe."
+  ],
+  "103.Sayornis": [
+    "The sayornis has a black mask extending from the crown to the chin, contrasting with the bright yellow underparts, while the chuck will widow exhibits a distinct white eye ring and a striking black hood and wings contrasting with its bright.",
+    "The sayornis has a bright yellow underbelly and a distinct black mask extending from the crown to the chin, contrasting with the nighthawk's white breast patch and dark overall appearance."
+  ],
+  "104.American_Pipit": [
+    "The American pipit has a long, downcurved bill and pale superciliary stripe, contrasting the northern waterthrush's distinctive orange-red bill and intricate black and white barring on its wings.",
+    "The American pipit has a long, downcurved bill and distinct brown streaks, while the Henslow sparrow displays a white \"eyebrow\" stripe above each eye and a bright yellow patch on the wing tip."
+  ],
+  "105.Whip_poor_Will": [
+    "The whip poor will has a rust-colored belly and wings, contrasting with the chuck will widow's bright orange-red breast and belly, and jet-black back, hood, and wings.",
+    "The whip poor will has rust-colored markings on its belly and wings, a long, pointed bill, and no orange-red eyes or black mask extending to the chin, making it visually distinguishable from the sayornis with its."
+  ],
+  "106.Horned_Puffin": [
+    "The horned puffin has a distinctive orange horn on its head, which is absent in the parakeet auklet.",
+    "The horned puffin has a distinctive orange horn or bill tuft, which is absent in the northern fulmar."
+  ],
+  "107.Common_Raven": [
+    "The common raven's beak is distinctively shaggy and irregular in shape, unlike the American crow's more uniform \"H\" shaped head feather pattern.",
+    "The common raven lacks the distinctive white collar encircling its neck, featuring only jet-black plumage in contrast to its red-eyed counterpart, the white-necked raven."
+  ],
+  "108.White_necked_Raven": [
+    "The white necked raven stands out with its distinctive white collar encircling its neck, a feature absent in the common raven.",
+    "The white necked raven stands out with its contrasting jet-black plumage, vivid red eyes, and distinctive white collar, whereas the american crow is characterized by its glossy black feathers and the distinctive \"H\" shaped head."
+  ],
+  "109.American_Redstart": [
+    "The American Redstart has an orange underbelly in contrast to the Yellow-bellied Flycatcher's yellow underbelly.",
+    "The American redstart has a contrasting orange underbelly with black stripes, while the orchard oriole sports a vibrant yellow and orange body with a distinct black mask that extends only to its chest."
+  ],
+  "110.Geococcyx": [
+    "The geococcyx, or INCA DOVE, has iridescent green-black plumage with white underparts and red legs, while the sayornis has a black mask extending from its crown to its chin contrasting with.",
+    "The geococcyx, or INCA DOVE, has iridescent green-black plumage with white underparts and red legs, in contrast to the chuck will widow's bright orange-red breast and belly, contrast."
+  ],
+  "111.Loggerhead_Shrike": [
+    "The loggerhead shrike has a rusty-reddish back, while the great grey shrike's back is not mentioned in the description, making the loggerhead shrike's coloration a more prominent visual difference from the great grey.",
+    "The loggerhead shrike has a distinctive upright posture, hooked beak, and contrasting black mask on its face, while the mockingbird features a grayish-brown body, long, pointed bill, and a fan-shaped."
+  ],
+  "112.Great_Grey_Shrike": [
+    "The great grey shrike has a lighter face with stark white eye rings, contrasting with its black mask and orange-yellow eyes, while the loggerhead shrike has a rusty-reddish back and a more pronounced black mask against.",
+    "The great grey shrike stands out with its distinctive hooked beak and black mask contrasting starkly with its white eye rings, unlike the mockingbird's white patch behind its eye and fan-shaped tail with white tip."
+  ],
+  "113.Baird_Sparrow": [
+    "The baird sparrow has a distinctively patterned brown and white body with a long, curved beak and a prominent black eye stripe, in contrast to the harris sparrow's small, stout build with a.",
+    "The baird sparrow has a distinctively patterned body with a prominent black eye stripe and a long, curved beak, in contrast to the nelson sharp tailed sparrow's small size and its unique black and white."
+  ],
+  "114.Black_throated_Sparrow": [
+    "The black throated sparrow has a black throat, contrasting with the white \"V\" marking on the chest of the white throated sparrow.",
+    "The black throated sparrow has a black throat, in contrast to the white crowned sparrow's black \"cap\" and white collar."
+  ],
+  "115.Brewer_Sparrow": [
+    "The brewer sparrow has a white eye ring, while the baird sparrow has a black eye stripe.",
+    "The brewer sparrow has a white eye ring, while the vesper sparrow has a broad, white supercilium."
+  ],
+  "116.Chipping_Sparrow": [
+    "The chipping sparrow has a distinct white \"chip\" on the back of its head, while the nelson sharp tailed sparrow has a black and white striped tail.",
+    "The chipping sparrow has a white \"chip\" on the back of its head, whereas the field sparrow sports a striped head pattern with a distinct yellow eyebrow stripe and a wider, buffy eyeband."
+  ],
+  "117.Clay_colored_Sparrow": [
+    "The clay colored sparrow has olive-brown stripes on its wings and a white eye ring, in contrast to the house sparrow's prominent black stripes on its face and wings.",
+    "The clay colored sparrow has olive-brown stripes on its wings, while the tree sparrow has black and white bars on its wings."
+  ],
+  "118.House_Sparrow": [
+    "The house sparrow has a distinctively shaped head with prominently black stripes on its face and wings, while the tree sparrow sports a shorter, stouter beak and a more prominent white eyestripe.",
+    "The house sparrow has a distinctively shaped head with prominent black stripes on its face and wings, while the nelson sharp tailed sparrow's most noticeable feature is its black and white striped tail."
+  ],
+  "119.Field_Sparrow": [
+    "The field sparrow has a striped head pattern with a yellow eyebrow stripe and a wide, buffy eyeband, while the clay colored sparrow has olive-brown stripes on its wings and a white eye ring.",
+    "The field sparrow has a striped head pattern with a yellow eyebrow stripe and a wide, buffy eyeband, in contrast to the nelson sharp tailed sparrow, which has a distinctive black and white striped tail."
+  ],
+  "120.Fox_Sparrow": [
+    "The fox sparrow is larger than the song sparrow and has a distinctive white eyebrow, while the song sparrow has a more pronounced brown stripe above its eye.",
+    "The fox sparrow has a distinctively brown-streaked body with a white eyebrow and rusty flanks, in contrast to the nelson sharp tailed sparrow's small size and black and white striped tail."
+  ],
+  "121.Grasshopper_Sparrow": [
+    "The grasshopper sparrow has a rounded head, a short, notched tail, and a curved bill, while the clay colored sparrow has olive-brown stripes on its wings and a white eye ring.",
+    "The grasshopper sparrow has a rounded head and a distinctively curved bill, while the vesper sparrow sports a broad, white supercilium."
+  ],
+  "122.Harris_Sparrow": [
+    "The harris sparrow has a gray crown and a rufous (rust-colored) belly, in contrast to the baird sparrow's distinctively patterned brown and white plumage.",
+    "The harris sparrow has a gray crown and a rufous (rust-colored) belly, while the house sparrow has prominent black stripes on its face and wings, and a rufous chest."
+  ],
+  "123.Henslow_Sparrow": [
+    "The henslow sparrow has a white \"eyebrow\" stripe above each eye, while the le conte sparrow sports a white eye ring.",
+    "The henslow sparrow has distinctive white \"eyebrow\" stripes above each eye, while the song sparrow sports a prominent brown stripe above its eye instead."
+  ],
+  "124.Le_Conte_Sparrow": [
+    "The le conte sparrow has a white eye ring, while the henslow sparrow has a white \"eyebrow\" stripe above each eye.",
+    "The le conte sparrow has a white eye ring and yellow lores line, while the nelson sharp tailed sparrow has a black and white striped tail."
+  ],
+  "125.Lincoln_Sparrow": [
+    "The lincoln sparrow has a more distinct facial pattern with a prominent white eyestripe and a black mask, while the song sparrow has a larger, rounder grayish-brown eye and a shorter, pointed beak.",
+    "The lincoln sparrow has a distinctively colored face with a black mask and yellow throat patch, in contrast to the nelson sharp tailed sparrow's black and white striped tail and plain brown and white plumage."
+  ],
+  "126.Nelson_Sharp_tailed_Sparrow": [
+    "The nelson sharp tailed sparrow has a black and white striped tail, in contrast to the seaside sparrow's brown and gray striped head and curved beak.",
+    "The nelson sharp tailed sparrow has a black and white striped tail, in contrast to the baird sparrow's prominent black eye stripe and long, curved beak."
+  ],
+  "127.Savannah_Sparrow": [
+    "The savannah sparrow has a black mask and a distinct brown stripe down its eye, while the song sparrow has a larger, rounder grayish-brown eye and a shorter, pointed beak.",
+    "The savannah sparrow has a black mask and a brown stripe down its eye, while the nelson sharp tailed sparrow has a distinctive black and white striped tail."
+  ],
+  "128.Seaside_Sparrow": [
+    "The seaside sparrow has a striped head with a bright yellow eyebrow stripe and a curved beak, in contrast to the nelson sharp tailed sparrow's black and white striped tail and lack of distinguishing head.",
+    "The seaside sparrow has a distinctive brown and gray striped head with a bright yellow eyebrow stripe and a curved beak, in contrast to the savannah sparrow's black mask and brown stripe down its eye."
+  ],
+  "129.Song_Sparrow": [
+    "The song sparrow has a grayish-brown eye without a prominent white eyestripe, in contrast to the lincoln sparrow's distinct black mask and white eyestripe.",
+    "The song sparrow has a brown stripe above its eye, while the henslow sparrow has distinctive white \"eyebrow\" stripes."
+  ],
+  "130.Tree_Sparrow": [
+    "The tree sparrow has a brown and striped body with distinctively patterned wings featuring black and white bars, contrasting with the house sparrow's small, brown body and rufous chest, as well as its prominent black stripes.",
+    "The tree sparrow has striped body feathers and distinctively patterned wings with black and white bars, whereas the clay colored sparrow has olive-brown stripes on its wings and a muted gray-brown body."
+  ],
+  "131.Vesper_Sparrow": [
+    "The vesper sparrow can be distinguished from the grasshopper sparrow by its broader, white supercilium (eyebrow stripe) and lacks the distinctive curved bill of the grasshopper sparrow.",
+    "The vesper sparrow can be distinguished from the henslow sparrow by its broad, white supercilium (eyebrow stripe above the eyes) and short, notched tail, while the henslow sparrow has a."
+  ],
+  "132.White_crowned_Sparrow": [
+    "The white crowned sparrow has a black \"cap\" and white collar around its head, in contrast to the white throated sparrow's distinctive white \"V\" marking on its chest.",
+    "The white crowned sparrow has a black \"cap\" and white collar around its head, while the black throated sparrow has a black throat and white eye, with bright orange legs."
+  ],
+  "133.White_throated_Sparrow": [
+    "The white throated sparrow has a white \"V\" marking on its chest, contrasting against its dark mask and yellow between the eyes, while the black throated sparrow has a black throat and white eye, with bright orange legs,.",
+    "The white throated sparrow has a white \"V\" marking on its chest, while the white crowned sparrow sports a black cap and white collar around its head."
+  ],
+  "134.Cape_Glossy_Starling": [
+    "The cape glossy starling has iridescent green and purple sheen on its wings, while the boat-tailed grackle's tail is elongated and fan-like, feathered in iridescent blue.",
+    "The cape glossy starling has iridescent black plumage with green and purple sheen on its wings, in contrast to the lazuli bunting's vibrant sky-blue coloration."
+  ],
+  "135.Bank_Swallow": [
+    "The bank swallow has a rust-colored belly, while the barn swallow sports a red breast and cheek patches.",
+    "The bank swallow has a rust-colored belly contrasting sharply with its dark blue-black back, while the tree swallow exhibits an orange breast and a distinctive forked tail."
+  ],
+  "136.Barn_Swallow": [
+    "The barn swallow has a glossy blue-black body with a crisp, white underbelly and a red breast and cheek patch, while the bank swallow has a rust-colored belly and dark blue-black back, but they both share.",
+    "The barn swallow has a red breast and cheek patch, while the tree swallow has an orange breast."
+  ],
+  "137.Cliff_Swallow": [
+    "The cliff swallow has iridescent blue-green feathers on its back, in contrast to the bank swallow's rust-colored belly and dark blue-black back.",
+    "The cliff swallow has iridescent blue-green sheen on its back feathers and a curved beak with a reddish base, whereas the barn swallow exhibits a glossy blue-black plumage with a crisp."
+  ],
+  "138.Tree_Swallow": [
+    "The tree swallow has a blue-green back and an orange breast with a distinctive forked tail, contrasting with the bank swallow's rust-colored belly and dark blue-black back.",
+    "The tree swallow has a blue-green back, orange breast, and a distinctive forked tail, while the barn swallow boasts a sleek, glossy blue-black body, long, curved wings, and a red breast and cheek."
+  ],
+  "139.Scarlet_Tanager": [
+    "The scarlet tanager is distinguished from the summer tanager by its reversed wing coloration, with black wings and vibrant red body, unlike the summer tanager's scarlet-red body and black wings accented with yellow wingbars.",
+    "The scarlet tanager stands out with its reversed wing coloration, featuring black wings edged with red, unlike the vermilion flycatcher with its red body, black horizontal eye stripe, red bill, and white underparts."
+  ],
+  "140.Summer_Tanager": [
+    "The summer tanager has orange-yellow eyes and orange-yellow eye rings, whereas the scarlet tanager's eyes are orange-yellow but it has striking black masks around them.",
+    "The summer tanager has scarlet-red feathers instead of the yellow warbler's golden-yellow plumage."
+  ],
+  "141.Artic_Tern": [
+    "The artic tern has a distinctive black cap and white forehead, while the elegant tern sports a white body with no distinguishing head markings.",
+    "The artic tern has a bright orange beak and legs, while the common tern's beak and legs are orange or red but not as vibrant as the artic tern's."
+  ],
+  "142.Black_Tern": [
+    "The black tern has a glossy black back, while the elegant tern has a white body.",
+    "The black tern has a glossy black back, unlike the forsters tern with its white body."
+  ],
+  "143.Caspian_Tern": [
+    "The caspian tern has a large, white body with black wingtips and a distinctive forked tail, contrasting the common tern's slender build, black cap, white forehead, and black eye stripe.",
+    "The caspian tern has slate-gray plumage on its back and wings, contrasting with the artic tern's black cap, white forehead, and gray wings with black tips."
+  ],
+  "144.Common_Tern": [
+    "The common tern has a black cap and white forehead, in contrast to the elegant tern's white body and black wingtips.",
+    "The common tern has primarily white wings with intricately patterned black tips, unlike the artic tern's gray wings with distinct black wingtips and orange beak and legs."
+  ],
+  "145.Elegant_Tern": [
+    "The elegant tern has a white body and fork-like tail, contrasting with the artic tern's black cap, gray wings with black tips, and orange beak and legs.",
+    "The elegant tern has an orange-yellow bill pointed downward, while the forsters tern displays a distinct red dot above its black eye."
+  ],
+  "146.Forsters_Tern": [
+    "The forsters tern has a red dot above its black eye, whereas the elegant tern has a distinctive forked tail.",
+    "The forsters tern has a red dot above its eye, whereas the artic tern sports a black cap and orange beak and legs."
+  ],
+  "147.Least_Tern": [
+    "The least tern has a pale gray back and a distinctive black, narrow forehead stripe, while the elegant tern has a white body and a forked tail.",
+    "The least tern has a pale gray back and a narrow, black forehead stripe, unlike the artic tern with its distinct black cap and white forehead."
+  ],
+  "148.Green_tailed_Towhee": [
+    "The green tailed towhee has a bright green, long-tailed contrast to its striped head and back, unlike the orange crown warbler with its distinctive black mask and orange crown patch.",
+    "The green tailed towhee has a bright green, long-tailed contrast to its striped head and back, whereas the mourning warbler boasts a black mask and wings against its bright yellow belly and chest."
+  ],
+  "149.Brown_Thrasher": [
+    "The brown thrasher has distinct vertical streaking on its breast, while the sage thrasher has a rufous underside.",
+    "The brown thrasher has distinct vertical streaking on its breast, while the purple finch displays vibrant, magenta feathers with no such streaking."
+  ],
+  "150.Sage_Thrasher": [
+    "The sage thrasher is distinguished from the brown thrasher by its brown and gray plumage with a rufous underside, while the brown thrasher features vertical streaking on a rust-colored breast.",
+    "The sage thrasher has a distinctive rufous underside, in contrast to the American pipit's brown-streaked plumage."
+  ],
+  "151.Black_capped_Vireo": [
+    "The black capped vireo has a black cap on its head and chest, while the white eyed vireo has a yellow eyebrow and white eye surrounded by a black eyeline.",
+    "The black capped vireo has a black cap on its head and chest, whereas the yellow throated vireo has a bright yellow throat and breast instead."
+  ],
+  "152.Blue_headed_Vireo": [
+    "The blue headed vireo has a blue crown, while the white eyed vireo has a yellow eyebrow and white eye surrounded by a black eyeline.",
+    "The blue headed vireo has a blue crown, while the black capped vireo has black caps on its head and chest."
+  ],
+  "153.Philadelphia_Vireo": [
+    "The philadelphia vireo has a plain gray bill, unlike the warbling vireo with its distinctive white eye-stripe that extends beyond the eyes.",
+    "The philadelphia vireo has a yellow eye-ring instead of the white eyed vireo's yellow eyebrow and white eye surrounded by a black eyeline."
+  ],
+  "154.Red_eyed_Vireo": [
+    "The red eyed vireo has a reddish eye instead of the white eyed vireo's distinctive yellow eyebrow and white eye surrounded by a black eyeline.",
+    "The red eyed vireo has a bright reddish eye, while the warbling vireo has a distinctive yellow eye-ring and white eye-stripe."
+  ],
+  "155.Warbling_Vireo": [
+    "The warbling vireo has a yellow eye-ring and white eye-stripe, whereas the white eyed vireo has a yellow eyebrow and a white eye surrounded by a black eyeline.",
+    "The warbling vireo has an olive-green body with a yellow eye-ring and white eye-stripe, whereas the black capped vireo has an olive-green back, wings, and tail with a black cap on its."
+  ],
+  "156.White_eyed_Vireo": [
+    "The white eyed vireo has a yellow eyebrow and white eyes with black eyelines, in contrast to the black capped vireo, which has an olive green back, wings, and tail, and black caps on its head and.",
+    "The white eyed vireo has a yellow eyebrow and white eye surrounded by a black eyeline, in contrast to the yellow throated vireo's olive green back and wings, bright yellow throat and breast, and white eye ring."
+  ],
+  "157.Yellow_throated_Vireo": [
+    "The yellow throated vireo has a bright yellow throat and breast, while the white eyed vireo has a yellow eyebrow and white eye surrounded by a black eyeline.",
+    "The yellow throated vireo has a bright yellow throat and breast, which sets it apart from the black capped vireo with its black caps on the head and chest."
+  ],
+  "158.Bay_breasted_Warbler": [
+    "The bay breasted warbler has a rusty orange and streaked breast, unlike the Tennessee warbler's yellow throat and black mask.",
+    "The bay breasted warbler has a rusty orange breast with fine, darker streaks, unlike the mourning warbler's black mask and wings."
+  ],
+  "159.Black_and_white_Warbler": [
+    "The black and white warbler has a striped pattern of black and white horizontal bars on its wings and back, while the black throated blue warbler has a vivid blue body with a distinct black throat and mask, contrasting against its olive green.",
+    "The black and white warbler has a striped pattern of black and white horizontal bars on its wings and back, while the magnolia warbler features a vibrant yellow rump and intricate, gray-streaked chest feathers."
+  ],
+  "160.Black_throated_Blue_Warbler": [
+    "The black throated blue warbler has a black throat and mask, while the cerulean warbler has a distinct black mask, but its throat is not black and its wings have two white wing bars.",
+    "The black throated blue warbler has a black throat and mask, while the blue winged warbler has a yellow breast and a blue patch on its wings instead."
+  ],
+  "161.Blue_winged_Warbler": [
+    "The blue winged warbler has electric-blue patches on its wings, in contrast to the golden winged warbler's black and yellow wing bars.",
+    "The blue winged warbler has electric-blue patches on its wings, in contrast to the Tennessee warbler's yellowish-green back and wings."
+  ],
+  "162.Canada_Warbler": [
+    "The canada warbler has a yellow throat and chest, whereas the cape may warbler exhibits a black \"V\" marking on its bright yellow breast.",
+    "The canada warbler has an olive-green body with a yellow throat and chest, while the magnolia warbler has a gray-streaked chest and a yellow rump."
+  ],
+  "163.Cape_May_Warbler": [
+    "The cape may warbler has a yellow breast with a black \"V\" marking and bright yellow wings outlined in black, contrasting with the olive-green back, while the canada warbler sports an olive-green body with a distinctive.",
+    "The cape may warbler has a yellow breast with a distinct black \"V\" marking, contrasting with its olive-green back and bright yellow wings outlined in black, while the magnolia warbler has a vibrant, yellow-r."
+  ],
+  "164.Cerulean_Warbler": [
+    "The cerulean warbler has a sky-blue body with white wing bars, contrasting with the black throated blue warbler's electric blue body and distinct black mask, which is only found on its throat and not its face.",
+    "The cerulean warbler has a sky-blue body with white wing bars, in contrast to the blue winged warbler's yellow breast and electric-blue patches on its wings."
+  ],
+  "165.Chestnut_sided_Warbler": [
+    "The chestnut sided warbler has orange-brown flanks, while the magnolia warbler has gray-streaked chest feathers.",
+    "The chestnut sided warbler has orange-brown flanks instead of the yellowish-green back and wings of the Tennessee warbler."
+  ],
+  "166.Golden_winged_Warbler": [
+    "The golden winged warbler has black and yellow wing bars, while the blue winged warbler exhibits a distinct, electric-blue patch on its wings.",
+    "The golden winged warbler has distinctive black and yellow wing bars, while the tennessee warbler's back and wings are yellowish-green."
+  ],
+  "167.Hooded_Warbler": [
+    "The hooded warbler has a mask of black feathers extending from its crown down to its cheeks, while the blue winged warbler has electric-blue patches on its wings and a black mask framing orange eyes.",
+    "The hooded warbler's mask of black feathers extends from the crown of its head down to its cheeks, forming a more extensive and distinct head pattern compared to the chestnut sided warbler's orange-brown flanks and."
+  ],
+  "168.Kentucky_Warbler": [
+    "The Kentucky warbler has an orange crown surrounded by black stripes, while the Tennessee warbler has a yellowish-green back and wings.",
+    "The kentucky warbler has an orange crown surrounded by black stripes, while the nashville warbler has a yellow throat patch."
+  ],
+  "169.Magnolia_Warbler": [
+    "The magnolia warbler has a yellow rump, while the canada warbler has an olive-green back.",
+    "The magnolia warbler has a black mask and gray-streaked chest, in contrast to the cape may warbler's distinct \"V\" marking on its breast and yellow wings."
+  ],
+  "170.Mourning_Warbler": [
+    "The mourning warbler has a bright yellow belly and chest contrasting against its black mask and wings, while the tennessee warbler has a yellowish-green back and wings, with a yellow throat and black mask, but its belly and chest.",
+    "The mourning warbler has a bright yellow belly and chest, in contrast to the nashville warbler's distinct black wings and mask, which are more prominently displayed."
+  ],
+  "171.Myrtle_Warbler": [
+    "The myrtle warbler has grayish-brown back feathers, unlike the magnolia warbler's gray-streaked chest feathers.",
+    "The myrtle warbler has a yellow breast with a black mask and white eyebrow stripes, while the black and white warbler has a striped pattern with black and white horizontal bars on its wings and back, and a white belly with."
+  ],
+  "172.Nashville_Warbler": [
+    "The nashville warbler has a white eyebrow stripe, whereas the tennessee warbler has a yellowish-green back and wings.",
+    "The nashville warbler has a yellow throat patch instead of the mourning warbler's bright yellow belly and chest."
+  ],
+  "173.Orange_crowned_Warbler": [
+    "The orange crowned warbler has an orange patch on its crown, while the mourning warbler has orange only on its belly and chest.",
+    "The orange crowned warbler has an orange patch on its crown, whereas the yellow warbler has yellow wing bars."
+  ],
+  "174.Palm_Warbler": [
+    "The palm warbler has a brown-striped body with a yellow eye stripe and a palm-colored breast, while the Tennessee warbler boasts a vibrant appearance with a yellow throat, black mask, and yellowish-green back and.",
+    "The palm warbler has a brown-striped body with a yellow eye stripe and a short, upright crest, in contrast to the orange crowned warbler's vibrant, yellow-orange coloration, black mask, and."
+  ],
+  "175.Pine_Warbler": [
+    "The pine warbler has an olive-green upperparts contrasting with its vibrant yellow underbelly, while the prairie warbler has a green back contrasting with its vibrant yellow head.",
+    "The pine warbler has a yellow underbelly contrasting with olive-green upperparts and a black mask, while the cape may warbler exhibits a yellow breast with a black \"V\" marking and bright yellow wings outlined in black."
+  ],
+  "176.Prairie_Warbler": [
+    "The prairie warbler has a green back, in contrast to the yellow warbler's lush, verdant foliage background.",
+    "The prairie warbler has a green back and yellow head with a black mask, contrasting with the pine warbler's olive-green upperparts and yellow underbelly, making the prairie warbler's distinctive coloration."
+  ],
+  "177.Prothonotary_Warbler": [
+    "The prothonotary warbler has distinct red-streaked eyes, while the yellow warbler has a black mask.",
+    "The prothonotary warbler stands out with its bright, yellow head and distinct red-streaked eyes, in contrast to the mourning warbler's black mask and yellow belly, making their head and facial markings clear distinguishing."
+  ],
+  "178.Swainson_Warbler": [
+    "The swainson warbler has a yellow breast with a patch of white feathers above its beak, while the tennessee warbler has a yellow throat and a distinctive black mask.",
+    "The swainson warbler has a vibrant yellow breast with a patch of white feathers above its beak, in contrast to the palm warbler's palm-colored breast and brown stripes."
+  ],
+  "179.Tennessee_Warbler": [
+    "The Tennessee warbler has a yellow throat and yellowish-green back and wings, while the Mourning warbler has a bright yellow belly and chest.",
+    "The Tennessee warbler has a yellowish-green back and wings, while the Nashville warbler has a white eyebrow stripe."
+  ],
+  "180.Wilson_Warbler": [
+    "The wilson warbler has a yellow rump, while the yellow warbler has no such distinct feature, instead having golden-yellow plumage throughout its body.",
+    "The wilson warbler can be distinguished from the tennessee warbler by its yellow-rumped feature, while the tennessee warbler has a yellowish-green back and wings."
+  ],
+  "181.Worm_eating_Warbler": [
+    "The worm eating warbler is identified by a bird perched on a branch with a wriggling earthworm in its beak and a muddy trail leading from the bird, while the bay breasted warbler is distinguished by its distinctively.",
+    "The worm eating warbler is depicted with a wriggling earthworm in its beak and mud on its feathers, while the tennessee warbler shows a vibrant bird with a yellow throat, black mask, and yellowish-green."
+  ],
+  "182.Yellow_Warbler": [
+    "The yellow warbler's back is green, unlike the prairie warbler's yellow classmates, whose backs are adorned with feathers of a different hue, typically brown or gray.",
+    "The yellow warbler has golden-yellow feathers instead of the orange-crowned warbler's yellow-orange plumage."
+  ],
+  "183.Northern_Waterthrush": [
+    "The northern waterthrush has an olive-brown back and distinct orange-red bill, contrasting the brown striped back and curved, downward-pointing bill of the louisiana waterthrush.",
+    "The northern waterthrush has an olive-brown back, white underparts, and an orange-red bill, in contrast to the American pipit's brown-streaked appearance and a distinctively long, downcurved bill."
+  ],
+  "184.Louisiana_Waterthrush": [
+    "The louisiana waterthrush has a brown striped back, a white underbelly, and a distinct eye ring, while the northern waterthrush has an olive-brown back, white underparts, an orange-red.",
+    "The louisiana waterthrush has a distinctive brown striped back and a white underbelly, while the american pipit has a longer, downcurved bill and a pale superciliary stripe."
+  ],
+  "185.Bohemian_Waxwing": [
+    "The bohemian waxwing has black wing tips, in contrast to the cedar waxwing's glossy, cedar-green wings.",
+    "The bohemian waxwing stands out with its distinctive, colorful plumage of yellow and red body feathers and black wing tips, contrasting the gray-brown body and rosy pink bill of the gray crowned rosy fin."
+  ],
+  "186.Cedar_Waxwing": [
+    "The cedar waxwing has glossy cedar-green plumage with distinct yellow and red wax tips on its wings, in contrast to the bohemian waxwing's vibrant colors which are framed by black wing.",
+    "The cedar waxwing stands out with its distinctive wax tips on each wing, which are absent in the yellow throated vireo."
+  ],
+  "187.American_Three_toed_Woodpecker": [
+    "The American three-toed woodpecker has three toes on each foot, unlike the Downy woodpecker with its typical woodpecker configuration of four toes.",
+    "The American three-toed woodpecker has distinct three toes on each foot, while the Red cockaded woodpecker displays a black and white checkered pattern on its head and a red cap with black bars."
+  ],
+  "188.Pileated_Woodpecker": [
+    "The pileated woodpecker has a larger body size, black-and-white plumage with a red crest and mustache, and a long, chisel-like beak, in contrast to the red headed woodpecker.",
+    "The pileated woodpecker has a larger size and a distinct red crest and mustache, while the red cockaded woodpecker has a smaller size, a black and white checkered pattern on its head, a red cap with black bars."
+  ],
+  "189.Red_bellied_Woodpecker": [
+    "The red bellied woodpecker has a red belly, while the red headed woodpecker's most prominent red feathers are on its crest and back.",
+    "The red bellied woodpecker has a bold red belly, while the red cockaded woodpecker has a red cap with black bars and a red cheek patch, but its belly is not red."
+  ],
+  "190.Red_cockaded_Woodpecker": [
+    "The red cockaded woodpecker has a red cap with black bars and a red cheek patch, while the red headed woodpecker sports a bold red crest and back, with contrasting black and white stripes on its wings, making the.",
+    "The red cockaded woodpecker has a red cap with black bars on its head, whereas the red bellied woodpecker has a solid red cap covering the back of its head."
+  ],
+  "191.Red_headed_Woodpecker": [
+    "The red headed woodpecker has a bold red crest and back, contrasting black and white striped wings, and an ivory eyebrow line, in contrast to the red cockaded woodpecker's black and white checkered pattern.",
+    "The red headed woodpecker has a red crest and back, while the red bellied woodpecker has a red belly and a red cap covering the back of its head."
+  ],
+  "192.Downy_Woodpecker": [
+    "The downy woodpecker has white feather spots all over its body, while the American three-toed woodpecker has a black and white striped back and only three toes on each foot.",
+    "The downy woodpecker has a smaller size, a red crown, and distinctive red spots on its white wings, while the red-headed woodpecker boasts a larger size, a bold red crest and back, and contrasting black."
+  ],
+  "193.Bewick_Wren": [
+    "The bewick wren has an orange-brown crown, black mask, and long, curved bill, while the winter wren sports a rusty-brown back, white belly, and distinctive white eyebrow stripe, making their.",
+    "The bewick wren has an orange-brown crown and a long, curved bill, which sets it apart from the rock wren with its rust-colored back and distinct black eye stripe."
+  ],
+  "194.Cactus_Wren": [
+    "The cactus wren has a reddish-brown head and long, curved bill, whereas the rock wren sports a rust-colored back, white underparts, and a distinctive black eye stripe.",
+    "The cactus wren is distinguished from the winter wren by its larger size, reddish-brown head, and long, curved bill, contrasting with the winter wren's smaller size, rusty-brown back."
+  ],
+  "195.Carolina_Wren": [
+    "The carolina wren has a rust-red face, while the winter wren has a rusty-brown back.",
+    "The carolina wren has a white eyebrow, whereas the house wren displays a striped head pattern."
+  ],
+  "196.House_Wren": [
+    "The house wren has a striped head pattern and a rust-red breast, contrasting with the winter wren's white eyebrow stripe and a rusty-brown back with a white belly.",
+    "The house wren has a striped head pattern and a rust-red breast, while the bewick wren sports an orange-brown crown and a black mask."
+  ],
+  "197.Marsh_Wren": [
+    "The marsh wren has a strikingly upright posture, vibrant yellow underparts contrasting with an olive-brown back, while the winter wren is smaller and rounded, with a rusty-brown back and a white.",
+    "The marsh wren has a strikingly upright posture with vibrant yellow underparts contrasting with an olive-brown back and distinctive white eyebrow and mustache stripes, while the house wren is smaller and plumper with."
+  ],
+  "198.Rock_Wren": [
+    "The rock wren has a rust-colored back and white underparts, in contrast to the bewick wren's orange-brown crown and black mask.",
+    "The rock wren has a black eye stripe, while the winter wren exhibits a white eyebrow stripe."
+  ],
+  "199.Winter_Wren": [
+    "The winter wren has a white eyebrow stripe and a rusty-brown back, while the house wren has a distinctive striped head pattern and a pointed, curved beak, with a rust-red breast.",
+    "The winter wren has a rusty-brown back, while the carolina wren has a distinctive rust-red face."
+  ],
+  "200.Common_Yellowthroat": [
+    "The common yellowthroat has a yellow chest that extends further down its belly, distinguishing it from the nashville warbler, which only has a yellow throat patch.",
+    "The common yellowthroat has a bright yellow chest, in contrast to the orange crowned warbler's vibrant, yellow-orange body, with the main difference being the coloration of their underparts."
+  ]
+}

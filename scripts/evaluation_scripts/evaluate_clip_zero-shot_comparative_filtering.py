@@ -55,7 +55,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 def load_descriptions(dataset_name):
     """Carrega comparative descriptors do dataset"""
-    path = os.path.join("descriptors", f"{dataset_name}_descriptors_comparative.json")
+    path = os.path.join("descriptors_comparative_filtered", f"{dataset_name}_comparative_filtered.json")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)

@@ -50,7 +50,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 def load_comparative_descriptors(dataset_name):
     """Carrega descrições comparativas do dataset"""
-    path = os.path.join("descriptors", f"{dataset_name}_descriptors_comparative.json")
+    path = os.path.join("descriptors_comparative_rag", f"{dataset_name}_comparative_descriptors.json")
     if not os.path.exists(path):
         raise FileNotFoundError(f"❌ Arquivo de descritores não encontrado: {path}")
     with open(path, "r", encoding="utf-8") as f:

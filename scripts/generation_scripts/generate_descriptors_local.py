@@ -83,13 +83,14 @@ def load_datasets_from_summary(summary_path: str) -> Dict[str, str]:
 # ============================================================
 
 class LocalDescriptorGenerator:
-    """Gera descrições com LLM local (sem limite de cota)."""
+    """Gera descrições com LLM local (com BATCHING)."""
 
-    def __init__(self, pipe):
+    def __init__(self, pipe, batch_size: int = 16): # 💥 Adiciona batch_size
         self.pipe = pipe
+        self.batch_size = batch_size 
 
-    def generate_description(self, concept: str, category: str) -> str:
-        """Gera uma descrição rica e visual."""
+    def create_prompt(self, concept: str, category: str) -> str:
+        """Cria o prompt no formato instrução (Mistral)."""
         prompt = (
             f"Analyze and describe a photo of a {concept}, a type of {category}. "
             "Your description must be highly focused on **distinctive and discriminative visual attributes** "
@@ -98,43 +99,69 @@ class LocalDescriptorGenerator:
             "Respond with a single, concise sentence that is useful for distinguishing this concept from others, "
             "always starting with 'a photo of a...'."
         )
-        try:
-            result = self.pipe(prompt, max_new_tokens=60, temperature=0.8, do_sample=True)
-            text = result[0]["generated_text"]
-            # filtra apenas a resposta principal
-            if "a photo of" in text:
-                text = text[text.find("a photo of"):]
-            return text.strip().replace("\n", " ")
-        except Exception as e:
-            print(f"⚠️ Erro gerando descrição para '{concept}': {e}")
-            return f"a photo of a {concept}, a type of {category}."
+        # Formato de instrução obrigatório para Mistral
+        return f"<s>[INST] {prompt} [/INST] A photo of a {concept}"
 
+    # 💥 O método process_dataset será reescrito
     def process_dataset(self, dataset_name: str, dataset_path: str, output_dir: str):
-        """Processa todas as classes de um dataset e salva JSON."""
+        """Processa todas as classes de um dataset usando BATCHING e salva JSON."""
         print(f"\n📘 Dataset: {dataset_name}")
         category = get_dataset_category(dataset_name)
         dataset_path = Path(dataset_path)
         classes = sorted([d for d in dataset_path.iterdir() if d.is_dir()])
-
+        
         if not classes:
             print(f"⚠️ Nenhuma pasta de classe encontrada em {dataset_path}")
             return
 
         output_path = Path(output_dir) / f"{dataset_name}_local_descriptors.json"
         os.makedirs(output_path.parent, exist_ok=True)
+        
+        all_concepts = [sanitize_class_name(c.name) for c in classes]
+        
+        # 1. COLETA: Cria todos os prompts
+        all_prompts = []
+        for concept in tqdm(all_concepts, desc=f"Consolidando prompts ({dataset_name})"):
+            all_prompts.append(self.create_prompt(concept, category))
+        
+        total_prompts = len(all_prompts)
+        print(f"\n📝 Total de prompts para inferência: {total_prompts}. Rodando em lotes de {self.batch_size}...")
 
+        # 2. INFERÊNCIA ÚNICA COM BATCHING
+        try:
+            results = self.pipe(
+                all_prompts, 
+                max_new_tokens=60, 
+                temperature=0.8, 
+                do_sample=True,
+                batch_size=self.batch_size 
+            )
+        except Exception as e:
+            print(f"❌ ERRO GRAVE NO BATCHING: {e}")
+            return
+            
+        # 3. DISTRIBUIÇÃO E SALVAMENTO
         descriptors = {}
-        for c in tqdm(classes, desc=f"Gerando descrições ({dataset_name})"):
-            concept = sanitize_class_name(c.name)
-            desc = self.generate_description(concept, category)
-            descriptors[c.name] = desc
-            # pequeno delay opcional se quiser limitar uso de GPU
-            time.sleep(0.05)
+        # O TQDM agora itera sobre a lista de resultados, mostrando o progresso corretamente
+        for i, res in enumerate(tqdm(results, desc="Desempacotando resultados")):
+            class_name_raw = classes[i].name # Nome da classe original
+            concept = all_concepts[i]        # Nome do conceito sanitizado
+            
+            text = res[0]["generated_text"]
+            
+            # Limpeza do output: remove o prompt e pega a resposta
+            start_marker = f"A photo of a {concept}"
+            if start_marker in text:
+                 text = text[text.find(start_marker):].strip()
+            
+            clean_text = text.replace("\n", " ").replace("[/INST]", "").strip()
+
+            descriptors[class_name_raw] = clean_text
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(descriptors, f, indent=2, ensure_ascii=False)
 
-        print(f"✅ Descrições salvas em {output_path}")
+        print(f"\n✅ Descrições salvas em {output_path}")
         print(f"🧩 Total de classes: {len(descriptors)}")
 
 # ============================================================
@@ -143,17 +170,20 @@ class LocalDescriptorGenerator:
 
 def main():
     OUTPUT_DIR = "descriptors_local_llm"
-
+    BATCH_SIZE = 16 # 💥 Definir aqui
+    
     datasets = load_datasets_from_summary(SUMMARY_PATH)
     if not datasets:
         print("❌ Nenhum dataset carregado.")
         return
 
-    generator = LocalDescriptorGenerator(pipe)
+    # 💥 Passa o batch_size para a classe
+    generator = LocalDescriptorGenerator(pipe, batch_size=BATCH_SIZE) 
 
     print(f"\n{'='*70}")
     print(f"🚀 Iniciando geração de descrições locais (sem API)")
     print(f"📊 Total de datasets: {len(datasets)}")
+    print(f"Tamanho do Lote (BATCH_SIZE): {BATCH_SIZE}") # 💥 Novo print
     print(f"📁 Output: {OUTPUT_DIR}")
     print(f"{'='*70}\n")
 
@@ -165,4 +195,8 @@ def main():
 
 
 if __name__ == "__main__":
+    # 💥 Adicionar a correção do pad_token aqui também
+    if pipe.tokenizer.pad_token is None:
+        pipe.tokenizer.pad_token = pipe.tokenizer.eos_token
+        pipe.model.config.pad_token_id = pipe.tokenizer.eos_token_id
     main()
