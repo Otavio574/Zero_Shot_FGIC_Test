@@ -1,258 +1,199 @@
 """
-Gerador de descriptors para ZERO-SHOT CLIP (Waffle/Noisy CLIP - Versão Original do Paper)
-Substitui o ruído semântico por ruído aleatório (caracteres ou palavras sem sentido)
-para testar a robustez do CLIP.
-
-Formato: "A photo of an {category}: a {class_name}, which has {random_noise}."
+Script para gerar descritores de FALLBACK/GENÉRICOS (ou templates WaffleCLIP padrão)
+processando APENAS os datasets cujas pastas existem no diretório 'datasets/'.
+NENHUM LLM ESTÁ SENDO USADO.
 """
 
-import os
-import json
+
 import random
 import string
+import os
+import json
 from pathlib import Path
-from typing import Dict, List
+from typing import List, Dict
 
-# ------------------------------------------------------------------------
-# NOVO: GERAÇÃO DE RUÍDO ALEATÓRIO
-# ------------------------------------------------------------------------
-
-def generate_random_noise(method: str = 'words', length: int = 2) -> str:
-    """Gera ruído aleatório (palavras sem sentido ou caracteres)."""
-    if method == 'chars':
-        # Ex: "jmhj, !J#m"
-        chars = string.ascii_letters + string.punctuation + string.digits + ' '
-        noise = ''.join(random.choice(chars) for _ in range(length * 5))
-        return noise.strip()
-    else: # method == 'words'
-        # Ex: "foot loud"
-        random_words = []
-        for _ in range(length):
-            # Gera uma "palavra" aleatória de 3 a 7 caracteres
-            word_length = random.randint(3, 7)
-            word = ''.join(random.choice(string.ascii_lowercase) for _ in range(word_length))
-            random_words.append(word)
-        return ' '.join(random_words)
-
-def clean_class_name(class_name: str) -> str:
-    """Limpa o nome da classe para texto natural"""
-    name = class_name
-    
-    # Remove números no início (ex: "001.Black_footed_Albatross")
-    if '.' in name and name.split('.')[0].isdigit():
-        name = name.split('.', 1)[1]
-    
-    # Substitui underscores e hífens por espaços
-    name = name.replace('_', ' ').replace('-', ' ')
-    
-    # Remove espaços extras
-    name = ' '.join(name.split())
-    
-    return name.lower()
+# --- CONFIGURAÇÕES DE CAMINHO ---
+SUMMARY_PATH = Path("outputs/analysis/summary.json")
+DATASETS_BASE_DIR = Path("datasets") 
+OUTPUT_DIR = Path("descriptors_waffle_clip_random") 
+OUTPUT_DIR.mkdir(exist_ok=True)
+# -------------------------------
 
 
-def detect_dataset_category(dataset_name: str) -> str:
-    """Detecta a categoria do dataset"""
-    name_lower = dataset_name.lower()
-    
-    if 'cub' in name_lower or 'bird' in name_lower or 'nabirds' in name_lower:
-        return 'bird'
-    elif 'aircraft' in name_lower or 'plane' in name_lower or 'fgvc' in name_lower:
-        return 'aircraft'
-    elif 'car' in name_lower or 'vehicle' in name_lower or 'stanford' in name_lower:
-        return 'car'
-    elif 'dog' in name_lower or 'pet' in name_lower:
-        return 'dog'
-    elif 'flower' in name_lower or 'oxford' in name_lower:
-        return 'flower'
-    elif 'food' in name_lower:
-        return 'food'
-    else:
-        return 'object'
-
-
-def get_category_word(category: str) -> str:
-    """Retorna a palavra de categoria (animal, object, etc.) para o template Waffle."""
-    categories = {
-        'bird': "animal",
-        'aircraft': "object",
-        'car': "object",
-        'dog': "animal",
-        'flower': "plant",
-        'food': "food item",
-        'object': "object"
-    }
-    return categories.get(category, categories['object'])
-
-
-def generate_descriptors_from_folders(dataset_path: str, dataset_name: str) -> Dict[str, str]:
-    """
-    Gera descriptors para o Waffle CLIP usando template fixo e ruído aleatório.
-    """
-    dataset_path_obj = Path(dataset_path)
-    
-    if not dataset_path_obj.exists():
-        print(f"❌ Path não encontrado: {dataset_path}")
-        return {}
-    
-    class_folders = [d for d in dataset_path_obj.iterdir() if d.is_dir()]
-    
-    if not class_folders:
-        print(f"⚠️  Nenhuma pasta de classe encontrada em {dataset_path}")
-        return {}
-    
-    print(f"\n📂 Dataset: {dataset_name}")
-    print(f"  Classes encontradas: {len(class_folders)}")
-    
-    category = detect_dataset_category(dataset_name)
-    category_word = get_category_word(category)
-    
-    # Template para Waffle CLIP: "A photo of an {category_word}: a {class_name}, which has {noise}."
-    template = "A photo of an {category_word}: a {class_name}, which has {noise}."
-    
-    print(f"  Categoria (Waffle): {category_word}")
-    print(f"  Template Base: {template}")
-    print(f"  Modo: Waffle CLIP (Ruído Aleatório)")
-    
-    descriptors = {}
-    
-    for class_folder in sorted(class_folders):
-        class_name_raw = class_folder.name
-        class_name_clean = clean_class_name(class_name_raw)
-        
-        # 1. Gera ruído (usando palavras aleatórias)
-        random_noise = generate_random_noise(method='words', length=random.randint(2, 3))
-        
-        # 2. Gera o descriptor final
-        final_description = template.format(
-            category_word=category_word,
-            class_name=class_name_clean,
-            noise=random_noise
-        )
-        
-        descriptors[class_name_raw] = final_description
-    
-    # Mostra exemplos
-    print(f"\n  📋 Exemplos (primeiras 10):")
-    for i, (cls, desc) in enumerate(list(descriptors.items())[:10]):
-        print(f"      {cls:40s} → {desc}")
-    
-    print(f"\n  ✅ Total: {len(descriptors)} descriptors gerados")
-    
-    return descriptors
-
+# ===================================
+# 💡 FUNÇÕES ESSENCIAIS DE UTILIDADE
+# ===================================
 
 def load_datasets_from_summary(summary_path: Path) -> Dict[str, str]:
-    """Carrega configuração de datasets do summary.json (Função inalterada)"""
-    if not summary_path.exists():
-        print(f"❌ Arquivo não encontrado: {summary_path}")
+    """Carrega a configuração de datasets do summary.json."""
+    try:
+        with open(summary_path, 'r', encoding='utf-8') as f:
+            summary = json.load(f)
+    except Exception:
         return {}
-    
-    with open(summary_path, 'r', encoding='utf-8') as f:
-        summary = json.load(f)
-    
+
     datasets = {}
-    
     if isinstance(summary, list):
         for item in summary:
             dataset_name = item.get('dataset')
             dataset_path = item.get('path')
             if dataset_name and dataset_path:
                 datasets[dataset_name] = dataset_path
-    elif isinstance(summary, dict):
-        if 'datasets' in summary:
-            for item in summary['datasets']:
-                dataset_name = item.get('dataset')
-                dataset_path = item.get('path')
-                if dataset_name and dataset_path:
-                    datasets[dataset_name] = dataset_path
-        else:
-            datasets = summary
-    
     return datasets
 
 
+def list_existing_dataset_dirs(base_dir: Path) -> List[str]:
+    """Lista os nomes de todas as pastas (datasets) presentes no diretório base."""
+    print(f"🔄 Varrendo pastas em: {base_dir}")
+    if not base_dir.exists():
+        print(f"❌ Diretório base '{base_dir}' não encontrado.")
+        return []
+    return [d.name for d in base_dir.iterdir() if d.is_dir()]
+
+
+def get_class_names(dataset_name: str) -> List[str]:
+    """
+    Obtém os nomes das classes lendo os subdiretórios dentro da pasta do dataset.
+    Verifica caminhos comuns: datasets/NOME/images/ ou datasets/NOME/.
+    """
+    
+    # 1. datasets/NOME_DO_DATASET/images/ (Comum para CUB, etc.)
+    class_root_1 = DATASETS_BASE_DIR / dataset_name / "images"
+    
+    # 2. datasets/NOME_DO_DATASET/ (Classes diretamente na raiz)
+    class_root_2 = DATASETS_BASE_DIR / dataset_name
+
+    root_to_use = None
+    if class_root_1.exists():
+        root_to_use = class_root_1
+    elif class_root_2.exists():
+        root_to_use = class_root_2
+    else:
+        return []
+
+    # Busca os subdiretórios (classes)
+    classes = [d.name for d in root_to_use.iterdir() if d.is_dir()]
+    
+    return sorted(classes)
+
+
+# ===================================
+# 📝 FUNÇÃO DE GERAÇÃO DE DESCRITORES (SIMPLES)
+# ===================================
+
+def random_waffle_word(min_len=3, max_len=8):
+    """Gera uma palavra aleatória estilo 'xih', 'nbacghq', 'sgwcb'."""
+    length = random.randint(min_len, max_len)
+    return "".join(random.choices(string.ascii_lowercase, k=length))
+
+
+def random_waffle_phrase(min_words=2, max_words=4):
+    """Gera uma frase curta de palavras aleatórias."""
+    n_words = random.randint(min_words, max_words)
+    return " ".join(random_waffle_word() for _ in range(n_words))
+
+
+def clean_classname(name: str) -> str:
+    """
+    Converte '001.Black_footed_Albatross' → 'black footed albatross'
+    """
+    # Remove prefixo "001."
+    if "." in name:
+        name = name.split(".", 1)[1]
+
+    # Underscores → espaços
+    name = name.replace("_", " ")
+
+    return name.lower()
+    
+
+def generate_simple_descriptors(class_name: str):
+    """
+    Gera *uma única string* com o template estilo WaffleCLIP real.
+    Exemplo:
+    "A photo of an animal: a black footed albatross, which has xih exdv."
+    """
+
+    clean_name = clean_classname(class_name)
+    waffle_noise = random_waffle_phrase()
+
+    descriptor = (
+        f"A photo of an animal: a {clean_name}, which has {waffle_noise}."
+    )
+
+    return descriptor   # <- agora retorna string única
+
+
+
+# ===================================
+# 🚀 FUNÇÃO PRINCIPAL
+# ===================================
+
 def main():
-    # Usar uma seed fixa para garantir ruído replicável entre execuções
-    random.seed(42) 
+    print(f"--- ⚙️ Geração de Descritores WaffleCLIP (Templates Simples com Filtro) ⚙️ ---")
     
-    print(f"\n{'#'*70}")
-    print(f"# GERADOR WAFFLE CLIP (Ruído Aleatório Semântico)")
-    print(f"{'#'*70}\n")
+    # 1. Carrega datasets do summary
+    all_datasets_from_summary = load_datasets_from_summary(SUMMARY_PATH)
     
-    # Configuração
-    SUMMARY_PATH = Path("outputs/analysis/summary.json")
-    OUTPUT_DIR = "descriptors_waffle_clip_random" # Novo diretório para isolar
+    # 2. Lista datasets que realmente existem na pasta 'datasets/'
+    existing_dirs = list_existing_dataset_dirs(DATASETS_BASE_DIR)
     
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    # Carrega datasets
-    datasets = load_datasets_from_summary(SUMMARY_PATH)
-    
-    if not datasets:
-        print("❌ Nenhum dataset encontrado no summary.json")
+    print(f"Datasets no summary: {len(all_datasets_from_summary)}")
+    print(f"Pastas encontradas: {len(existing_dirs)}")
+
+    # 3. Filtra: processar apenas se o dataset estiver no summary E a pasta existir
+    datasets_to_process = {
+        name: path 
+        for name, path in all_datasets_from_summary.items() 
+        if name in existing_dirs
+    }
+
+    print(f"\n✅ Total de datasets a processar (filtrados e existentes): {len(datasets_to_process)}\n")
+
+    if not datasets_to_process:
+        print("⚠️ Nenhum dataset para processar. Verifique os nomes das pastas.")
         return
-    
-    print(f"📊 Datasets encontrados: {len(datasets)}")
-    
-    print(f"\n{'='*70}")
-    print(f"PROCESSANDO DATASETS")
-    print(f"{'='*70}\n")
-    
-    # Processa cada dataset
-    all_results = {}
-    
-    for dataset_name, dataset_path in datasets.items():
+
+    # 4. Processa cada dataset
+    for dataset_name, _ in datasets_to_process.items():
+        print(f"\n--- Processando dataset: **{dataset_name}** ---")
+        
+        # Nome do arquivo de saída WaffleCLIP
+        output_file = OUTPUT_DIR / f"{dataset_name}_waffle.json"
+        
+        if output_file.exists():
+            print(f"Arquivo de descritores WaffleCLIP já existe em {output_file}. Pulando.")
+            continue
+
         try:
-            descriptors = generate_descriptors_from_folders(dataset_path, dataset_name)
+            class_names = get_class_names(dataset_name)
+            if not class_names:
+                print("⚠️ Nenhuma classe encontrada no diretório. Pulando.")
+                continue
+
+            print(f"Encontradas {len(class_names)} classes.")
             
-            if descriptors:
-                output_path = os.path.join(OUTPUT_DIR, f"{dataset_name}_waffle_random.json")
+            all_descriptors = {}
+            
+            for i, class_name in enumerate(class_names):
+                print(f"    > ({i+1}/{len(class_names)}) Gerando template para: {class_name}")
+                # Gera a LISTA de descritores
+                descriptors_list = generate_simple_descriptors(class_name) 
                 
-                if os.path.exists(output_path):
-                    backup_path = output_path.replace('.json', '_OLD.json')
-                    os.rename(output_path, backup_path)
-                    print(f"  📦 Backup criado: {backup_path}")
-                
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(descriptors, f, indent=2, ensure_ascii=False)
-                
-                print(f"  💾 Salvo em: {output_path}")
-                
-                all_results[dataset_name] = len(descriptors)
-            else:
-                all_results[dataset_name] = 0
-                
+                # Salva o resultado no dicionário (formato: {classe: [desc1, desc2]})
+                all_descriptors[class_name] = descriptors_list
+            
+            # Salva o JSON no formato esperado
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(all_descriptors, f, indent=4, ensure_ascii=False)
+            
+            print(f"✅ Descritores WaffleCLIP salvos em {output_file}")
+            
         except Exception as e:
-            print(f"  ❌ Erro: {e}")
-            all_results[dataset_name] = 0
+            print(f"❌ Erro ao processar o dataset {dataset_name}: {e}")
+            continue
     
-    # Resumo final
-    print(f"\n{'='*70}")
-    print(f"✅ CONCLUSÃO")
-    print(f"{'='*70}\n")
-    
-    print(f"Resumo dos descriptors gerados:")
-    for dataset_name, count in all_results.items():
-        status = "✅" if count > 0 else "❌"
-        print(f"  {status} {dataset_name:30s}: {count} classes")
-    
-    print(f"\n📁 Descriptors salvos em: {OUTPUT_DIR}/")
-    
-    print(f"\n{'#'*70}")
-    print(f"# PRÓXIMOS PASSOS")
-    print(f"{'#'*70}\n")
-    
-    print(f"""
-    ✅ Descriptors Waffle CLIP (Ruído Aleatório) gerados!
-    
-    Exemplo CUB:
-    "001.Black_footed_Albatross" → "A photo of an animal: a black footed albatross, which has jhjeyv asdgv."
-    
-    Agora, execute a avaliação zero-shot usando o arquivo gerado (ex: {OUTPUT_DIR}/{list(datasets.keys())[0]}_waffle_random.json).
-    
-    Resultados esperados: De acordo com o artigo, esta abordagem pode superar a performance do DCLIP.
-    """)
+    print("\n--- Processo de geração de descritores WaffleCLIP finalizado. ---")
 
 
 if __name__ == "__main__":

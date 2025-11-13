@@ -74,19 +74,19 @@ def generate_descriptors_from_folders(dataset_path: str, dataset_name: str) -> D
     class_folders = [d for d in dataset_path_obj.iterdir() if d.is_dir()]
     
     if not class_folders:
-        print(f"⚠️  Nenhuma pasta de classe encontrada em {dataset_path}")
+        print(f"⚠️  Nenhuma pasta de classe encontrada em {dataset_path}")
         return {}
     
     print(f"\n📂 Dataset: {dataset_name}")
-    print(f"   Path: {dataset_path}")
-    print(f"   Classes encontradas: {len(class_folders)}")
+    print(f"   Path: {dataset_path}")
+    print(f"   Classes encontradas: {len(class_folders)}")
     
     # Detecta categoria e seleciona template
     category = detect_dataset_category(dataset_name)
     template = get_template_for_category(category)
     
-    print(f"   Categoria: {category}")
-    print(f"   Template: {template}")
+    print(f"   Categoria: {category}")
+    print(f"   Template: {template}")
     
     # Gera descriptors
     descriptors = {}
@@ -102,11 +102,11 @@ def generate_descriptors_from_folders(dataset_path: str, dataset_name: str) -> D
         descriptors[class_name_raw] = description
     
     # Mostra exemplos
-    print(f"\n   📋 Exemplos (primeiras 10):")
+    print(f"\n   📋 Exemplos (primeiras 10):")
     for i, (cls, desc) in enumerate(list(descriptors.items())[:10]):
-        print(f"      {cls:40s} → {desc}")
+        print(f"      {cls:40s} → {desc}")
     
-    print(f"\n   ✅ Total: {len(descriptors)} descriptors gerados")
+    print(f"\n   ✅ Total: {len(descriptors)} descriptors gerados")
     
     return descriptors
 
@@ -130,13 +130,17 @@ def load_datasets_from_summary(summary_path: Path) -> Dict[str, str]:
                 datasets[dataset_name] = dataset_path
     elif isinstance(summary, dict):
         if 'datasets' in summary:
-            for item in summary['datasets']:
-                dataset_name = item.get('dataset')
-                dataset_path = item.get('path')
-                if dataset_name and dataset_path:
-                    datasets[dataset_name] = dataset_path
+            # Lógica para dicts que contêm uma chave 'datasets'
+            if isinstance(summary['datasets'], dict):
+                datasets = summary['datasets'] # assume {name: path}
+            elif isinstance(summary['datasets'], list):
+                for item in summary['datasets']:
+                    dataset_name = item.get('dataset')
+                    dataset_path = item.get('path')
+                    if dataset_name and dataset_path:
+                        datasets[dataset_name] = dataset_path
         else:
-            datasets = summary
+            datasets = summary # assume {name: path}
     
     return datasets
 
@@ -161,7 +165,7 @@ def main():
     
     print(f"📊 Datasets encontrados: {len(datasets)}")
     for name in datasets.keys():
-        print(f"   - {name}")
+        print(f"   - {name}")
     
     print(f"\n{'='*70}")
     print(f"PROCESSANDO DATASETS")
@@ -171,32 +175,38 @@ def main():
     all_results = {}
     
     for dataset_name, dataset_path in datasets.items():
+        output_path = os.path.join(OUTPUT_DIR, f"{dataset_name}_templates.json")
+
+        # 🚨 LÓGICA PARA PULAR DATASETS JÁ PROCESSADOS 🚨
+        if os.path.exists(output_path):
+            print(f"\n⏭️  Pulando dataset {dataset_name}: Descriptor já existe em {output_path}")
+            # Carrega o resultado existente para o resumo final
+            try:
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    existing_descriptors = json.load(f)
+                all_results[dataset_name] = len(existing_descriptors)
+            except Exception:
+                 all_results[dataset_name] = 0
+            continue # Pula para o próximo dataset
+        # ----------------------------------------------------
+
         try:
             descriptors = generate_descriptors_from_folders(dataset_path, dataset_name)
             
             if descriptors:
-                # Salva descriptors
-                output_path = os.path.join(OUTPUT_DIR, f"{dataset_name}_templates.json")
-                
-                # Backup se já existe
-                if os.path.exists(output_path):
-                    backup_path = output_path.replace('.json', '_OLD.json')
-                    os.rename(output_path, backup_path)
-                    print(f"   📦 Backup criado: {backup_path}")
-                
                 # Salva novo
                 with open(output_path, 'w', encoding='utf-8') as f:
                     json.dump(descriptors, f, indent=2, ensure_ascii=False)
                 
-                print(f"   💾 Salvo em: {output_path}")
+                print(f"   💾 Salvo em: {output_path}")
                 
                 all_results[dataset_name] = len(descriptors)
             else:
-                print(f"   ⚠️  Nenhum descriptor gerado")
+                print(f"   ⚠️  Nenhum descriptor gerado")
                 all_results[dataset_name] = 0
                 
         except Exception as e:
-            print(f"   ❌ Erro: {e}")
+            print(f"   ❌ Erro ao processar {dataset_name}: {e}")
             all_results[dataset_name] = 0
     
     # Resumo final
@@ -204,27 +214,12 @@ def main():
     print(f"✅ CONCLUSÃO")
     print(f"{'='*70}\n")
     
-    print(f"Resumo dos descriptors gerados:")
+    print(f"Resumo dos descriptors gerados/encontrados:")
     for dataset_name, count in all_results.items():
         status = "✅" if count > 0 else "❌"
-        print(f"   {status} {dataset_name:30s}: {count} classes")
+        print(f"   {status} {dataset_name:30s}: {count} classes")
     
     print(f"\n📁 Descriptors salvos em: {OUTPUT_DIR}/")
-    
-    print(f"\n{'#'*70}")
-    print(f"# VERIFICAÇÃO RÁPIDA")
-    print(f"{'#'*70}\n")
-    
-    # Verifica alguns exemplos
-    for dataset_name in list(datasets.keys())[:2]:
-        desc_path = os.path.join(OUTPUT_DIR, f"{dataset_name}_descriptors.json")
-        if os.path.exists(desc_path):
-            with open(desc_path, 'r', encoding='utf-8') as f:
-                descs = json.load(f)
-            
-            print(f"\n📋 {dataset_name} - Primeiros 5 descriptors:")
-            for i, (cls, desc) in enumerate(list(descs.items())[:5]):
-                print(f"   {cls:40s} → {desc}")
     
     print(f"\n{'#'*70}")
     print(f"# PRÓXIMOS PASSOS")

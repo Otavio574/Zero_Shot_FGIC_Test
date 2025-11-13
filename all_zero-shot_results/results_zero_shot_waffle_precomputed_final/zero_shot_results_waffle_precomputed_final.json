@@ -1,0 +1,8 @@
+{
+    "model": "ViT-B/32",
+    "method": "WaffleCLIP_Precomputed_Final",
+    "total_datasets": 20,
+    "successful": 0,
+    "failed": 20,
+    "results": {}
+}

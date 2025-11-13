@@ -1,8 +1,8 @@
 {
     "model": "openai/clip-vit-base-patch32",
     "device": "cuda",
-    "total_datasets": 2,
-    "successful": 2,
+    "total_datasets": 20,
+    "successful": 20,
     "failed": 0,
     "results": {
         "CUB_200_2011": {
