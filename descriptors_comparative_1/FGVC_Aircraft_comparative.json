@@ -1,0 +1,702 @@
+{
+    "A300": [
+        "slimmer fuselage",
+        "shorter wingspan",
+        "distinctive tail design",
+        "slightly curved nose",
+        "unique window arrangement",
+        "different engine placement",
+        "specific air intake shape",
+        "uniquely positioned landing lights"
+    ],
+    "A310": [
+        "distinctive tail design",
+        "slightly larger size",
+        "different wing shape",
+        "unique engine configuration",
+        "specific fuselage contour",
+        "clearly visible registration",
+        "unique window arrangement",
+        "specific air intake pattern"
+    ],
+    "A320": [
+        "distinctive tail fin shape",
+        "larger fuselage size",
+        "slightly more streamlined body",
+        "unique engine nacelle design",
+        "specific window row configuration",
+        "different wing span ratio",
+        "unique registration pattern",
+        "specific landing gear spacing"
+    ],
+    "A330": [
+        "distinctive finlet placement",
+        "slightly larger fuselage",
+        "slimmer tailcone",
+        "slightly more pronounced winglets",
+        "different engine type",
+        "unique nacelle design",
+        "specific landing gear layout",
+        "unique cockpit window configuration"
+    ],
+    "A340": [
+        "larger size",
+        "distinctive tail pattern",
+        "slightly more rounded wings",
+        "different engine configuration",
+        "unique fuselage contour",
+        "specific registration markings",
+        "uniquely shaped cockpit windows",
+        "exclusive use of advanced materials"
+    ],
+    "A380": [
+        "larger size",
+        "distinctive tail shape",
+        "different wing span",
+        "unique fuselage contour",
+        "slightly taller cockpit",
+        "differing engine configuration",
+        "specific window arrangement",
+        "unique landing gear design"
+    ],
+    "ATR_42": [
+        "shorter wingspan",
+        "smaller fuselage diameter",
+        "distinctively shorter tail",
+        "slightly more streamlined nose",
+        "different window layout",
+        "unique undercarriage design",
+        "specific registration markings",
+        "uniquely positioned air intake vents"
+    ],
+    "ATR_72": [
+        "distinctive larger size",
+        "unique window arrangement",
+        "slightly more curved fuselage",
+        "different tail design",
+        "specific engine placement",
+        "uniquely shaped nose cone",
+        "variant cockpit window count",
+        "distinguishable undercarriage layout"
+    ],
+    "An_12": [
+        "distinctive number layout",
+        "unique font style",
+        "specific letter spacing",
+        "characteristic line thickness",
+        "special color combination",
+        "unique corner design",
+        "particular symbol placement",
+        "specific edge curvature"
+    ],
+    "BAE_125": [
+        "slightly larger size",
+        "distinctive blue tail band",
+        "shorter wings",
+        "different window layout",
+        "unique engine configuration",
+        "slightly curved nose",
+        "uniquely shaped rudder",
+        "distinctive air intake design"
+    ],
+    "BAE_146": [
+        "slimmer fuselage",
+        "distinctive canard configuration",
+        "shorter wingspan",
+        "unique tail design",
+        "different window arrangement",
+        "specific landing gear layout",
+        "uniquely shaped air intake",
+        "specific paint scheme"
+    ],
+    "Beechcraft_1900": [
+        "distinctive tail design",
+        "slightly larger size",
+        "brighter engine colors",
+        "unique window arrangement",
+        "slimmer fuselage profile",
+        "different cockpit layout",
+        "specific landing gear configuration",
+        "uniquely shaped propellers"
+    ],
+    "Boeing_707": [
+        "shorter fuselage",
+        "distinctive tail design",
+        "slightly larger wings",
+        "different window arrangement",
+        "unique engine nacelle shape",
+        "slimmer body profile",
+        "different landing gear configuration",
+        "specific underbelly paneling"
+    ],
+    "Boeing_717": [
+        "slightly smaller size",
+        "distinctive winglet tips",
+        "slightly more aerodynamic nose",
+        "unique engine placement",
+        "slightly different tail design",
+        "slightly shorter fuselage",
+        "different window layout",
+        "specific landing gear configuration"
+    ],
+    "Boeing_727": [
+        "shorter wingspan",
+        "distinctive window layout",
+        "slightly larger fuselage",
+        "different tail design",
+        "slimmer vertical stabilizer",
+        "unique engine nacelle shape",
+        "slightly different cockpit glazing",
+        "modernized air intake design"
+    ],
+    "Boeing_737": [
+        "shorter wingspan",
+        "slightly smaller overall size",
+        "differently shaped tailfin",
+        "distinctive window arrangement",
+        "unique engine placement",
+        "different colored window shades",
+        "specific fuselage contour",
+        "unique registration pattern"
+    ],
+    "Boeing_747": [
+        "distinctive hump on rear",
+        "larger wingspan",
+        "slightly thinner fuselage",
+        "fewer engines",
+        "shorter tail",
+        "slightly more streamlined nose",
+        "different window arrangement",
+        "unique landing gear configuration"
+    ],
+    "Boeing_757": [
+        "shorter fuselage",
+        "thinner wings",
+        "smaller engines",
+        "distinctive window arrangement",
+        "slightly smaller overall size",
+        "different tail design",
+        "unique air intake pattern",
+        "slimmer body profile"
+    ],
+    "Boeing_767": [
+        "slightly larger body",
+        "distinctive horizontal stabilizer shape",
+        "slightly longer fuselage",
+        "slightly different window layout",
+        "unique engine nacelle design",
+        "slightly more powerful engines",
+        "different tailfin contour",
+        "slightly wider wingspan"
+    ],
+    "Boeing_777": [
+        "distinctively longer fuselage",
+        "larger tail fin",
+        "more advanced aerodynamic design",
+        "different window layout",
+        "unique registration pattern",
+        "slightly larger engine",
+        "distinctive winglets size",
+        "different cockpit windows configuration"
+    ],
+    "CRJ_200": [
+        "shorter fuselage",
+        "smaller wingspan",
+        "less pronounced tail",
+        "lighter overall color",
+        "slightly narrower cockpit windows",
+        "distinctive CRJ 200 logo",
+        "shorter horizontal stabilizers",
+        "slimmer underbelly"
+    ],
+    "CRJ_700": [
+        "larger fuselage",
+        "distinctive window arrangement",
+        "slightly taller tail",
+        "different cockpit glass design",
+        "unique landing gear configuration",
+        "specific exterior painting scheme",
+        "distinct engine nacelle shape",
+        "larger wing span"
+    ],
+    "C_130": [
+        "distinctive tail design",
+        "slightly larger size",
+        "unique color pattern",
+        "different window layout",
+        "specific undercarriage configuration",
+        "uniquely shaped fuselage",
+        "specific antenna placement",
+        "signature engine sound"
+    ],
+    "C_47": [
+        "larger size",
+        "distinctive tail pattern",
+        "unique nose wheel design",
+        "different wing shape",
+        "unusual engine configuration",
+        "specialized landing gear",
+        "unique paint scheme",
+        "specific cockpit layout"
+    ],
+    "Cessna_172": [
+        "distinctive short wings",
+        "narrower fuselage",
+        "slightly taller tail",
+        "unique window configuration",
+        "different cowl design",
+        "specific landing gear layout",
+        "uniquely shaped rudder",
+        "color variation in paint scheme"
+    ],
+    "Cessna_208": [
+        "shorter wingspan",
+        "distinctive tail design",
+        "slimmer fuselage profile",
+        "larger engine access hatch",
+        "unique window configuration",
+        "different landing gear layout",
+        "more powerful engine",
+        "heavier overall weight"
+    ],
+    "Cessna_Citation": [
+        "distinctive Cessna logo",
+        "slightly smaller size",
+        "lighter metallic grey",
+        "taller tailfin",
+        "different window arrangement",
+        "Cessna-branded tail",
+        "slightly curved nose cone",
+        "unique air intake design"
+    ],
+    "Challenger_600": [
+        "slimmer tail",
+        "distinctive red tail band",
+        "larger wing span",
+        "unique window arrangement",
+        "thinner vertical stabilizers",
+        "different cockpit design",
+        "specific engine placement",
+        "uniquely shaped nose cone"
+    ],
+    "DC_10": [
+        "larger wingspan",
+        "distinctive red tail band",
+        "slightly more curved nose",
+        "unique geometric pattern on belly",
+        "bigger size",
+        "different colored wingtips",
+        "unusual eye color",
+        "distinctive antenna shape"
+    ],
+    "DC_3": [
+        "smaller size",
+        "lighter wings",
+        "slightly curved tail",
+        "unique color pattern",
+        "distinctive nose design",
+        "different wing shape",
+        "elevated engine placement",
+        "slimmer body"
+    ],
+    "DC_6": [
+        "smaller size",
+        "distinctive green tail band",
+        "shorter wings",
+        "slightly curved nose",
+        "unique wing stripe pattern",
+        "different engine configuration",
+        "smaller cockpit window size",
+        "elevated landing gear"
+    ],
+    "DC_8": [
+        "distinctive tail pattern",
+        "slightly larger size",
+        "unique wing markings",
+        "different color shade",
+        "specific feather arrangement",
+        "uniquely shaped nose",
+        "distinctive head shape",
+        "specific leg structure"
+    ],
+    "DC_9": [
+        "distinctive tail pattern",
+        "slightly larger size",
+        "unique wing markings",
+        "different beak length",
+        "unusual head shape",
+        "specific color gradient",
+        "extra feather texture",
+        "unique body proportion"
+    ],
+    "DHC_1": [
+        "distinctive tail pattern",
+        "slightly larger size",
+        "unique wing markings",
+        "different head shape",
+        "color variation in feathers",
+        "specific placement of spots",
+        "unique feather texture",
+        "unlike DHC 6"
+    ],
+    "DHC_6": [
+        "distinctive tail shape",
+        "larger fuselage diameter",
+        "different window arrangement",
+        "unique air intake design",
+        "specific undercarriage configuration",
+        "uniquely shaped antennas",
+        "varied engine placement",
+        "specific color scheme"
+    ],
+    "DH_82": [
+        "distinctive tail design",
+        "slightly larger size",
+        "unique color pattern on wings",
+        "different engine placement",
+        "more angular fuselage",
+        "specific logo position",
+        "unusual window arrangement",
+        "unique antenna style"
+    ],
+    "DR_400": [
+        "distinctive logo",
+        "slightly larger size",
+        "different color scheme",
+        "unique pattern on tail",
+        "rounded rather than pointed wings",
+        "shorter beak",
+        "slimmer body shape",
+        "smaller eye size"
+    ],
+    "Dash_8": [
+        "shorter wingspan",
+        "lighter body color",
+        "slimmer tail",
+        "smaller engine size",
+        "distinctive propeller design",
+        "unique fuselage shape",
+        "different window configuration",
+        "easier to maneuver"
+    ],
+    "Dornier_328": [
+        "distinctive swept-back wings",
+        "slightly larger fuselage",
+        "unique tail fin shape",
+        "different window arrangement",
+        "specific engine nacelle design",
+        "unusual air intake configuration",
+        "specialized undercarriage layout",
+        "unique landing light placement"
+    ],
+    "EMB_120": [
+        "distinctive aerodynamic design",
+        "slightly larger size",
+        "unique color pattern",
+        "specific logo placement",
+        "different tail shape",
+        "unique window arrangement",
+        "specific engine configuration",
+        "specialized landing gear"
+    ],
+    "Embraer_ERJ_145": [
+        "shorter wingspan",
+        "slimmer fuselage",
+        "smaller tail",
+        "distinctive window arrangement",
+        "different landing gear design",
+        "less powerful engines",
+        "lighter color scheme",
+        "slightly shorter in length"
+    ],
+    "Embraer_E_Jet": [
+        "slimmer tail design",
+        "distinctive Embraer logo placement",
+        "unique window arrangement",
+        "different engine cowling shape",
+        "unusual fuselage curvature",
+        "specialized landing gear configuration",
+        "specific interior layout",
+        "exclusive use of materials"
+    ],
+    "Embraer_Legacy_600": [
+        "distinctive swept-back wings",
+        "slightly larger fuselage",
+        "unique tail design",
+        "different window arrangement",
+        "specific engine nacelle shape",
+        "uniquely positioned landing gear",
+        "specific registration pattern",
+        "unique air intake configuration"
+    ],
+    "Eurofighter_Typhoon": [
+        "distinctive canard configuration",
+        "slightly larger size",
+        "green and gray camouflage",
+        "thinner air intakes",
+        "different tail design",
+        "smaller winglets",
+        "unique vent patterns",
+        "fuselage with more pronounced contours"
+    ],
+    "F_16": [
+        "distinctive V tail",
+        "slightly larger size",
+        "darker lower belly",
+        "thinner air intakes",
+        "rounded rather than flat nose",
+        "smaller engine pods",
+        "unique cockpit canopy",
+        "different winglet design"
+    ],
+    "F_A_18": [
+        "distinctive tail shape",
+        "larger size",
+        "brighter color scheme",
+        "unique marking pattern",
+        "slimmer body",
+        "different wing structure",
+        "smaller cockpit visibility",
+        "distinct fuselage shape"
+    ],
+    "Falcon_2000": [
+        "slimmer fuselage",
+        "distinctive tail fins",
+        "larger windows",
+        "unique engine placement",
+        "slightly shorter wingspan",
+        "darker underbelly",
+        "more pronounced cockpit canopy",
+        "different nose cone shape"
+    ],
+    "Falcon_900": [
+        "larger fuselage",
+        "distinctive tail pattern",
+        "slightly curved wings",
+        "unique nose cone shape",
+        "brighter overall color scheme",
+        "thinner vertical stabilizers",
+        "larger cockpit windows",
+        "different engine configuration"
+    ],
+    "Fokker_100": [
+        "slightly larger fuselage",
+        "distinctive tail design",
+        "different window arrangement",
+        "unique engine placement",
+        "specific air intake shape",
+        "uniquely styled landing gear",
+        "differing wing span",
+        "specific registration markings"
+    ],
+    "Fokker_50": [
+        "slightly larger size",
+        "different tail design",
+        "unique window arrangement",
+        "distinctive air intake shape",
+        "specific fuselage contour",
+        "unusual engine placement",
+        "specialized landing gear configuration",
+        "unique paint scheme"
+    ],
+    "Fokker_70": [
+        "slightly smaller size",
+        "distinctive green tail",
+        "shorter fuselage",
+        "different window arrangement",
+        "unique undercarriage design",
+        "slightly curved nose",
+        "specific registration pattern",
+        "distinctive engine nacelle shape"
+    ],
+    "Global_Express": [
+        "larger fuselage",
+        "distinctive red tail",
+        "slimmer wings",
+        "unique blue and white livery",
+        "larger windows",
+        "signature triangular tail design",
+        "advanced aerodynamic shaping",
+        "futuristic glass cockpit"
+    ],
+    "Gulfstream": [
+        "distinctive G shape on tail",
+        "slimmer fuselage profile",
+        "larger engine nacelles",
+        "unique window arrangement",
+        "taller cockpit canopy",
+        "different nose cone shape",
+        "specific registration markings",
+        "slightly different winglet design"
+    ],
+    "Hawk_T1": [
+        "distinctive red eyes",
+        "slimmer body profile",
+        "larger wingspan",
+        "unique tail pattern",
+        "more angular head shape",
+        "darker underbelly",
+        "thicker talons",
+        "specific feather arrangement"
+    ],
+    "Il_76": [
+        "distinctive tail design",
+        "larger overall size",
+        "different wing shape",
+        "unique engine placement",
+        "specific color scheme",
+        "slightly more streamlined body",
+        "uniquely positioned windows",
+        "distinctive nose cone"
+    ],
+    "King_Air": [
+        "distinctive twin-engine configuration",
+        "slightly larger size",
+        "different tail design",
+        "unique window arrangement",
+        "specific paint scheme",
+        "specific wing shape",
+        "differing cockpit layout",
+        "uniquely shaped nose cone"
+    ],
+    "L_1011": [
+        "distinctive tail design",
+        "slightly larger size",
+        "different window layout",
+        "unique engine nacelle shape",
+        "specific fuselage curvature",
+        "uniquely positioned landing gear",
+        "particular paint scheme",
+        "signature cockpit design"
+    ],
+    "MD_11": [
+        "larger size",
+        "unique tail pattern",
+        "distinctive wing shape",
+        "brighter coloration",
+        "different head shape",
+        "specific marking arrangement",
+        "unusual feather texture",
+        "specialized foot structure"
+    ],
+    "MD_80": [
+        "distinctive tail pattern",
+        "slimmer fuselage",
+        "larger engines",
+        "thicker window frames",
+        "unique nose shape",
+        "different winglets design",
+        "specific landing gear configuration",
+        "unusual paint scheme"
+    ],
+    "MD_90": [
+        "distinctive tail design",
+        "slightly larger size",
+        "unique engine placement",
+        "different window arrangement",
+        "specific fuselage shape",
+        "unique air intake configuration",
+        "specific registration markings",
+        "exclusive interior layout"
+    ],
+    "Metroliner": [
+        "distinctive round windows",
+        "slightly taller cockpit",
+        "unique tail design",
+        "slimmer fuselage profile",
+        "different window arrangement",
+        "slightly curved wingtips",
+        "unusual engine placement",
+        "specific air intake design"
+    ],
+    "PA_28": [
+        "larger size",
+        "distinctive Yak logo",
+        "teardrop-shaped fuselage",
+        "slimmer wings",
+        "more complex tail design",
+        "brighter overall color scheme",
+        "larger propellers",
+        "different window arrangement"
+    ],
+    "SR_20": [
+        "smaller size",
+        "lighter color",
+        "distinctive logo",
+        "rounded corners",
+        "slightly curved edges",
+        "unique pattern",
+        "different font style",
+        "exposed wiring"
+    ],
+    "Saab_2000": [
+        "smaller size",
+        "distinctive grille pattern",
+        "slightly curved roofline",
+        "unique taillight design",
+        "specific wheel style",
+        "specific badge placement",
+        "unusual side mirror shape",
+        "particular front bumper design"
+    ],
+    "Saab_340": [
+        "distinctive twin-engine layout",
+        "slightly larger size",
+        "slightly different window arrangement",
+        "unique tail design",
+        "slightly more aerodynamic fuselage",
+        "different color scheme",
+        "distinctive landing gear configuration",
+        "slightly higher wing-to-body ratio"
+    ],
+    "Spitfire": [
+        "finer lines",
+        "slimmer fuselage",
+        "distinctive round canopy",
+        "shorter wingspan",
+        "more vertical tail fins",
+        "smaller overall size",
+        "unique air intake design",
+        "different engine exhaust pattern"
+    ],
+    "Tornado": [
+        "rotating column of air",
+        "distinctive funnel shape",
+        "cloud base closer to ground",
+        "whirlwind with debris",
+        "no wings or cockpit",
+        "high-pitched sound",
+        "causes significant damage",
+        "occurs without pilot"
+    ],
+    "Tu_134": [
+        "distinctive tail pattern",
+        "larger fuselage",
+        "slightly more streamlined",
+        "different window arrangement",
+        "unique engine nacelle design",
+        "specific landing gear configuration",
+        "uniquely shaped rudder",
+        "differently colored undercarriage"
+    ],
+    "Tu_154": [
+        "larger size",
+        "different color scheme",
+        "distinctive tail pattern",
+        "unique engine arrangement",
+        "slightly more streamlined shape",
+        "specific window configuration",
+        "unique air intake design",
+        "distinct fuselage contour"
+    ],
+    "Yak_42": [
+        "distinctive tail design",
+        "larger body size",
+        "dual propellers",
+        "metallic silver finish",
+        "thick undercarriage legs",
+        "slightly curved wings",
+        "single row of windows",
+        "unique cockpit canopy"
+    ]
+}

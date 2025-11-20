@@ -1,3 +1,5 @@
 venv/
 datasets/
 embeddings/
+embeddings_openai/
+models_local/

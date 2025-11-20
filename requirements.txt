@@ -7,5 +7,4 @@ Pillow
 numpy
 matplotlib
 # --- Dependências Adicionadas para Gemini ---
-google-genai
 python-dotenv

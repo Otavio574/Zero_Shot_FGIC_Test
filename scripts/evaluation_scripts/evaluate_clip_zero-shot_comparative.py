@@ -1,7 +1,11 @@
 """
-Avaliação Zero-Shot COMPARATIVA com CLIP usando descrições comparativas.
-Exemplo: "Um golden retriever tem o pelo mais longo que um labrador."
-Usa embeddings pré-calculados e descritores comparativos.
+Avaliação Zero-Shot com Comparative-CLIP.
+Usa descritores comparativos que enfatizam diferenças entre classes similares.
+
+Baseado no paper "Enhancing Visual Classification using Comparative Descriptors" (WACV 2025)
+
+Template: "a photo of a {class}, {comparative_descriptor}"
+Exemplo: "a photo of a Black-footed Albatross, larger wingspan typically 6-7 feet"
 """
 
 import os
@@ -10,220 +14,309 @@ import torch
 import numpy as np
 import clip
 from tqdm import tqdm
-from sklearn.metrics import accuracy_score, confusion_matrix
-import matplotlib.pyplot as plt
 from pathlib import Path
-from glob import glob
+from sklearn.metrics import accuracy_score
+import traceback
 
-# ============================
-# CONFIGURAÇÕES
-# ============================
-
-def load_datasets_from_summary(summary_path: Path) -> dict:
-    """Carrega configuração de datasets do summary.json"""
-    with open(summary_path, 'r', encoding='utf-8') as f:
-        summary = json.load(f)
-    
-    datasets = {}
-    if isinstance(summary, list):
-        for item in summary:
-            dataset_name = item.get('dataset')
-            dataset_path = item.get('path')
-            if dataset_name and dataset_path:
-                datasets[dataset_name] = dataset_path
-    return datasets
-
+# ============================================================
+# CONFIG
+# ============================================================
 
 SUMMARY_PATH = Path("outputs/analysis/summary.json")
-DATASETS = load_datasets_from_summary(SUMMARY_PATH)
+EMBED_DIR = Path("embeddings_openai")
+DESCRIPTOR_DIR = Path("descriptors_comparative_1")  # Descritores comparativos
+RESULTS_DIR = Path("all_zero-shot_results/results_comparative_clip_1")
+
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 MODEL_NAME = "ViT-B/32"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = "all_zero-shot_results/results_zero_shot_comparative"
-
-os.makedirs(RESULTS_DIR, exist_ok=True)
 
 
-# ============================
-# FUNÇÕES AUXILIARES
-# ============================
+# ============================================================
+# LOAD SUMMARY
+# ============================================================
 
-def load_comparative_descriptors(dataset_name):
-    """Carrega descrições comparativas do dataset"""
-    path = os.path.join("descriptors_comparative_rag", f"{dataset_name}_comparative_descriptors.json")
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"❌ Arquivo de descritores não encontrado: {path}")
+def load_datasets_from_summary(path: Path):
+    if not path.exists():
+        print("❌ summary.json não encontrado!")
+        return {}
+
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    datasets = {}
+    for item in data:
+        if "dataset" in item and "path" in item:
+            datasets[item["dataset"]] = item["path"]
+
+    return datasets
 
 
-def load_embeddings_and_generate_text(dataset_name, dataset_path, descriptors, model):
-    """Carrega embeddings e gera embeddings de texto a partir das descrições comparativas"""
-    embedding_path = os.path.join("embeddings", f"{dataset_name}.pt")
-    if not os.path.exists(embedding_path):
-        print(f"⚠️  Embeddings não encontrados: {embedding_path}")
-        return None, None, None, None
+DATASETS = load_datasets_from_summary(SUMMARY_PATH)
+
+
+# ============================================================
+# CARREGAR DESCRITORES COMPARATIVOS
+# ============================================================
+
+def load_comparative_descriptions(dataset_name: str):
+    """
+    Carrega descritores comparativos do Comparative-CLIP.
+    """
+    path = DESCRIPTOR_DIR / f"{dataset_name}_comparative.json"
+
+    if not path.exists():
+        print(f"❌ Descritores comparativos não encontrados: {path}")
+        return {}
+
+    with open(path, "r", encoding="utf-8") as f:
+        descriptors = json.load(f)
     
-    print(f"📂 Carregando embeddings: {embedding_path}")
-    embeddings_data = torch.load(embedding_path, weights_only=False)
+    print(f"📂 Carregados descritores comparativos de: {path}")
     
-    if isinstance(embeddings_data, dict):
-        image_embeds = embeddings_data['image_embeddings']
-        image_paths = embeddings_data['image_paths']
+    # Estatísticas
+    total_descs = sum(len(descs) for descs in descriptors.values())
+    avg_per_class = total_descs / len(descriptors) if descriptors else 0
+    print(f"   Classes: {len(descriptors)} | Total descritores: {total_descs} | Média/classe: {avg_per_class:.1f}")
+    
+    return descriptors
+
+
+# ============================================================
+# EMBEDDING COM DESCRITORES COMPARATIVOS
+# ============================================================
+
+def get_text_embedding_comparative(class_name: str, comparative_descriptors: list, 
+                                   model, clip_library, device):
+    """
+    Gera embeddings de texto usando descritores comparativos.
+    
+    Template Comparative-CLIP: "a photo of a {class}, {comparative_descriptor}"
+    
+    Os descritores já vêm formatados como comparações, ex:
+    - "larger wingspan, typically 6-7 feet"
+    - "darker plumage compared to Slaty-backed Gull"
+    """
+    
+    # Nome legível da classe
+    class_readable = class_name.replace('_', ' ')
+    
+    # Validação de entrada
+    if comparative_descriptors is None:
+        comparative_descriptors = []
+    if isinstance(comparative_descriptors, str):
+        comparative_descriptors = [comparative_descriptors]
+    if not isinstance(comparative_descriptors, list):
+        comparative_descriptors = [str(comparative_descriptors)]
+    
+    # Limpa descritores
+    comparative_descriptors = [
+        d.strip() for d in comparative_descriptors 
+        if isinstance(d, str) and d.strip()
+    ]
+    
+    # Fallback se não houver descritores
+    if len(comparative_descriptors) == 0:
+        texts = [f"a photo of a {class_readable}"]
     else:
-        image_embeds = embeddings_data
-        image_paths = None
+        # 🔥 TEMPLATE COMPARATIVE-CLIP:
+        # Os descritores comparativos já trazem a informação de diferença
+        texts = [
+            f"a photo of a {class_readable}, {desc}" 
+            for desc in comparative_descriptors
+        ]
     
-    print(f"   Shape: {image_embeds.shape}")
-
-    # Extrai classes e labels
-    if image_paths:
-        labels = []
-        class_to_idx = {}
-        class_names = []
-
-        for path in image_paths:
-            parts = Path(path).parts
-            class_name = parts[-2] if len(parts) >= 2 else "unknown"
-
-            if class_name not in class_to_idx:
-                class_to_idx[class_name] = len(class_names)
-                class_names.append(class_name)
-
-            labels.append(class_to_idx[class_name])
-        
-        labels = np.array(labels)
-    else:
-        print("❌ Nenhum path encontrado nos embeddings")
-        return None, None, None, None
-
-    print(f"   Total de imagens: {len(labels)} | Classes: {len(set(labels))}")
-
-    # Constrói prompts comparativos
-    class_texts = []
-    for class_name in class_names:
-        desc = descriptors.get(class_name, [])
-        if isinstance(desc, list):
-            # Junta várias comparações em uma única string longa
-            text = " ".join(desc)
-        elif isinstance(desc, str):
-            text = desc
-        else:
-            text = f"a photo of a {class_name.replace('_', ' ')}"
-        class_texts.append(text)
-
-    print(f"\n📝 Gerando text embeddings para {len(class_texts)} classes...")
-    print(f"   Exemplo de comparação: {class_texts[0][:150]}...")
-
-    # Tokeniza e gera embeddings CLIP
-    text_tokens = clip.tokenize(class_texts, truncate=True).to(DEVICE)
+    # Tokeniza com a biblioteca CLIP
+    tokens = clip_library.tokenize(texts).to(device)
+    
+    # Encode
     with torch.no_grad():
-        text_embeds = model.encode_text(text_tokens)
-        text_embeds /= text_embeds.norm(dim=-1, keepdim=True)
+        text_embeds = model.encode_text(tokens)
+        text_embeds = text_embeds / text_embeds.norm(dim=-1, keepdim=True)
+    
+    # Média dos descritores (ensemble)
+    final = text_embeds.mean(dim=0)
+    final = final / final.norm()
+    
+    return final.cpu()
 
-    print(f"✅ Text embeddings prontos! Shape: {text_embeds.shape}")
-    return image_embeds, text_embeds.cpu(), labels, class_names
 
+# ============================================================
+# CARREGA EMBEDDINGS + TEXT EMBEDDINGS COMPARATIVOS
+# ============================================================
 
-def evaluate_zero_shot(image_embeds, text_embeds, labels):
-    """Calcula acurácia zero-shot."""
+def load_embeddings_and_generate_comparative_text(dataset_name, descriptions, 
+                                                   model, clip_library):
+    """
+    Carrega embeddings de imagem e gera text embeddings comparativos.
+    """
+    emb_path = EMBED_DIR / f"{dataset_name}.pt"
+
+    if not emb_path.exists():
+        print(f"⚠️  Embeddings de imagem não encontrados: {emb_path}")
+        return None, None, None, None
+
+    print(f"📂 Carregando embeddings de imagem: {emb_path}")
+    data = torch.load(emb_path, map_location="cpu", weights_only=False)
+
+    image_embeds = data.get("image_embeddings")
+    image_paths = data.get("image_paths")
+
+    if image_embeds is None or image_paths is None:
+        print("❌ .pt inválido, faltando chaves")
+        return None, None, None, None
+
+    # Normalização
     image_embeds = image_embeds.float()
-    text_embeds = text_embeds.float()
-    sims = image_embeds @ text_embeds.T
+    image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
+
+    # Extrai classes dos paths
+    class_names = sorted(list(set(Path(p).parts[-2] for p in image_paths)))
+    class_to_idx = {c: i for i, c in enumerate(class_names)}
+    labels = np.array([class_to_idx[Path(p).parts[-2]] for p in image_paths])
+
+    print(f"   Total imagens: {len(labels)} | Classes: {len(class_names)}")
+    
+    # 🔍 DEBUG:
+    print(f"\n🔍 DEBUG - Classes do embedding:")
+    print(f"   Total: {len(class_names)}")
+    print(f"   Primeiras 5: {class_names[:5]}")
+    
+    print(f"\n🔍 DEBUG - Verificando match com descritores comparativos:")
+    matches = sum(1 for cls in class_names if cls in descriptions)
+    print(f"   Classes que batem: {matches}/{len(class_names)}")
+    
+    if matches < len(class_names):
+        missing = [cls for cls in class_names if cls not in descriptions]
+        print(f"   ⚠️  Classes sem descritores: {missing[:5]}...")
+
+    # Gera text embeddings com descritores comparativos
+    print("\n📝 Gerando text embeddings comparativos...")
+
+    text_embeds_list = []
+    for cls in class_names:
+        comparative_descs = descriptions.get(cls, [])
+        emb = get_text_embedding_comparative(
+            cls, comparative_descs, model, clip_library, DEVICE
+        )
+        text_embeds_list.append(emb)
+
+    text_embeds = torch.stack(text_embeds_list, dim=0)  # [num_classes, 512]
+
+    print(f"✅ Text embeddings comparativos: {text_embeds.shape}")
+
+    return image_embeds, text_embeds, labels, class_names
+
+
+# ============================================================
+# ZERO-SHOT EVALUATION
+# ============================================================
+
+def evaluate_zero_shot(img_embeds, text_embeds, labels):
+    """
+    Avaliação zero-shot via similaridade coseno.
+    """
+    sims = img_embeds @ text_embeds.T  # [N_imgs, N_classes]
     preds = sims.argmax(dim=-1).numpy()
+    
+    # 🔍 DEBUG:
+    print(f"\n🔍 Similaridades:")
+    print(f"   Min: {sims.min():.4f}, Max: {sims.max():.4f}")
+    print(f"   Mean: {sims.mean():.4f}, Std: {sims.std():.4f}")
+    
+    # Top-1 accuracy
     acc = accuracy_score(labels, preds)
-    return acc, preds
+    
+    # Top-5 accuracy
+    top5_preds = sims.topk(5, dim=-1).indices.numpy()
+    top5_acc = sum(labels[i] in top5_preds[i] for i in range(len(labels))) / len(labels)
+    
+    print(f"   Top-5 Accuracy: {top5_acc:.4f}")
+    
+    return acc, top5_acc, preds
 
 
-def plot_confusion_matrix(labels, preds, class_names, output_path):
-    """Gera e salva matriz de confusão"""
-    cm = confusion_matrix(labels, preds, normalize='true')
-    plt.figure(figsize=(12, 10))
-    plt.imshow(cm, cmap='viridis', aspect='auto')
-    plt.title("CLIP Zero-Shot com Comparações", fontsize=14)
-    plt.colorbar()
-    fontsize = max(6, 12 - len(class_names) // 10)
-    plt.xticks(np.arange(len(class_names)), class_names, rotation=90, fontsize=fontsize)
-    plt.yticks(np.arange(len(class_names)), class_names, fontsize=fontsize)
-    plt.xlabel('Predito')
-    plt.ylabel('Verdadeiro')
-    plt.tight_layout()
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
-    plt.close()
-
-
-# ============================
-# AVALIAÇÃO PRINCIPAL
-# ============================
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
-    print(f"🚀 Avaliação Zero-Shot COMPARATIVA com CLIP")
+    print("🎯 Comparative-CLIP Zero-Shot Evaluation")
     print(f"📦 Modelo: {MODEL_NAME}")
-    print(f"💻 Device: {DEVICE}")
-    print(f"🧠 Método: Comparações diretas entre classes\n")
+    print(f"💻 Device: {DEVICE}\n")
 
-    print("🔄 Carregando modelo CLIP...")
-    model, preprocess = clip.load(MODEL_NAME, device=DEVICE)
+    print("🔄 Carregando CLIP...")
+    model, _ = clip.load(MODEL_NAME, device=DEVICE)
+    model.eval()
     print("✅ Modelo carregado!\n")
 
-    summary = {
-        "model": MODEL_NAME,
-        "method": "CLIP + Comparações entre classes",
-        "total_datasets": len(DATASETS),
-        "successful": 0,
-        "failed": 0,
-        "results": {}
-    }
+    summary = {}
 
     for dataset_name, dataset_path in DATASETS.items():
-        print(f"\n{'='*60}")
-        print(f"📊 Avaliando dataset: {dataset_name}")
-        print(f"{'='*60}")
-        
+
+        print("=" * 70)
+        print(f"📊 Avaliando {dataset_name} com Comparative-CLIP")
+        print("=" * 70)
+
         try:
-            descriptors = load_comparative_descriptors(dataset_name)
-            print(f"✅ Descrições comparativas carregadas: {len(descriptors)} classes")
-
-            result = load_embeddings_and_generate_text(
-                dataset_name, dataset_path, descriptors, model
-            )
+            # Carrega descritores comparativos
+            comparative_descriptions = load_comparative_descriptions(dataset_name)
             
-            if result[0] is None:
-                summary["failed"] += 1
+            if not comparative_descriptions:
+                print("⏭️  Sem descritores comparativos → ignorado.")
                 continue
-                
-            image_embeds, text_embeds, labels, class_names = result
-            acc, preds = evaluate_zero_shot(image_embeds, text_embeds, labels)
 
-            print(f"\n✅ Acurácia zero-shot (comparativo): {acc:.4f}")
+            # Carrega embeddings e gera text embeddings
+            image_embeds, text_embeds, labels, class_names = \
+                load_embeddings_and_generate_comparative_text(
+                    dataset_name, comparative_descriptions, model, clip
+                )
 
-            plot_path = os.path.join(RESULTS_DIR, f"{dataset_name}_cm.png")
-            plot_confusion_matrix(labels, preds, class_names, plot_path)
+            if image_embeds is None:
+                continue
 
-            summary["successful"] += 1
-            summary["results"][dataset_name] = {
-                "accuracy": float(acc),
+            # Avaliação zero-shot
+            acc, top5_acc, preds = evaluate_zero_shot(
+                image_embeds.float(), text_embeds.float(), labels
+            )
+
+            print(f"\n🎯 Resultados:")
+            print(f"   Top-1 Accuracy: {acc:.4f}")
+            print(f"   Top-5 Accuracy: {top5_acc:.4f}")
+
+            summary[dataset_name] = {
+                "accuracy_top1": float(acc),
+                "accuracy_top5": float(top5_acc),
                 "num_classes": len(class_names),
                 "num_images": len(labels),
-                "confusion_matrix_plot": plot_path
+                "avg_descriptors_per_class": sum(
+                    len(comparative_descriptions.get(cls, [])) 
+                    for cls in class_names
+                ) / len(class_names)
             }
 
         except Exception as e:
-            print(f"❌ Erro ao processar {dataset_name}: {e}")
-            import traceback
+            print(f"❌ Erro no dataset {dataset_name}: {e}")
             traceback.print_exc()
-            summary["failed"] += 1
-            continue
 
-    out_path = os.path.join(RESULTS_DIR, "zero_shot_results_comparative.json")
+    # Salvar resultados
+    out_path = RESULTS_DIR / "comparative_clip_results.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
 
-    print(f"\n{'='*60}")
-    print(f"📈 Resultados salvos em {out_path}")
-    print(f"✅ {summary['successful']} datasets processados com sucesso.")
-    print(f"❌ {summary['failed']} falharam.")
-    print(f"{'='*60}\n")
+    print("\n" + "=" * 70)
+    print("📈 Resultados salvos em:", out_path)
+    print("=" * 70)
+    
+    # Mostra resumo
+    if summary:
+        print("\n📊 RESUMO DOS RESULTADOS:")
+        print(f"{'Dataset':<20} {'Top-1 Acc':<12} {'Top-5 Acc':<12} {'Classes':<10}")
+        print("-" * 70)
+        for ds, results in summary.items():
+            print(f"{ds:<20} {results['accuracy_top1']:<12.4f} "
+                  f"{results['accuracy_top5']:<12.4f} {results['num_classes']:<10}")
 
 
 if __name__ == "__main__":

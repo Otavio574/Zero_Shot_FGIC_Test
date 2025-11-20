@@ -1,12 +1,12 @@
 {
   "datasets": [
     {
-      "name": "Bee_Images_Dataset",
-      "path": "./datasets/Bee_Images_Dataset"
-    },
-    {
       "name": "Birdsnap",
       "path": "./datasets/Birdsnap"
+    },
+    {
+      "name": "Caltech_256",
+      "path": "./datasets/Caltech_256"
     },
     {
       "name": "CompCars",

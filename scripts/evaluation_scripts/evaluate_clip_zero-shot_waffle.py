@@ -1,6 +1,9 @@
 """
-Avaliação Zero-Shot com WaffleCLIP (sem geração de embeddings).
-Agora os datasets são detectados automaticamente em datasets/.
+Avaliação Zero-Shot com WaffleCLIP usando DESCRITORES ALEATÓRIOS.
+Implementa o método do paper "Waffling around for Performance" (ICCV 2023):
+- Cada classe recebe descritores ALEATÓRIOS (palavras + sequências de caracteres)
+- Múltiplas execuções (reps) para calcular média e desvio padrão
+- Template: "a photo of a {class}, {random_descriptor}"
 """
 
 import os
@@ -8,217 +11,314 @@ import json
 import torch
 import numpy as np
 import clip
-
+import random
+import string
+from tqdm import tqdm
 from pathlib import Path
 from sklearn.metrics import accuracy_score
+import traceback
 
+# ============================================================
+# CONFIG
+# ============================================================
 
-# ======================================
-# DETECÇÃO AUTOMÁTICA DE DATASETS
-# ======================================
+SUMMARY_PATH = Path("outputs/analysis/summary.json")
+EMBED_DIR = Path("embeddings_openai")
+RESULTS_DIR = Path("all_zero-shot_results/results_waffle_clip")
 
-def detect_datasets(base_path="datasets"):
-    """
-    Cada subpasta em datasets/ é considerada um dataset.
-    Exemplo:
-        datasets/cifar10/
-        datasets/aircraft/
-    """
-    base = Path(base_path)
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    if not base.exists():
-        raise RuntimeError(f"Pasta '{base_path}' não existe!")
+MODEL_NAME = "ViT-B/32"
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+# Parâmetros WaffleCLIP
+WAFFLE_COUNT = 15  # número de PARES (palavra + sequência de caracteres)
+REPS = 7  # número de repetições para média/desvio
+
+# ============================================================
+# LOAD SUMMARY
+# ============================================================
+
+def load_datasets_from_summary(path: Path):
+    if not path.exists():
+        print("❌ summary.json não encontrado!")
+        return {}
+
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
     datasets = {}
-
-    for item in base.iterdir():
-        if item.is_dir():
-            datasets[item.name] = str(item)
-
-    print(f"📁 Detectados {len(datasets)} datasets:")
-    for ds in datasets:
-        print(f"  - {ds}")
+    for item in data:
+        if "dataset" in item and "path" in item:
+            datasets[item["dataset"]] = item["path"]
 
     return datasets
 
 
-DATASETS = detect_datasets()
-
-MODEL_NAME = "ViT-B/32"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = "all_zero-shot_results/results_zero_shot_waffle_test"
-
-os.makedirs(RESULTS_DIR, exist_ok=True)
+DATASETS = load_datasets_from_summary(SUMMARY_PATH)
 
 
-# ======================================
-# FUNÇÕES AUXILIARES
-# ======================================
+# ============================================================
+# GERADORES DE DESCRITORES ALEATÓRIOS (WAFFLE)
+# ============================================================
 
-def load_descriptions(dataset_name):
-    """Carrega descriptions/waffle descriptors do dataset"""
-    path = os.path.join("descriptors_waffle_clip_random", f"{dataset_name}_waffle.json")
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    print(f"⚠️ Nenhum descriptor encontrado para {dataset_name}, usando fallback.")
-    return {}
-
-
-def load_embeddings(dataset_name):
-    """Carrega embeddings pré-calculados (não gera novos!)"""
-    emb_path = os.path.join("embeddings", f"{dataset_name}.pt")
-
-    if not os.path.exists(emb_path):
-        print(f"❌ Embeddings não encontrados: {emb_path}")
-        return None, None
-
-    data = torch.load(emb_path, weights_only=False)
-
-    if isinstance(data, dict):
-        return data["image_embeddings"], data.get("image_paths", None)
-
-    return data, None
+def generate_random_word_descriptors(count: int, seed: int = None) -> list:
+    """
+    Gera palavras aleatórias do vocabulário CLIP.
+    Baseado no paper: usa palavras comuns do vocabulário.
+    """
+    if seed is not None:
+        random.seed(seed)
+    
+    # Vocabulário simples de palavras comuns (você pode expandir)
+    # No paper original, eles usam o vocabulário do CLIP, mas aqui uso uma lista fixa
+    word_vocab = [
+        "red", "blue", "green", "yellow", "large", "small", "round", "square",
+        "bright", "dark", "smooth", "rough", "soft", "hard", "light", "heavy",
+        "fast", "slow", "new", "old", "hot", "cold", "wet", "dry", "clean",
+        "dirty", "full", "empty", "strong", "weak", "young", "ancient", "modern",
+        "natural", "artificial", "wild", "domestic", "common", "rare", "simple",
+        "complex", "quiet", "loud", "sweet", "bitter", "fresh", "stale", "wide",
+        "narrow", "deep", "shallow", "high", "low", "thick", "thin", "long", "short"
+    ]
+    
+    return [random.choice(word_vocab) for _ in range(count)]
 
 
-def infer_classes_from_paths(image_paths):
-    class_names, labels = [], []
-    class_to_idx = {}
+def generate_random_char_descriptors(count: int, seed: int = None) -> list:
+    """
+    Gera sequências de caracteres aleatórias (ex: "aaaaa aaa").
+    Baseado no paper: sequências de letras repetidas ou aleatórias.
+    """
+    if seed is not None:
+        random.seed(seed)
+    
+    descriptors = []
+    for _ in range(count):
+        # Tipo 1: letras repetidas (ex: "aaaaa")
+        if random.random() < 0.5:
+            char = random.choice(string.ascii_lowercase)
+            length = random.randint(4, 8)
+            desc = char * length
+        # Tipo 2: sequência aleatória (ex: "xkjdf")
+        else:
+            length = random.randint(4, 8)
+            desc = ''.join(random.choices(string.ascii_lowercase, k=length))
+        
+        # Às vezes adiciona espaço e mais caracteres
+        if random.random() < 0.3:
+            desc += " " + random.choice(string.ascii_lowercase) * random.randint(2, 4)
+        
+        descriptors.append(desc)
+    
+    return descriptors
 
-    for path in image_paths:
-        parts = Path(path).parts
-        class_name = parts[-2] if len(parts) >= 2 else "unknown"
 
-        if class_name not in class_to_idx:
-            class_to_idx[class_name] = len(class_names)
-            class_names.append(class_name)
+def generate_waffle_descriptors(count: int, seed: int = None) -> list:
+    """
+    Gera descritores WaffleCLIP: pares de (palavra aleatória + sequência de caracteres).
+    Total = count * 2 descritores.
+    """
+    words = generate_random_word_descriptors(count, seed)
+    chars = generate_random_char_descriptors(count, seed)
+    
+    # Intercala: palavra, chars, palavra, chars, ...
+    all_descriptors = []
+    for w, c in zip(words, chars):
+        all_descriptors.append(w)
+        all_descriptors.append(c)
+    
+    return all_descriptors
 
-        labels.append(class_to_idx[class_name])
 
-    return np.array(labels), class_names
+# ============================================================
+# EMBEDDING COM DESCRITORES WAFFLE
+# ============================================================
 
-
-# ======================================
-# AVALIAÇÃO COM WAFFLECLIP
-# ======================================
-
-def evaluate_waffle(dataset_name, image_embeds, image_paths, descriptions, model):
-
-    print(f"\n🔍 Iniciando avaliação WaffleCLIP: {dataset_name}")
-
-    labels, class_names = infer_classes_from_paths(image_paths)
-    num_classes = len(class_names)
-
-    print(f"   Classes detectadas: {num_classes}")
-    print(f"   Total de imagens: {len(image_embeds)}")
-
-    # Agrupar descriptors
-    class_descriptors = {c: [] for c in class_names}
-
-    for class_name in class_names:
-        class_code = class_name.split("-")[0]
-        for key, value in descriptions.items():
-            if class_code in key or class_name in key:
-                class_descriptors[class_name].append(value)
-
-    # Normalizar textos
-    all_texts = []
-    text_to_class = []
-
-    for idx, class_name in enumerate(class_names):
-        descs = class_descriptors[class_name]
-        if not descs:
-            descs = [f"a photo of a {class_name.replace('_', ' ')}"]
-
-        normalized = []
-        for d in descs:
-            if isinstance(d, list):
-                normalized.extend([str(x) for x in d])
-            else:
-                normalized.append(str(d))
-
-        all_texts.extend(normalized)
-        text_to_class.extend([idx] * len(normalized))
-
-    # Tokenização
-    text_tokens = clip.tokenize(all_texts, truncate=True).to(DEVICE)
-
+def get_text_embedding_waffle(class_name: str, waffle_descriptors: list, 
+                               model, clip_library, device):
+    """
+    Cria embeddings de texto usando descritores WaffleCLIP.
+    Template: "a photo of a {class}, {descriptor}"
+    """
+    class_readable = class_name.replace('_', ' ')
+    
+    # Constrói prompts com template WaffleCLIP
+    texts = [f"a photo of a {class_readable}, {desc}" for desc in waffle_descriptors]
+    
+    # Tokeniza
+    tokens = clip_library.tokenize(texts).to(device)
+    
+    # Encode
     with torch.no_grad():
-        all_text_embeds = model.encode_text(text_tokens)
-        all_text_embeds /= all_text_embeds.norm(dim=-1, keepdim=True)
+        text_embeds = model.encode_text(tokens)
+        text_embeds = text_embeds / text_embeds.norm(dim=-1, keepdim=True)
+    
+    # Média dos descritores
+    final = text_embeds.mean(dim=0)
+    final = final / final.norm()
+    
+    return final.cpu()
 
-    # Média por classe
-    final_embeds = []
-    for idx in range(num_classes):
-        inds = [i for i, c in enumerate(text_to_class) if c == idx]
-        avg = all_text_embeds[inds].mean(dim=0)
-        avg /= avg.norm()
-        final_embeds.append(avg)
 
-    text_embeds = torch.stack(final_embeds)
+# ============================================================
+# CARREGA EMBEDDINGS + GERA TEXT EMBEDDINGS WAFFLE
+# ============================================================
 
-    # Similaridade
-    image_embeds = image_embeds.to(DEVICE).float()
-    text_embeds = text_embeds.to(DEVICE).float()
+def load_embeddings_and_generate_waffle_text(dataset_name, model, clip_library, seed):
+    """
+    Carrega embeddings de imagem e gera text embeddings com descritores aleatórios.
+    """
+    emb_path = EMBED_DIR / f"{dataset_name}.pt"
 
-    sims = image_embeds @ text_embeds.T
+    if not emb_path.exists():
+        print(f"⚠️  Embeddings não encontrados: {emb_path}")
+        return None, None, None, None
 
-    preds = sims.argmax(dim=-1).cpu().numpy()
+    print(f"📂 Carregando embeddings: {emb_path}")
+    data = torch.load(emb_path, map_location="cpu", weights_only=False)
+
+    image_embeds = data.get("image_embeddings")
+    image_paths = data.get("image_paths")
+
+    if image_embeds is None or image_paths is None:
+        print("❌ .pt inválido, faltando chaves")
+        return None, None, None, None
+
+    # Normalização
+    image_embeds = image_embeds.float()
+    image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
+
+    # Extrai classes
+    class_names = sorted(list(set(Path(p).parts[-2] for p in image_paths)))
+    class_to_idx = {c: i for i, c in enumerate(class_names)}
+    labels = np.array([class_to_idx[Path(p).parts[-2]] for p in image_paths])
+
+    print(f"   Total imagens: {len(labels)} | Classes: {len(class_names)}")
+
+    # 🎲 Gera descritores WAFFLE para cada classe
+    print(f"🎲 Gerando descritores WaffleCLIP (seed={seed})...")
+    
+    text_embeds_list = []
+    for cls in class_names:
+        # Cada classe recebe SEUS PRÓPRIOS descritores aleatórios
+        waffle_descs = generate_waffle_descriptors(WAFFLE_COUNT, seed)
+        emb = get_text_embedding_waffle(cls, waffle_descs, model, clip_library, DEVICE)
+        text_embeds_list.append(emb)
+
+    text_embeds = torch.stack(text_embeds_list, dim=0)
+
+    print(f"✅ Text embeddings WaffleCLIP: {text_embeds.shape}")
+
+    return image_embeds, text_embeds, labels, class_names
+
+
+# ============================================================
+# ZERO-SHOT EVALUATION
+# ============================================================
+
+def evaluate_zero_shot(img_embeds, text_embeds, labels):
+    """
+    Calcula acurácia zero-shot via similaridade coseno.
+    """
+    sims = img_embeds @ text_embeds.T  # [N_imgs, N_classes]
+    preds = sims.argmax(dim=-1).numpy()
+    
     acc = accuracy_score(labels, preds)
+    
+    # Top-5
+    top5_preds = sims.topk(5, dim=-1).indices.numpy()
+    top5_acc = sum(labels[i] in top5_preds[i] for i in range(len(labels))) / len(labels)
+    
+    return acc, top5_acc
 
-    print(f"✅ Acurácia: {acc:.4f}")
 
-    return acc, num_classes, len(image_embeds)
-
-
-# ======================================
-# MAIN
-# ======================================
+# ============================================================
+# MAIN COM MÚLTIPLAS REPETIÇÕES
+# ============================================================
 
 def main():
-    print(f"\n🚀 Avaliação Zero-Shot com WaffleCLIP")
+    print("🎲 WaffleCLIP Zero-Shot Evaluation - Random Descriptors")
     print(f"📦 Modelo: {MODEL_NAME}")
     print(f"💻 Device: {DEVICE}")
+    print(f"🎲 Waffle Count: {WAFFLE_COUNT} pares (= {WAFFLE_COUNT*2} descritores)")
+    print(f"🔁 Repetições: {REPS}\n")
 
-    print("\n🔄 Carregando modelo CLIP...")
-    model, preprocess = clip.load(MODEL_NAME, device=DEVICE)
-    print("✅ Modelo carregado!")
+    print("🔄 Carregando CLIP...")
+    model, _ = clip.load(MODEL_NAME, device=DEVICE)
+    model.eval()
+    print("✅ Modelo carregado!\n")
 
-    results = {
-        "model": MODEL_NAME,
-        "method": "WaffleCLIP",
-        "results": {}
-    }
+    summary = {}
 
-    for ds_name in DATASETS:
-        print(f"\n{'='*60}")
-        print(f"📊 Dataset: {ds_name}")
-        print(f"{'='*60}")
+    for dataset_name, dataset_path in DATASETS.items():
 
-        image_embeds, image_paths = load_embeddings(ds_name)
-        if image_embeds is None:
-            continue
+        print("=" * 70)
+        print(f"📊 Avaliando {dataset_name}")
+        print("=" * 70)
 
-        descriptions = load_descriptions(ds_name)
+        try:
+            # Múltiplas repetições com seeds diferentes
+            accuracies = []
+            top5_accuracies = []
+            
+            for rep in range(REPS):
+                print(f"\n🔁 Repetição {rep+1}/{REPS}")
+                
+                # Usa seed diferente para cada repetição
+                seed = rep + 42  
+                
+                image_embeds, text_embeds, labels, class_names = \
+                    load_embeddings_and_generate_waffle_text(
+                        dataset_name, model, clip, seed
+                    )
 
-        acc, n_cls, n_imgs = evaluate_waffle(
-            ds_name, image_embeds, image_paths, descriptions, model
-        )
+                if image_embeds is None:
+                    break
 
-        results["results"][ds_name] = {
-            "accuracy": float(acc),
-            "num_classes": n_cls,
-            "num_images": n_imgs
-        }
+                acc, top5_acc = evaluate_zero_shot(
+                    image_embeds.float(), text_embeds.float(), labels
+                )
 
-    # Salvar
-    out = os.path.join(RESULTS_DIR, "zero_shot_results_waffle.json")
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4, ensure_ascii=False)
+                print(f"   🎯 Accuracy: {acc:.4f} | Top-5: {top5_acc:.4f}")
+                
+                accuracies.append(acc)
+                top5_accuracies.append(top5_acc)
+            
+            if len(accuracies) > 0:
+                # Calcula estatísticas
+                mean_acc = np.mean(accuracies)
+                std_acc = np.std(accuracies)
+                mean_top5 = np.mean(top5_accuracies)
+                std_top5 = np.std(top5_accuracies)
+                
+                print(f"\n📊 RESULTADOS FINAIS:")
+                print(f"   Accuracy: {mean_acc:.4f} ± {std_acc:.4f}")
+                print(f"   Top-5:    {mean_top5:.4f} ± {std_top5:.4f}")
 
-    print(f"\n📈 Resultados salvos em {out}")
-    print("✅ Finalizado.")
+                summary[dataset_name] = {
+                    "accuracy_mean": float(mean_acc),
+                    "accuracy_std": float(std_acc),
+                    "top5_mean": float(mean_top5),
+                    "top5_std": float(std_top5),
+                    "num_classes": len(class_names),
+                    "num_images": len(labels),
+                    "waffle_count": WAFFLE_COUNT,
+                    "reps": REPS
+                }
+
+        except Exception as e:
+            print(f"❌ Erro no dataset {dataset_name}: {e}")
+            traceback.print_exc()
+
+    # Salvar resultados
+    out_path = RESULTS_DIR / f"waffle_clip_results_count{WAFFLE_COUNT}_reps{REPS}.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=4, ensure_ascii=False)
+
+    print("\n" + "=" * 70)
+    print("📈 Resultados salvos em:", out_path)
+    print("=" * 70)
 
 
 if __name__ == "__main__":

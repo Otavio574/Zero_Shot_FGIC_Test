@@ -1,0 +1,152 @@
+{
+    "Broad_winged_Hawk": [
+        "distinctive white patch on tail",
+        "broader and more rounded wings",
+        "smaller size",
+        "narrower tail",
+        "slimmer body",
+        "greyer upperparts",
+        "whiter underbelly",
+        "more angular face"
+    ],
+    "Coopers_Hawk": [
+        "stouter build",
+        "bolder facial pattern",
+        "larger size",
+        "whiter tail",
+        "broader wing tips",
+        "shorter tail",
+        "narrower eye stripe",
+        "more pointed tail"
+    ],
+    "Ferruginous_Hawk": [
+        "distinctive chest barring",
+        "broad tail banding",
+        "larger size",
+        "more rounded head",
+        "bright red tail",
+        "slimmer build",
+        "whiter belly",
+        "darker wing tips"
+    ],
+    "Gambels_Quail": [
+        "smaller size",
+        "distinctive brown and white barring",
+        "rounded head",
+        "shorter tail",
+        "yellow cere",
+        "greenish-yellow bill",
+        "brown eyes",
+        "slightly upturned tail feathers"
+    ],
+    "Golden_Eagle": [
+        "distinctive golden color",
+        "larger size",
+        "rounded head profile",
+        "bolder spotting pattern",
+        "wider tail banding",
+        "slimmer body",
+        "more curved talons",
+        "unique facial marking"
+    ],
+    "Long_tailed_Duck": [
+        "distinctive blue-green iridescence",
+        "shorter tail",
+        "larger size",
+        "curved yellow bill",
+        "whisker-like feathers around eyes",
+        "white tail band",
+        "smaller head",
+        "broad, squared-off tail"
+    ],
+    "Northern_Goshawk": [
+        "distinctive facial pattern",
+        "shorter tail",
+        "bolder spotting on wings",
+        "larger size",
+        "slimmer build",
+        "different feather coloration",
+        "unique wing shape",
+        "smaller eye"
+    ],
+    "Northern_Mockingbird": [
+        "distinctive white tail",
+        "shorter wings",
+        "brighter plumage",
+        "larger size",
+        "crescent-shaped head",
+        "slimmer body",
+        "yellow eyes",
+        "shorter tail"
+    ],
+    "Red_shouldered_Hawk": [
+        "distinctive dark band on wings",
+        "slightly smaller size",
+        "broader tail",
+        "shorter and squared tail",
+        "different head shape",
+        "unique wing pattern",
+        "slightly more curved beak",
+        "color variation in underwing feathers"
+    ],
+    "Red_tailed_Hawk": [
+        "reddish brown feathers",
+        "distinct red tail band",
+        "larger size",
+        "slightly hooked beak",
+        "wider wingspan",
+        "rounded head profile",
+        "white undertail coverts",
+        "different habitat preference"
+    ],
+    "Rough_legged_Hawk": [
+        "shorter tail",
+        "darker underbelly",
+        "more angular head shape",
+        "whisker-like feathers under chin",
+        "lighter overall color",
+        "smaller size",
+        "distinctive white spots on tail",
+        "slimmer body"
+    ],
+    "Sharp_shinned_Hawk": [
+        "slimmer body",
+        "distinctive white patch under tail",
+        "smaller size",
+        "bolder spotting on breast",
+        "narrower tail",
+        "whiter belly",
+        "more pointed wings",
+        "different facial pattern"
+    ],
+    "White_crowned_Sparrow": [
+        "smaller size",
+        "white crown",
+        "distinctive brown and white striped breast",
+        "shorter tail",
+        "rounder head",
+        "bolder eye placement",
+        "whiter underbelly",
+        "slightly curved beak"
+    ],
+    "White_tailed_Hawk": [
+        "distinctive white tail",
+        "brown and black barring",
+        "slimmer body",
+        "larger size",
+        "grey head",
+        "shorter tail feathers",
+        "narrower wingspan",
+        "yellow eyes"
+    ],
+    "Zone_tailed_Hawk": [
+        "distinctive blue-gray iris",
+        "slightly larger size",
+        "more rounded tail",
+        "broad, white bar on tail",
+        "smaller facial discoloration",
+        "slimmer body profile",
+        "different wing shape",
+        "unique feather pattern"
+    ]
+}

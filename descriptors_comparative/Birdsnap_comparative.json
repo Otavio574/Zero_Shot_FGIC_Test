@@ -1,0 +1,77 @@
+{
+    "Broad_winged_Hawk": [
+        "shorter tail",
+        "lighter underbelly",
+        "slimmer body"
+    ],
+    "Coopers_Hawk": [
+        "darker wing bands",
+        "pointier tail",
+        "smaller size"
+    ],
+    "Ferruginous_Hawk": [
+        "darker wing streaks",
+        "wider tail bands",
+        "shorter tail"
+    ],
+    "Gambels_Quail": [
+        "shorter tail",
+        "brighter orange breast",
+        "smaller overall size"
+    ],
+    "Golden_Eagle": [
+        "distinctive white tail band",
+        "larger size",
+        "yellow cere"
+    ],
+    "Long_tailed_Duck": [
+        "distinctive blue-green feathers",
+        "shorter tail",
+        "larger size"
+    ],
+    "Northern_Goshawk": [
+        "shorter tail",
+        "brighter chest",
+        "larger eye size"
+    ],
+    "Northern_Mockingbird": [
+        "shorter tail",
+        "smaller size",
+        "distinctive white eyebrow"
+    ],
+    "Red_shouldered_Hawk": [
+        "distinctive dark shoulder patches",
+        "slimmer body profile",
+        "wider, more rounded tail"
+    ],
+    "Red_tailed_Hawk": [
+        "redder tail",
+        "larger size",
+        "distinct white patches"
+    ],
+    "Rough_legged_Hawk": [
+        "darker wing edges",
+        "shorter tail",
+        "distinctively shaped head"
+    ],
+    "Sharp_shinned_Hawk": [
+        "narrower tail",
+        "brighter chest",
+        "smaller size"
+    ],
+    "White_crowned_Sparrow": [
+        "distinctive white forehead",
+        "smaller body size",
+        "rounded rather than pointed tail"
+    ],
+    "White_tailed_Hawk": [
+        "whiter underbelly",
+        "slimmer body",
+        "narrower tail"
+    ],
+    "Zone_tailed_Hawk": [
+        "longer tail feathers",
+        "brighter red color on underside",
+        "more square head"
+    ]
+}

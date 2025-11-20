@@ -1,324 +1,363 @@
 """
-Gerador de descrições comparativas OTIMIZADO para velocidade
-Principais otimizações:
-1. Batch processing (múltiplas comparações de uma vez)
-2. Cache de prompts
-3. Parâmetros de inferência otimizados
-4. Redução inteligente de comparações
+Comparative-CLIP Descriptor Generator (Qwen2-7B, Batched + Fixed)
+---------------------------------------------------------
+
+1. Extrai classes de cada dataset via summary.json
+2. Para cada classe:
+      - encontra K classes mais similares via CLIP
+      - gera descritores comparativos via QWEN2 (batched)
+3. Salva cada dataset em descriptors_comparative/<dataset>_comparative.json
+
+✅ FIX: Usa chat template correto do Qwen2 para evitar retornar prompt completo
 """
 
 import os
 import json
-import time
-import random
-from pathlib import Path
-from typing import Dict, List, Tuple
-from tqdm import tqdm
-from transformers import pipeline
 import torch
+import clip
+import numpy as np
+from pathlib import Path
+from tqdm import tqdm
+from sklearn.metrics.pairwise import cosine_similarity
+import re
 
-# ============================================================
-# CONFIGURAÇÃO
-# ============================================================
+# ============================
+#  CONFIG
+# ============================
 
-MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 SUMMARY_PATH = Path("outputs/analysis/summary.json")
+OUTPUT_DIR = Path("descriptors_comparative_1")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# OTIMIZAÇÕES DE VELOCIDADE
-BATCH_SIZE = 8  # Processa múltiplas comparações simultaneamente
-NUM_COMPARISONS = 3  # Comparações por classe
-MAX_NEW_TOKENS = 40  # Reduzido de 50
-USE_CACHE = True  # Cache de prompts similares
+MODEL_NAME = "ViT-B/32"
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-print(f"🚀 Carregando modelo: {MODEL_NAME}")
-print(f"💻 Device: {DEVICE}")
+# ---- Comparative config ----
+# 🔥 AJUSTE: Para gerar descritores como no paper original (80+ por classe)
+K_SIMILAR_CLASSES = 10  # Aumentado de 5 para 10
+NUM_COMPARISONS_PER_PAIR = 8  # Aumentado de 3 para 8 (10 × 8 = 80 descritores!)
+BATCH_SIZE = 32  # Reduzido porque vamos gerar mais tokens
 
-# Configurações otimizadas para velocidade
-pipe = pipeline(
-    "text-generation",
-    model=MODEL_NAME,
+# ---- QWEN2 ----
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+QWEN_MODEL = "Qwen/Qwen2-7B-Instruct"
+
+print("🔄 Carregando Qwen2 7B…")
+tokenizer = AutoTokenizer.from_pretrained(QWEN_MODEL)
+qwen = AutoModelForCausalLM.from_pretrained(
+    QWEN_MODEL,
+    torch_dtype=torch.float16,
     device_map="auto",
-    model_kwargs={
-        "use_cache": True,  # Cache KV
-        "torch_dtype": torch.float16,  # FP16 para velocidade
-    }
 )
-
-# CRÍTICO: Configura pad_token para permitir batching
-if pipe.tokenizer.pad_token is None:
-    pipe.tokenizer.pad_token = pipe.tokenizer.eos_token
-    pipe.tokenizer.pad_token_id = pipe.tokenizer.eos_token_id
-    print("✅ pad_token configurado")
-
-# Configura para greedy decoding (mais rápido)
-pipe.model.generation_config.do_sample = False
-pipe.model.generation_config.num_beams = 1
-pipe.model.generation_config.pad_token_id = pipe.tokenizer.pad_token_id
-
-print("✅ Modelo carregado e otimizado!")
-
-# ============================================================
-# FUNÇÕES AUXILIARES
-# ============================================================
-
-def sanitize_class_name(class_name: str) -> str:
-    """Remove prefixos e limpa nome"""
-    parts = class_name.split('.', 1)
-    if len(parts) == 2 and parts[0].isdigit():
-        class_name = parts[1]
-    return class_name.lower().replace('_', ' ').replace('-', ' ').strip()
+print("✅ Qwen carregado!\n")
 
 
-def get_dataset_category(dataset_name: str) -> str:
-    """Mapeia dataset para categoria"""
-    name = dataset_name.lower().replace("-", "_")
-    
-    categories = {
-        'bird': ['bird', 'cub', 'nabirds', 'birdsnap'],
-        'dog': ['dog', 'pet', 'stanford_dogs'],
-        'car': ['car', 'vehicle', 'stanford_cars', 'compcar'],
-        'aircraft': ['aircraft', 'plane', 'fgvc'],
-        'flower': ['flower', 'oxford'],
-    }
-    
-    for category, keywords in categories.items():
-        if any(kw in name for kw in keywords):
-            return category
-    
-    return 'object'
+# ============================
+#  LOAD DATASETS
+# ============================
 
-
-def load_datasets_from_summary(summary_path: Path) -> Dict[str, str]:
-    """Carrega datasets do summary.json"""
-    if not summary_path.exists():
-        print(f"❌ summary.json não encontrado: {summary_path}")
+def load_datasets_from_summary(path: Path):
+    """
+    summary.json: lista de objetos { "dataset": "...", "path": "..." }
+    """
+    if not path.exists():
+        print("❌ summary.json não encontrado!")
         return {}
-    
-    with open(summary_path, "r", encoding="utf-8") as f:
+
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     datasets = {}
-    
-    if isinstance(data, list):
-        for d in data:
-            if "dataset" in d and "path" in d:
-                datasets[d["dataset"]] = d["path"]
-    
+    for item in data:
+        if "dataset" in item and "path" in item:
+            datasets[item["dataset"]] = item["path"]
+
     return datasets
 
 
-def create_comparison_prompt(target: str, contrast: str, category: str) -> str:
-    """Cria prompt comparativo otimizado"""
-    # Prompt curto e direto para resposta rápida
-    return (
-        f"Describe a {target} ({category}) by contrasting with {contrast}. "
-        f"Focus on key visual differences. Start with 'A photo of a {target}'"
-    )
+# ============================
+#  EXTRACT CLASSES
+# ============================
+
+def extract_classes_from_dataset(dataset_path: str):
+    root = Path(dataset_path)
+
+    if not root.exists():
+        print(f"⚠️  Dataset não encontrado, pulando: {dataset_path}")
+        return []
+    # caso clássico CUB/FGVC
+    if (root / "train").exists():
+        classes = [d.name for d in (root / "train").iterdir() if d.is_dir()]
+    elif (root / "test").exists():
+        classes = [d.name for d in (root / "test").iterdir() if d.is_dir()]
+    else:
+        # dataset tipo CUB_200_2011 inteiro
+        classes = [d.name for d in root.iterdir() if d.is_dir()]
+
+    return sorted(classes)
 
 
-def extract_description(text: str, target: str) -> str:
-    """Extrai descrição do output do LLM"""
-    text = text.lower()
-    
-    # Procura por padrões comuns
-    markers = ["a photo of", "photo of", f"a {target}"]
-    
-    for marker in markers:
-        if marker in text:
-            start = text.find(marker)
-            desc = text[start:].strip()
-            # Pega primeira sentença
-            end = desc.find('.')
-            if end > 0:
-                return desc[:end + 1]
-            return desc[:100] + "."
-    
-    # Fallback
-    return f"a photo of a {target}."
+# ============================
+#  SIMILARITY VIA CLIP
+# ============================
+
+def find_similar_classes(target_class, all_classes, model, clip_lib, k):
+    prompts = [f"a photo of a {c.replace('_',' ')}" for c in all_classes]
+    tokens = clip_lib.tokenize(prompts).to(DEVICE)
+
+    with torch.no_grad():
+        text_emb = model.encode_text(tokens)
+        text_emb = text_emb / text_emb.norm(dim=-1, keepdim=True)
+
+    target_idx = all_classes.index(target_class)
+
+    target = text_emb[target_idx:target_idx+1].cpu().numpy()
+    all_emb = text_emb.cpu().numpy()
+
+    sims = cosine_similarity(target, all_emb)[0]
+
+    top_idx = np.argsort(sims)[::-1][1:k+1]
+    return [all_classes[i] for i in top_idx]
 
 
-# ============================================================
-# GERADOR COMPARATIVO OTIMIZADO
-# ============================================================
+# ============================
+#  EXTRACT JSON FROM RESPONSE
+# ============================
 
-class FastComparativeGenerator:
-    """Gerador otimizado com batch processing"""
+def extract_json_from_text(text: str):
+    """
+    Extrai JSON de uma resposta que pode conter texto extra.
+    Procura por array JSON válido na resposta.
+    """
+    # Remove markdown code blocks
+    text = re.sub(r'```json\s*', '', text)
+    text = re.sub(r'```\s*', '', text)
     
-    def __init__(self, pipe, num_comparisons: int = 3, batch_size: int = 8):
-        self.pipe = pipe
-        self.num_comparisons = num_comparisons
-        self.batch_size = batch_size
-        self.cache = {}  # Cache de descrições
+    # Procura por array JSON
+    # Tenta encontrar algo como ["...", "...", ...]
+    match = re.search(r'\[.*\]', text, re.DOTALL)
     
-    def generate_batch(self, prompts: List[Tuple[str, str, str]]) -> List[str]:
-        """
-        Gera múltiplas comparações em batch.
-        prompts: List[(target, contrast, category)]
-        """
-        # Cria prompts em texto
-        prompt_texts = [
-            create_comparison_prompt(target, contrast, cat)
-            for target, contrast, cat in prompts
+    if match:
+        try:
+            return json.loads(match.group(0))
+        except:
+            pass
+    
+    # Fallback: tenta parsear o texto inteiro
+    try:
+        return json.loads(text.strip())
+    except:
+        return None
+
+
+# ============================
+#  BATCHED QWEN GENERATION (FIXED)
+# ============================
+
+def generate_comparative_descriptors_for_pairs_batched(
+    target_class,
+    similar_classes,
+    num_desc,
+    llm,
+    tok
+):
+    """
+    Gera descritores para várias classes similares em batch.
+    
+    ✅ FIX: Usa apply_chat_template do Qwen2 corretamente
+    """
+    target_readable = target_class.replace("_", " ")
+    
+    # 🔍 DEBUG
+    print(f"   Gerando para {len(similar_classes)} classes similares, {num_desc} desc/par")
+
+    # Prepara mensagens de chat para cada classe similar
+    all_messages = []
+    for sim in similar_classes:
+        sim_readable = sim.replace("_", " ")
+
+        messages = [
+            {
+                "role": "system",
+                "content": "You are a visual recognition expert. Generate only valid JSON arrays. Do not include any explanatory text."
+            },
+            {
+                "role": "user",
+                "content": f"""Generate {num_desc} concise visual descriptors that distinguish "{target_readable}" from "{sim_readable}".
+
+Focus on unique physical differences (size, color, shape, patterns, distinctive features).
+
+Respond ONLY with a JSON array of strings. Example: ["darker wing edges", "longer beak", "more rounded head"]
+
+JSON array:"""
+            }
         ]
         
-        try:
-            # BATCH INFERENCE - muito mais rápido!
-            results = self.pipe(
-                prompt_texts,
-                max_new_tokens=MAX_NEW_TOKENS,
-                do_sample=False,  # Greedy decoding
-                batch_size=self.batch_size,
-                truncation=True,
-                pad_token_id=self.pipe.tokenizer.eos_token_id,
+        all_messages.append(messages)
+
+    all_desc = []
+
+    # Processa em batches
+    for i in range(0, len(all_messages), BATCH_SIZE):
+        batch_messages = all_messages[i:i+BATCH_SIZE]
+        
+        # Aplica chat template para cada mensagem no batch
+        batch_texts = [
+            tok.apply_chat_template(
+                msgs, 
+                tokenize=False, 
+                add_generation_prompt=True
+            ) 
+            for msgs in batch_messages
+        ]
+        
+        # Tokeniza o batch
+        encoded = tok(
+            batch_texts,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=512
+        ).to(llm.device)
+
+        # Gera respostas (aumentado max_new_tokens para mais descritores)
+        with torch.no_grad():
+            generated = llm.generate(
+                **encoded,
+                max_new_tokens=400,  # Aumentado de 200 para 400
+                temperature=0.7,
+                do_sample=True,
+                pad_token_id=tok.pad_token_id,
+                eos_token_id=tok.eos_token_id,
             )
-            
-            # Extrai descrições
-            descriptions = []
-            for result, (target, _, _) in zip(results, prompts):
-                text = result[0]["generated_text"]
-                desc = extract_description(text, target)
-                descriptions.append(desc)
-            
-            return descriptions
-            
-        except Exception as e:
-            print(f"⚠️ Erro no batch: {e}")
-            # Fallback: descrições simples
-            return [
-                f"a photo of a {target}, distinct from a {contrast}."
-                for target, contrast, _ in prompts
-            ]
+
+        # Decodifica apenas a parte nova (sem o prompt)
+        responses = []
+        for gen_ids, input_len in zip(generated, encoded['input_ids'].shape[1:]):
+            # Pega apenas os tokens gerados (não o prompt)
+            new_tokens = gen_ids[len(encoded['input_ids'][0]):]
+            response_text = tok.decode(new_tokens, skip_special_tokens=True)
+            responses.append(response_text)
+
+        # Parse das respostas
+        for idx, resp in enumerate(responses):
+            try:
+                # Tenta extrair JSON da resposta
+                parsed = extract_json_from_text(resp)
+                
+                if parsed and isinstance(parsed, list):
+                    # Filtra strings válidas
+                    valid_descs = [
+                        d.strip() for d in parsed 
+                        if isinstance(d, str) and len(d.strip()) > 5
+                    ]
+                    all_desc.extend(valid_descs)
+                    
+                    # 🔍 DEBUG: mostra quantos descritores foram extraídos
+                    if len(all_desc) <= 20:  # Só mostra no começo
+                        print(f"      ✓ Extraídos {len(valid_descs)} descritores")
+                else:
+                    # Fallback individual
+                    all_desc.append(f"{target_readable} has distinct features")
+                    print(f"      ⚠️  Parsed não é lista válida")
+                    
+            except Exception as e:
+                print(f"   ⚠️  Parse error: {str(e)[:50]}")
+                all_desc.append(f"{target_readable} has distinct features")
+
+    # 🔍 DEBUG FINAL
+    print(f"   ✅ Total gerado: {len(all_desc)} descritores")
     
-    def process_dataset(self, dataset_name: str, dataset_path: str, output_dir: str):
-        """Processa dataset com batching"""
-        print(f"\n📘 Dataset: {dataset_name}")
-        
-        category = get_dataset_category(dataset_name)
-        dataset_path = Path(dataset_path)
-        
-        # Carrega classes
-        classes = sorted([d.name for d in dataset_path.iterdir() if d.is_dir()])
-        
-        if len(classes) < 2:
-            print(f"⚠️ Menos de 2 classes, pulando...")
-            return
-        
-        print(f"   Classes: {len(classes)}")
-        print(f"   Comparações por classe: {self.num_comparisons}")
-        print(f"   Total de comparações: {len(classes) * self.num_comparisons}")
-        
-        # Prepara output
-        output_path = Path(output_dir) / f"{dataset_name}_comparative_descriptors.json"
-        os.makedirs(output_path.parent, exist_ok=True)
-        
-        comparative_descriptors = {}
-        
-        # Prepara TODOS os prompts de uma vez
-        all_prompts = []
-        prompt_mapping = []  # (target_class_raw, index)
-        
-        for target_class_raw in classes:
-            target_concept = sanitize_class_name(target_class_raw)
-            all_other = [c for c in classes if c != target_class_raw]
-            
-            # Seleciona contrasts
-            if len(all_other) <= self.num_comparisons:
-                contrasts = all_other
-            else:
-                contrasts = random.sample(all_other, self.num_comparisons)
-            
-            # Adiciona aos prompts
-            for contrast_raw in contrasts:
-                contrast_concept = sanitize_class_name(contrast_raw)
-                all_prompts.append((target_concept, contrast_concept, category))
-                prompt_mapping.append(target_class_raw)
-        
-        print(f"   Total de prompts preparados: {len(all_prompts)}")
-        
-        # Processa em BATCHES
-        all_descriptions = []
-        
-        pbar = tqdm(
-            range(0, len(all_prompts), self.batch_size),
-            desc=f"Gerando ({dataset_name})",
-            unit="batch"
+    return all_desc
+
+
+# ============================
+#  GENERATE FULL DATASET
+# ============================
+
+def generate_comparative_descriptors_dataset(dataset_name, class_names, model, clip_lib):
+    print(f"\n==============================")
+    print(f"📊 Dataset: {dataset_name}")
+    print(f"Classes: {len(class_names)}")
+    print(f"K={K_SIMILAR_CLASSES} similares")
+    print(f"Descritores por par={NUM_COMPARISONS_PER_PAIR}")
+    print("==============================\n")
+
+    results = {}
+
+    for cls in tqdm(class_names, desc="Classes"):
+        similar = find_similar_classes(cls, class_names, model, clip_lib, K_SIMILAR_CLASSES)
+
+        descriptors = generate_comparative_descriptors_for_pairs_batched(
+            cls,
+            similar,
+            NUM_COMPARISONS_PER_PAIR,
+            qwen,
+            tokenizer
         )
+
+        results[cls] = descriptors
         
-        start_time = time.time()
-        
-        for i in pbar:
-            batch = all_prompts[i:i + self.batch_size]
-            descs = self.generate_batch(batch)
-            all_descriptions.extend(descs)
-            
-            # Atualiza velocidade
-            elapsed = time.time() - start_time
-            speed = (i + len(batch)) / elapsed if elapsed > 0 else 0
-            pbar.set_postfix({"speed": f"{speed:.1f} comp/s"})
-        
-        # Organiza por classe
-        desc_idx = 0
-        for target_class_raw in classes:
-            num_comps = prompt_mapping.count(target_class_raw)
-            comparative_descriptors[target_class_raw] = all_descriptions[desc_idx:desc_idx + num_comps]
-            desc_idx += num_comps
-        
-        # Salva
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(comparative_descriptors, f, indent=2, ensure_ascii=False)
-        
-        elapsed = time.time() - start_time
-        total_comps = len(all_prompts)
-        speed = total_comps / elapsed
-        
-        print(f"✅ Salvo em: {output_path}")
-        print(f"⏱️  Tempo: {elapsed:.1f}s ({speed:.1f} comparações/s)")
-        print(f"📊 Classes: {len(comparative_descriptors)}")
+        # Debug: mostra alguns exemplos
+        if len(results) <= 3:
+            print(f"   {cls}: {descriptors[:3]}")
+
+    return results
 
 
-# ============================================================
-# EXECUÇÃO
-# ============================================================
+# ============================
+#  SAVE
+# ============================
+
+def save_descriptors(d, name):
+    out = OUTPUT_DIR / f"{name}_comparative.json"
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(d, f, indent=4, ensure_ascii=False)
+
+    print(f"\n✅ Salvo: {out}")
+    total = sum(len(v) for v in d.values())
+    avg = total / len(d) if d else 0
+    print(f"Total descritores: {total}")
+    print(f"Média por classe: {avg:.1f}")
+    
+    # Mostra exemplos de descritores gerados
+    if d:
+        first_class = list(d.keys())[0]
+        print(f"\nExemplo ({first_class}):")
+        for desc in d[first_class][:5]:
+            print(f"  - {desc}")
+
+
+# ============================
+#  MAIN
+# ============================
 
 def main():
-    OUTPUT_DIR = "descriptors_comparative_llm"
-    
+
+    print("🔄 Carregando CLIP...")
+    model, _ = clip.load(MODEL_NAME, device=DEVICE)
+    model.eval()
+    print("✅ CLIP carregado!\n")
+
     datasets = load_datasets_from_summary(SUMMARY_PATH)
-    
+
     if not datasets:
-        print("❌ Nenhum dataset carregado")
+        print("❌ Nenhum dataset no summary.json")
         return
-    
-    print(f"\n{'='*70}")
-    print(f"🚀 GERADOR COMPARATIVO ULTRA-RÁPIDO")
-    print(f"{'='*70}")
-    print(f"Configuração:")
-    print(f"  - Batch size: {BATCH_SIZE}")
-    print(f"  - Comparações/classe: {NUM_COMPARISONS}")
-    print(f"  - Max tokens: {MAX_NEW_TOKENS}")
-    print(f"  - Precision: FP16")
-    print(f"  - Sampling: Greedy (do_sample=False)")
-    print(f"{'='*70}\n")
-    
-    generator = FastComparativeGenerator(
-        pipe,
-        num_comparisons=NUM_COMPARISONS,
-        batch_size=BATCH_SIZE
-    )
-    
-    total_start = time.time()
-    
-    for dataset_name, dataset_path in datasets.items():
-        generator.process_dataset(dataset_name, dataset_path, OUTPUT_DIR)
-    
-    total_elapsed = time.time() - total_start
-    
-    print(f"\n{'='*70}")
-    print(f"✅ CONCLUÍDO!")
-    print(f"⏱️  Tempo total: {total_elapsed/60:.1f} minutos")
-    print(f"📁 Resultados em: {OUTPUT_DIR}")
-    print(f"{'='*70}\n")
+
+    for name, path in datasets.items():
+        class_names = extract_classes_from_dataset(path)
+
+        if not class_names:
+            print(f"⚠️ Nada encontrado em {name}")
+            continue
+
+        desc = generate_comparative_descriptors_dataset(
+            name, class_names, model, clip
+        )
+
+        save_descriptors(desc, name)
 
 
 if __name__ == "__main__":

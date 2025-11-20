@@ -1,0 +1,125 @@
+{
+  "Broad_winged_Hawk": [
+    "ruffled wing edges",
+    "dark eye",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Coopers_Hawk": [
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Ferruginous_Hawk": [
+    "curved beak",
+    "sharp talons",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Gambels_Quail": [
+    "2-toned head",
+    "black beak",
+    "brown and white feathers",
+    "striped pattern on body",
+    "black and white tail",
+    "reddish-brown crest",
+    "grey wings",
+    "white underbelly",
+    "black legs",
+    "brown feet"
+  ],
+  "Golden_Eagle": [
+    "sharp beak",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Long_tailed_Duck": [
+    "black and white body",
+    "pink beak",
+    "white neck",
+    "2-toned head",
+    "black tail feathers",
+    "white wing tips",
+    "black and white wing"
+  ],
+  "Northern_Goshawk": [
+    "white underbelly",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Northern_Mockingbird": [
+    "1. grey and white feathers",
+    "2. black beak",
+    "3. yellowish breast",
+    "4. black and white tail",
+    "5. brown legs",
+    "6. black and white wing",
+    "7. small head",
+    "8. rounded body",
+    "9. short neck",
+    "10. curved tail feathers"
+  ],
+  "Red_shouldered_Hawk": [
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Red_tailed_Hawk": [
+    "red tail feathers",
+    "brown and white body",
+    "dark eye",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Rough_legged_Hawk": [
+    "dark eyes",
+    "2-toned feathers",
+    "curved beak",
+    "sharp talons",
+    "rough legs",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "Sharp_shinned_Hawk": [
+    "ruffled feathers on chest",
+    "distinct bird appearance",
+    "characteristic shape",
+    "recognizable pattern"
+  ],
+  "White_crowned_Sparrow": [
+    "1. white feathers",
+    "2. brown crown",
+    "3. black eye",
+    "4. yellow beak",
+    "5. gray tail",
+    "6. brown legs",
+    "7. brown feet",
+    "8. brown wingtips",
+    "9. brown stripes on wings",
+    "10. brown spots on chest"
+  ],
+  "White_tailed_Hawk": [
+    "dark eye",
+    "2-toned feathers",
+    "white tail",
+    "white underbelly",
+    "sharp beak",
+    "curved talons",
+    "pointed head",
+    "dark wingtips"
+  ],
+  "Zone_tailed_Hawk": [
+    "2-toned feathers",
+    "dark eye",
+    "white underbelly",
+    "sharp talons",
+    "striped tail",
+    "black body"
+  ]
+}

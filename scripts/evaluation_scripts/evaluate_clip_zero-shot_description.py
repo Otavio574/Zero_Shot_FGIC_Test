@@ -1,7 +1,9 @@
 """
-Avaliação Zero-Shot com CLIP usando descriptions detalhadas.
-IMPLEMENTAÇÃO SINGLE-DESCRIPTOR (PADRÃO): Classifica usando APENAS
-uma descrição por classe (string), alinhando-se ao formato do seu JSON atual.
+Avaliação Zero-Shot com CLIP usando MULTI-DESCRIPTORS.
+Versão rigorosamente compatível com o paper (DCLIP-style):
+- Cada classe pode ter 1 ou vários descritores.
+- Embeddings médios por classe (normalizados).
+- Similaridade imagem–texto com CLIP ViT-B/32.
 """
 
 import os
@@ -10,241 +12,253 @@ import torch
 import numpy as np
 import clip
 from tqdm import tqdm
+from pathlib import Path
 from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
-from pathlib import Path
 import traceback
 
-# ============================
-# CONFIGURAÇÕES
-# ============================
+# ============================================================
+# CONFIG
+# ============================================================
 
-def load_datasets_from_summary(summary_path: Path) -> dict:
-    """Carrega configuração de datasets do summary.json"""
-    try:
-        with open(summary_path, 'r', encoding='utf-8') as f:
-            summary = json.load(f)
-    except Exception as e:
-        print(f"❌ Erro ao carregar summary: {e}")
+SUMMARY_PATH = Path("outputs/analysis/summary.json")
+EMBED_DIR = Path("embeddings_openai")
+DESCRIPTOR_DIR = Path("descriptors_dclip")
+RESULTS_DIR = Path("all_zero-shot_results/results_zero_shot_description")
+
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+MODEL_NAME = "ViT-B/32"
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+
+# ============================================================
+# LOAD SUMMARY
+# ============================================================
+
+def load_datasets_from_summary(path: Path):
+    if not path.exists():
+        print("❌ summary.json não encontrado!")
         return {}
 
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
     datasets = {}
-    if isinstance(summary, list):
-        for item in summary:
-            dataset_name = item.get('dataset')
-            dataset_path = item.get('path')
-            if dataset_name and dataset_path:
-                datasets[dataset_name] = dataset_path
-    elif isinstance(summary, dict) and 'datasets' in summary:
-        for name, path in summary['datasets'].items():
-            datasets[name] = path
+    for item in data:
+        if "dataset" in item and "path" in item:
+            datasets[item["dataset"]] = item["path"]
 
     return datasets
 
 
-path_string = "all_zero-shot_results/"
-SUMMARY_PATH = Path("outputs/analysis/summary.json")
 DATASETS = load_datasets_from_summary(SUMMARY_PATH)
 
-MODEL_NAME = "ViT-B/32"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = path_string + "results_zero_shot_description_single_final"
 
-os.makedirs(RESULTS_DIR, exist_ok=True)
+# ============================================================
+# SANITIZAR NOMES (compatível com embeddings salvos)
+# ============================================================
 
-# ============================
-# FUNÇÕES AUXILIARES
-# ============================
-
-def sanitize_class_name(class_name: str) -> str:
-    """Função auxiliar para limpar nomes de classe."""
-    parts = class_name.split('.', 1)
+def sanitize_class_name(name: str) -> str:
+    parts = name.split(".", 1)
     if len(parts) == 2 and parts[0].isdigit():
-        class_name = parts[1]
-    return class_name.lower().replace('_', ' ').replace('-', ' ').strip()
+        name = parts[1]
+    return name.replace("_", " ").replace("-", " ").lower().strip()
 
 
-def load_descriptions(dataset_name):
-    """Carrega descrições do dataset."""
-    path = os.path.join("descriptors_local_llm", f"{dataset_name}_local_descriptors.json")
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print(f"❌ Descritores não encontrados em {path}.")
-        return {}
-    except json.JSONDecodeError:
-        print(f"❌ Erro ao ler JSON de descritores em {path}")
+# ============================================================
+# CARREGAR DESCRITORES
+# ============================================================
+
+def load_descriptions(dataset_name: str):
+    path = DESCRIPTOR_DIR / f"{dataset_name}_dclip.json"
+
+    if not path.exists():
+        print(f"❌ Descriptors não encontrados: {path}")
         return {}
 
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-def load_embeddings_and_generate_text(dataset_name, descriptions, model):
-    """
-    Carrega embeddings de imagem e gera embeddings de texto de UMA string por classe.
-    """
-    embedding_path = os.path.join("embeddings", f"{dataset_name}.pt")
 
-    if not os.path.exists(embedding_path):
-        print(f"⚠️  Embeddings de imagem não encontrados: {embedding_path}")
+# ============================================================
+# MULTI-DESCRIPTOR → EMBEDDING CLIP COM TEMPLATE
+# ============================================================
+
+def get_text_embedding_for_class(class_name, texts, model, clip_library, device):
+    """
+    Aceita lista de descritores e retorna o embedding médio (normalizado).
+    USA TEMPLATE: "a photo of a {class}, which {descriptor}"
+    """
+    
+    # sempre vira lista
+    if texts is None:
+        texts = []
+    if isinstance(texts, str):
+        texts = [texts]
+    if not isinstance(texts, list):
+        texts = [str(texts)]
+
+    # limpeza
+    texts = [t.strip() for t in texts if isinstance(t, str) and t.strip()]
+
+    # nome da classe legível
+    class_readable = class_name.replace('_', ' ')
+
+    # fallback ou template
+    if len(texts) == 0:
+        texts = [f"a photo of a {class_readable}"]
+    else:
+        # 🔥 TEMPLATE CRÍTICO (DCLIP-style):
+        texts = [f"a photo of a {class_readable}, which {desc}" for desc in texts]
+
+    # tokenizar com a LIB clip do OpenAI
+    tokens = clip_library.tokenize(texts).to(device)
+
+    # encode
+    with torch.no_grad():
+        text_embeds = model.encode_text(tokens)
+        text_embeds = text_embeds / text_embeds.norm(dim=-1, keepdim=True)
+
+    # média de descritores
+    final = text_embeds.mean(dim=0)
+    final = final / final.norm()
+
+    return final.cpu()
+
+
+# ============================================================
+# CARREGA EMBEDDINGS + TEXT EMBEDDINGS
+# ============================================================
+
+def load_embeddings_and_generate_text(dataset_name, descriptions, model, clip_library):
+    emb_path = EMBED_DIR / f"{dataset_name}.pt"
+
+    if not emb_path.exists():
+        print(f"⚠️  Embeddings não encontrados: {emb_path}")
         return None, None, None, None
 
-    print(f"📂 Carregando embeddings de imagem: {embedding_path}")
-    embeddings_data = torch.load(embedding_path, weights_only=False, map_location='cpu')
+    print(f"📂 Carregando embeddings: {emb_path}")
+    data = torch.load(emb_path, map_location="cpu", weights_only=False)
 
-    image_embeds = embeddings_data.get('image_embeddings')
-    image_paths = embeddings_data.get('image_paths')
+    image_embeds = data.get("image_embeddings")
+    image_paths = data.get("image_paths")
 
     if image_embeds is None or image_paths is None:
-        print("❌ Chaves 'image_embeddings' ou 'image_paths' não encontradas no arquivo .pt.")
+        print("❌ .pt inválido, faltando chaves")
         return None, None, None, None
 
-    labels = []
-    unique_class_names_from_paths = sorted(list(set(Path(p).parts[-2] for p in image_paths if len(Path(p).parts) >= 2)))
-    class_to_idx_sorted = {name: idx for idx, name in enumerate(unique_class_names_from_paths)}
-    class_names = unique_class_names_from_paths
-
-    for path in image_paths:
-        class_name = Path(path).parts[-2] if len(Path(path).parts) >= 2 else "unknown"
-        labels.append(class_to_idx_sorted.get(class_name, -1))
-
-    labels = np.array(labels)
-
-    print(f"   Total de imagens: {len(labels)} | Classes: {len(class_names)}")
-
-    all_class_texts = []
-    for class_name in class_names:
-        description_data = descriptions.get(class_name)
-
-        if isinstance(description_data, str):
-            text_to_use = description_data
-        elif isinstance(description_data, list) and description_data:
-            text_to_use = description_data[0]
-            print(f"⚠️ Aviso: Classe '{class_name}' tem lista de templates. Usando APENAS o primeiro.")
-        else:
-            text_to_use = f"a photo of a {sanitize_class_name(class_name)}"
-            print(f"❌ Erro de formato para '{class_name}'. Usando template padrão.")
-
-        all_class_texts.append(text_to_use)
-
-    print(f"\n📝 Gerando text embeddings para {len(all_class_texts)} classes...")
-
-    text_tokens = clip.tokenize(all_class_texts, truncate=True).to(DEVICE)
-
-    with torch.no_grad():
-        text_embeds = model.encode_text(text_tokens)
-        text_embeds /= text_embeds.norm(dim=-1, keepdim=True)
-
-    print(f"✅ Text embeddings prontos! Shape: {text_embeds.shape}")
-
-    return image_embeds.cpu(), text_embeds.cpu(), labels, class_names
-
-
-def evaluate_zero_shot_single_descriptor(image_embeds, text_embeds, labels):
-    """Calcula acurácia zero-shot com Single-Descriptor (comparação direta)."""
+    # garante float32 e normalização
     image_embeds = image_embeds.float()
-    text_embeds = text_embeds.float()
+    image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
 
-    final_similarity_matrix = image_embeds @ text_embeds.T
-    preds = final_similarity_matrix.argmax(dim=-1).numpy()
+    class_names = sorted(list(set(Path(p).parts[-2] for p in image_paths)))
+    class_to_idx = {c: i for i, c in enumerate(class_names)}
+    labels = np.array([class_to_idx[Path(p).parts[-2]] for p in image_paths])
 
+    print(f"   Total imagens: {len(labels)} | Classes: {len(class_names)}")
+    
+    # 🔍 DEBUG:
+    print(f"\n🔍 DEBUG - Classes do embedding:")
+    print(f"   Total: {len(class_names)}")
+    print(f"   Primeiras 5: {class_names[:5]}")
+    
+    print(f"\n🔍 DEBUG - Verificando match com descritores:")
+    matches = sum(1 for cls in class_names if cls in descriptions)
+    print(f"   Classes que batem: {matches}/{len(class_names)}")
+
+    # text embeddings multi-descriptor COM TEMPLATE
+    print("📝 Gerando text embeddings...")
+
+    text_embeds_list = []
+    for cls in class_names:
+        texts = descriptions.get(cls, [])
+        emb = get_text_embedding_for_class(cls, texts, model, clip_library, DEVICE)
+        text_embeds_list.append(emb)
+
+    text_embeds = torch.stack(text_embeds_list, dim=0)  # [num_classes, 512]
+
+    print(f"✅ Text embeddings: {text_embeds.shape}")
+
+    return image_embeds, text_embeds, labels, class_names
+
+
+# ============================================================
+# ZERO-SHOT COM DEBUG
+# ============================================================
+
+def evaluate_zero_shot(img_embeds, text_embeds, labels):
+    sims = img_embeds @ text_embeds.T  # [N_imgs, N_classes]
+    preds = sims.argmax(dim=-1).numpy()
+    
+    # 🔍 DEBUG:
+    print(f"\n🔍 Similaridades:")
+    print(f"   Min: {sims.min():.4f}, Max: {sims.max():.4f}")
+    print(f"   Mean: {sims.mean():.4f}, Std: {sims.std():.4f}")
+    
+    # Top-5 accuracy
+    top5_preds = sims.topk(5, dim=-1).indices.numpy()
+    top5_acc = sum(labels[i] in top5_preds[i] for i in range(len(labels))) / len(labels)
+    print(f"   Top-5 Accuracy: {top5_acc:.4f}")
+    
     acc = accuracy_score(labels, preds)
     return acc, preds
 
 
-def plot_confusion_matrix(labels, preds, class_names, output_path):
-    """Gera e salva matriz de confusão"""
-    try:
-        cm = confusion_matrix(labels, preds, normalize='true')
-    except ValueError as e:
-        print(f"❌ Erro ao calcular matriz de confusão: {e}")
-        return
-
-    plt.figure(figsize=(12, 10))
-    plt.imshow(cm, cmap='viridis', aspect='auto')
-    plt.title("CLIP Zero-Shot with Single Description (Final)", fontsize=14)
-    plt.colorbar()
-
-    fontsize = max(3, 12 - len(class_names) // 10)
-    plt.xticks(np.arange(len(class_names)), class_names, rotation=90, fontsize=fontsize)
-    plt.yticks(np.arange(len(class_names)), class_names, fontsize=fontsize)
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
-    plt.tight_layout()
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
-    plt.close()
-
-# ============================
-# AVALIAÇÃO PRINCIPAL
-# ============================
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
-    print(f"🚀 Avaliação Zero-Shot com CLIP + Descriptions (SINGLE-DESCRIPTOR FINAL)")
+    print("🚀 Zero-Shot Evaluation — CLIP + Multi Descriptors + Template")
     print(f"📦 Modelo: {MODEL_NAME}")
     print(f"💻 Device: {DEVICE}\n")
 
-    print("🔄 Carregando modelo CLIP...")
+    print("🔄 Carregando CLIP...")
     model, _ = clip.load(MODEL_NAME, device=DEVICE)
+    model.eval()
     print("✅ Modelo carregado!\n")
 
-    summary = {
-        "model": MODEL_NAME,
-        "method": "CLIP with Single Description (Final Attempt)",
-        "total_datasets": len(DATASETS),
-        "successful": 0,
-        "failed": 0,
-        "results": {}
-    }
+    summary = {}
 
     for dataset_name, dataset_path in DATASETS.items():
-        print(f"\n{'='*70}")
-        print(f"📊 Avaliando dataset: {dataset_name}")
-        print(f"{'='*70}")
+
+        print("=" * 70)
+        print(f"📊 Avaliando {dataset_name}")
+        print("=" * 70)
 
         try:
             descriptions = load_descriptions(dataset_name)
             if not descriptions:
-                print(f"⏭️  Não há descrições para {dataset_name}. Pulando.")
-                summary["failed"] += 1
+                print("⏭️  Sem descrições → ignorado.")
                 continue
 
-            print(f"✅ Descriptions carregadas: {len(descriptions)} classes")
-
-            image_embeds, text_embeds, labels, class_names = load_embeddings_and_generate_text(dataset_name, descriptions, model)
+            image_embeds, text_embeds, labels, class_names = \
+                load_embeddings_and_generate_text(dataset_name, descriptions, model, clip)
 
             if image_embeds is None:
-                print(f"⏭️  Pulando {dataset_name} devido à falha no carregamento/parsing.")
-                summary["failed"] += 1
                 continue
 
-            acc, preds = evaluate_zero_shot_single_descriptor(image_embeds, text_embeds, labels)
-            print(f"\n✅ Acurácia zero-shot (CLIP Single-Descriptor): {acc:.4f}")
+            acc, preds = evaluate_zero_shot(image_embeds.float(), text_embeds.float(), labels)
 
-            plot_path = os.path.join(RESULTS_DIR, f"{dataset_name}_cm_single_description_final.png")
-            plot_confusion_matrix(labels, preds, class_names, output_path=plot_path)
+            print(f"🎯 Accuracy Zero-Shot: {acc:.4f}")
 
-            summary["successful"] += 1
-            summary["results"][dataset_name] = {
+            summary[dataset_name] = {
                 "accuracy": float(acc),
-                "num_classes": len(text_embeds),
+                "num_classes": len(class_names),
                 "num_images": len(labels),
-                "confusion_matrix_plot": plot_path
             }
 
         except Exception as e:
-            print(f"❌ Erro ao processar {dataset_name}: {e}")
+            print(f"❌ Erro no dataset {dataset_name}: {e}")
             traceback.print_exc()
-            summary["failed"] += 1
-            continue
 
-    out_path = os.path.join(RESULTS_DIR, "zero_shot_results_single_description_final.json")
+    # salvar resultados
+    out_path = RESULTS_DIR / "zero_shot_results_multi_descriptor_with_template.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
 
-    print(f"\n{'='*70}")
-    print(f"📈 Resultados salvos em {out_path}")
-    print(f"✅ {summary['successful']} datasets processados com sucesso.")
-    print(f"❌ {summary['failed']} falharam.")
-    print(f"{'='*70}\n")
+    print("\n📈 Resultados salvos em:", out_path)
 
 
 if __name__ == "__main__":

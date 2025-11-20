@@ -1,0 +1,98 @@
+{
+  "Broad_winged_Hawk": [
+    "sharp beak",
+    "sharp talons",
+    "sharp claws",
+    "sharp wings"
+  ],
+  "Coopers_Hawk": [
+    "sharp beak",
+    "sharp talons",
+    "sharp claws",
+    "brown and white feathers"
+  ],
+  "Ferruginous_Hawk": [
+    "tail feathers"
+  ],
+  "Gambels_Quail": [
+    "head with black and red feathers",
+    "orange and black crest",
+    "long tail feathers"
+  ],
+  "Golden_Eagle": [
+    "sharp beak",
+    "sharp talons",
+    "sharp wings",
+    "sharp feathers"
+  ],
+  "Long_tailed_Duck": [
+    "black and white feathers",
+    "white head",
+    "pink beak",
+    "black beak",
+    "black body",
+    "black tail",
+    "black wings"
+  ],
+  "Northern_Goshawk": [
+    "feather flexibility",
+    "tail feathers"
+  ],
+  "Northern_Mockingbird": [
+    "black head",
+    "yellow breast",
+    "white underparts",
+    "black beak",
+    "brown legs",
+    "gray feathers"
+  ],
+  "Red_shouldered_Hawk": [
+    "sharp talons",
+    "sharp claws",
+    "sharp wings",
+    "sharp tail feathers",
+    "sharp eyes",
+    "brown feathers"
+  ],
+  "Red_tailed_Hawk": [
+    "sharp claws",
+    "sharp talons",
+    "sharp beak",
+    "tail feathers"
+  ],
+  "Rough_legged_Hawk": [
+    "sharp beak",
+    "sharp talons",
+    "sharp claws",
+    "tail feathers",
+    "body shape",
+    "sharp wings"
+  ],
+  "Sharp_shinned_Hawk": [
+    "sharp talons",
+    "sharp beak",
+    "sharp wings",
+    "sharp claws",
+    "beak size",
+    "beak position",
+    "eye color",
+    "beak movement",
+    "tail movement",
+    "tail position"
+  ],
+  "White_crowned_Sparrow": [
+    "white head",
+    "black stripe",
+    "yellow beak",
+    "gray body",
+    "brown wings",
+    "brown spots"
+  ],
+  "White_tailed_Hawk": [
+    "tail feathers"
+  ],
+  "Zone_tailed_Hawk": [
+    "tail feathers",
+    "body shape"
+  ]
+}
