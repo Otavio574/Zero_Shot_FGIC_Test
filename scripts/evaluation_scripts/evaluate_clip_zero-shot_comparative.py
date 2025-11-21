@@ -24,8 +24,8 @@ import traceback
 
 SUMMARY_PATH = Path("outputs/analysis/summary.json")
 EMBED_DIR = Path("embeddings_openai")
-DESCRIPTOR_DIR = Path("descriptors_comparative_1")  # Descritores comparativos
-RESULTS_DIR = Path("all_zero-shot_results/results_comparative_clip_1")
+DESCRIPTOR_DIR = Path("descriptors_comparative_fast")  # Descritores comparativos
+RESULTS_DIR = Path("all_zero-shot_results/results_comparative_clip_2")
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -64,7 +64,7 @@ def load_comparative_descriptions(dataset_name: str):
     """
     Carrega descritores comparativos do Comparative-CLIP.
     """
-    path = DESCRIPTOR_DIR / f"{dataset_name}_comparative.json"
+    path = DESCRIPTOR_DIR / f"{dataset_name}_comparative_fast.json"
 
     if not path.exists():
         print(f"❌ Descritores comparativos não encontrados: {path}")

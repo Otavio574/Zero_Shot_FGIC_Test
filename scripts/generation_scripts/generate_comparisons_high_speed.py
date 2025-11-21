@@ -131,20 +131,33 @@ def compute_class_text_embeddings(class_names, model, clip_lib):
 
 def find_similar_classes(target_index, class_names, class_embeds, k):
     """
-    Encontra as k classes mais similares usando produto interno,
-    assumindo class_embeds normalizado.
-    target_index: índice da classe alvo em class_names.
+    Encontra as k classes mais similares usando produto interno (cosine similarity),
+    sem overflow em fp16 e sem conflitos de device (CPU vs CUDA).
     """
+
+    device = class_embeds.device
+
     with torch.no_grad():
-        target = class_embeds[target_index : target_index + 1]  # [1, D]
-        sims = (target @ class_embeds.T).squeeze(0)            # [C]
+        target = class_embeds[target_index:target_index+1]           # [1, D]
+        sims = (target @ class_embeds.T).squeeze(0).clone()          # [C]
 
-        # ordenar em desc, ignorando a própria (idx=target_index)
-        sims[target_index] = -1e9  # força a sair
-        topk = torch.topk(sims, k=k)
-        indices = topk.indices.cpu().tolist()
+        # Máscara booleana no MESMO device
+        mask = torch.ones_like(sims, dtype=torch.bool, device=device)
+        mask[target_index] = False
 
-    return [class_names[i] for i in indices]
+        # Similaridades válidas (remove a própria classe)
+        valid_sims = sims[mask]                                      # [C-1]
+
+        # top-k dentro dos válidos
+        topk_vals, topk_idx_valid = torch.topk(valid_sims, k=k)
+
+        # Mapeia de volta para índices originais
+        all_indices = torch.arange(len(class_names), device=device)  # NO MESMO DEVICE
+        original_indices = all_indices[mask][topk_idx_valid]
+
+    return [class_names[int(i)] for i in original_indices]
+
+
 
 
 # ============================

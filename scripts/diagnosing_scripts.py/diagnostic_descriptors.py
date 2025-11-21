@@ -12,10 +12,10 @@ import numpy as np
 # CONFIG
 # ============================================================
 
-DCLIP_DIR = Path("descriptors_dclip")
-COMPARATIVE_DIR = Path("descriptors_comparative")
+DCLIP_DIR = Path("descriptors_comparative")
+COMPARATIVE_DIR = Path("descriptors_comparative_1")
 
-DATASET = "CUB200"  # Ajuste conforme necessário
+DATASET = "CUB_200_2011"  # Ajuste conforme necessário
 
 
 # ============================================================
@@ -214,7 +214,7 @@ def main():
     print("="*70)
     
     # Analisa DCLIP
-    dclip_path = DCLIP_DIR / f"{DATASET}_dclip.json"
+    dclip_path = DCLIP_DIR / f"{DATASET}_comparative.json"
     dclip_stats = load_and_analyze_descriptors(dclip_path, "DCLIP")
     
     # Analisa Comparative-CLIP
@@ -230,4 +230,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main
+    main()

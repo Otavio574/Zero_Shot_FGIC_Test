@@ -1,0 +1,23 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.3659976387249115,
+        "accuracy_top5": 0.8783943329397875,
+        "num_classes": 15,
+        "num_images": 847,
+        "method": "comparative_clip_filtered"
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.5308579179382842,
+        "accuracy_top5": 0.840030518819939,
+        "num_classes": 200,
+        "num_images": 11796,
+        "method": "comparative_clip_filtered"
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.24272427242724273,
+        "accuracy_top5": 0.6144614461446145,
+        "num_classes": 70,
+        "num_images": 3333,
+        "method": "comparative_clip_filtered"
+    }
+}
