@@ -4,6 +4,7 @@ SOTA-style DCLIP descriptor generator using Qwen2-7B-Instruct (Mode 1 verificati
 - Generates short, visual-only, discriminative attributes per class.
 - Post-processing: filtering, dedup, diversity, fallback, and light semantic checks.
 - Output ready to be used as DCLIP text descriptors.
+- Skips datasets that already have descriptors generated.
 
 Output format (JSON):
 {
@@ -45,35 +46,6 @@ BATCH_SIZE = 32
 # Desired number of attributes per class
 MIN_FEATURES = 6
 MAX_FEATURES = 10
-
-
-print(f"🚀 Loading model: {MODEL_NAME} (device={DEVICE})")
-
-# Explicit tokenizer/model so we can set padding_side='left'
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-tokenizer.padding_side = "left"
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
-
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME,
-    torch_dtype="auto",
-    device_map="auto",
-)
-
-pipe = pipeline(
-    "text-generation",
-    model=model,
-    tokenizer=tokenizer,
-)
-
-# pad_token_id fix (important for batching)
-if pipe.tokenizer.pad_token is None:
-    pipe.tokenizer.pad_token = pipe.tokenizer.eos_token
-if getattr(pipe.model.config, "pad_token_id", None) is None:
-    pipe.model.config.pad_token_id = pipe.tokenizer.pad_token_id
-
-print("✅ Model loaded.\n")
 
 
 # ============================================================
@@ -624,15 +596,76 @@ def main():
         print("❌ No datasets loaded from summary.json")
         return
 
+    # ============================
+    # VERIFICAÇÃO DE DATASETS JÁ PROCESSADOS
+    # ============================
+    
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    
+    datasets_to_process = {}
+    datasets_skipped = []
+    
+    for dataset_name, dataset_path in datasets.items():
+        output_file = OUTPUT_DIR / f"{dataset_name}_dclip.json"
+        if output_file.exists():
+            print(f"⏭️  Pulando {dataset_name} (descritores já existem)")
+            datasets_skipped.append(dataset_name)
+        else:
+            datasets_to_process[dataset_name] = dataset_path
+    
+    if datasets_skipped:
+        print(f"\n📋 Datasets pulados: {len(datasets_skipped)}")
+        print(f"🔨 Datasets a processar: {len(datasets_to_process)}\n")
+    
+    if not datasets_to_process:
+        print("✅ Todos os descritores já foram gerados!")
+        return
+
+    # ============================
+    # CARREGAMENTO DO MODELO
+    # ============================
+
+    print(f"🚀 Loading model: {MODEL_NAME} (device={DEVICE})")
+
+    # Explicit tokenizer/model so we can set padding_side='left'
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    tokenizer.padding_side = "left"
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_NAME,
+        torch_dtype="auto",
+        device_map="auto",
+    )
+
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+    )
+
+    # pad_token_id fix (important for batching)
+    if pipe.tokenizer.pad_token is None:
+        pipe.tokenizer.pad_token = pipe.tokenizer.eos_token
+    if getattr(pipe.model.config, "pad_token_id", None) is None:
+        pipe.model.config.pad_token_id = pipe.tokenizer.pad_token_id
+
+    print("✅ Model loaded.\n")
+
+    # ============================
+    # PROCESSAMENTO DOS DATASETS
+    # ============================
+
     gen = Qwen2SOTADescriptorGenerator(pipe, batch_size=BATCH_SIZE)
 
     print("=" * 70)
     print("🚀 SOTA DCLIP descriptor generation with Qwen2-7B-Instruct (Mode 1 verification)")
-    print(f"📊 Total datasets: {len(datasets)}")
+    print(f"📊 Total datasets: {len(datasets_to_process)}")
     print(f"📁 Output dir: {OUTPUT_DIR}")
     print("=" * 70)
 
-    for dataset_name, dataset_path in datasets.items():
+    for dataset_name, dataset_path in datasets_to_process.items():
         gen.process_dataset(dataset_name, dataset_path, OUTPUT_DIR)
 
     print("\n🎯 All done!")

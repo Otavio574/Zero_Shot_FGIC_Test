@@ -24,7 +24,7 @@ import traceback
 SUMMARY_PATH = Path("outputs/analysis/summary.json")
 EMBED_DIR = Path("embeddings_openai")
 DESCRIPTOR_DIR = Path("descriptors_dclip")
-RESULTS_DIR = Path("all_zero-shot_results/results_zero_shot_description")
+RESULTS_DIR = Path("all_zero-shot_results/results_description_clip")
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -190,19 +190,14 @@ def load_embeddings_and_generate_text(dataset_name, descriptions, model, clip_li
 def evaluate_zero_shot(img_embeds, text_embeds, labels):
     sims = img_embeds @ text_embeds.T  # [N_imgs, N_classes]
     preds = sims.argmax(dim=-1).numpy()
-    
-    # 🔍 DEBUG:
-    print(f"\n🔍 Similaridades:")
-    print(f"   Min: {sims.min():.4f}, Max: {sims.max():.4f}")
-    print(f"   Mean: {sims.mean():.4f}, Std: {sims.std():.4f}")
-    
+
     # Top-5 accuracy
-    top5_preds = sims.topk(5, dim=-1).indices.numpy()
-    top5_acc = sum(labels[i] in top5_preds[i] for i in range(len(labels))) / len(labels)
-    print(f"   Top-5 Accuracy: {top5_acc:.4f}")
-    
+    top5 = sims.topk(5, dim=-1).indices.numpy()
+    top5_acc = sum(labels[i] in top5[i] for i in range(len(labels))) / len(labels)
+
     acc = accuracy_score(labels, preds)
-    return acc, preds
+    return acc, top5_acc, preds
+
 
 
 # ============================================================
@@ -239,22 +234,26 @@ def main():
             if image_embeds is None:
                 continue
 
-            acc, preds = evaluate_zero_shot(image_embeds.float(), text_embeds.float(), labels)
+            acc1, acc5, preds = evaluate_zero_shot(image_embeds.float(), text_embeds.float(), labels)
 
-            print(f"🎯 Accuracy Zero-Shot: {acc:.4f}")
+            print(f"🎯 Top-1: {acc1:.4f} | Top-5: {acc5:.4f}")
 
             summary[dataset_name] = {
-                "accuracy": float(acc),
+                "accuracy_top1": float(acc1),
+                "accuracy_top5": float(acc5),
                 "num_classes": len(class_names),
                 "num_images": len(labels),
+                "method": "description_clip",
+                "template": "a photo of a {class}, which {descriptor}"
             }
+
 
         except Exception as e:
             print(f"❌ Erro no dataset {dataset_name}: {e}")
             traceback.print_exc()
 
     # salvar resultados
-    out_path = RESULTS_DIR / "zero_shot_results_multi_descriptor_with_template.json"
+    out_path = RESULTS_DIR / "description_clip_results.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
 

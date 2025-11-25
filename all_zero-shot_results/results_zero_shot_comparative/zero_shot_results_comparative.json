@@ -1,8 +1,0 @@
-{
-    "model": "ViT-B/32",
-    "method": "CLIP + Comparações entre classes",
-    "total_datasets": 20,
-    "successful": 0,
-    "failed": 20,
-    "results": {}
-}

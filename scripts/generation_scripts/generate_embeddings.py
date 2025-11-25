@@ -15,7 +15,7 @@ MODEL_NAME = "ViT-B/32"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 SUMMARY_PATH = Path("outputs/analysis/summary.json")
-OUT_DIR = Path("embeddings_openai")
+OUT_DIR = Path("embeddings")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -51,12 +51,32 @@ def main():
         print("❌ Nenhum dataset encontrado no summary.json")
         return
 
+    # Verificar quais datasets já têm embeddings
+    datasets_to_process = {}
+    datasets_skipped = []
+    
+    for dataset_name, dataset_path in datasets.items():
+        save_path = OUT_DIR / f"{dataset_name}.pt"
+        if save_path.exists():
+            print(f"⏭️  Pulando {dataset_name} (embedding já existe)")
+            datasets_skipped.append(dataset_name)
+        else:
+            datasets_to_process[dataset_name] = dataset_path
+    
+    if datasets_skipped:
+        print(f"\n📋 Datasets pulados: {len(datasets_skipped)}")
+        print(f"🔨 Datasets a processar: {len(datasets_to_process)}\n")
+    
+    if not datasets_to_process:
+        print("✅ Todos os embeddings já foram gerados!")
+        return
+
     print("🔄 Carregando CLIP...")
     model, preprocess = clip.load(MODEL_NAME, device=DEVICE)
     model.eval()
     print("✅ Modelo carregado!\n")
 
-    for dataset_name, dataset_path in datasets.items():
+    for dataset_name, dataset_path in datasets_to_process.items():
         root = Path(dataset_path)
         if not root.exists():
             print(f"⚠️ Dataset não encontrado: {root}")
