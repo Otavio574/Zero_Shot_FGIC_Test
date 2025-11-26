@@ -1,0 +1,487 @@
+{
+  "banded": [
+    "banded pattern",
+    "dark and light bands",
+    "horizontal lines",
+    "distinct color contrast",
+    "textured bands",
+    "uniform band spacing",
+    "rounded band edges",
+    "thin versus thick bands"
+  ],
+  "blotchy": [
+    "blotchy coloration",
+    "irregular patches",
+    "uneven texture",
+    "speckled appearance",
+    "mottled surface",
+    "contrasting spots",
+    "patchy pattern",
+    "mosaic design"
+  ],
+  "braided": [
+    "Braids texture",
+    "Interwoven strands",
+    "Patterned weave",
+    "Distinct braid shape",
+    "Consistent thickness variation",
+    "Color contrast within braid",
+    "Material visibility",
+    "Knots at ends",
+    "Symmetry in structure"
+  ],
+  "bubbly": [
+    "bright colors",
+    "foamy texture",
+    "bubbles present",
+    "frothy appearance",
+    "sparkling surface",
+    "airy composition",
+    "light and frothy",
+    "unsolid structure",
+    "translucent material"
+  ],
+  "bumpy": [
+    "bumpy texture",
+    "high ridges",
+    "irregular shape",
+    "dark color",
+    "low contrast",
+    "small size",
+    "crackled surface",
+    "rough edges"
+  ],
+  "chequered": [
+    "Patterned black and white squares",
+    "Checkerboard design",
+    "Distinct square layout",
+    "Sharp contrast between colors",
+    "Regular geometric shape repetition",
+    "Uniform square size",
+    "Specific color combination",
+    "Precise alignment of squares"
+  ],
+  "cobwebbed": [
+    "Cobweb's intricate web pattern",
+    "White or off-white color",
+    "Thread-like strands",
+    "Spiders' dwelling indicator",
+    "Often dusty appearance",
+    "Complex, interwoven structure",
+    "Potential for various sizes and shapes"
+  ],
+  "cracked": [
+    "crack pattern",
+    "dark color",
+    "fissure texture",
+    "broken pieces",
+    "uneven surface",
+    "white dust",
+    "chip damage",
+    "shattered appearance"
+  ],
+  "crosshatched": [
+    "Crosshatched pattern",
+    "Diagonal lines intersecting",
+    "Textured surface",
+    "Dark and light shading",
+    "Angular shapes",
+    "Symmetrical design",
+    "Varying line thickness",
+    "Color contrast",
+    "Geometric motifs"
+  ],
+  "crystalline": [
+    "crystalline structure",
+    "sharp edges",
+    "prismatic facets",
+    "clear, glassy texture",
+    "lustrous surface",
+    "elegant symmetry",
+    "unique color patterns",
+    "precise proportions",
+    "refractive properties"
+  ],
+  "dotted": [
+    "Dots pattern",
+    "Distinct color contrast",
+    "Rounded dot shape",
+    "Uniform spacing between dots",
+    "Varying dot sizes",
+    "Edges of dots blurred",
+    "Background texture different",
+    "Specific dot arrangement",
+    "Dot density consistent",
+    "Outline of dots visible"
+  ],
+  "fibrous": [
+    "Texture roughness",
+    "Color brownish",
+    "Patterned surface",
+    "Long slender shape",
+    "Structural fibers visible",
+    "Proportional length-to-width",
+    "Uniform cross-section",
+    "Multiple branching points"
+  ],
+  "flecked": [
+    "flecked pattern",
+    "textured surface",
+    "variegated coloration",
+    "distinctive spots",
+    "mottled appearance",
+    "random speckling",
+    "uniform grain",
+    "complex design"
+  ],
+  "freckled": [
+    "freckled spots on skin",
+    "round or irregular shape",
+    "light brown to dark red color",
+    "dense cluster of dots",
+    "uniform size variation",
+    "spread evenly across face",
+    "not attached to hair or clothing"
+  ],
+  "frilly": [
+    "Frilly texture",
+    "Curly edges",
+    "Lacy appearance",
+    "Soft, delicate feel",
+    "Intricate patterns",
+    "Flowing, billowing shape",
+    "Rounded, bulbous forms",
+    "High contrast colors",
+    "Fine, thin strands"
+  ],
+  "gauzy": [
+    "Gauzy texture",
+    "Diaphanous appearance",
+    "Soft, flowing material",
+    "Often white or pastel colors",
+    "Ruffled or pleated edges",
+    "Light, airy feel",
+    "Can have delicate patterns or embroidery"
+  ],
+  "grid": [
+    "Grid-like pattern",
+    "Regular spacing",
+    "Square cells",
+    "Lines intersecting",
+    "Consistent thickness",
+    "Uniform color",
+    "Bright contrast",
+    "Symmetrical layout"
+  ],
+  "grooved": [
+    "smooth edges contrast",
+    "grooved texture",
+    "longitudinal grooves",
+    "irregular grooves pattern",
+    "dark grooves on light surface",
+    "grooves depth variation",
+    "grooves width consistency",
+    "grooved surface material",
+    "grooves alignment direction",
+    "grooved shape outline"
+  ],
+  "honeycombed": [
+    "honeycomb structure",
+    "hexagonal cells",
+    "golden color",
+    "waxy texture",
+    "intricate pattern",
+    "uniform cell size",
+    "dark comb foundation",
+    "translucent cell walls"
+  ],
+  "interlaced": [
+    "Interlaced pattern",
+    "Textured surface",
+    "Specific color combination",
+    "Distinct shape arrangement",
+    "Proportional symmetry",
+    "Unique structural element",
+    "Complex layering",
+    "Intricate detail interconnection"
+  ],
+  "knitted": [
+    "Knitted texture",
+    "Patterned design",
+    "Soft material",
+    "Yarn-like appearance",
+    "Stitch visibility",
+    "Elastic quality",
+    "Colorful threads",
+    "Textile structure",
+    "Handmade feel"
+  ],
+  "lacelike": [
+    "Texture: delicate, web-like",
+    "Pattern: lace-like, intricate designs",
+    "Shape: thin, elongated strands",
+    "Color: often white, off-white, but can vary",
+    "Proportion: fine, delicate relative to size",
+    "Structure: interconnected, network-like appearance"
+  ],
+  "lined": [
+    "lined has distinct lines",
+    "lined objects often have uniform color",
+    "lined textures can vary widely",
+    "lined shapes may include rectangles, stripes",
+    "lined proportions depend on design",
+    "lined may feature repeating patterns",
+    "lined can have contrasting edges",
+    "lined might show different colors within lines"
+  ],
+  "marbled": [
+    "marbled texture",
+    "distinct color pattern",
+    "layered appearance",
+    "irregular shape",
+    "speckled design",
+    "contrasting colors",
+    "organic form",
+    "varied thickness"
+  ],
+  "matted": [
+    "Matted texture",
+    "Dark coloration",
+    "Shiny surface",
+    "Irregular shape",
+    "Dense structure",
+    "Bright highlights",
+    "Soft appearance",
+    "Distinct pattern"
+  ],
+  "meshed": [
+    "Meshed texture",
+    "Interlocking pattern",
+    "Complex weave",
+    "Fine strands",
+    "Multiple layers",
+    "Uniform color",
+    "Distinct shape",
+    "Size variation",
+    "Edge definition"
+  ],
+  "paisley": [
+    "The paisley's intricate spiral pattern",
+    "Its vibrant, often multicolored design",
+    "The paisley's distinctive teardrop shape",
+    "The presence of repeating floral motifs",
+    "The paisley's glossy, smooth texture in fabric",
+    "Its use as a decorative element in various cultures",
+    "The paisley's historical significance in art and fashion",
+    "The paisley's ability to reflect light uniquely",
+    "The paisley's common appearance in textiles and clothing accessories"
+  ],
+  "perforated": [
+    "Perforated texture",
+    "Holes pattern",
+    "Uneven surface",
+    "Circular openings",
+    "Distinct perforation size",
+    "Regular spacing between holes",
+    "Metal-like appearance",
+    "Transparent material",
+    "Rounded edges around holes"
+  ],
+  "pitted": [
+    "pitted surface texture",
+    "round shape",
+    "dark coloration",
+    "fissures or cracks",
+    "smooth contrast with roughness",
+    "unique pockmarks pattern",
+    "deep indentation marks"
+  ],
+  "pleated": [
+    "pleats texture",
+    "multiple folds pattern",
+    "uneven spacing between pleats",
+    "sharp creases lines",
+    "dark color shade",
+    "light color contrast",
+    "metallic sheen finish",
+    "fabric softness touch",
+    "rigid structure feel"
+  ],
+  "polka-dotted": [
+    "Polka dot pattern",
+    "Dots of uniform size",
+    "Spaced evenly apart",
+    "Bright contrasting color",
+    "Dark contrasting color",
+    "Circular dots shape",
+    "Random dot arrangement",
+    "Background color contrast"
+  ],
+  "porous": [
+    "Texture: rough, spongy",
+    "Color: beige, brown",
+    "Pattern: speckled, honeycomb-like",
+    "Shape: irregular, sponge-like",
+    "Proportion: porous structure, open cells",
+    "Body part: absence of solid surface",
+    "Structural element: interconnected cavities"
+  ],
+  "potholed": [
+    "Pitted surface",
+    "Irregular shape",
+    "Rough texture",
+    "Dark color",
+    "Uneven edges",
+    "Jagged appearance"
+  ],
+  "scaly": [
+    "green color",
+    "multiple legs",
+    "tail for balance",
+    "eye sockets",
+    "scaly texture",
+    "lizard-like shape",
+    "bony plates",
+    "forked tongue",
+    "sharp claws",
+    "moist skin"
+  ],
+  "smeared": [
+    "Smeared texture",
+    "Distinctive color pattern",
+    "Irregular shape",
+    "Uneven surface",
+    "Mottled appearance",
+    "Blurred edges",
+    "Faded details",
+    "Patchy coverage",
+    "Thin streaks"
+  ],
+  "spiralled": [
+    "Spiraled shell pattern",
+    "Twisted coil structure",
+    "Conical shape",
+    "Interlocking segments",
+    "Smooth or textured surface",
+    "Open or closed spiral form",
+    "Bright or muted coloration",
+    "Regular or irregular spacing",
+    "Narrow or wide aperture"
+  ],
+  "sprinkled": [
+    "sprinkled texture",
+    "white color",
+    "circular shape",
+    "small size",
+    "scattered pattern",
+    "no distinct body parts",
+    "uniform appearance"
+  ],
+  "stained": [
+    "Stained appearance",
+    "Darkened surface",
+    "Discoloration pattern",
+    "Faded texture",
+    "Contaminated look",
+    "Altered hue",
+    "Blemished finish",
+    "Uneven coloration",
+    "Mottled surface",
+    "Tarnished sheen"
+  ],
+  "stratified": [
+    "stratified texture",
+    "distinct layers",
+    "varied colors",
+    "irregular shape",
+    "unique pattern",
+    "specific proportions",
+    "complex structure",
+    "defined edges",
+    "specific size range"
+  ],
+  "striped": [
+    "striped pattern on surface",
+    "stripes of uniform width",
+    "stripes of varying colors",
+    "dark stripes on light background",
+    "horizontal stripes",
+    "vertical stripes",
+    "diagonal stripes",
+    "randomly oriented stripes",
+    "thin stripes",
+    "wide stripes"
+  ],
+  "studded": [
+    "studded texture",
+    "irregular shape",
+    "metallic color",
+    "raised studs",
+    "patterned surface",
+    "contrasting colors",
+    "hard material",
+    "defined edges"
+  ],
+  "swirly": [
+    "swirly pattern",
+    "twisted texture",
+    "multicolored swirls",
+    "circular motion",
+    "uneven proportions",
+    "unique shape",
+    "distinctive color combination",
+    "rotational symmetry"
+  ],
+  "veined": [
+    "Vein pattern",
+    "Textured surface",
+    "Densely veined appearance",
+    "Vein color contrasting",
+    "Vein thickness variation",
+    "Vein branching structure",
+    "Vein density high",
+    "Vein irregularity",
+    "Vein alignment randomness"
+  ],
+  "waffled": [
+    "Waffled texture",
+    "Crisscross pattern",
+    "Multiple ridges",
+    "Specific shape variation",
+    "Distinct size ratio",
+    "Color contrast with surroundings",
+    "Unique edge profile",
+    "Specific thickness variation"
+  ],
+  "woven": [
+    "Texture: rough,编制状",
+    "Color: earthy tones, multicolored",
+    "Pattern: interlaced, repetitive",
+    "Shape: irregular, three-dimensional",
+    "Proportions: balanced, symmetrical",
+    "Body parts: loops, threads",
+    "Structural elements: weave, knots"
+  ],
+  "wrinkled": [
+    "Wrinkled texture",
+    "Dark coloration",
+    "Fine lines pattern",
+    "Reduced smoothness",
+    "Distinctive creases",
+    "Slight irregularities",
+    "Shrunken appearance",
+    "Uneven surface"
+  ],
+  "zigzagged": [
+    "Zigzag pattern on body",
+    "Bright color contrast",
+    "Sharp angular edges",
+    "Textured surface pattern",
+    "Unique marking sequence",
+    "Distinctive color gradient",
+    "Asymmetric shape outline",
+    "Complex geometric design",
+    "Intense color saturation",
+    "Varying scale motifs"
+  ]
+}

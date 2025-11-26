@@ -1,0 +1,942 @@
+{
+    "Afghan_hound": [
+        "slimmer body build",
+        "slimmer body",
+        "slightly shorter legs",
+        "lighter underbelly",
+        "wider head"
+    ],
+    "African_hunting_dog": [],
+    "Airedale": [
+        "larger size",
+        "smaller size",
+        "less droopy ears",
+        "larger head",
+        "steeper forehead slope"
+    ],
+    "American_Staffordshire_terrier": [
+        "bulder build",
+        "shorter, stockier build"
+    ],
+    "Appenzeller": [
+        "lighter fur color",
+        "shorter, stubby tail",
+        "distinctive white blaze",
+        "smaller body size",
+        "smaller size",
+        "smaller overall size",
+        "distinctive black spots",
+        "distinctive black and white spots",
+        "less pronounced markings",
+        "shorter snout",
+        "wider tail",
+        "slightly upturned snout",
+        "larger ears"
+    ],
+    "Australian_terrier": [
+        "lighter coat",
+        "lighter coat color",
+        "distinct roan coat",
+        "different ear shape"
+    ],
+    "Bedlington_terrier": [
+        "longer, smoother coat",
+        "smaller size",
+        "smaller body size"
+    ],
+    "Bernese_mountain_dog": [
+        "distinctive black, white, brown tri-coloring",
+        "larger size",
+        "lighter brown patches",
+        "stouter build",
+        "sturdier build",
+        "shorter muzzle",
+        "distinct brown, black, white colors",
+        "larger paws"
+    ],
+    "Blenheim_spaniel": [
+        "smaller size"
+    ],
+    "Border_collie": [],
+    "Border_terrier": [
+        "wider head",
+        "distinctly marked ears"
+    ],
+    "Boston_bull": [
+        "distinctively spotted coat",
+        "smaller size",
+        "smaller body size",
+        "smaller overall size",
+        "different ear shape",
+        "smaller ears",
+        "different tail length",
+        "larger ears",
+        "distinct ear shape",
+        "square-shaped head",
+        "larger body size",
+        "distinctive white blaze"
+    ],
+    "Bouvier_des_Flandres": [
+        "distinctive tri-color coat",
+        "distinctive white blaze",
+        "larger body size",
+        "shorter legs",
+        "smaller ears",
+        "thinner tail",
+        "larger size",
+        "heavier body build",
+        "flatter head shape",
+        "different head shape",
+        "shorter muzzle",
+        "curlier coat",
+        "thicker body build",
+        "lighter underbelly"
+    ],
+    "Brabancon_griffon": [],
+    "Brittany_spaniel": [
+        "distinctive white blaze",
+        "distinct white blaze"
+    ],
+    "Cardigan": [
+        "absence of snout",
+        "no four legs",
+        "less pronounced wing markings",
+        "rounder end of tail",
+        "no fur pattern",
+        "absence of fur",
+        "larger size"
+    ],
+    "Chesapeake_Bay_retriever": [],
+    "Chihuahua": [
+        "distinctively long ears",
+        "larger, more rounded ears",
+        "smaller size",
+        "thinner body",
+        "shorter snout",
+        "distinctively tall ears",
+        "thinner, longer legs",
+        "distinctively longer snout",
+        "narrower snout",
+        "larger ears",
+        "shorter legs"
+    ],
+    "Dandie_Dinmont": [
+        "distinct white blaze",
+        "distinctive white blaze",
+        "smaller body size",
+        "smaller overall size",
+        "wider head",
+        "shorter, curled tail",
+        "larger ears",
+        "rounder head",
+        "curlier tail",
+        "shorter snout",
+        "shorter stature",
+        "coarser fur texture",
+        "slightly more angular head",
+        "distinctively marked face",
+        "distinctively angular head"
+    ],
+    "Doberman": [
+        "smaller size",
+        "larger size",
+        "distinctively marked coat",
+        "slimmer body",
+        "distinctive coat patterns"
+    ],
+    "English_foxhound": [
+        "smaller overall size",
+        "lighter chest stripe",
+        "slightly larger size",
+        "shorter muzzle",
+        "less spotted coat",
+        "different head shape",
+        "shorter legs"
+    ],
+    "English_setter": [
+        "shorter, sturdier build",
+        "larger head"
+    ],
+    "English_springer": [
+        "larger, more rounded ears",
+        "different ear shape",
+        "larger ears",
+        "curly tail",
+        "shorter muzzle",
+        "distinct white blaze",
+        "smaller size",
+        "shorter, curled tail",
+        "distinctive white blaze",
+        "thinner tail",
+        "distinctive white markings",
+        "distinctively longer snout"
+    ],
+    "EntleBucher": [
+        "stouter build",
+        "larger size",
+        "distinctive white markings",
+        "larger body size",
+        "different coat pattern",
+        "distinctive white blaze",
+        "different tail shape",
+        "shorter muzzle"
+    ],
+    "Eskimo_dog": [],
+    "French_bulldog": [
+        "distinct M-shaped marking",
+        "distinct M-shaped facial marking",
+        "distinctive coloration",
+        "smaller ears",
+        "distinctive 'smile'",
+        "bulgier body",
+        "smaller overall size",
+        "rounded ears",
+        "larger ears",
+        "floppy ears",
+        "distinctive folds on face",
+        "bulder body"
+    ],
+    "German_shepherd": [
+        "distinct black nose",
+        "lighter coat color",
+        "different coat pattern",
+        "larger, rounder head",
+        "larger size"
+    ],
+    "German_short-haired_pointer": [
+        "larger spots",
+        "distinct brown and white pattern",
+        "different nose color",
+        "different coat patterns",
+        "more compact body",
+        "different tail shape",
+        "less feathering on ears",
+        "distinctive pointed ears",
+        "larger size",
+        "distinctive triangular marking",
+        "slightly larger size"
+    ],
+    "Gordon_setter": [
+        "distinct white blaze",
+        "distinctive white blaze",
+        "lighter coat color",
+        "smaller head size",
+        "larger head size",
+        "larger size",
+        "less feathering on ears",
+        "distinct roan coat"
+    ],
+    "Great_Dane": [
+        "larger head size",
+        "distinct brindle coat",
+        "larger head",
+        "wider head",
+        "larger size",
+        "distinct facial markings",
+        "different ear shape",
+        "broader and more square-shaped head"
+    ],
+    "Great_Pyrenees": [
+        "larger body size",
+        "blonde vs. white coat",
+        "larger size",
+        "larger head size",
+        "heavier build",
+        "distinctively longer legs",
+        "distinctive white blaze",
+        "whiter fur color",
+        "whiter fur",
+        "thicker fur",
+        "thicker fur texture",
+        "distinctive white markings"
+    ],
+    "Greater_Swiss_Mountain_dog": [
+        "stouter build",
+        "larger size",
+        "smaller ears",
+        "upright ears",
+        "distinctive white blaze",
+        "heavier build",
+        "less feathering on legs",
+        "distinctive tricolor coat"
+    ],
+    "Ibizan_hound": [
+        "lighter coat color",
+        "lighter body color",
+        "distinct white blaze",
+        "lighter body coat",
+        "distinct spotted coat",
+        "distinct ear shape",
+        "larger ears",
+        "shorter, straighter legs",
+        "smaller ears",
+        "smaller size",
+        "shorter legs",
+        "wider ears",
+        "distinctively shaped ears",
+        "smaller, less pronounced tail"
+    ],
+    "Irish_setter": [
+        "different tail shape",
+        "reddish-brown coat",
+        "distinctively spotted coat",
+        "larger ears",
+        "redder coat",
+        "larger size",
+        "distinct white blaze"
+    ],
+    "Irish_terrier": [
+        "Irish terrier has distinctive visual features",
+        "thicker body build"
+    ],
+    "Irish_water_spaniel": [
+        "smaller overall size",
+        "larger size"
+    ],
+    "Irish_wolfhound": [
+        "larger size",
+        "smaller head size",
+        "lighter coat color",
+        "Irish wolfhound has distinctive visual features",
+        "unique body coat pattern",
+        "distinctively longer legs",
+        "wider head"
+    ],
+    "Italian_greyhound": [
+        "darker eye ring"
+    ],
+    "Japanese_spaniel": [
+        "distinctively marked tail",
+        "distinctly shaped tail",
+        "rounder body",
+        "smaller body"
+    ],
+    "Kerry_blue_terrier": [
+        "distinct white patches",
+        "smaller size",
+        "smaller ears",
+        "thinner body",
+        "less wiry fur",
+        "distinct white blaze"
+    ],
+    "Labrador_retriever": [
+        "larger size"
+    ],
+    "Lakeland_terrier": [
+        "less dense coat",
+        "distinctive white blaze",
+        "wider chest"
+    ],
+    "Leonberg": [
+        "shorter legs",
+        "larger body size",
+        "thicker tail",
+        "larger size"
+    ],
+    "Lhasa": [
+        "thinner and finer fur",
+        "shorter muzzle",
+        "smaller body size",
+        "shorter legs",
+        "slightly smaller body",
+        "shorter stature",
+        "distinctively smaller size",
+        "shorter snout"
+    ],
+    "Maltese_dog": [
+        "smaller size"
+    ],
+    "Mexican_hairless": [
+        "shorter snout",
+        "shorter legs"
+    ],
+    "Newfoundland": [
+        "shorter legs",
+        "distinctively fluffy coat",
+        "thicker body fur",
+        "larger body size",
+        "larger size",
+        "flatter, wider head",
+        "floppy ears",
+        "shorter, rounder snout",
+        "distinctly flatter head"
+    ],
+    "Norfolk_terrier": [],
+    "Norwegian_elkhound": [
+        "thinner body build",
+        "thinner body",
+        "thinner, longer legs",
+        "shorter legs",
+        "distinctly longer legs"
+    ],
+    "Norwich_terrier": [
+        "shorter snout",
+        "rounder ears",
+        "larger ears"
+    ],
+    "Old_English_sheepdog": [
+        "smaller overall size",
+        "larger head size",
+        "distinct white blaze",
+        "larger head",
+        "slimmer body shape",
+        "smaller size",
+        "larger ears",
+        "shorter, curly coat"
+    ],
+    "Pekinese": [
+        "smaller ears",
+        "smaller size"
+    ],
+    "Pembroke": [
+        "distinct Welsh corgi body type",
+        "rounder ears",
+        "shorter snout",
+        "slightly larger eyes",
+        "shorter muzzle",
+        "different coat texture",
+        "less distinct rosette pattern"
+    ],
+    "Pomeranian": [
+        "shorter muzzle",
+        "shorter snout",
+        "smaller size",
+        "lighter fur",
+        "distinctively fluffy coat",
+        "smaller overall size"
+    ],
+    "Rhodesian_ridgeback": [
+        "taller and more muscular build",
+        "larger size",
+        "different coat pattern",
+        "distinctively larger size",
+        "slightly longer legs",
+        "steeper ridge on back",
+        "wider head"
+    ],
+    "Rottweiler": [
+        "black and tan coloring",
+        "darker fur color",
+        "stouter build",
+        "distinct black mask"
+    ],
+    "Saint_Bernard": [
+        "larger size",
+        "wider head",
+        "distinctive white patches",
+        "flatter face",
+        "shorter muzzle"
+    ],
+    "Saluki": [
+        "smaller size",
+        "longer and leaner body",
+        "longer, more slender body",
+        "shorter legs",
+        "different tail shape"
+    ],
+    "Samoyed": [],
+    "Scotch_terrier": [
+        "flatter head shape",
+        "different ear shape",
+        "distinct whisker arrangement",
+        "larger ears",
+        "shorter muzzle"
+    ],
+    "Scottish_deerhound": [
+        "shorter, stouter build",
+        "distinctively marked chest",
+        "distinctly narrower head",
+        "longer and more narrow ears",
+        "shorter muzzle",
+        "slimmer body shape",
+        "slimmer body",
+        "distinctive white blaze",
+        "different coat texture"
+    ],
+    "Sealyham_terrier": [
+        "distinctive white blaze",
+        "distinct white blaze",
+        "lighter coat",
+        "smaller body size"
+    ],
+    "Shetland_sheepdog": [
+        "lighter coat color",
+        "lighter coat"
+    ],
+    "Siberian_husky": [
+        "thinner, shorter legs",
+        "slimmer body",
+        "distinctive white blaze",
+        "lighter coat",
+        "thicker fur",
+        "thicker fur coat",
+        "lighter fur color",
+        "smaller wings"
+    ],
+    "Staffordshire_bullterrier": [
+        "stouter build",
+        "black mask around eyes",
+        "larger size",
+        "different ear shape",
+        "shorter muzzle"
+    ],
+    "Sussex_spaniel": [
+        "less feathering on legs",
+        "smaller overall size",
+        "distinct white blaze",
+        "thinner tail",
+        "distinctively marked ears",
+        "thinner, longer legs",
+        "smaller size",
+        "lighter ear tips"
+    ],
+    "Tibetan_mastiff": [
+        "shorter legs",
+        "sturdier build",
+        "larger body size",
+        "larger size",
+        "smaller size",
+        "wider, flatter head",
+        "distinctively spotted coat",
+        "shorter muzzle"
+    ],
+    "Tibetan_terrier": [
+        "different ear shape",
+        "less droopy ears",
+        "larger ears",
+        "slightly drooping ears",
+        "shorter muzzle",
+        "smaller size",
+        "smaller body size",
+        "curly tail",
+        "smaller overall size"
+    ],
+    "Tzu": [
+        "smaller body size",
+        "wider, flatter head"
+    ],
+    "Walker_hound": [
+        "different spot pattern",
+        "distinctive white blaze",
+        "distinctively marked coat",
+        "slightly smaller size",
+        "lighter coat color",
+        "distinctly pointed ears",
+        "slimmer body shape",
+        "larger size",
+        "slimmer body"
+    ],
+    "Weimaraner": [
+        "bluer-gray coat",
+        "darker gray coat",
+        "distinct gray-blue coat",
+        "distinct white marking",
+        "darker spots"
+    ],
+    "Welsh_springer_spaniel": [
+        "lighter body color",
+        "smaller size",
+        "distinctively shaped ears"
+    ],
+    "West_Highland_white_terrier": [],
+    "Yorkshire_terrier": [],
+    "affenpinscher": [
+        "larger ears",
+        "smaller size",
+        "distinctively shaped ears",
+        "smaller overall size",
+        "less curly coat"
+    ],
+    "basenji": [
+        "thinner limbs",
+        "smaller size",
+        "shorter legs",
+        "shorter, curled tail"
+    ],
+    "basset": [
+        "distinctively long ears",
+        "smaller head size",
+        "slightly lighter coat",
+        "smaller head",
+        "lighter coat",
+        "smaller ears",
+        "flatter face",
+        "wider head",
+        "smaller size",
+        "distinct ear fold",
+        "distinctively floppy ears",
+        "shorter muzzle",
+        "distinctly spotted coat"
+    ],
+    "beagle": [
+        "larger size",
+        "different coat patterns",
+        "whitish patches on ears",
+        "larger, rounder ears"
+    ],
+    "black-and-tan_coonhound": [
+        "different head shape",
+        "larger, more oval eyes"
+    ],
+    "bloodhound": [
+        "black nose",
+        "more slender body shape",
+        "different coat pattern",
+        "rounder head",
+        "larger size",
+        "distinctively spotted coat",
+        "less pronounced ridge",
+        "thicker neck",
+        "uniquely patterned coat",
+        "white blaze marking",
+        "larger ears",
+        "larger ears set high",
+        "larger size and broader head"
+    ],
+    "bluetick": [
+        "smaller size",
+        "larger size",
+        "smaller overall size",
+        "more angular head shape",
+        "distinct bluetick pattern"
+    ],
+    "borzoi": [
+        "less distinct markings"
+    ],
+    "boxer": [
+        "distinct color pattern",
+        "larger size",
+        "distinctive white stripe",
+        "smaller size",
+        "shorter legs",
+        "different head shape",
+        "distinctly spotted coat",
+        "taller stature",
+        "square head shape",
+        "less feathered legs"
+    ],
+    "briard": [
+        "shorter muzzle",
+        "briard has distinctive visual features",
+        "curly tail",
+        "shorter, straighter ears",
+        "slimmer body",
+        "curly white coat",
+        "shorter legs"
+    ],
+    "bull_mastiff": [],
+    "cairn": [
+        "distinctively shaped ears",
+        "larger ears",
+        "different tail length",
+        "finer, shorter legs",
+        "shorter legs",
+        "shorter snout",
+        "curled tail",
+        "thicker tail",
+        "brighter chest color",
+        "distinctively marked tail",
+        "distinctively shaped head",
+        "different coat texture"
+    ],
+    "chow": [
+        "darker nose color",
+        "smaller size",
+        "larger body size",
+        "shorter snout",
+        "shorter, straighter tail",
+        "slightly upturned nose",
+        "black nose",
+        "distinctively shaped ears",
+        "distinctive spotted coat",
+        "shorter legs",
+        "smaller size compared to Leonberg",
+        "less fluffy coat"
+    ],
+    "clumber": [
+        "shorter snout",
+        "wider head",
+        "rounded ears",
+        "distinctive white patches"
+    ],
+    "coated_wheaten_terrier": [
+        "different tail shape",
+        "different tail length",
+        "distinctively longer legs",
+        "shorter legs",
+        "larger size",
+        "smaller size",
+        "rounder body",
+        "stouter build",
+        "lighter coat color",
+        "distinct ear shape",
+        "slightly longer snout"
+    ],
+    "cocker_spaniel": [
+        "smaller overall size",
+        "smaller size",
+        "distinctively longer snout",
+        "smaller body size",
+        "slightly larger size",
+        "distinctive tri-color pattern",
+        "larger, rounder ears"
+    ],
+    "collie": [
+        "smaller size",
+        "smaller overall size",
+        "less distinct black markings",
+        "lighter fur color"
+    ],
+    "curly-coated_retriever": [
+        "slightly smaller size",
+        "smaller size"
+    ],
+    "dhole": [
+        "longer snout",
+        "distinctive spots",
+        "distinctively spotted coat",
+        "shorter snout",
+        "slightly smaller size",
+        "larger size",
+        "shorter, sturdier legs",
+        "stouter build",
+        "shorter, stouter body",
+        "distinctive black mask",
+        "distinctive roan coat"
+    ],
+    "dingo": [
+        "freckled coat",
+        "distinctive white blaze",
+        "reddish-brown fur",
+        "smaller size",
+        "furred body",
+        "distinct facial markings"
+    ],
+    "flat-coated_retriever": [
+        "distinctively flat ears",
+        "smaller overall size",
+        "less feathering on legs"
+    ],
+    "giant_schnauzer": [
+        "distinctive eyebrow markings",
+        "thicker coat texture",
+        "smaller, more square head",
+        "distinct mustache pattern",
+        "larger head size",
+        "wider head shape",
+        "distinctive black mask",
+        "shorter, stouter snout",
+        "broad head",
+        "larger body size",
+        "larger size",
+        "black mask",
+        "stouter build",
+        "shorter snout",
+        "black, dense fur"
+    ],
+    "golden_retriever": [
+        "distinctly金色毛色",
+        "lighter golden coat",
+        "larger size",
+        "smaller overall size",
+        "distinctively curved tail",
+        "wider head",
+        "distinctively golden coat",
+        "distinct golden coat"
+    ],
+    "groenendael": [
+        "larger ears",
+        "distinctive black mask",
+        "distinctive triangular markings",
+        "shorter, straighter tail",
+        "larger, more angular head"
+    ],
+    "haired_fox_terrier": [],
+    "keeshond": [
+        "distinct diamond-shaped markings",
+        "distinct black mask",
+        "distinct roaning coat",
+        "lighter fur tone",
+        "larger size",
+        "larger head"
+    ],
+    "kelpie": [
+        "larger, more pointed ears",
+        "smaller head size",
+        "smooth, dark coat",
+        "distinctively marked coat",
+        "smaller overall size",
+        "distinctively spotted coat",
+        "smaller body size",
+        "different head shape",
+        "wider, flatter tail",
+        "shorter, straighter legs",
+        "slimmer tail",
+        "slimmer body shape",
+        "larger size",
+        "shorter legs",
+        "distinctively longer legs"
+    ],
+    "komondor": [
+        "distinct braid-like coat",
+        "larger size",
+        "distinct braid-like coat structure",
+        "distinctive dreadlock-like fur",
+        "shorter, straighter legs",
+        "thicker wool coat"
+    ],
+    "kuvasz": [
+        "distinctive white markings",
+        "larger size",
+        "smaller body size",
+        "smaller size",
+        "distinct white patches",
+        "whiter coat"
+    ],
+    "malamute": [
+        "shorter legs",
+        "larger size"
+    ],
+    "malinois": [
+        "slightly curved tail"
+    ],
+    "miniature_pinscher": [
+        "distinctive tricolor coat",
+        "distinct diamond-shaped markings",
+        "distinctively marked coat",
+        "shorter body",
+        "smaller size",
+        "shorter stature",
+        "smaller size than Chihuahua",
+        "black and tan coloring"
+    ],
+    "miniature_poodle": [
+        "less distinct markings",
+        "larger size",
+        "smaller size",
+        "smaller body size",
+        "heavier set body",
+        "distinctively rounder head",
+        "distinctly curved tail",
+        "thicker neck",
+        "slightly longer ears",
+        "rounder head"
+    ],
+    "miniature_schnauzer": [
+        "distinct mustache pattern",
+        "smaller size",
+        "less pronounced facial markings",
+        "distinctively larger size",
+        "larger ears",
+        "distinct Mustard Mark",
+        "distinctively shorter legs"
+    ],
+    "otterhound": [
+        "distinctive white blaze",
+        "distinctively marked coat",
+        "smaller body size",
+        "smaller size",
+        "lighter fur color",
+        "rounded tip on tail"
+    ],
+    "papillon": [
+        "more elongated head",
+        "larger, more rounded ears",
+        "slimmer body shape",
+        "absence of fur coat",
+        "no fur on body"
+    ],
+    "pug": [
+        "smaller overall size",
+        "less pronounced wrinkles",
+        "smaller body size"
+    ],
+    "redbone": [
+        "shorter muzzle",
+        "shorter snout",
+        "shorter legs",
+        "redder coat color",
+        "rounded, shorter tail",
+        "distinctly patterned coat",
+        "lighter underbelly",
+        "slightly smaller size",
+        "distinct white blaze",
+        "slightly more elongated body",
+        "distinctly spotted coat",
+        "smaller overall size",
+        "wider, shorter ears",
+        "shorter, stouter legs",
+        "angular head shape"
+    ],
+    "schipperke": [
+        "smaller ears",
+        "smaller body size",
+        "distinctively small size",
+        "distinctive black mask",
+        "larger ears"
+    ],
+    "silky_terrier": [
+        "thinner body",
+        "finer, smoother coat",
+        "curlier coat"
+    ],
+    "standard_poodle": [
+        "distinctive black tip on tail",
+        "thicker legs",
+        "larger size"
+    ],
+    "standard_schnauzer": [
+        "different ear shape",
+        "shorter, sturdier build",
+        "distinctively smaller head",
+        "black and white tri-color",
+        "wider head"
+    ],
+    "toy_poodle": [
+        "more compact body",
+        "smaller size",
+        "less dense coat",
+        "curly hair",
+        "larger head",
+        "shorter legs",
+        "finer fur texture",
+        "distinctively rounder head"
+    ],
+    "toy_terrier": [
+        "distinctive white blaze",
+        "less dense coat",
+        "wider head shape",
+        "lighter coat",
+        "shorter legs",
+        "shorter muzzle",
+        "more angular body"
+    ],
+    "vizsla": [
+        "lighter coat color",
+        "smaller size",
+        "lighter fur color",
+        "distinct white blaze",
+        "distinctively pointed ears",
+        "slimmer body",
+        "slimmer body shape",
+        "shorter, straighter legs",
+        "larger, more angular head",
+        "redder coat color",
+        "different coat texture",
+        "smaller, finer ears",
+        "less distinct ridge on back",
+        "larger ears",
+        "shorter snout"
+    ],
+    "whippet": [
+        "slimmer body shape",
+        "slimmer body build",
+        "slimmer body",
+        "shorter legs",
+        "distinctive coat patterns",
+        "longer legs",
+        "less robust tail",
+        "slimmer build",
+        "lighter coat color"
+    ]
+}

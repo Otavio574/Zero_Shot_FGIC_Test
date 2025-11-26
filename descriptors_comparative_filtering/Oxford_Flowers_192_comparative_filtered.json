@@ -1,0 +1,994 @@
+{
+    "alpine sea holly": [
+        "large, blue flower heads",
+        "distinctively shaped flower head",
+        "blue to purple flower color",
+        "finer, more delicate spikes",
+        "blue or purple flower color",
+        "stiffer, spikier bracts",
+        "bluer coloration",
+        "bluer color",
+        "taller spikes",
+        "smaller flower heads"
+    ],
+    "anthurium": [
+        "smaller flower size",
+        "heart-shaped petals",
+        "spikier petals",
+        "redder flowers",
+        "brighter red color"
+    ],
+    "artichoke": [
+        "open flower head",
+        "larger size",
+        "large, flat head",
+        "larger size than lotus",
+        "larger size than sunflower",
+        "spiny exterior",
+        "thick base",
+        "thicker prickles",
+        "thick, spiky leaves",
+        "distinctive thorns"
+    ],
+    "azalea": [
+        "larger flowers",
+        "distinctive fragrance",
+        "brighter petals",
+        "brighter flower color",
+        "less pronounced fragrance",
+        "softer petals texture"
+    ],
+    "ball moss": [
+        "less branched stems"
+    ],
+    "balloon flower": [
+        "distinct purple-blue color",
+        "three-parted petals",
+        "larger, purplish flowers",
+        "smaller size",
+        "sooner blooming season",
+        "larger size",
+        "slimmer stem"
+    ],
+    "barbeton daisy": [
+        "petal color varies more",
+        "wider, flatter petals",
+        "slightly curved petals",
+        "larger, flat petals",
+        "less compact stem arrangement",
+        "distinct yellow center",
+        "larger yellow petals"
+    ],
+    "bearded iris": [
+        "smaller overall size",
+        "larger, more spread petals",
+        "larger size",
+        "shorter, more rounded petals",
+        "longer petals",
+        "distinct brown spots",
+        "wavy lip structure",
+        "slightly smaller size",
+        "distinct yellow beard",
+        "brighter color palette",
+        "distinctive beard pattern",
+        "larger, more spread sepals"
+    ],
+    "bee balm": [
+        "redder flowers",
+        "distinctively shaped sepals",
+        "teardrop-shaped petals"
+    ],
+    "bird of paradise": [
+        "distinctively shaped petals",
+        "distinctive blue and orange coloring",
+        "slender stem",
+        "distinctive blue and orange feathers",
+        "central cone structure"
+    ],
+    "bishop of llandaff": [
+        "absence of floral elements",
+        "distinctive red mitre",
+        "green foliage",
+        "red mitre",
+        "absence of floral patterns",
+        "large, white masterwort flowers"
+    ],
+    "black-eyed susan": [
+        "yellow center vs brown",
+        "distinctively shaped center disk",
+        "larger black center",
+        "yellow disk with brown center",
+        "smaller overall size",
+        "thinner petals",
+        "larger flower size"
+    ],
+    "blackberry lily": [
+        "distinctively spotted petals",
+        "wider petals",
+        "larger petals",
+        "distinctively spotted inner petal",
+        "larger, darker petals",
+        "larger flowers",
+        "slightly smaller flower",
+        "slightly more elongated stamen"
+    ],
+    "blanket flower": [
+        "petal color varies more",
+        "larger central disk"
+    ],
+    "bolero deep blue": [
+        "distinctively shaped petals",
+        "brighter flowers",
+        "no petals or leaves",
+        "thicker stem",
+        "bluer hue than great masterwort",
+        "distinct purple spots",
+        "thinner stems",
+        "deeper blue hue"
+    ],
+    "bougainvillea": [
+        "showy, funnel-shaped flowers",
+        "brighter colored bracts",
+        "lobed leaves",
+        "heart-shaped leaves",
+        "leaves with distinct toothed margins",
+        "wider petals",
+        "wider, more flat leaves",
+        "thornless stems",
+        "brighter colored flowers",
+        "thornier stems",
+        "angular, thorny stems"
+    ],
+    "bromelia": [
+        "brighter colored flowers",
+        "brighter flower color",
+        "brighter colored leaves",
+        "brighter color palette",
+        "central bloom with many petals",
+        "showy flower bracts",
+        "smaller overall size",
+        "showy flower structure"
+    ],
+    "buttercup": [
+        "wider, flatter shape",
+        "less prominent central disk",
+        "brighter yellow petals",
+        "yellower petals",
+        "single, large flower",
+        "yellow petals",
+        "curlier leaves",
+        "small size",
+        "smaller size",
+        "smaller overall size",
+        "thinner stem"
+    ],
+    "californian poppy": [
+        "larger yellow center",
+        "petal shape more open",
+        "less daisy-like center",
+        "smaller size",
+        "narrower, more pointed tips",
+        "thinner stigma",
+        "more compact center",
+        "distinctively shaped leaves",
+        "distinctively shaped petals",
+        "taller stem",
+        "larger size",
+        "distinctively shaped stigma"
+    ],
+    "camellia": [
+        "distinctive white base on petals",
+        "petal color varies widely",
+        "wider petals",
+        "larger petals",
+        "smaller size"
+    ],
+    "canna lily": [
+        "canna lily has distinctive visual features",
+        "large, trumpet-shaped flower",
+        "wider, more open petals",
+        "wider petals",
+        "larger flowers",
+        "brighter petals",
+        "larger size"
+    ],
+    "canterbury bells": [
+        "distinct bell shape",
+        "brighter color palette",
+        "distinctive bell shape",
+        "distinctive bell-shaped petals",
+        "larger size than petunia",
+        "white vs purple color",
+        "distinctive bell-shaped structure",
+        "larger flowers",
+        "larger size",
+        "wavy outer edges"
+    ],
+    "cape flower": [
+        "shorter peduncle",
+        "distinct spotted pattern",
+        "distinctive purple spots"
+    ],
+    "carnation": [
+        "paler color tone",
+        "distinctive fragrance",
+        "brighter color palette",
+        "paler center",
+        "rounder shape",
+        "larger petals",
+        "slightly more flattened head",
+        "smaller size",
+        "petal arrangement in groups of 5",
+        "petal arrangement",
+        "distinct fragrance"
+    ],
+    "cautleya spicata": [
+        "brighter trumpet color",
+        "brighter flower color",
+        "unequal petal arrangement",
+        "different colored blooms",
+        "distinctively shaped flowers",
+        "paler petals",
+        "inflorescence structure"
+    ],
+    "clematis": [
+        "single, large flowers",
+        "larger flowers",
+        "larger size",
+        "distinctive star-shaped pattern",
+        "distinct bell-shaped flowers"
+    ],
+    "colt's foot": [
+        "petal shape varies",
+        "distinctive yellow and brown pattern",
+        "lighter yellow color",
+        "wider petals",
+        "yellow with darker spots",
+        "wider and taller petals",
+        "slightly curved petals"
+    ],
+    "columbine": [
+        "distinctive fragrance",
+        "brighter petals",
+        "taller stem",
+        "thinner petals",
+        "five-petaled yellow flower",
+        "larger flower size",
+        "no thorns",
+        "slimmer stem",
+        "shorter style"
+    ],
+    "common dandelion": [
+        "yellow flower head",
+        "yellow center",
+        "single petal rows",
+        "common dandelion has distinctive visual features",
+        "teeth-like edges",
+        "yellow petals with brown center",
+        "yellow puffy head",
+        "single petal row",
+        "yellow flower with white center",
+        "no distinct tail",
+        "smaller size",
+        "puff-like head"
+    ],
+    "corn poppy": [
+        "reddish petals",
+        "distinctively shaped stigma",
+        "smaller size",
+        "larger size",
+        "less prominent stigma",
+        "brighter flower color",
+        "redder petals",
+        "distinctively shaped leaves",
+        "distinctively shaped sepals",
+        "single petals"
+    ],
+    "cyclamen": [
+        "brighter pink petals",
+        "larger flowers",
+        "larger, more open petals",
+        "larger, more rounded petals"
+    ],
+    "daffodil": [
+        "larger overall size",
+        "wider trumpet shape",
+        "smaller overall size",
+        "distinctively scented",
+        "distinct trumpet shape",
+        "tapered shape",
+        "petal color varies",
+        "distinct trumpet center",
+        "brighter yellow petals",
+        "single, large center",
+        "less prominent markings",
+        "curved outer petal margins",
+        "less pronounced petal ruffles",
+        "smaller size",
+        "shorter stem"
+    ],
+    "desert-rose": [
+        "reddish-pink color",
+        "reddish-pink flowers"
+    ],
+    "english marigold": [
+        "more compact shape",
+        "slightly more compact flower",
+        "distinctively shaped center",
+        "slightly smaller size",
+        "distinctively shaped center disk",
+        "smaller size",
+        "distinct darker center",
+        "shorter, straighter stem",
+        "distinctively shaped stigma",
+        "wider, flatter petals",
+        "wider petals"
+    ],
+    "fire lily": [
+        "distinctively shaped stigma",
+        "slightly curved style",
+        "distinctively shaped leaves",
+        "smaller overall size",
+        "brighter color palette",
+        "larger sepals",
+        "distinctive orange stigma",
+        "wider sepals",
+        "brighter colored petals",
+        "smaller size",
+        "slender stem structure"
+    ],
+    "foxglove": [
+        "distinctive bell-shaped flowers",
+        "larger flowers",
+        "foxglove has distinctive visual features",
+        "distinctive bell-shaped structure",
+        "white vs pink flower center",
+        "larger size",
+        "distinct white spots",
+        "smaller overall size",
+        "slightly larger size"
+    ],
+    "frangipani": [
+        "wider and flatter shape",
+        "brighter yellow color",
+        "distinctive fragrance",
+        "brighter yellow petals"
+    ],
+    "fritillary": [
+        "smaller flower size",
+        "curved, notched tails",
+        "taller stem height",
+        "different floral patterns",
+        "larger size than fire lily",
+        "wavy edge to petals",
+        "sharp, angular head"
+    ],
+    "garden phlox": [
+        "wider, flatter petals",
+        "smaller overall size",
+        "larger flowers",
+        "larger, more robust plant",
+        "stronger scent"
+    ],
+    "gaura": [
+        "smaller size",
+        "petal shape varies",
+        "shorter stem",
+        "wider petals",
+        "less pronounced markings"
+    ],
+    "gazania": [
+        "larger yellow petals",
+        "brighter yellow petals",
+        "brighter color palette",
+        "distinctively shaped petals",
+        "smaller overall size",
+        "smaller size",
+        "wider, flatter center",
+        "distinctively toothed edges",
+        "different petal arrangement"
+    ],
+    "geranium": [
+        "brighter red petals",
+        "redder flowers",
+        "redder flower color",
+        "brighter flower color",
+        "brighter flower colors",
+        "stronger scent",
+        "larger flowers"
+    ],
+    "giant white arum lily": [
+        "spathe shape",
+        "spathe without red markings",
+        "distinctively shaped leaves",
+        "aromatic scent",
+        "larger size",
+        "distinctively larger flower size",
+        "spathe without spots",
+        "white color",
+        "distinctively shaped spadix",
+        "spathe with purple tinge",
+        "linear, narrower leaves",
+        "pure white petals",
+        "pure white color"
+    ],
+    "globe thistle": [
+        "distinctively shaped flower head",
+        "shorter, spikier structure",
+        "blue-violet petals",
+        "finer, more purple petals",
+        "larger flower heads",
+        "purple-blue flower color",
+        "purple-blue color"
+    ],
+    "globe-flower": [
+        "yellow center",
+        "strong scent",
+        "flat, wide petals",
+        "brighter petals color",
+        "slimmer stem",
+        "distinctively shaped stigma",
+        "smaller overall size",
+        "larger petals"
+    ],
+    "grape hyacinth": [
+        "distinct purple spots",
+        "wider petals"
+    ],
+    "great masterwort": [
+        "greenish-white petals",
+        "larger flower heads",
+        "larger flowers",
+        "larger flower size",
+        "distinctively shaped stamens",
+        "distinctive purple spots",
+        "smaller size",
+        "stouter stem",
+        "less showy center",
+        "brighter purple petals",
+        "distinct purple spots",
+        "distinct purple flowers",
+        "taller stem",
+        "finer, delicate leaves"
+    ],
+    "hard-leaved pocket orchid": [
+        "distinctive lip shape",
+        "distinctive spotted petals",
+        "wider petals"
+    ],
+    "hibiscus": [
+        "more trumpet-shaped center",
+        "larger flowers",
+        "brighter flower colors",
+        "distinctive toothed edge",
+        "distinctive toothed edges",
+        "brighter petals color",
+        "larger size",
+        "larger petals",
+        "stronger scent"
+    ],
+    "hippeastrum": [
+        "brighter flower colors",
+        "single, showy flowers",
+        "brighter colored petals",
+        "larger bulbs",
+        "distinctive fragrance"
+    ],
+    "japanese anemone": [
+        "slightly larger flower diameter",
+        "smaller petals",
+        "reddish-purple petals",
+        "smaller size",
+        "larger flowers",
+        "larger size",
+        "wider, more open petals",
+        "larger flower size",
+        "distinct purple spots",
+        "slightly more robust stem"
+    ],
+    "king protea": [
+        "larger flower size",
+        "larger overall size",
+        "wider, flatter petals",
+        "taller and wider size",
+        "larger flowers",
+        "distinctive spiky structure",
+        "distinctive fragrance",
+        "reddish-bronze color",
+        "spiky central structure"
+    ],
+    "lenten rose": [],
+    "lotus": [
+        "distinctive stigma shape",
+        "distinctively spotted petals",
+        "more lobed petals",
+        "distinctively shaped leaves",
+        "larger size",
+        "petal color range",
+        "distinctive watermark pattern",
+        "wider, more open center",
+        "larger leaves",
+        "distinctively shaped stigma"
+    ],
+    "love in the mist": [
+        "darker blue petals",
+        "purple-blue flowers",
+        "blue-violet flowers",
+        "distinctively shaped petals",
+        "distinctively shaped seeds",
+        "bluish color",
+        "slightly curved stem",
+        "non-thorny stem",
+        "shorter peduncle",
+        "smaller size",
+        "petalless center",
+        "finer texture",
+        "no obvious pattern",
+        "finer leaves",
+        "distinctively shaped leaves"
+    ],
+    "magnolia": [
+        "distinctive white and pink coloring",
+        "broader petals",
+        "larger flowers",
+        "heart-shaped leaves",
+        "larger petals",
+        "slightly curved petals",
+        "larger size",
+        "stronger, thicker stem",
+        "thicker stem",
+        "smaller leaves"
+    ],
+    "mallow": [
+        "redder coloration",
+        "less prominent petals",
+        "absence of vibrant petals",
+        "larger, more spread-out petals",
+        "distinctive black spots",
+        "distinctively colored spots",
+        "lack of floral blooms"
+    ],
+    "marigold": [
+        "smaller overall size",
+        "distinctively shaped center",
+        "wider, flatter head",
+        "wider yellow center",
+        "smaller size",
+        "less dense petal arrangement",
+        "brighter orange petals",
+        "shorter stem",
+        "brighter yellow petals",
+        "wider, flatter petals",
+        "distinctively yellow",
+        "flat top",
+        "less prominent center cone",
+        "slightly shorter stem",
+        "less pronounced fragrance"
+    ],
+    "mexican aster": [
+        "purple petals",
+        "slightly larger petals",
+        "distinctively shaped center",
+        "yellow vs. pink flowers",
+        "wider, flatter center",
+        "smaller flower size"
+    ],
+    "mexican petunia": [
+        "distinct purple blotches",
+        "mexican petunia has distinctive visual features",
+        "distinctive fragrance",
+        "distinctive dark spots",
+        "wider sepals"
+    ],
+    "monkshood": [
+        "brighter blue color",
+        "bluish-purple flowers",
+        "distinctive bell-shaped petals",
+        "blue-violet color",
+        "distinctive bell shape",
+        "bluer petals",
+        "larger flower size",
+        "distinct bell-shaped petals",
+        "distinct bell-shaped flower",
+        "wider, flatter head",
+        "larger size",
+        "distinct purple spots"
+    ],
+    "moon orchid": [
+        "whiter petals",
+        "whiter petals with green streaks",
+        "larger, more spherical flowers",
+        "wider petals",
+        "larger size"
+    ],
+    "morning glory": [
+        "distinct blue-violet hue",
+        "bluer petals",
+        "single, large flower",
+        "larger trumpet-shaped flowers",
+        "larger flowers",
+        "larger overall size",
+        "slightly more open bloom",
+        "smaller size",
+        "sooner blooming time",
+        "tongue-like pistil",
+        "wavy petals",
+        "taller stem",
+        "wider sepals",
+        "distinct spotted pattern",
+        "stronger, more upright growth habit"
+    ],
+    "orange dahlia": [
+        "rounder flower head",
+        "distinctively shaped center",
+        "less daisy-like shape",
+        "rounder center",
+        "brighter orange petals",
+        "steeper petal angles",
+        "brighter orange hue",
+        "less spotted pattern",
+        "solid orange color",
+        "slightly smaller leaves",
+        "larger flower size",
+        "larger yellow center",
+        "larger petals",
+        "teardrop-shaped petals",
+        "sturdier stem"
+    ],
+    "osteospermum": [
+        "黄色中心较小",
+        "distinctively shaped stigma",
+        "smaller purple center",
+        "petal排列更紧密"
+    ],
+    "oxeye daisy": [
+        "smaller, more circular overall shape",
+        "single, large flower",
+        "larger, flat head",
+        "wider, flatter petals",
+        "smaller size",
+        "larger flower size",
+        "smaller brown center",
+        "larger size",
+        "smaller white petals",
+        "slightly curved petals"
+    ],
+    "passion flower": [
+        "distinctive purple spots",
+        "larger size",
+        "distinctively purple petals",
+        "distinct purple spots",
+        "three-parted style",
+        "smaller size",
+        "curved style",
+        "distinctively shaped sepals",
+        "purple color",
+        "different petal arrangement",
+        "distinctively shaped stigma",
+        "wider petals"
+    ],
+    "pelargonium": [
+        "larger overall size",
+        "shorter peduncle length",
+        "less branched",
+        "different leaf margins",
+        "more robust stem",
+        "more toothed leaf margin",
+        "distinctive leaf shape",
+        "larger flowers"
+    ],
+    "peruvian lily": [],
+    "petunia": [
+        "distinct white blotch",
+        "smaller overall size",
+        "distinct white spots",
+        "wider sepals",
+        "less pronounced markings",
+        "wider petals",
+        "smaller size",
+        "less complex patterns"
+    ],
+    "pincushion flower": [
+        "distinctive purple spots",
+        "lighter color",
+        "distinctively shaped petals",
+        "wider petals",
+        "brighter color palette",
+        "smaller size",
+        "flat head",
+        "distinctively shaped head",
+        "shorter stem",
+        "finer, delicate petals",
+        "brighter petals"
+    ],
+    "pink primrose": [
+        "lighter pink hue",
+        "paler petals compared to desert-rose",
+        "smaller overall size",
+        "distinctive ruffled petals",
+        "slightly curved stem",
+        "rounder sepals",
+        "larger petals",
+        "smaller size",
+        "brighter pink color",
+        "petals with distinct pink hue",
+        "shorter stem"
+    ],
+    "pink-yellow dahlia": [
+        "smaller, more compact form",
+        "distinctive dark center",
+        "distinctive dark spots",
+        "larger center cone",
+        "distinctively shaped stigma",
+        "taller stem",
+        "smaller size",
+        "lighter petals",
+        "distinct pink-yellow hue",
+        "larger overall size",
+        "larger flower size",
+        "distinct spotted pattern",
+        "brighter petals"
+    ],
+    "poinsettia": [
+        "showy bracts",
+        "smaller overall size",
+        "brighter red color",
+        "showy white bracts"
+    ],
+    "primula": [
+        "brighter petals",
+        "finer petals",
+        "smaller flowers"
+    ],
+    "prince of wales feathers": [
+        "absence of petals",
+        "lighter overall color",
+        "brighter overall color palette"
+    ],
+    "purple coneflower": [
+        "shorter stature",
+        "taller stature",
+        "smaller flower size",
+        "purplish color",
+        "larger size",
+        "thinner petals",
+        "brighter petals"
+    ],
+    "red ginger": [
+        "smaller size than sunflower",
+        "distinctive yellow center",
+        "smaller size",
+        "distinctive spots",
+        "curled petals"
+    ],
+    "rose": [
+        "central cone is prominent",
+        "petal color varies widely",
+        "larger size",
+        "brighter color",
+        "smaller size",
+        "rounder shape",
+        "larger petals",
+        "color hue"
+    ],
+    "ruby-lipped cattleya": [
+        "distinctive scent",
+        "larger size",
+        "smaller size",
+        "distinctive white stripes"
+    ],
+    "siam tulip": [
+        "petal shape varies",
+        "wider sepals",
+        "thinner stigma",
+        "smaller size",
+        "smaller petals",
+        "distinctive purple spots"
+    ],
+    "silverbush": [
+        "distinct white flowers",
+        "white vs. colorful blooms",
+        "smaller size",
+        "lack of yellow flowers",
+        "distinct silvery bloom"
+    ],
+    "snapdragon": [
+        "distinctively shaped lips",
+        "pointed rather than round",
+        "larger flowers",
+        "slimmer stem",
+        "smaller flowers",
+        "distinctively shaped leaves",
+        "wider petals",
+        "brighter petals",
+        "finer, more delicate petals",
+        "stronger, thicker stems",
+        "smaller overall size",
+        "smaller size",
+        "finer texture"
+    ],
+    "spear thistle": [
+        "purple flower heads",
+        "greenish color",
+        "spiky green foliage",
+        "larger overall size",
+        "smaller overall size"
+    ],
+    "spring crocus": [
+        "slightly curved style",
+        "reddish-purple vs. white petals",
+        "less toothed outer edge"
+    ],
+    "stemless gentian": [
+        "distinctive blue color",
+        "larger, flat head",
+        "larger flowers",
+        "bluer petals",
+        "distinctive spotted pattern",
+        "smaller size",
+        "distinct blue-violet color",
+        "distinctive purple throat",
+        "blue petals",
+        "blue-violet color"
+    ],
+    "sunflower": [
+        "distinctive brown center",
+        "larger flower head",
+        "tapered crown",
+        "larger size",
+        "larger disk size",
+        "distinctive brown eyes",
+        "taller height",
+        "brown center disk",
+        "yellow petals with darker outer ring"
+    ],
+    "sweet pea": [
+        "distinctively shaped sepals",
+        "smaller flowers",
+        "slightly curved petals",
+        "lighter overall color",
+        "more compact growth habit",
+        "heart-shaped petals",
+        "smaller size",
+        "slender stem",
+        "slightly longer petals",
+        "distinctive purple spots",
+        "thinner petals",
+        "rounder sepals",
+        "wider sepals",
+        "greenish calyx",
+        "lighter petal color"
+    ],
+    "sweet william": [
+        "single, round flowers",
+        "brighter flowers",
+        "petals with white spots",
+        "smaller flowers",
+        "distinct purple spots",
+        "distinctive purple petals",
+        "brighter red color",
+        "larger petals",
+        "distinct white spots",
+        "softer texture",
+        "smaller size"
+    ],
+    "sword lily": [
+        "yellow vs purple color",
+        "distinctively shaped petals"
+    ],
+    "thorn apple": [
+        "greenish-white flowers",
+        "smaller overall size",
+        "larger size",
+        "brighter, more varied coloration",
+        "smaller size"
+    ],
+    "tiger lily": [
+        "tall stem vs. perching posture",
+        "larger size than fire lily",
+        "slimmer and taller stem",
+        "tiger lily has distinctive visual features",
+        "brighter petals",
+        "distinctive tiger stripes",
+        "brighter orange petals",
+        "distinct tiger stripes",
+        "distinctive orange petals",
+        "smaller size"
+    ],
+    "toad lily": [
+        "larger flowers",
+        "different colored flowers",
+        "toad lily has distinctive visual features",
+        "paler color",
+        "shorter peduncle",
+        "taller stem height",
+        "smaller size",
+        "greenish petals",
+        "less prominent spots",
+        "shorter stem"
+    ],
+    "tree mallow": [
+        "oval-shaped",
+        "distinctively shaped leaves"
+    ],
+    "tree poppy": [
+        "brighter flower color",
+        "brighter petals",
+        "larger size",
+        "distinctively shaped leaves",
+        "single petals",
+        "smaller size",
+        "green leaves with white spots"
+    ],
+    "trumpet creeper": [
+        "red trumpet-shaped flowers",
+        "redder flowers",
+        "larger flowers",
+        "single, large flower per node"
+    ],
+    "wallflower": [
+        "rectangular petals",
+        "less colorful petals",
+        "no globe-like structure",
+        "reddish petals",
+        "less pronounced fragrance",
+        "petal shape varies",
+        "fewer petals",
+        "solid color without spots",
+        "sturdier stem",
+        "smaller size",
+        "larger size"
+    ],
+    "water lily": [
+        "petal color varies from yellow to pink",
+        "greenish leaves",
+        "white flowers",
+        "green leaves",
+        "white petals",
+        "larger size",
+        "no spathes",
+        "floats on water",
+        "smaller size",
+        "paler petals"
+    ],
+    "watercress": [
+        "edible vs. ornamental",
+        "green leaves vs. petals",
+        "yellow flowers"
+    ],
+    "wild pansy": [
+        "petal shape varies",
+        "purple-violet petals",
+        "shorter petals",
+        "brighter blue petals",
+        "distinctive purple spots",
+        "smaller size",
+        "stronger, darker spots",
+        "distinct purple spots",
+        "distinctively shaped sepals",
+        "blue vs purple hue",
+        "purple spots",
+        "thinner stem",
+        "purple vs blue flowers",
+        "distinct spotted pattern",
+        "yellow center"
+    ],
+    "windflower": [
+        "distinctive fragrance",
+        "paler petals",
+        "distinctive spots",
+        "smaller size",
+        "petal shape varies"
+    ],
+    "yellow iris": [
+        "greenish stigma",
+        "curved style",
+        "less pronounced fall-apart center",
+        "non-bearded center",
+        "less pronounced ruff",
+        "distinctive spots",
+        "slimmer stem",
+        "distinctive purple veins",
+        "less pronounced spots"
+    ]
+}

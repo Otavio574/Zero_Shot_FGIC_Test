@@ -1,0 +1,885 @@
+{
+  "Achnatherum inebrians": [
+    "Green blades",
+    "Narrow leaves",
+    "Clump growth habit",
+    "Fine texture",
+    "Sharp edges",
+    "Dense foliage",
+    "Yellow flowers",
+    "Tall stems"
+  ],
+  "Achnatherum splendens": [
+    "Green blades",
+    "Narrow leaves",
+    "Dense tufts",
+    "Yellowish flower heads",
+    "Sharp edges",
+    "Fine texture",
+    "Clumping growth habit",
+    "Small seed heads"
+  ],
+  "Agriophyllum squarrosum": [
+    "agriophyllum squarrosum has yellow flowers",
+    "has spiny leaves",
+    "shows distinctively shaped fruits",
+    "features a rosette growth habit",
+    "has a woody stem base",
+    "shows radial symmetry",
+    "contains numerous small seeds"
+  ],
+  "Agropyron cristatum": [
+    "agropyron cristatum has distinct, sharp, bluish-green leaves",
+    "has a dense, tufted growth habit",
+    "shows silvery-white flower heads",
+    "characterized by its rigid, upright stature",
+    "features small, awn-tipped spikelets",
+    "distinguishes by its dry, straw-like appearance in dried conditions"
+  ],
+  "Agropyron elongatum": [
+    "agropyron elongatum has long, narrow leaves",
+    "has distinct, sharp edges on leaves",
+    "leaves are generally light green",
+    "stalks are tall and slender",
+    "flower heads are small, clustered",
+    "seeds are small, brown",
+    "leaf arrangement is in tight whorls around stem",
+    "plant grows in open, sunny areas",
+    "preferred soil type is well-drained",
+    "tends to grow in prairie-like environments"
+  ],
+  "Agropyron mongolicum": [
+    "agropyron mongolicum has distinct spike-like structures",
+    "green blades with fine hairs",
+    "yellowish flower heads",
+    "rigid, upright growth habit",
+    "long, narrow leaves",
+    "bristly texture on stem and leaves",
+    "oval-shaped seed heads",
+    "white to light brown seeds",
+    "tall stature, reaching up to 1 meter",
+    "dense clumping habit"
+  ],
+  "Amorpha fruticosa": [
+    "Green leaves",
+    "Branches with thorns",
+    "Small white flowers",
+    "Rounded shape",
+    "Bark texture rough",
+    "Height over 3 meters",
+    "Woody stem"
+  ],
+  "Amygdalus mongolica": [
+    "Large size",
+    "Distinctive bark pattern",
+    "Broad leaves",
+    "White flowers",
+    "Round fruit",
+    "Grayish branches",
+    "Deep green foliage",
+    "Single trunk structure"
+  ],
+  "Anemone rivularis": [
+    "rivularis-specific coloration",
+    "unique tentacle pattern",
+    "distinctive oral arm",
+    "symmetrical body shape",
+    "fine texture on surface",
+    "internal radial symmetry",
+    "branching structure",
+    "pinkish hue",
+    "white spots"
+  ],
+  "Apocynum pictum": [
+    "Green leaves",
+    "White flowers",
+    "Clusters of blooms",
+    "Smooth bark",
+    "Woody stem",
+    "Bright red berries",
+    "Tall stature",
+    "Broad leaves",
+    "Yellow stamens"
+  ],
+  "Apocynum venetum": [
+    "Green leaves",
+    "White flowers",
+    "Branched stems",
+    "Yellow stamens",
+    "Round fruits",
+    "Veined leaves",
+    "Woody texture",
+    "Pale green color",
+    "Small size"
+  ],
+  "Artemisia desertorum": [
+    "Distinctively shaped leaves",
+    "Silver-gray foliage",
+    "Fine, feathery texture",
+    "Narrow, elongated leaflets",
+    "Strong, aromatic scent",
+    "Clustering growth habit",
+    "Grayish-green coloration",
+    "Sharp, pointed tips on leaves"
+  ],
+  "Artemisia ordosica": [
+    "Artemisia ordosica has distinctively narrow leaves",
+    "Leaves are grayish-green",
+    "Plants grow in dense clumps",
+    "Flowers form fluffy white heads",
+    "Stems are slender and upright",
+    "Branches are finely divided",
+    "Has a strong, characteristic aroma"
+  ],
+  "Artemisia sphaerocephala": [
+    "Artemisia sphaerocephala has spherical heads",
+    "Yellow flowers",
+    "Gray-green leaves",
+    "Strong, upright stems",
+    "Dense foliage",
+    "Clusters of seeds",
+    "Narrow, lance-shaped leaves",
+    "Branched inflorescences"
+  ],
+  "Astragalus laxmannii": [
+    "Distinctive yellow flowers",
+    "Broad, fleshy leaves",
+    "Tall, slender stem",
+    "Rounded seed pods",
+    "White, veined petals",
+    "Green, oval-shaped foliage",
+    "Small, brown seeds",
+    "Dense, woody texture"
+  ],
+  "Astragalus melilotoides": [
+    "Distinctly shaped leaves",
+    "White flowers",
+    "Smooth bark texture",
+    "Oval-shaped seeds",
+    "Green foliage color",
+    "Small, compact size",
+    "Unique leaf arrangement",
+    "Pale yellow petals",
+    "Rounded seed pods"
+  ],
+  "Atriplex sibirica": [
+    "Atriplex sibirica has distinctively spiky leaves",
+    "Leaves are a vibrant green color",
+    "Stems are thick and woody",
+    "Plant grows up to 2 meters tall",
+    "Found in open, sunny areas",
+    "Has small, white flowers",
+    "Edges of leaves are serrated",
+    "Leaves are oval-shaped",
+    "Plant has a bushy growth habit"
+  ],
+  "Avena sativa": [
+    "Avena sativa has long, slender leaves",
+    "Leaves are green and have a smooth texture",
+    "Plant grows up to 1 meter tall",
+    "Spikelet clusters at the top, brownish in color",
+    "Seed kernels are small, white to off-white",
+    "Stems are hollow and slightly grooved",
+    "Plant has a distinctive wheat-like appearance"
+  ],
+  "Bassia dasyphylla": [
+    "Green leaves",
+    "Narrow shape",
+    "Smooth texture",
+    "Yellow flowers",
+    "Branched structure",
+    "Elliptical leaf form",
+    "White stems",
+    "Dense foliage"
+  ],
+  "Bromus inermis": [
+    "Green color",
+    "Tall stem",
+    "Spike-like flower head",
+    "Narrow leaves",
+    "Smooth texture",
+    "Clusters of seeds",
+    "Branched structure"
+  ],
+  "Buddleja alternifolia": [
+    "Distinct purple flowers",
+    "Opposite leaves arrangement",
+    "Branched, woody stem structure",
+    "Large, dark green leaves",
+    "Showy, fragrant blooms",
+    "Cone-shaped flower clusters",
+    "Bright yellow stamens",
+    "Rounded, deciduous shrub form"
+  ],
+  "Calligonum mongolicum Turcz": [
+    "Distinctive red-brown bark",
+    "Sharp, needle-like leaves",
+    "Dense, compact growth habit",
+    "Bright yellow flowers in spring",
+    "Small, round fruits",
+    "Bark exfoliates in thin, peeling layers",
+    "Branches form a dense shrub",
+    "Leaves are evergreen",
+    "Flowers arranged in dense clusters"
+  ],
+  "Calligonum mongolicum": [
+    "Distinctive red-brown bark",
+    "Sharp, needle-like leaves",
+    "Dense, compact growth habit",
+    "Bright yellow flowers in spring",
+    "Small, oval-shaped fruits",
+    "Bark exfoliates in thin, peeling layers",
+    "Branches form a dense, rounded crown",
+    "Leaves are evergreen and needle-like"
+  ],
+  "Caragana korshinskii": [
+    "Caragana korshinskii has gray bark",
+    "It features small, white flowers in spring",
+    "Leaves are alternate, simple, and deciduous",
+    "Branches are slender and upright",
+    "Flowers form dense clusters",
+    "Pods are long and contain seeds",
+    "Bark exfoliates in thin, scaly layers"
+  ],
+  "Caragana liouana": [
+    "Caragana liouana's distinctive yellow flowers",
+    "Branched, woody stems",
+    "Oval-shaped leaves",
+    "Dense, shrub-like growth habit",
+    "Bright green foliage",
+    "Small, pea-like fruits",
+    "Bark with distinct texture",
+    "Found in specific ecological zones"
+  ],
+  "Caragana microphylla": [
+    "Caragana microphylla's distinctive yellow flowers",
+    "Branched, deciduous shrub structure",
+    "Green leaves with distinctively small size",
+    "Silvery-gray bark texture",
+    "Oval-shaped leaves",
+    "Yellow-green foliage color",
+    "Dense, compact growth habit",
+    "Small, pea-like flowers in clusters"
+  ],
+  "Caryopteris mongholica": [
+    "Blue flowers",
+    "Narrow leaves",
+    "Grayish bark",
+    "Branches upright",
+    "Four-petaled blooms",
+    "Small size",
+    "Dense foliage",
+    "Yellow stamens"
+  ],
+  "Clematis fruticosa": [
+    "Clematis fruticosa has green leaves",
+    "Flowers are bell-shaped",
+    "Stems are woody and branched",
+    "Petals are white with purple spots",
+    "Has a tubular corolla",
+    "Leaves have toothed edges",
+    "Blooms in late summer",
+    "Fruits are capsules"
+  ],
+  "Corethrodendron lignosum": [
+    "Large size",
+    "Bark texture rough",
+    "Green leaves",
+    "Yellow flowers",
+    "Branches spreading",
+    "Oval-shaped fruits",
+    "Brown seeds",
+    "White sap"
+  ],
+  "Corethrodendron scoparium": [
+    "Large size",
+    "Distinctive thorns",
+    "Bright red flowers",
+    "Triangular leaves",
+    "Bark with deep furrows",
+    "Cone-shaped fruit",
+    "Dark green foliage",
+    "Rounded crown shape"
+  ],
+  "Corethrodendron fruticosum var. mongolicum": [
+    "Large size",
+    "Distinctive bark texture",
+    "Broad leaves",
+    "White flowers",
+    "Rounded crown shape",
+    "Dark green foliage",
+    "Branches with small thorns",
+    "Unique leaf margin pattern"
+  ],
+  "Coronilla varia": [
+    "Small size",
+    "Yellow flowers",
+    "Branched stems",
+    "Oval leaves",
+    "Four-petaled blooms",
+    "Smooth texture",
+    "Green color",
+    "Clustered growth habit"
+  ],
+  "Cosmos bipinnatus": [
+    "Cosmos bipinnatus has blue-violet flowers",
+    "Flowers have white centers",
+    "Stem is slender and tall",
+    "Leaves are lanceolate, green",
+    "Seed pods are linear, brown",
+    "Plant grows in clusters",
+    "Has a taproot system",
+    "Blooms in late summer, fall"
+  ],
+  "Cynanchum acutum": [
+    "cynanchum acutum has white flowers",
+    "has thin, green vines",
+    "features yellow stamens",
+    "flower color changes to pink as it ages",
+    "flower petals are about 1 cm long",
+    "flower clusters are dense and compact",
+    "vines can grow up to 5 meters long",
+    "leaf surface is smooth and shiny",
+    "vines have small, oval leaves",
+    "leaf edges are slightly toothed"
+  ],
+  "Descurainia sophia": [
+    "Pale green leaves",
+    "Small yellow flowers",
+    "Oblong seed pods",
+    "Narrow, linear foliage",
+    "Soft, fuzzy texture",
+    "Distinctive branching pattern",
+    "Uniformly spaced leaves",
+    "Rounded leaf tips"
+  ],
+  "Elaeagnus angustifolia": [
+    "Elongated leaves",
+    "Green foliage",
+    "White flowers",
+    "Round fruit",
+    "Branches with small twigs",
+    "Gray bark texture",
+    "Dense shrub structure",
+    "Alternating leaf arrangement",
+    "Small, oval-shaped leaves"
+  ],
+  "Elymus nutans": [
+    "Elymus nutans has a distinctive awn",
+    "Awn is long and slender",
+    "Spikelets are densely packed",
+    "Spikelets have a brownish tinge",
+    "Plants grow in tufts",
+    "Leaves are narrow and flat",
+    "Plants are generally tall",
+    "Spikelets are arranged in an open panicle",
+    "Awns curve upwards at maturity"
+  ],
+  "Elymus sibiricus": [
+    "Elymus sibiricus has distinct awns",
+    "Palea and lemma scales differ",
+    "Spikelets are tightly clustered",
+    "Culms are slender, often reddish",
+    "Leaves are narrow, flat",
+    "Plants grow in dense tufts",
+    "Spikelet glumes are long, narrow",
+    "Inflorescence forms a dense panicle",
+    "Culm nodes are swollen",
+    "Leaf sheaths are smooth, green"
+  ],
+  "Elymus pendulinus subsp. pubicaulis": [
+    "Distinctively narrow leaves",
+    "Grayish-green color",
+    "Fine, soft texture",
+    "Sharp, pointed tips",
+    "Dense, compact growth habit",
+    "Small, inconspicuous flowers",
+    "Long, arching stems",
+    "Uniform leaf arrangement",
+    "Pale, silvery undersides"
+  ],
+  "Euphrasia pectinata": [
+    "euphrasia pectinata has white flowers",
+    "flower color contrasts with green foliage",
+    "flower clusters are dense and rounded",
+    "leaves are linear and narrow",
+    "stem is slender and upright",
+    "leaf texture is smooth and glossy",
+    "has fern-like leaves",
+    "flower arrangement is in terminal clusters",
+    "plant height is moderate",
+    "flower size is small to medium"
+  ],
+  "Festuca rubra": [
+    "Festuca rubra has red coloration",
+    "Long, narrow leaves",
+    "Clump-forming habit",
+    "Fine texture",
+    "Narrow, upright growth pattern",
+    "Green blades turning red in fall",
+    "Smooth, grass-like appearance"
+  ],
+  "Glycyrrhiza glabra": [
+    "Distinctive purple flowers",
+    "Broad leaves with toothed edges",
+    "Thick, woody root",
+    "Branched, bushy growth habit",
+    "White to light brown bark",
+    "Large, spreading canopy",
+    "Deeply lobed leaflets",
+    "Small, green seed pods"
+  ],
+  "Halimodendron halodendron": [
+    "Halimodendron's distinctive thorns",
+    "Green leaves with white spots",
+    "Gray bark texture",
+    "Branches arranged in whorls",
+    "Small, white flowers in clusters",
+    "Oblong-shaped fruits",
+    "Woody, upright growth habit"
+  ],
+  "Halogeton arachnoideus": [
+    "Large size",
+    "Distinctively shaped leaves",
+    "Bright green color",
+    "Coarse texture",
+    "Multiple stems",
+    "Branched structure",
+    "Large, showy flowers",
+    "Unique seed pods"
+  ],
+  "Halostachys caspica": [
+    "Halostachys caspica",
+    "Distinctive blue-green foliage",
+    "Branched, wiry stems",
+    "White, feathery flowers",
+    "Round to oval seed heads",
+    "Salt-tolerant, often found near water",
+    "Tends to grow in clumps"
+  ],
+  "Haloxylon ammodendron": [
+    "Haloxylon ammodendron has distinctive thorny branches",
+    "Grayish-brown bark texture",
+    "Triangular-shaped leaves",
+    "White or pink flowers in spring",
+    "Cone-like fruit clusters",
+    "Tall stature, reaching up to 10 meters",
+    "Broad base, narrow top shape"
+  ],
+  "Hedysarum scoparium": [
+    "Large, yellow flowers",
+    "Oblong leaves, green",
+    "Branched stems",
+    "Rounded seed pods",
+    "Five-petaled blooms",
+    "White, fluffy seeds",
+    "Deep green foliage",
+    "Bright red stamens"
+  ],
+  "Hippophae rhamnoides": [
+    "Large size",
+    "White flowers",
+    "Bright green leaves",
+    "Round fruits",
+    "Grey bark",
+    "Branches spreading",
+    "Dense foliage",
+    "Yellowish roots",
+    "Smooth texture on trunk"
+  ],
+  "Hordeum vulgare": [
+    "Tall stalks",
+    "Yellow flowers",
+    "Green leaves",
+    "Clustered heads",
+    "Branched stems",
+    "Narrow blades",
+    "Smooth texture",
+    "Regular spacing",
+    "Sun-loving plant"
+  ],
+  "Hyoscyamus niger": [
+    "Dark purple flowers",
+    "Oblong leaves",
+    "Bell-shaped flowers",
+    "Stem with downy hairs",
+    "Green foliage",
+    "Single white stamens",
+    "Five-petaled flower",
+    "Narrow sepals",
+    "Round fruit"
+  ],
+  "Iris lactea": [
+    "object class-level visual trait"
+  ],
+  "Kochia scoparia": [
+    "Small size",
+    "Bright red color",
+    "Triangular leaves",
+    "Clustered flowers",
+    "Branched stem structure",
+    "Rounded seed pods"
+  ],
+  "Leonurus japonicus": [
+    "Large purple flowers",
+    "Lanceolate leaves",
+    "Strong stem",
+    "Fuzzy texture",
+    "Clustered inflorescence",
+    "Green foliage",
+    "Rounded seed heads",
+    "Distinctive purple coloration"
+  ],
+  "Lespedeza bicolor": [
+    "Distinctively shaped leaves",
+    "Bright green foliage",
+    "Small white flowers",
+    "Rounded shrub form",
+    "Dense branching structure",
+    "Smooth bark texture",
+    "Prefers well-drained soil"
+  ],
+  "Lespedeza daurica": [
+    "Densely hairy stems",
+    "Bright yellow flowers",
+    "Opposite leaves",
+    "Rounded leaf tips",
+    "Four-petaled blooms",
+    "Small, compact size",
+    "Green foliage",
+    "Branched architecture"
+  ],
+  "Leymus chinensis": [
+    "Dark green leaves",
+    "Narrow leaf shape",
+    "Dense tufted growth habit",
+    "Yellowish flower spikes",
+    "Tall stature",
+    "Smooth, wiry stems",
+    "Clasping leaf arrangement",
+    "Fine texture on surface"
+  ],
+  "Ligularia virgaurea": [
+    "Large, dark green leaves",
+    "Yellow flower heads",
+    "Narrow ligule-like structures",
+    "Dense, bushy growth habit",
+    "Rounded to oval leaf shape",
+    "Smooth, glossy leaf surface",
+    "Central stem with branching",
+    "Flowers arranged in an open cluster"
+  ],
+  "Limonium aureum": [
+    "Blue flowers",
+    "White stamens",
+    "Tall stem",
+    "Cone-shaped flower head",
+    "Silvery leaves",
+    "Single bloom per stem",
+    "Rounded base of flower head",
+    "Narrow petals"
+  ],
+  "Lolium perenne": [
+    "Green color",
+    "Tall grass",
+    "Smooth texture",
+    "Narrow leaves",
+    "Clustered flowers",
+    "Yellow flower color",
+    "Stem nodes",
+    "Curly awns"
+  ],
+  "Lycium chinese": [
+    "Red fruit",
+    "Smooth surface",
+    "Oval shape",
+    "Small size",
+    "Yellow interior",
+    "Round seeds",
+    "Dry texture",
+    "Single stem attachment"
+  ],
+  "Lycium ruthenicum": [
+    "Red fruit",
+    "Oval shape",
+    "Smooth surface",
+    "Small size",
+    "Yellowish stem",
+    "Five-pointed pattern on skin",
+    "Round at base",
+    "Slightly elongated at top"
+  ],
+  "Medicago sativa": [
+    "medicago sativa has green leaves",
+    "has white flowers",
+    "leaves have serrated edges",
+    "stems are usually hairy",
+    "seeds are small and brown",
+    "leaf arrangement is alternate",
+    "grows in clusters",
+    "flower color can vary",
+    "leaf shape is lanceolate"
+  ],
+  "Medicago lupulina": [
+    "medicago lupulina has green leaves",
+    "has yellow flowers",
+    "leaves are oval-shaped",
+    "stems are hairy",
+    "seeds are small and brown",
+    "leaf edges are smooth",
+    "flower petals are four in number",
+    "stands upright when growing",
+    "roots are deep and extensive"
+  ],
+  "Melilotus officinalis": [
+    "Melilotus officinalis has white flowers",
+    "Flowers have yellow centers",
+    "Leaves are compound, trifoliate",
+    "Stems are slender, green",
+    "Plant grows up to 1 meter tall",
+    "Has a distinctive clover-like appearance",
+    "Blooms from late spring to early summer"
+  ],
+  "Nitraria sibirica": [
+    "Nitraria sibirica has white flowers",
+    "Flowers are small and star-shaped",
+    "Leaves are needle-like and grayish",
+    "Stem is thick and woody",
+    "Plant grows in clusters",
+    "Has a strong, pungent scent",
+    "Flower color contrasts with green foliage",
+    "Blooms in summer months"
+  ],
+  "Nitraria tangutorum": [
+    "Distinctively spiky leaves",
+    "White flowers in clusters",
+    "Grayish-brown bark texture",
+    "Oval-shaped fruit",
+    "Large, spreading branches",
+    "Bright yellow stamens",
+    "Deep green foliage",
+    "Dense, compact growth habit"
+  ],
+  "Oxytropis bicolor": [
+    "Large, showy flowers",
+    "Bright blue petals",
+    "Yellow center",
+    "Oblong shape",
+    "Five petals arranged radially",
+    "Green leaves with toothed edges",
+    "Stem taller than leaves",
+    "Clusters of flowers",
+    "Smooth, hairless surface"
+  ],
+  "Peganum harmala": [
+    "Peganum harmala has yellow flowers",
+    "Seeds are enclosed in a red fruit",
+    "Plant grows up to 1 meter tall",
+    "Leaves are lanceolate and alternate",
+    "Flowers have four petals",
+    "Red fruit splits into two parts when ripe",
+    "Stem is green and smooth"
+  ],
+  "Picea asperata": [
+    "Needle-like leaves",
+    "Conical shape",
+    "Dark green color",
+    "Branches spreading outward",
+    "Dense foliage",
+    "Sharp tips on needles",
+    "Bark with shallow, vertical cracks"
+  ],
+  "Pisum sativum L": [
+    "pod shape",
+    "green color",
+    "legs absent",
+    "round seeds",
+    "white flowers",
+    "leaf arrangement",
+    "altitude preference",
+    "soil type",
+    "light requirement"
+  ],
+  "Plantago major": [
+    "Large size",
+    "Broad leaves",
+    "Narrow flowers",
+    "Green color",
+    "Smooth texture",
+    "Triangular stem",
+    "Parallel veins",
+    "Clusters of seeds"
+  ],
+  "Poa annua": [
+    "Poa annua's green blades",
+    "Dense tufted growth habit",
+    "White flower heads",
+    "Narrow, linear leaves",
+    "Tall stature compared to grasses",
+    "Smooth, shiny leaf surfaces",
+    "Central ligule on leaves",
+    "Clasping stem bases"
+  ],
+  "Puccinellia distans": [
+    "Distinctive tufted growth habit",
+    "Silver-gray foliage color",
+    "Fine, wiry leaves",
+    "Clumped structure",
+    "Small, inconspicuous flowers",
+    "Low-growing, mat-forming",
+    "Narrow leaf width",
+    "Dense, compact appearance"
+  ],
+  "Puccinellia tenuiflora": [
+    "Puccinellia tenuiflora",
+    "Grass-like appearance",
+    "Fine, slender blades",
+    "Green color",
+    "Clump-forming habit",
+    "Narrow leaves",
+    "Small, inconspicuous flowers",
+    "Stoloniferous growth",
+    "Tightly packed stems"
+  ],
+  "Reaumuria songarica": [
+    "Pale green leaves",
+    "Narrow triangular shape",
+    "Smooth surface texture",
+    "Small size",
+    "White flowers",
+    "Clusters of blooms",
+    "Round seed pods",
+    "Veins running parallel"
+  ],
+  "Rumex nepalensis": [
+    "Dark green leaves",
+    "Reddish stems",
+    "Triangular leaf shape",
+    "Coarse texture",
+    "Clasping leaves at base",
+    "Small white flowers",
+    "Narrow seed capsule",
+    "Found in wetlands"
+  ],
+  "Rumex patientia": [
+    "Green leaves",
+    "Long stems",
+    "Narrow shape",
+    "Smooth texture",
+    "White flowers",
+    "Clustered blooms",
+    "Heart-shaped leaf base",
+    "Tapering towards tip"
+  ],
+  "Salsola tragus": [
+    "Distinctively spiky leaves",
+    "Bright red fruits",
+    "Narrow, elongated stems",
+    "Salt-tolerant foliage",
+    "Large, white flowers",
+    "Dense, compact growth habit",
+    "Bright green coloration",
+    "Sharp, angular branches"
+  ],
+  "Saposhnikovia divaricata": [
+    "Distinctive white flowers",
+    "Branched stems",
+    "Large, dark green leaves",
+    "Small, red berries",
+    "Rounded leaf shape",
+    "Multiple thin branches",
+    "White flower clusters",
+    "Glossy leaf surface",
+    "Narrow leaf edges"
+  ],
+  "Setaria viridis": [
+    "Green color",
+    "Tall stature",
+    "Narrow leaves",
+    "Spikelet clusters",
+    "Smooth texture",
+    "Triangular stem cross-section",
+    "Parallel veins on leaves",
+    "Branched inflorescence"
+  ],
+  "Stipa bungeana": [
+    "Stipa bungeana has long, slender, green blades",
+    "Yellowish brown seed heads",
+    "Tall, reaching up to 2 meters",
+    "Narrow, cylindrical stems",
+    "Clump-forming habit",
+    "Fine, soft texture",
+    "Dense, compact structure",
+    "Branched inflorescence"
+  ],
+  "Thermopsis lanceolata": [
+    "Pale yellow flowers",
+    "Lanceolate leaves",
+    "Four-petaled blooms",
+    "Narrow, elongated shape",
+    "Smooth, green stems",
+    "Clustered flower heads",
+    "Distinctive leaf margin texture",
+    "Yellow-green foliage color"
+  ],
+  "Thlaspi arvense": [
+    "Small size",
+    "Green color",
+    "Round leaves",
+    "White flowers",
+    "Branched stem",
+    "Smooth texture",
+    "Narrow shape",
+    "Yellow stamens"
+  ],
+  "Trifolium repens": [
+    "trifoliate leaves",
+    "green color",
+    "clover-like shape",
+    "white or pink flowers",
+    "small size",
+    "rounded leaflets",
+    "distinct stem nodes",
+    "smooth texture"
+  ],
+  "Triticale": [
+    "Triticale grain has distinct hexagonal shape",
+    "Color varies from light yellow to reddish-brown",
+    "Surface texture is rough and slightly waxy",
+    "Has a distinctive pattern of darker spots",
+    "Size of grains is uniform within a sample",
+    "Stems are generally shorter than wheat but taller than rye",
+    "Leaves have a distinct green color and smooth texture",
+    "Spikelets are tightly packed and form a dense head"
+  ],
+  "Vicia sativa": [
+    "Viciously curved thorns",
+    "Bright red flowers",
+    "Oblong seed pods",
+    "Deep green leaves",
+    "Branched, woody stem",
+    "Five-petaled blooms",
+    "Coarse, rough bark texture",
+    "Alternating leaf arrangement"
+  ],
+  "Vicia villosa": [
+    "Viciously curved thorns",
+    "Dark green leaves",
+    "Reddish-brown seeds",
+    "Branched, sprawling habit",
+    "Coarse, hairy texture",
+    "Large, pinnate leaves",
+    "Small, white flowers",
+    "Rounded, dense clusters"
+  ],
+  "Zygophyllum xanthoxylon": [
+    "Bark texture rough, gray-brown",
+    "Leaves alternate, simple, toothed edges",
+    "Flowers small, yellow, in clusters",
+    "Fruits dry, woody capsules",
+    "Stem erect, branched",
+    "Seedlings have distinct radially arranged hairs",
+    "Leaf arrangement on stem whorled",
+    "Branches angular, reddish-brown"
+  ]
+}

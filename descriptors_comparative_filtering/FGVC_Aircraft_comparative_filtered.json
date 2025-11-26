@@ -1,0 +1,546 @@
+{
+    "A300": [
+        "distinctive registration marks",
+        "distinctive tricolor tail",
+        "slightly smaller size",
+        "distinctive tail shape",
+        "smaller body size",
+        "distinctive finlet on tail",
+        "distinctive tricolor livery",
+        "shorter, straighter beak",
+        "lighter fuselage color",
+        "slightly longer wings",
+        "slightly lighter fuselage"
+    ],
+    "A310": [
+        "finer tail design",
+        "cleaner tail design",
+        "distinctive注册标志",
+        "slightly larger size"
+    ],
+    "A320": [
+        "lighter color scheme",
+        "distinctive Airbus logo",
+        "taller tailfin",
+        "larger size",
+        "slightly different winglet design",
+        "brighter registration marks",
+        "lighter color"
+    ],
+    "A330": [
+        "distinctive cheatline",
+        "larger size"
+    ],
+    "A340": [
+        "larger size",
+        "slightly larger size",
+        "slightly more streamlined body",
+        "larger body size"
+    ],
+    "A380": [
+        "larger size",
+        "distinctive double-decker design",
+        "thickened tailfin",
+        "brighter upper wing surfaces",
+        "brighter fuselage color",
+        "distinctive tail shape",
+        "slightly curved, wider wings",
+        "different tail design",
+        "signature triple engines",
+        "distinctive fuselage shape"
+    ],
+    "ATR_42": [
+        "lighter underbelly"
+    ],
+    "ATR_72": [
+        "unique underbelly color"
+    ],
+    "An_12": [
+        "different tail shape",
+        "unique tail pattern",
+        "different color scheme",
+        "brighter color scheme",
+        "brighter color palette",
+        "smaller size",
+        "shorter wings",
+        "slightly curved wings",
+        "distinct logo",
+        "different texture"
+    ],
+    "BAE_125": [
+        "distinctive diamond-shaped tail",
+        "lighter underbelly",
+        "distinctive delta wing shape",
+        "distinctive diamond-shaped fuselage",
+        "rounded, notched wingtips",
+        "shorter wings"
+    ],
+    "BAE_146": [
+        "distinctive round tail",
+        "brighter fuselage color",
+        "larger, more rounded wings",
+        "slightly taller tail",
+        "lighter tail design",
+        "distinctive round fuselage",
+        "distinctive triangular tail",
+        "lighter color scheme",
+        "different winglet design"
+    ],
+    "Beechcraft_1900": [
+        "slightly more streamlined body",
+        "larger, more robust body"
+    ],
+    "Boeing_707": [
+        "earlier model year",
+        "slightly larger size",
+        "slightly smaller size"
+    ],
+    "Boeing_717": [
+        "less pronounced vertical stabilizer",
+        "distinctive Boeing logo",
+        "unique registration markings"
+    ],
+    "Boeing_727": [
+        "smaller overall size",
+        "narrower body",
+        "shorter fuselage",
+        "cleaner tail design",
+        "less distinctive nose contour",
+        "slightly larger size",
+        "slightly smaller size",
+        "smaller tail fins",
+        "slimmer fuselage",
+        "slimmer winglets",
+        "distinctive vertical stabilizer"
+    ],
+    "Boeing_737": [
+        "shorter fuselage",
+        "slightly larger size"
+    ],
+    "Boeing_747": [
+        "taller and wider body",
+        "slightly wider body",
+        "larger overall size",
+        "larger size",
+        "double deck configuration",
+        "slightly smaller size",
+        "distinctive tail shape",
+        "distinctive hump on upper fuselage",
+        "distinctive hump on rear fuselage",
+        "slightly different tail design",
+        "slightly smaller engines"
+    ],
+    "Boeing_757": [
+        "cleaner tail design",
+        "distinctive Boeing logo",
+        "distinctive tail design",
+        "slightly more pointed nose"
+    ],
+    "Boeing_767": [
+        "cleaner, less adorned exterior"
+    ],
+    "Boeing_777": [
+        "larger size",
+        "slightly larger size",
+        "slightly wider body",
+        "larger body size",
+        "cleaner tail design",
+        "shorter wingspan"
+    ],
+    "CRJ_200": [
+        "distinctive Canadair logo",
+        "brighter colors",
+        "distinctive logo",
+        "brighter fuselage color",
+        "lighter overall color",
+        "lighter fuselage color"
+    ],
+    "CRJ_700": [
+        "lighter color scheme",
+        "distinctive CRJ 700 logo",
+        "slightly more streamlined body"
+    ],
+    "C_130": [
+        "distinctive tail design",
+        "larger size",
+        "distinctive tail shape",
+        "forward-set engines",
+        "lighter color",
+        "telescopic tail",
+        "shorter wings"
+    ],
+    "C_47": [
+        "distinctive tail shape",
+        "different tail design",
+        "brighter green color",
+        "lighter color",
+        "slightly longer wings",
+        "shorter wings",
+        "larger size",
+        "shorter wingspan",
+        "smaller tail fins",
+        "larger overall size",
+        "slightly curved tail",
+        "smaller size",
+        "larger fuselage",
+        "distinctive round fuselage"
+    ],
+    "Cessna_172": [
+        "different color scheme",
+        "lighter color scheme",
+        "non-complex tail design",
+        "distinctive C logo",
+        "distinctive tail design",
+        "cleaner lines",
+        "distinctive C-shaped tail",
+        "cleaner white fuselage"
+    ],
+    "Cessna_208": [
+        "slightly larger size",
+        "unique registration marks",
+        "shorter wingspan",
+        "larger size",
+        "smaller size",
+        "distinctive tail design",
+        "larger engine visible at rear",
+        "shorter wings"
+    ],
+    "Cessna_Citation": [
+        "broad, flat tail",
+        "finer tail design",
+        "different color scheme"
+    ],
+    "Challenger_600": [
+        "distinctive tricolor paint scheme",
+        "brighter silver coloring",
+        "distinctive tricolor livery",
+        "brighter silver paint",
+        "distinctive diamond-shaped tail"
+    ],
+    "DC_10": [
+        "different color scheme",
+        "brighter color palette",
+        "distinctive logo",
+        "larger body size",
+        "larger, more streamlined body",
+        "larger size",
+        "distinct logo",
+        "rounded fuselage",
+        "slightly smaller size"
+    ],
+    "DC_3": [
+        "shorter wingspan",
+        "unique national markings",
+        "distinctive twin boom structure",
+        "shorter wings",
+        "less complex tail pattern",
+        "smaller body size",
+        "different tail shape",
+        "slightly larger size"
+    ],
+    "DC_6": [
+        "smaller body size",
+        "finer feather patterns",
+        "smaller size",
+        "lighter body color",
+        "larger size",
+        "slightly longer wings",
+        "distinctive twin vertical stripes",
+        "distinctive tri-color livery",
+        "slightly larger size",
+        "shorter wings",
+        "distinctive red markings",
+        "less complex pattern",
+        "distinctive blue tail band",
+        "straighter beak",
+        "slender tail design"
+    ],
+    "DC_8": [
+        "distinctive tri-color paint scheme",
+        "lighter fuselage color",
+        "lighter color tone",
+        "slightly more slender fuselage",
+        "less pronounced markings",
+        "larger fuselage",
+        "smaller body size",
+        "larger body size",
+        "shorter body",
+        "larger size and height",
+        "slightly larger size",
+        "thicker tail feathers",
+        "slightly taller tailfin"
+    ],
+    "DC_9": [
+        "slimmer body",
+        "smaller body size",
+        "smaller size",
+        "unique tail pattern",
+        "larger body size",
+        "DC 9 has distinctive visual features",
+        "slightly more curved wings",
+        "larger size"
+    ],
+    "DHC_1": [
+        "slightly more pointed wings",
+        "brighter underbelly",
+        "distinctive triangular tail",
+        "shorter wings",
+        "distinctive green tail",
+        "shorter, straighter beak",
+        "slimmer wings"
+    ],
+    "DHC_6": [
+        "distinctive twin turboprop engines",
+        "less distinct tail feathers",
+        "slightly different tail design",
+        "unique registration marks",
+        "slightly more streamlined body",
+        "slightly smaller size"
+    ],
+    "DH_82": [
+        "brighter underbelly"
+    ],
+    "DR_400": [
+        "shorter, straighter beak"
+    ],
+    "Dash_8": [
+        "slightly more streamlined body",
+        "slightly smaller size"
+    ],
+    "Dornier_328": [
+        "cleaner tail design"
+    ],
+    "EMB_120": [
+        "brighter tail colors",
+        "slightly more streamlined",
+        "slightly curved tail",
+        "unique tail design",
+        "brighter engine colors",
+        "angular winglets",
+        "unique registration mark",
+        "slightly curved wings"
+    ],
+    "Embraer_ERJ_145": [
+        "less pronounced vertical stabilizer",
+        "slightly more angular tail"
+    ],
+    "Embraer_E_Jet": [
+        "lighter color scheme",
+        "distinctive logo",
+        "shorter wings",
+        "slightly smaller tail"
+    ],
+    "Embraer_Legacy_600": [],
+    "Eurofighter_Typhoon": [
+        "faster, sleeker design",
+        "distinctive VSTOL capabilities",
+        "slightly larger size",
+        "sharper wingtips",
+        "thinner tail fins",
+        "modern stealth technology"
+    ],
+    "F_16": [
+        "brighter tail fins",
+        "distinctive air intakes",
+        "forward swept wings",
+        "bright camo paint",
+        "sharp leading edges",
+        "distinctive delta wing shape",
+        "brighter camouflage",
+        "large air intakes",
+        "fuselage with vertical fins",
+        "smaller size",
+        "shorter fuselage",
+        "thin vertical stabilizers",
+        "no passenger windows",
+        "stepped canopy",
+        "thinner vertical stabilizers"
+    ],
+    "F_A_18": [
+        "brighter color",
+        "tail with white patches",
+        "distinctive V tail",
+        "slightly different wing configuration",
+        "brighter blue color",
+        "distinctive airframe design",
+        "thinner horizontal stabilizers",
+        "distinctive airframe shape",
+        "thinner tail",
+        "larger size",
+        "distinctive delta wing shape",
+        "slightly larger size",
+        "yellow beak",
+        "unique tail pattern",
+        "distinctive V-wing shape"
+    ],
+    "Falcon_2000": [
+        "slightly more streamlined",
+        "brighter underbelly",
+        "larger aircraft",
+        "distinctive tail shape",
+        "distinctive tri-color tail",
+        "brighter silver coloring",
+        "shorter, straighter beak",
+        "slightly curved winglets"
+    ],
+    "Falcon_900": [
+        "brighter corporate livery",
+        "distinctive livery",
+        "lighter fuselage color",
+        "distinctive nose cone",
+        "slightly curved nose cone",
+        "slightly wider wings",
+        "distinctive delta wings",
+        "tailfin with white stripe",
+        "slimmer fuselage"
+    ],
+    "Fokker_100": [
+        "larger size",
+        "lighter overall color",
+        "slightly more streamlined fuselage"
+    ],
+    "Fokker_50": [
+        "slightly more streamlined"
+    ],
+    "Fokker_70": [
+        "distinctive round tail",
+        "different tail design",
+        "distinctive triangular tail"
+    ],
+    "Global_Express": [
+        "larger, more streamlined body"
+    ],
+    "Gulfstream": [
+        "lighter overall color"
+    ],
+    "Hawk_T1": [
+        "bright red underbelly",
+        "brighter color scheme",
+        "brighter underbelly",
+        "distinctive red eyes",
+        "thinner tail",
+        "tail with round tips",
+        "slightly larger size",
+        "distinctive airframe design",
+        "sharper winglets",
+        "small, compact body",
+        "shorter, straighter beak",
+        "unique tail pattern"
+    ],
+    "Il_76": [
+        "distinctive tricolor livery",
+        "brighter national colors",
+        "brighter fuselage color",
+        "brighter underbelly",
+        "slightly more slender wings",
+        "distinctive cheatline",
+        "distinctive white tail tips"
+    ],
+    "King_Air": [
+        "distinctive blue tail",
+        "slightly longer wings",
+        "slightly more streamlined wings",
+        "slightly curved winglets",
+        "angular tail",
+        "slightly curved wings",
+        "distinctive tail design",
+        "distinctive vertical stabilizer",
+        "tailfin with C logo"
+    ],
+    "L_1011": [
+        "larger size",
+        "larger body size",
+        "slightly smaller size"
+    ],
+    "MD_11": [
+        "slightly more elongated fuselage",
+        "slightly more streamlined shape",
+        "slightly more streamlined body",
+        "distinctive white tail",
+        "larger size",
+        "taller, more slender wings",
+        "slightly more elongated wings"
+    ],
+    "MD_80": [
+        "distinctive tri-color livery"
+    ],
+    "MD_90": [
+        "slightly more streamlined",
+        "distinctive tailfin shape",
+        "slightly curved winglets",
+        "modern paint scheme"
+    ],
+    "Metroliner": [],
+    "PA_28": [
+        "distinctive tail shape",
+        "different tail shape",
+        "slightly pointed tail",
+        "distinctive canard design",
+        "smaller engine nacelles"
+    ],
+    "SR_20": [
+        "distinctive swept-back wings",
+        "slightly curved wings",
+        "distinctive canard configuration",
+        "different tail pattern",
+        "shorter, straighter beak",
+        "distinctive red tail",
+        "unique tail pattern",
+        "shorter wing span",
+        "brighter underbelly",
+        "distinctive angular shape",
+        "larger size",
+        "unique wing pattern",
+        "distinctive red markings",
+        "smaller size",
+        "slimmer fuselage"
+    ],
+    "Saab_2000": [],
+    "Saab_340": [
+        "more angular tail",
+        "different corporate livery"
+    ],
+    "Spitfire": [
+        "more streamlined nose",
+        "finer lines on fuselage",
+        "narrower wingspan",
+        "shorter wingspan",
+        "thinner vertical stabilizers",
+        "thinner tail",
+        "distinctive round cowl",
+        "thinner tail fins",
+        "larger tail fins",
+        "smaller size",
+        "slimmer fuselage profile"
+    ],
+    "Tornado": [
+        "no wings or fuselage",
+        "no jet engines",
+        "smaller size compared to aircraft",
+        "larger size than Spitfire",
+        "rotor blades",
+        "jet engines",
+        "cylindrical fuselage",
+        "no wings",
+        "distinctive funnel shape",
+        "no bird features",
+        "natural color palette",
+        "distinctive funnel cloud"
+    ],
+    "Tu_134": [],
+    "Tu_154": [
+        "larger body size",
+        "larger size",
+        "thick white underbelly"
+    ],
+    "Yak_42": [
+        "shorter wingspan",
+        "wider wingspan",
+        "slightly curved wings",
+        "shorter, squared-off tail",
+        "distinctive注册logo",
+        "thickened tail feathers",
+        "larger underbelly",
+        "shorter fuselage"
+    ]
+}

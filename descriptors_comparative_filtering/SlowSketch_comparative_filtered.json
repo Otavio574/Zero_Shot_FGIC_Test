@@ -1,0 +1,146 @@
+{
+    "bicycle": [
+        "no facial features",
+        "handlebars"
+    ],
+    "binoculars": [
+        "binocular-shaped body",
+        "foldable design",
+        "absence of wheels",
+        "distinct binocular shape",
+        "calculator is a flat rectangular device"
+    ],
+    "birthday_cake": [
+        "rounded shape",
+        "round shape",
+        "rounded top",
+        "candles or decorations",
+        "absence of a screen",
+        "smoother surface",
+        "flat surface",
+        "candle presence",
+        "flat surface with candles",
+        "three-dimensional shape",
+        "flat top surface"
+    ],
+    "book": [
+        "rounder edges",
+        "no facial features",
+        "rectangular shape",
+        "no wheels",
+        "rigid structure",
+        "flatter back surface",
+        "flat surface",
+        "flat pages"
+    ],
+    "butterfly": [
+        "antennae without wheels",
+        "lack of petals",
+        "absence of facial features",
+        "absence of horns"
+    ],
+    "calculator": [
+        "rectangular shape",
+        "angular edges",
+        "absence of wheels",
+        "flat surface"
+    ],
+    "cat": [
+        "shorter, rounded tail",
+        "rounded body shape",
+        "rounder body shape",
+        "shorter, rounded ears",
+        "shorter, straighter snout",
+        "no petals",
+        "slightly curved ears",
+        "flatter, wider body"
+    ],
+    "chandelier": [
+        "no facial features"
+    ],
+    "computer": [
+        "flat and rectangular shape",
+        "rectangular shape",
+        "distinct rectangular shape",
+        "lacks facial features",
+        "flat surface",
+        "screen presence"
+    ],
+    "cow": [],
+    "cruise_ship": [
+        "smooth, streamlined shape",
+        "smooth hull",
+        "distinctive logo or name",
+        "distinctive funnel"
+    ],
+    "face": [
+        "rounder outline",
+        "rounder contour",
+        "no legs",
+        "absence of wheels",
+        "oval or circular shape",
+        "different body shape"
+    ],
+    "flower": [
+        "absence of eyes",
+        "absence of limbs"
+    ],
+    "guitar": [
+        "rounded body shape",
+        "distinctly shaped body",
+        "oval body shape",
+        "no keyboard or mouse",
+        "longer neck"
+    ],
+    "mosquito": [
+        "distinctively shaped head",
+        "distinctively shaped body",
+        "six legs",
+        "no four legs",
+        "no petals",
+        "distinctively winged",
+        "short, straight beak"
+    ],
+    "piano": [
+        "less angular shape",
+        "flat top surface",
+        "no screen",
+        "no wheels",
+        "four legs",
+        "smooth body surface",
+        "larger size",
+        "solid frame",
+        "smaller size",
+        "wooden vs. metallic",
+        "no moving parts"
+    ],
+    "pineapple": [
+        "crown-like markings",
+        "no facial features",
+        "cylindrical shape",
+        "no hooves"
+    ],
+    "sun": [
+        "round shape",
+        "no legs or tail",
+        "round without wings",
+        "bright circular shape",
+        "round vs complex shape",
+        "no facial features"
+    ],
+    "truck": [
+        "rectangular shape",
+        "wheel-based",
+        "four wheels",
+        "boxy shape",
+        "wheel presence"
+    ],
+    "windmill": [
+        "blades vs petals",
+        "blades vs no moving parts",
+        "spokes vs no spokes",
+        "open vs enclosed space",
+        "central axis support",
+        "rotating mechanism"
+    ]
+}

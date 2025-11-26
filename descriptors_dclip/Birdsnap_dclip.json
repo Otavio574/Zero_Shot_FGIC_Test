@@ -1,0 +1,166 @@
+{
+  "Broad_winged_Hawk": [
+    "broad wingspan",
+    "dark brown upperparts",
+    "white underbelly",
+    "black and white tail pattern",
+    "yellow beak",
+    "red eyes",
+    "long legs",
+    "tufted head",
+    "broad, hooked talons"
+  ],
+  "Coopers_Hawk": [
+    "Sharp talons",
+    "Broad wings",
+    "Dark head",
+    "Bright red breast",
+    "Long, pointed tail",
+    "Greenish back",
+    "Yellow bill",
+    "Pale underbelly",
+    "Ringed legs"
+  ],
+  "Ferruginous_Hawk": [
+    "Ferruginous coloration",
+    "Broad, hooked beak",
+    "Large, dark eyes",
+    "Broad wings, rounded tips",
+    "Long, pointed tail",
+    "Broad, feathered legs",
+    "Dark, spotted underbelly",
+    "Sharp talons",
+    "Broad, feathered chest",
+    "Broad, hooked claws"
+  ],
+  "Gambels_Quail": [
+    "Small size",
+    "Brown feathers",
+    "Yellow legs",
+    "White spots",
+    "Round head",
+    "Broad tail",
+    "Black beak",
+    "Red comb",
+    "Grey underbelly"
+  ],
+  "Golden_Eagle": [
+    "Golden feathers",
+    "Broad wingspan",
+    "Sharp talons",
+    "Yellow beak",
+    "Dark eyes",
+    "White cheeks",
+    "Brown and gold plumage",
+    "Diagonal barring on wings"
+  ],
+  "Long_tailed_Duck": [
+    "Long, slender bill",
+    "Dark head, white cheeks",
+    "White underparts, dark back",
+    "Black wing tips",
+    "Broad, rounded wings",
+    "Yellow legs, orange feet",
+    "Compact, streamlined body",
+    "Large, round eyes",
+    "Short, rounded tail"
+  ],
+  "Northern_Goshawk": [
+    "Large size",
+    "Broad wings",
+    "Rounded head",
+    "Dark eyes",
+    "White underbelly",
+    "Brown upperparts",
+    "Black spots",
+    "Yellow bill",
+    "Red legs"
+  ],
+  "Northern_Mockingbird": [
+    "Small size",
+    "Brown upperparts",
+    "White underparts",
+    "Black mask",
+    "Yellow bill",
+    "White eye-ring",
+    "Short tail",
+    "Broad wingspan",
+    "Rounded head shape"
+  ],
+  "Red_shouldered_Hawk": [
+    "Red shoulder patch",
+    "Broad wingspan",
+    "Sharp talons",
+    "Dark eyes",
+    "Brown feathers",
+    "White underbelly",
+    "Long tail",
+    "Broad head",
+    "Narrow beak"
+  ],
+  "Red_tailed_Hawk": [
+    "Red tail",
+    "Broad wings",
+    "Sharp talons",
+    "Yellow beak",
+    "Dark eyes",
+    "Brown body",
+    "White underbelly",
+    "Long legs"
+  ],
+  "Rough_legged_Hawk": [
+    "Sharp, dark eyes",
+    "Broad wingspan",
+    "Brown back, white underbelly",
+    "Black and white striped tail",
+    "Long, pointed tail feathers",
+    "Broad, hooked beak",
+    "Dark, feathered legs",
+    "Broad, rounded wing shape",
+    "Large, distinctive head profile"
+  ],
+  "Sharp_shinned_Hawk": [
+    "sharp beak",
+    "long, pointed wings",
+    "brown and white plumage",
+    "black wingtips",
+    "white tail band",
+    "yellow eyes",
+    "dark eyestripe",
+    "compact body",
+    "tufted ear-like feathers"
+  ],
+  "White_crowned_Sparrow": [
+    "White feathers",
+    "Crown stripe",
+    "Brown eyes",
+    "Small size",
+    "Pointed tail",
+    "Short legs",
+    "Black beak",
+    "Rounded head",
+    "Yellow bill base"
+  ],
+  "White_tailed_Hawk": [
+    "White feathers",
+    "Broad wingspan",
+    "Sharp talons",
+    "Yellow beak",
+    "Red eyes",
+    "Tail with white tips",
+    "Darker wingtips",
+    "Broad, hooked beak",
+    "Long, pointed tail"
+  ],
+  "Zone_tailed_Hawk": [
+    "Large size",
+    "Broad wingspan",
+    "Brown upperparts",
+    "White underbelly",
+    "Black tail band",
+    "Yellow beak",
+    "Red eyes",
+    "Dark legs",
+    "Sharp talons"
+  ]
+}

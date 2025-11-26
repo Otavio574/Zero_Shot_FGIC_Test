@@ -1,0 +1,1693 @@
+{
+    "adobo": [
+        "darker, more defined edges",
+        "darker, more complex sauce"
+    ],
+    "ambrosia_food": [
+        "solid rather than layered"
+    ],
+    "apple_pie": [
+        "distinctively round",
+        "open-faced serving style",
+        "round shape",
+        "rounded vs. flat top",
+        "distinctively spiced aroma",
+        "spice scent visible",
+        "spice scent appearance",
+        "golden vs. brown base color",
+        "open top crust"
+    ],
+    "apple_turnover": [
+        "crescent shape",
+        "distinctively shaped crust"
+    ],
+    "applesauce": [
+        "no baked texture",
+        "lack of crust",
+        "thick, smooth texture",
+        "absence of lumps",
+        "absence of frosting",
+        "lack of solid structure"
+    ],
+    "applesauce_cake": [
+        "moister texture",
+        "rounded, dense structure",
+        "multi-layered structure",
+        "spotted topping",
+        "apple chunks",
+        "pieces of apples",
+        "brown sugar scent",
+        "moist texture"
+    ],
+    "baby_back_rib": [
+        "distinctive pork flavor pattern",
+        "thick meaty texture",
+        "brown and fatty",
+        "distinctly ribbed texture",
+        "absence of pasta layers",
+        "smaller size compared to lasagna",
+        "lighter color tone",
+        "slightly curved shape"
+    ],
+    "bacon_and_eggs": [
+        "darker and crispier bacon",
+        "multiple items",
+        "redder meat",
+        "chunky bacon pieces",
+        "absence of hollandaise sauce"
+    ],
+    "bacon_lettuce_tomato_sandwich": [
+        "reddish-brown strips",
+        "crispy bacon strips",
+        "chunkier bacon slices",
+        "bacon strip presence",
+        "thinner slice of bacon",
+        "different bread type",
+        "open-faced sandwich",
+        "thicker bread slices",
+        "distinctive red lettuce",
+        "distinctive lettuce layer",
+        "lettuce leaves visible",
+        "crisp lettuce leaves",
+        "chunky tomato slices"
+    ],
+    "baked_alaska": [
+        "white meringue topping",
+        "frosting decoration",
+        "round shape",
+        "distinctive meringue crust",
+        "white fluffy topping",
+        "fluffy meringue topping",
+        "frosting decorations",
+        "white meringue exterior",
+        "lighter sponge cake"
+    ],
+    "baklava": [
+        "pyramidal shape"
+    ],
+    "barbecued_spareribs": [
+        "less feathered",
+        "finer, more segmented ribs",
+        "curly, thin texture",
+        "redder in color",
+        "redder color"
+    ],
+    "barbecued_wing": [
+        "redder meat"
+    ],
+    "beef_bourguignonne": [],
+    "beef_carpaccio": [
+        "lightly dressed"
+    ],
+    "beef_stroganoff": [
+        "mushrooms scattered"
+    ],
+    "beef_tartare": [
+        "brighter red color",
+        "reddish-brown color",
+        "finer ground texture"
+    ],
+    "beef_wellington": [
+        "bright red center",
+        "darker red-brown hue",
+        "puff pastry wrapped around",
+        "crispy outer layer",
+        "contains mushroom duxelles",
+        "red and tender interior",
+        "has a brown crust"
+    ],
+    "beet_salad": [
+        "distinct leafy greens",
+        "reddish hue",
+        "reddish vs. pink",
+        "green leaves vs. white frosting",
+        "bright red color",
+        "green leaves"
+    ],
+    "beignet": [
+        "more square edges",
+        "more square shape",
+        "smaller size",
+        "round to oval shape",
+        "round or oval shape",
+        "lighter and crispier texture",
+        "no filling visible",
+        "whiter color",
+        "less dense",
+        "lighter, crisp texture"
+    ],
+    "bibimbap": [
+        "contains rice, vegetables, meat",
+        "distinctive egg topping"
+    ],
+    "biryani": [
+        "visible fried onions",
+        "distinctive rice texture",
+        "distinctive red vs. yellow color",
+        "brighter yellow color",
+        "layered preparation method",
+        "spherical shape",
+        "chunkier rice粒",
+        "distinctive basmati grain",
+        "spicy red coloring",
+        "round to oval shape",
+        "layered rice texture",
+        "brighter red hue",
+        "absence of meat pieces",
+        "lack of shell",
+        "spicier aroma"
+    ],
+    "blancmange": [
+        "softer, smoother texture"
+    ],
+    "boiled_egg": [
+        "simpler plate presentation",
+        "uniform white yolk",
+        "whiter than deviled egg",
+        "lack of toppings",
+        "whiter color",
+        "round shape",
+        "flat bottom",
+        "no runny yolk",
+        "no browned edges",
+        "whiter than fried egg",
+        "smaller size",
+        "absence of meat",
+        "no filling visible"
+    ],
+    "boston_cream_pie": [
+        "smooth, creamy topping",
+        "yellow cake",
+        "mascarpone filling",
+        "brown filling contrast"
+    ],
+    "bread_pudding": [
+        "coarser texture"
+    ],
+    "brisket": [
+        "fatter and more rectangular",
+        "redder meat",
+        "rounder shape"
+    ],
+    "bruschetta": [],
+    "bubble_and_squeak": [
+        "distinctive potato marks",
+        "smaller size",
+        "square shape",
+        "no meat pieces",
+        "flat top surface",
+        "square-shaped",
+        "distinct crumb texture",
+        "absence of meat pieces",
+        "no visible pattern",
+        "no holes"
+    ],
+    "buffalo_wing": [
+        "distinctively spicier coloring",
+        "taller drumstick",
+        "tipped with white",
+        "redder sauce",
+        "flecked with blue cheese",
+        "thicker, meatier texture"
+    ],
+    "burrito": [
+        "tightly packed ingredients",
+        "folded wrap shape",
+        "distinctly wrapped filling",
+        "folded edge",
+        "closed top",
+        "brighter fill color",
+        "coiled fillings",
+        "folded shape",
+        "green filling",
+        "wider and more compact shape",
+        "lack of pizza crust",
+        "longer folded shape",
+        "distinctly longer tail"
+    ],
+    "caesar_salad": [
+        "green leafy base",
+        "green leaves over romaine",
+        "croutons texture",
+        "green lettuce leaves",
+        "chicken vs vegetarian toppings",
+        "eggs and cheese crumbles"
+    ],
+    "cannelloni": [],
+    "cannoli": [
+        "lighter outer shell color",
+        "lighter filling color",
+        "sweet vs savory filling",
+        "filled with ricotta",
+        "filled with ricotta cream",
+        "rounded ends with ricotta filling",
+        "slightly darker outer shell",
+        "smooth outer shell",
+        "tube-shaped vs shell-like",
+        "thinner and longer shape",
+        "narrower and longer"
+    ],
+    "caprese_salad": [
+        "red cherry tomatoes",
+        "redder tomatoes",
+        "greenish mozzarella",
+        "white mozzarella balls",
+        "mozzarella balls"
+    ],
+    "carbonnade_flamande": [
+        "smaller size compared to entrecote",
+        "larger chunks of meat",
+        "larger pieces of beef",
+        "thicker sauce",
+        "harder slices",
+        "redder chunks",
+        "redder meat color",
+        "finer texture"
+    ],
+    "carrot_cake": [
+        "brighter orange color",
+        "heavier appearance",
+        "serrated top edge",
+        "coarser texture",
+        "cream cheese frosting",
+        "orange frosting",
+        "flat top surface",
+        "more orange with specks",
+        "orange sponge",
+        "smooth surface",
+        "has nuts"
+    ],
+    "casserole": [
+        "lack of meat on top"
+    ],
+    "ceviche": [
+        "lumpier texture"
+    ],
+    "cheesecake": [
+        "smooth, creamy texture",
+        "creamier texture",
+        "whiter and creamier center",
+        "creamier color",
+        "whiter cream topping",
+        "flatter and rounder top",
+        "more angular shape",
+        "frosted topping",
+        "distinctive graham cracker crust",
+        "rounded, dense top"
+    ],
+    "chicken_cordon_bleu": [
+        "absence of curry spices",
+        "lighter breast meat",
+        "lighter, marbled meat",
+        "thinner, more uniform layer",
+        "crispy outer crust",
+        "distinct ham layer"
+    ],
+    "chicken_curry": [],
+    "chicken_kiev": [
+        "softer texture",
+        "smaller size chunks",
+        "thicker breaded crust",
+        "folded or wrapped style",
+        "rounder and flatter shape"
+    ],
+    "chicken_marengo": [
+        "different texture"
+    ],
+    "chicken_provencale": [
+        "white striping pattern",
+        "distinct olive and red stripes"
+    ],
+    "chicken_quesadilla": [
+        "corn tortilla",
+        "central cheese and chicken filling",
+        "tomato salsa topping",
+        "golden crispy texture",
+        "distinctively round",
+        "smaller size"
+    ],
+    "chicken_wing": [
+        "pointed wings",
+        "distinctively curved shape",
+        "smaller size",
+        "distinctively curved claws",
+        "distinctive drumstick shape"
+    ],
+    "chiffon_cake": [
+        "lighter texture",
+        "looser crumb structure",
+        "finer, delicate pattern",
+        "slimmer profile",
+        "more airy appearance",
+        "softer, spongier crumb",
+        "lighter sponge texture",
+        "round layered shape",
+        "distinct vanilla flavor"
+    ],
+    "chili": [
+        "absence of meat in photo",
+        "absence of meat"
+    ],
+    "chocolate_cake": [
+        "darker brown frosting",
+        "rounded sides",
+        "distinctive chocolate chunks",
+        "richer chocolate color",
+        "chocolate hue",
+        "rich chocolate color",
+        "darker chocolate layer"
+    ],
+    "chocolate_mousse": [
+        "richer brown color",
+        "open-topped",
+        "distinct cocoa spots",
+        "richer chocolate hue"
+    ],
+    "chop_suey": [
+        "presence of vegetables",
+        "green vegetables",
+        "sliced meat arrangement",
+        "serving in a bowl",
+        "smaller and rounder"
+    ],
+    "chow_mein": [
+        "thinner and more noodle-like",
+        "thicker and noodle-like",
+        "thinner and straighter"
+    ],
+    "churro": [
+        "circular shape",
+        "frequently twisted",
+        "thick, twisted shape",
+        "crispy exterior",
+        "curly shape"
+    ],
+    "clam_chowder": [
+        "coarser texture",
+        "clam chowder has distinctive visual features",
+        "creamier color tone",
+        "creamier texture",
+        "green or red herbs",
+        "thick creamy texture"
+    ],
+    "clam_food": [],
+    "club_sandwich": [
+        "brighter tomato slices",
+        "distinctive grilled chicken",
+        "cooking grill marks",
+        "redder tomato slices"
+    ],
+    "cockle_food": [],
+    "coconut_cake": [
+        "lighter yellow cake",
+        "creamier texture",
+        "coconut flakes texture",
+        "lighter yellow frosting",
+        "coconut flakes on top",
+        "spongy texture",
+        "creamier frosting",
+        "distinct coconut flakes",
+        "more porous texture"
+    ],
+    "coffee_cake": [
+        "distinctive streusel topping",
+        "rounded top",
+        "coarser texture",
+        "brown and speckled",
+        "brown speckles",
+        "smaller coconut flakes"
+    ],
+    "compote": [
+        "redder hue",
+        "absence of whipped cream",
+        "coarser texture"
+    ],
+    "confit": [
+        "pointier head",
+        "softer, more rounded edges"
+    ],
+    "coq_au_vin": [
+        "red wine glaze",
+        "larger chunks"
+    ],
+    "coquilles_saint_jacques": [
+        "fleshy scallop meat"
+    ],
+    "cottage_pie": [
+        "chunkier minced meat"
+    ],
+    "couscous": [],
+    "crab_cake": [
+        "round shape",
+        "flat vs. slightly domed top",
+        "absence of claws"
+    ],
+    "crab_food": [],
+    "crayfish_food": [],
+    "creme_brulee": [
+        "distinctively creamy top",
+        "custard can be served in various dishes",
+        "softer, puffier texture",
+        "custard does not have a topping",
+        "distinctively shaped ramekin",
+        "crème brûlée is typically served in a ramekin",
+        "distinct vanilla flavor",
+        "crystallized sugar topping",
+        "crème brûlée has a caramelized sugar topping",
+        "creamier texture",
+        "custard texture",
+        "lighter, creamier texture"
+    ],
+    "croque_madame": [
+        "darker ham",
+        "accompanied by fried egg",
+        "golden brown crispy top"
+    ],
+    "croquette": [],
+    "cruller": [
+        "longer, thinner shape",
+        "longer and thinner shape",
+        "rounded ends",
+        "longer, twisted shape",
+        "单一而明显的螺旋结构",
+        "thicker and rounder shape",
+        "较小的尺寸",
+        "closed ends",
+        "no holes",
+        "golden circular shape",
+        "较浅的颜色",
+        "absence of fish"
+    ],
+    "crumb_cake": [
+        "distinctive streusel topping",
+        "lighter overall color",
+        "lighter color",
+        "rounded top surface",
+        "golden brown color",
+        "coarser crumbs texture",
+        "smaller size",
+        "milder scent",
+        "rounded rather than domed top",
+        "more porous surface",
+        "brown sugar topping",
+        "slightly smaller size",
+        "distinct crumb structure",
+        "less pronounced coconut flakes"
+    ],
+    "crumpet": [
+        "lighter color",
+        "lighter texture",
+        "flat bottom",
+        "absence of toppings"
+    ],
+    "cupcake": [
+        "multi-tiered structure",
+        "rounded top",
+        "icing decorations",
+        "lighter color",
+        "distinct decoration",
+        "small size",
+        "frosted decorations",
+        "smaller size",
+        "cupcake has frosting"
+    ],
+    "custard": [
+        "softer, more delicate structure",
+        "no distinct crust",
+        "softer texture",
+        "smooth, creamy texture",
+        "less dense"
+    ],
+    "deviled_egg": [
+        "spiced filling",
+        "decorative toppings",
+        "ornamental toppings",
+        "deviled egg has distinctive visual features",
+        "smaller size",
+        "absence of bacon strips",
+        "pierced top"
+    ],
+    "dolmas": [
+        "tighter roll shape",
+        "green leaves wrap"
+    ],
+    "donut": [
+        "absence of toppings",
+        "larger size",
+        "frosted topping",
+        "raised texture exterior"
+    ],
+    "dumpling": [
+        "distinctive pleated edges",
+        "distinctive pleats",
+        "folded edges",
+        "distinctive pleating pattern",
+        "smaller size",
+        "usually savory filling",
+        "usually larger size",
+        "smoother surface",
+        "distinct filling visibility"
+    ],
+    "eccles_cake": [
+        "brighter color",
+        "raisin-filled",
+        "flat top"
+    ],
+    "edamame": [
+        "green peas",
+        "curved shape",
+        "absent fiery color",
+        "absence of fuzzy texture",
+        "green pods over red apples",
+        "rounded shape",
+        "absence of avocado texture",
+        "lack of yellow kernels",
+        "linear pods",
+        "podded structure",
+        "linear arrangement",
+        "small size",
+        "elliptical seeds vs spherical chunks",
+        "no visible seasoning"
+    ],
+    "egg_roll": [
+        "crispy exterior",
+        "crispy texture",
+        "softer interior"
+    ],
+    "eggs_benedict": [
+        "accompanied by poached eggs",
+        "poached eggs",
+        "grilled or toasted english muffin",
+        "Canadian bacon",
+        "distinctive hollandaise sauce",
+        "open-faced toast"
+    ],
+    "enchilada": [
+        "cheese edge",
+        "corn tortilla base"
+    ],
+    "entrecote": [
+        "absence of peppers",
+        "reddish-brown vs green color",
+        "redder meat"
+    ],
+    "escargot": [
+        "green or brown color"
+    ],
+    "falafel": [
+        "round shape"
+    ],
+    "farfalle": [
+        "narrower and more delicate",
+        "larger size",
+        "pointier tips"
+    ],
+    "fettuccine": [
+        "fettuccine has distinctive visual features",
+        "less saucy appearance",
+        "greenish hue",
+        "wider flat surface",
+        "absence of meatballs"
+    ],
+    "filet_mignon": [
+        "redder color",
+        "sharp edge",
+        "oval shape",
+        "brighter color",
+        "slightly curved, uniform texture",
+        "lighter pink color",
+        "lighter color"
+    ],
+    "fish_and_chips": [
+        "white fish color",
+        "distinctive fish shape",
+        "elongated shape",
+        "fish scales",
+        "absence of clam shells",
+        "Presence of fish",
+        "larger portions"
+    ],
+    "fish_stick": [
+        "thicker and more rectangular shape",
+        "crispy coating",
+        "golden brown crispy coating",
+        "golden crust"
+    ],
+    "flan": [
+        "softer, smoother texture",
+        "smooth, creamy texture",
+        "fancier, often decorated",
+        "distinctly round shape",
+        "sweeter aroma",
+        "less glossy finish",
+        "softer, creamier texture",
+        "round base"
+    ],
+    "foie_gras": [
+        "larger size chunks",
+        "softer, smoother texture",
+        "rounded shape",
+        "oval shape",
+        "distinctive liver color",
+        "lighter color",
+        "fatty texture",
+        "rounded, compact shape",
+        "softer texture",
+        "creamy texture",
+        "pearl-white color",
+        "distinctively rich aroma",
+        "white vs pink color",
+        "liver origin",
+        "pale yellow color"
+    ],
+    "fondue": [
+        "no fluffy texture",
+        "wooden fondue fork"
+    ],
+    "french_fries": [
+        "no gravy topping",
+        "smaller portions than fish",
+        "distinctive crinkle-cut",
+        "distinctive crinkle-cut shape",
+        "golden and crispy texture",
+        "smaller size"
+    ],
+    "french_onion_soup": [
+        "white creamy topping",
+        "no crispy texture vs. caramelized edges",
+        "larger size",
+        "present cheese topping"
+    ],
+    "french_toast": [
+        "crispy exterior",
+        "longer edges",
+        "lighter color tone",
+        "softer texture",
+        "lighter color",
+        "airy inside",
+        "absence of crispy edges",
+        "darker bottom side",
+        "crescent shape",
+        "square or rectangular shape"
+    ],
+    "fried_calamari": [
+        "Brighter color palette",
+        "ring-shaped tentacles",
+        "Isolated individual pieces",
+        "Distinctly shaped rings",
+        "elongated shape",
+        "distinctive tentacles",
+        "lighter color",
+        "friable batter texture"
+    ],
+    "fried_egg": [
+        "lack of meat pieces",
+        "absence of bacon strips",
+        "open-faced vs folded presentation",
+        "crispy exterior",
+        "yellow yolk"
+    ],
+    "fried_rice": [
+        "milder aroma",
+        "flatter and more compact shape",
+        "flatter and more rectangular shape",
+        "较小的尺寸",
+        "distinctive garnishes",
+        "distinctive颗粒结构",
+        "softer texture",
+        "较多的蔬菜碎片",
+        "distinctive颗粒状纹理",
+        "通常较大的粒状米饭",
+        "油亮的外观",
+        "no crispy outer layer",
+        "less oily texture",
+        "less oily sheen",
+        "不同形状的团块"
+    ],
+    "frittata": [
+        "flatter top",
+        "zigzagged edge"
+    ],
+    "fritter": [
+        "crispy exterior",
+        "distinctly fritter-shaped"
+    ],
+    "frozen_yogurt": [
+        "less creamy appearance",
+        "brighter color palette",
+        "healthier-looking",
+        "softer texture",
+        "smaller scoops",
+        "rounded bottom",
+        "lighter color",
+        "single serving size",
+        "round shape",
+        "smooth, icy texture"
+    ],
+    "fruitcake": [
+        "distinctive fruit patterns",
+        "coarser texture",
+        "brighter fruit colors",
+        "distinctive fruit pieces",
+        "rounded top",
+        "darker and richer color",
+        "less creamy consistency",
+        "darker crust color",
+        "finer texture",
+        "visible fruit pieces",
+        "darker crust",
+        "slightly larger size",
+        "distinct fruit pieces",
+        "rounded bottom",
+        "slightly darker crust"
+    ],
+    "galantine": [
+        "rounded edges"
+    ],
+    "garlic_bread": [
+        "golden crust with green herbs",
+        "cheese and herbs scattered",
+        "golden crust with green garlic marks",
+        "flat and rectangular shape",
+        "rectangular shape",
+        "蒜香气味",
+        "长条形状",
+        "比意大利面更厚",
+        "slightly softer texture",
+        "golden crust"
+    ],
+    "gingerbread": [
+        "harder texture",
+        "flat and rectangular",
+        "crispy texture",
+        "hard texture",
+        "finer texture",
+        "pointier corners",
+        "spicy pattern",
+        "oval shape",
+        "spicy scent"
+    ],
+    "gnocchi": [
+        "yellow color",
+        "whiter, less yellow"
+    ],
+    "greek_salad": [
+        "brighter green color",
+        "green olive presence",
+        "cucumber texture",
+        "cucumber strips",
+        "green olives visible",
+        "brighter green lettuce"
+    ],
+    "grilled_cheese_sandwich": [
+        "distinctive grilled texture",
+        "golden-brown crust",
+        "cheese visible on top",
+        "golden brown and crispy",
+        "cheese texture visible",
+        "cheese strings visible",
+        "distinctive yellow cheese layer",
+        "smoky grill marks",
+        "no tomato sauce",
+        "absence of meat patty",
+        "lack of meat vs. visible poultry"
+    ],
+    "grilled_salmon": [
+        "softer texture",
+        "absence of batter",
+        "finned",
+        "absence of cheese",
+        "fish tail"
+    ],
+    "guacamole": [
+        "greenish hue",
+        "chunky texture",
+        "avocado texture",
+        "brighter green color",
+        "green pulp texture",
+        "scooped shape",
+        "round to oval shape",
+        "lacks distinctive white edamame",
+        "smoother texture",
+        "green pulp",
+        "smoother surface",
+        "absent cheese shavings",
+        "lack of spines",
+        "lack of shell",
+        "often served cold"
+    ],
+    "gyoza": [
+        "folded dumpling shape",
+        "vegetarian",
+        "triangular shape",
+        "smaller size",
+        "stick-like shape",
+        "round shape",
+        "folded edges"
+    ],
+    "gyro": [
+        "distinctive sauce"
+    ],
+    "haggis": [
+        "liver-based filling",
+        "triangular shape",
+        "circular vs elongated shape",
+        "distinct triangular shape",
+        "absence of shell",
+        "distinctive sheep liver filling",
+        "reddish-brown vs. white base",
+        "coarse, textured exterior",
+        "wider, more square shape",
+        "whiter interior compared to Salisbury steak"
+    ],
+    "ham_and_eggs": [
+        "multiple items",
+        "plain fried eggs",
+        "whipped egg whites",
+        "absence of bread",
+        "fatter egg yolks in ham and eggs photo",
+        "absence of hollandaise sauce",
+        "distinctly shaped ham slices",
+        "rectangular ham slices",
+        "side of ham slices"
+    ],
+    "ham_sandwich": [
+        "open-faced preparation",
+        "distinctive ham arrangement",
+        "distinctive ham placement",
+        "bread type distinction",
+        "crispy bacon texture",
+        "ham slice presence",
+        "sandwich shape vs. scattered ingredients",
+        "single layer of ham",
+        "thicker bread slices",
+        "distinctive bun shape",
+        "sliced tomato presence"
+    ],
+    "hamburger": [
+        "distinctive bun shape",
+        "rounder shape",
+        "distinctive patty shape",
+        "toppings visible",
+        "open top",
+        "meat patty",
+        "thicker bun",
+        "lettuce and tomato",
+        "distinctive patty size",
+        "may contain cheese"
+    ],
+    "hot_and_sour_soup": [
+        "larger size"
+    ],
+    "hot_dog": [
+        "whiter exterior",
+        "beige with brown spots",
+        "no doughy texture",
+        "distinctively wieners",
+        "absence of pizza toppings",
+        "no top bun",
+        "softer texture"
+    ],
+    "huevos_rancheros": [
+        "crispy fried eggs",
+        "fried instead of poached eggs",
+        "avocado topping",
+        "distinctive fried egg"
+    ],
+    "huitre": [
+        "distinctive shell texture",
+        "oval-shaped shell",
+        "small size",
+        "oval shaped",
+        "smaller, angular shell",
+        "no appendages"
+    ],
+    "hummus": [
+        "distinctive olive oil spots",
+        "distinctive olive oil drizzle",
+        "flat vs round shape",
+        "rounder edges"
+    ],
+    "ice_cream": [
+        "absence of frosting",
+        "scoop shape",
+        "varied, sweet colors",
+        "round or cylindrical shape",
+        "absence of crust",
+        "brighter colors",
+        "variety of flavors",
+        "scoop shape vs frosted top"
+    ],
+    "jambalaya": [],
+    "jerky": [
+        "redder meat",
+        "redder color"
+    ],
+    "kabob": [
+        "thick skewers",
+        "distinct skewer presence",
+        "brighter colors",
+        "softer texture",
+        "distinctive skewer"
+    ],
+    "kedgeree": [
+        "redder hue",
+        "cooking method leads to distinct aroma"
+    ],
+    "knish": [
+        "lighter outer color",
+        "distinctly circular shape",
+        "smaller size than pirogi",
+        "larger size",
+        "distinctly rounder shape",
+        "flat bottom",
+        "closed bottom edge"
+    ],
+    "lasagna": [
+        "layered pasta sheets",
+        "deeper dish",
+        "open-faced"
+    ],
+    "limpet_food": [],
+    "linguine": [
+        "lighter yellow color",
+        "narrower and more uniform width",
+        "narrower width",
+        "less layered",
+        "smaller diameter"
+    ],
+    "lobster_bisque": [
+        "thick, creamy texture",
+        "thick creamy texture",
+        "less ornate decoration",
+        "floating lobster pieces"
+    ],
+    "lobster_food": [
+        "open top serving style"
+    ],
+    "lobster_roll_sandwich": [
+        "open-faced sandwich",
+        "reddish crustacean tail",
+        "white meat contrast",
+        "lobster on bun"
+    ],
+    "lobster_thermidor": [
+        "ornate gold dish",
+        "distinct butter sauce",
+        "thick white cheese layer",
+        "distinctive red butter sauce",
+        "served in a dish",
+        "served in a shallow dish",
+        "cheese gratin topping",
+        "distinct gravy sauce",
+        "smaller size",
+        "served with garlic bread",
+        "thicker tail flap",
+        "larger size"
+    ],
+    "lutefisk": [
+        "gelatinous texture",
+        "softer texture",
+        "white vs. colorful",
+        "icy texture vs. soft",
+        "whiter flesh",
+        "irregular, flaky texture",
+        "absence of distinct pattern",
+        "flatter shape",
+        "flat vs. layered"
+    ],
+    "macaron": [
+        "brighter color palette",
+        "distinctly colored layers",
+        "rounded base",
+        "lighter color",
+        "smooth, domed shape"
+    ],
+    "macaroni_and_cheese": [
+        "golden macaroni"
+    ],
+    "manicotti": [
+        "flat ribbon texture"
+    ],
+    "marble_cake": [
+        "smooth, flat base"
+    ],
+    "matzo_ball": [
+        "smaller size",
+        "larger size",
+        "softer, more spherical shape",
+        "softer texture appearance",
+        "flatter shape",
+        "white versus yellowish color",
+        "whiter color"
+    ],
+    "meat_loaf_food": [
+        "flat top surface",
+        "rounder and flatter shape",
+        "rounded shape",
+        "flatter and more rectangular shape",
+        "redder color",
+        "softer texture",
+        "brown vs. red color",
+        "rounded vs encased",
+        "rounded edges rather than rolled",
+        "rounded vs. oblong shape"
+    ],
+    "meatball": [
+        "distinctive meaty texture",
+        "absence of sausage-like texture",
+        "redder color",
+        "absence of dumpling's wrapper",
+        "smaller size",
+        "circular shape",
+        "reddish-brown color",
+        "round shape",
+        "usually spherical shape",
+        "absence of crust",
+        "absence of pasta layers"
+    ],
+    "miso_soup": [
+        "coarser noodles",
+        "distinct miso flavor",
+        "absence of fish",
+        "absence of fruit chunks"
+    ],
+    "moo_goo_gai_pan": [
+        "green vegetables presence",
+        "wider variety of vegetables",
+        "distinctive wok stir-fry arrangement",
+        "larger portion size"
+    ],
+    "mostaccioli": [
+        "lighter color"
+    ],
+    "moussaka": [
+        "distinctly layered top",
+        "more rectangular shape",
+        "more pronounced ridges"
+    ],
+    "mussel": [],
+    "nacho": [
+        "distinctively shaped edges",
+        "flat, rectangular shape",
+        "wider and flatter shape",
+        "smaller size"
+    ],
+    "omelette": [
+        "whiter in color",
+        "whiter and less saucy appearance",
+        "distinctly circular shape",
+        "whiter and less textured surface",
+        "shorter, straighter beak",
+        "flatter and rounder shape",
+        "smoother texture",
+        "softer texture",
+        "distinctly round vs irregular shape",
+        "lack of shell",
+        "distinctly round vs flat shape",
+        "open and folded structure",
+        "less distinct layers",
+        "rounder shape"
+    ],
+    "onion_rings": [
+        "ring-shaped pieces",
+        "ring-shaped",
+        "small and fried",
+        "circular or ring-shaped",
+        "distinctive fried smell",
+        "distinctive ring shape",
+        "golden and crispy texture",
+        "smaller size compared to fried calamari",
+        "golden crispy texture",
+        "crispier texture",
+        "distinctive onion ring shape",
+        "finer texture",
+        "golden-brown vs white"
+    ],
+    "orzo": [],
+    "osso_buco": [
+        "braised appearance"
+    ],
+    "oyster": [
+        "absent meat",
+        "pearly or metallic sheen",
+        "closed mouth",
+        "pearly interior",
+        "oval shape",
+        "pearl-like luster"
+    ],
+    "pad_thai": [
+        "brighter tamarind flavor",
+        "crispy peanut topping"
+    ],
+    "paella": [
+        "flat and wide shape",
+        "visible seafood",
+        "flat and wide base"
+    ],
+    "pancake": [
+        "absence of syrup-like toppings",
+        "absence of toppings",
+        "non-egg based",
+        "larger size"
+    ],
+    "panna_cotta": [
+        "softer, smoother texture",
+        "softer texture",
+        "whiter color"
+    ],
+    "pate": [
+        "brown vs creamy color"
+    ],
+    "pavlova": [
+        "whiter exterior",
+        "whiter meringue topping",
+        "frosted topping",
+        "larger size",
+        "lighter meringue texture"
+    ],
+    "peach_melba": [
+        "lacks green elements",
+        "cherry topping",
+        "smooth texture"
+    ],
+    "peking_duck": [
+        "white meat"
+    ],
+    "penne": [
+        "softer and more flexible"
+    ],
+    "pepper_steak": [
+        "sautéed preparation",
+        "grilled steak texture",
+        "brighter red meat",
+        "grilled texture",
+        "redder meat"
+    ],
+    "pho": [
+        "larger size",
+        "clear broth vs. creamy broth",
+        "larger bowl size",
+        "clear broth vs. opaque",
+        "clear broth vs. white",
+        "clear broth"
+    ],
+    "pilaf": [],
+    "pirogi": [],
+    "pizza": [
+        "brighter toppings",
+        "round or rectangular shape",
+        "thinner crust",
+        "round shape",
+        "larger size",
+        "thicker crust",
+        "round or oval shape",
+        "tomato sauce痕迹"
+    ],
+    "poached_egg": [
+        "absence of meat pieces"
+    ],
+    "poi": [
+        "rounder body shape",
+        "smooth, shiny surface",
+        "elongated, tapering body",
+        "redder color",
+        "brighter color palette",
+        "larger size than huitre",
+        "Brighter red color",
+        "absence of a hole",
+        "larger size",
+        "fin-like appendages",
+        "distinctive red spots",
+        "absence of feather pattern"
+    ],
+    "pork_chop": [
+        "no bun"
+    ],
+    "porridge": [
+        "smaller grains",
+        "flat surface"
+    ],
+    "potpie": [
+        "brighter colors",
+        "crust with flaky texture",
+        "larger size",
+        "flaky crust"
+    ],
+    "pound_cake": [
+        "softer texture",
+        "coarser texture",
+        "less glossy surface",
+        "heavier shape",
+        "fatter texture",
+        "larger size",
+        "denser texture",
+        "lighter color",
+        "brighter color",
+        "less coffee aroma",
+        "different flavor profile",
+        "richer color tone",
+        "round top"
+    ],
+    "poutine": [
+        "brown gravy spots",
+        "distinctive crinkle cut",
+        "distinctive cheese curds",
+        "gravy spots",
+        "gravy or sauce spots",
+        "syrup absence"
+    ],
+    "prime_rib": [
+        "steeper slope",
+        "less defined, more uniform texture",
+        "rounded versus flattened end",
+        "circular shape",
+        "white flesh",
+        "slimmer profile"
+    ],
+    "profiterole": [
+        "lighter golden color",
+        "smaller holes",
+        "open, puffed top",
+        "lighter, puffier texture",
+        "lighter sponge texture",
+        "slimmer and taller shape",
+        "larger size",
+        "smaller size",
+        "whiter exterior"
+    ],
+    "pulled_pork_sandwich": [
+        "distinctive BBQ sauce",
+        "distinctive shredded texture",
+        "pulled pork texture",
+        "smokier color tone"
+    ],
+    "ramen": [
+        "brighter broth color",
+        "broth clarity",
+        "brighter yellow color",
+        "broth vs. bun"
+    ],
+    "ravioli": [
+        "larger size"
+    ],
+    "red_velvet_cake": [
+        "unique red color"
+    ],
+    "reuben": [
+        "redder mustard spread"
+    ],
+    "rigatoni": [],
+    "risotto": [
+        "creamier color tone",
+        "distinctive creamy color"
+    ],
+    "rissole": [
+        "flatter shape",
+        "flat circular shape",
+        "larger size",
+        "darker brown top",
+        "rounded bottom",
+        "lighter color"
+    ],
+    "rock_cake": [],
+    "roulade": [
+        "wider rolled shape",
+        "thinner, more rolled shape",
+        "lighter overall color"
+    ],
+    "rugulah": [
+        "thicker crust",
+        "smaller size compared to pirogi",
+        "smaller size than pilaf",
+        "brighter cheese spots",
+        "rounded corners",
+        "thicker, more voluminous",
+        "thicker edge texture",
+        "smaller size",
+        "distinctive zigzag pattern"
+    ],
+    "salisbury_steak": [
+        "brown exterior",
+        "absence of distinct sauce",
+        "softer meat patty",
+        "sliced beef instead of chunks"
+    ],
+    "samosa": [],
+    "sashimi": [
+        "narrower and longer pieces",
+        "raw fish",
+        "finer slices",
+        "no bread",
+        "absence of toppings"
+    ],
+    "sauerbraten": [],
+    "sauerkraut": [
+        "absence of meat",
+        "sauerkraut has distinctive visual features",
+        "absence of fruit pieces"
+    ],
+    "sausage_roll": [
+        "distinctive sausage filling",
+        "crispy exterior texture",
+        "slightly darker exterior",
+        "smaller size",
+        "distinct pastry texture"
+    ],
+    "savarin": [
+        "lighter cream color"
+    ],
+    "scallop": [],
+    "scampi": [],
+    "schnitzel": [
+        "thinner and more elongated shape",
+        "schnitzel has distinctive visual features",
+        "thinner and more flattened",
+        "brighter color tone"
+    ],
+    "scotch_egg": [],
+    "scrambled_eggs": [
+        "softer texture",
+        "less decorative",
+        "absence of hollandaise sauce",
+        "absence of bacon pieces",
+        "lack of meat pieces",
+        "absence of pasta shapes",
+        "loose scrambled texture",
+        "brighter yellow color"
+    ],
+    "scrapple": [],
+    "seaweed_salad": [
+        "finer, mixed textures",
+        "edible seaweed texture",
+        "edible seaweed strands",
+        "green and crunchy texture",
+        "finer texture",
+        "varied textures",
+        "absence of red beet pieces",
+        "greenery texture",
+        "absence of fish or rice",
+        "greenish hue",
+        "large pieces of seaweed",
+        "absence of feta cheese",
+        "tightly packed seaweed pieces",
+        "absence of fish slices",
+        "distinct seaweed strands"
+    ],
+    "shirred_egg": [
+        "lack of bacon pieces",
+        "lack of meat pieces",
+        "whiter yolks",
+        "no meat around",
+        "开放式烹饪",
+        "缺少培根和菠菜",
+        "clearly separated egg white",
+        "whiter yolk",
+        "flat surface"
+    ],
+    "shrimp_and_grits": [
+        "distinctive shrimp texture",
+        "distinctive creamy texture",
+        "brighter red color",
+        "smaller and rounder shape",
+        "smaller and rounder",
+        "distinctive red and white stripes",
+        "grits texture distinct",
+        "yellow grits color",
+        "less variety of meats",
+        "yellow grits",
+        "pinkish shrimp"
+    ],
+    "sloppy_joe": [],
+    "souffle": [],
+    "spaghetti_bolognese": [
+        "redder sauce",
+        "red sauce",
+        "finer, thinner noodles"
+    ],
+    "spaghetti_carbonara": [
+        "green parsley",
+        "coarser texture",
+        "smaller, more oval shapes",
+        "brown and creamy sauce",
+        "more grated cheese",
+        "brighter yellow color",
+        "green parsley sprinkles",
+        "distinctively green parsley",
+        "distinctly green parsley",
+        "shorter length",
+        "coarser, darker sauce"
+    ],
+    "sponge_cake": [
+        "absence of coconut flakes"
+    ],
+    "spring_roll": [
+        "crispy exterior",
+        "fatter shape",
+        "open end"
+    ],
+    "steak_au_poivre": [],
+    "steak_tartare": [
+        "finer minced texture",
+        "brighter red color",
+        "beef aroma",
+        "redder meat",
+        "finer, chopped texture",
+        "redder color",
+        "reddish-brown color",
+        "finer chopped texture",
+        "finer texture"
+    ],
+    "strawberry_shortcake": [
+        "distinct lattice crust",
+        "white cream topping",
+        "smooth and even texture",
+        "airy sponge texture",
+        "whiter cake base",
+        "less fluffy texture",
+        "layered shortcake slices",
+        "slightly taller and narrower",
+        "short, thick crust"
+    ],
+    "streusel": [
+        "lighter, fluffier texture",
+        "no fruit",
+        "lighter color",
+        "rounder edges",
+        "finer texture",
+        "no central hole"
+    ],
+    "strudel": [
+        "brown vs. golden color",
+        "more varied fillings visible",
+        "wider and flatter shape",
+        "smoother and less textured top",
+        "more layered filling",
+        "thinner and longer shape",
+        "distinctive cheese spots",
+        "wider and flakier layers",
+        "thinner and longer"
+    ],
+    "stuffed_cabbage": [
+        "closed flower-like top",
+        "softer, more delicate texture"
+    ],
+    "stuffed_peppers": [
+        "ridged surfaces",
+        "distinctive rice or stuffing texture",
+        "flat bottoms",
+        "pointed top edge"
+    ],
+    "stuffed_tomato": [
+        "flatter top",
+        "stuffed tomato has distinctive visual features",
+        "plum tomato shape",
+        "absence of cheese",
+        "absence of lettuce and bacon",
+        "no meat texture"
+    ],
+    "succotash": [
+        "lack of meat",
+        "green peas over corn",
+        "broth visibility"
+    ],
+    "sukiyaki": [
+        "scalloped noodles",
+        "thinner noodles",
+        "redder meat",
+        "less gravy",
+        "thicker noodles"
+    ],
+    "sushi": [
+        "brighter colors",
+        "sushi's raw or marinated ingredients",
+        "lighter colors",
+        "narrower shape",
+        "lighter color",
+        "distinctive fish vs shellfish origin",
+        "tight roll formation",
+        "smaller pieces",
+        "varied fish toppings",
+        "compact, oval body",
+        "distinctly shaped rolls",
+        "round shape",
+        "rolled shape",
+        "sushi's vinegared rice base"
+    ],
+    "syllabub": [],
+    "taco": [
+        "folded edge",
+        "wider and flatter shape",
+        "pointier tip",
+        "narrower shape"
+    ],
+    "tagliatelle": [
+        "tagliatelle has distinctive visual features"
+    ],
+    "takoyaki": [
+        "larger size",
+        "brown color",
+        "circular shape",
+        "smaller size",
+        "darker exterior",
+        "flatter top",
+        "rounded, notched top",
+        "yellowish batter",
+        "higher number of small, round balls",
+        "smooth and uniform texture",
+        "rounder shape"
+    ],
+    "tamale": [
+        "steamed texture",
+        "typically steamed vs. fried",
+        "softer, more flexible texture",
+        "corn husk texture"
+    ],
+    "tamale_pie": [
+        "smoother and more compact texture",
+        "softer, doughy texture",
+        "cornmeal crust",
+        "red or green chili",
+        "pyramidal shape",
+        "richer, redder color"
+    ],
+    "tapenade": [
+        "green olive presence"
+    ],
+    "tempura": [
+        "faster cooking method",
+        "distinctive fish or vegetable inside",
+        "greenish color",
+        "greenish batter color",
+        "individual pieces",
+        "crispier texture",
+        "crisp texture",
+        "smaller shrimp pieces"
+    ],
+    "tenderloin": [
+        "redder meat hue",
+        "finer texture",
+        "lighter red meat color",
+        "elongated shape",
+        "oval-shaped",
+        "milder color"
+    ],
+    "terrine": [
+        "slimmer profile"
+    ],
+    "tetrazzini": [
+        "chicken presence",
+        "cheese-covered pasta"
+    ],
+    "tiramisu": [
+        "finer layers",
+        "more layered appearance",
+        "distinct coffee aroma",
+        "more compact and taller",
+        "slightly more rectangular shape",
+        "slightly more elongated shape"
+    ],
+    "toad_in_the_hole": [],
+    "torte": [],
+    "tortellini": [
+        "tortellini has distinctive visual features"
+    ],
+    "tostada": [
+        "crispier texture",
+        "brighter color",
+        "coarser texture",
+        "larger size",
+        "more defined edges",
+        "softer texture"
+    ],
+    "tuna_tartare": [
+        "brighter red color",
+        "served raw",
+        "oval-shaped"
+    ],
+    "upside_down_cake": [
+        "larger size",
+        "rounded bottom edge",
+        "distinct fruit pieces scattered",
+        "brighter top side",
+        "distinctive inverted shape",
+        "softer texture",
+        "rounded versus flat top",
+        "distinct fruit arrangement",
+        "spiky topping",
+        "flatter top surface",
+        "inverted shape",
+        "brighter fruit toppings",
+        "smooth, domed surface",
+        "reversed shape",
+        "lighter base color"
+    ],
+    "veal_cordon_bleu": [
+        "veal cordon bleu has distinctive visual features",
+        "fanned out filet",
+        "crispy outer layer",
+        "served with bernaise sauce"
+    ],
+    "vermicelli": [
+        "less bulky",
+        "absence of filling"
+    ],
+    "victoria_sandwich": [
+        "rounded top",
+        "absence of coconut flakes",
+        "taller and narrower layers"
+    ],
+    "vol_au_vent": [
+        "slimmer shape",
+        "open top"
+    ],
+    "waffle": [
+        "harder, crispier edges",
+        "crispy exterior",
+        "no cheese marks",
+        "lighter color",
+        "no melting",
+        "crispy edges",
+        "square shape",
+        "smaller size",
+        "fruit absence",
+        "square grid pattern",
+        "grid pattern",
+        "no central hole"
+    ],
+    "welsh_rarebit": [
+        "redder cheese topping",
+        "crisp vs. soft texture",
+        "flat vs. dome-shaped top",
+        "cheddar vs mozzarella cheese"
+    ],
+    "wonton": [
+        "triangular shape",
+        "distinctive pleating",
+        "smaller size",
+        "rounder shape",
+        "folded edges",
+        "distinct pleating"
+    ],
+    "ziti": []
+}

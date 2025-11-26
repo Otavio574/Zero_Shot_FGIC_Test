@@ -1,0 +1,223 @@
+{
+  "bicycle": [
+    "back wheel carrier",
+    "bicycle frame",
+    "front wheel fork",
+    "seat post",
+    "handlebar grips",
+    "brake calipers",
+    "water bottle holder",
+    "luggage rack",
+    "lock mechanism",
+    "gear shifter"
+  ],
+  "binoculars": [
+    "Color: usually black or camouflage",
+    "Eye cups",
+    "Size: compact or full size",
+    "Binoculars shape",
+    "Two lenses",
+    "Adjustable focus",
+    "Metal frame",
+    "Rubber coating",
+    "Carrying strap",
+    "Magnification number"
+  ],
+  "birthday_cake": [
+    "Candles on top",
+    "Spongy texture",
+    "Icing decorations",
+    "Cake shape",
+    "Colorful sprinkles",
+    "Tiered structure",
+    "Fruit slices",
+    "Chocolate flavor"
+  ],
+  "book": [
+    "Book cover texture",
+    "Spine thickness",
+    "Page color inside",
+    "Binding style",
+    "Size dimensions",
+    "Color palette on cover",
+    "Image presence on cover",
+    "Font style on spine",
+    "Paper quality inside",
+    "Corner roundness"
+  ],
+  "butterfly": [
+    "Butterfly wings colorful",
+    "Wings often patterned",
+    "Antennae feeler-like",
+    "Compound eyes large",
+    "Six legs, slender",
+    "Body segmented",
+    "Wings scale-covered",
+    "Often delicate structure",
+    "Different wing shapes"
+  ],
+  "calculator": [
+    "Display screen showing numbers and symbols",
+    "Button layout for arithmetic operations",
+    "Numeric keypad with digits 0-9",
+    "Calculator stand or base for stability",
+    "Backlit display for visibility in dark",
+    "Input cursor blinking on screen",
+    "Physical slide switch for power control",
+    "Battery compartment or power cord slot",
+    "Volume control for audio feedback",
+    "Memory function button for storing values"
+  ],
+  "cat": [
+    "Fur texture",
+    "Tail length",
+    "Ear shape",
+    "Paw size",
+    "Body length",
+    "Mane presence",
+    "Eye color",
+    "Nose color",
+    "Tail color",
+    "Claw sharpness"
+  ],
+  "chandelier": [
+    "Chandelier's intricate metalwork",
+    "Ornate design elements",
+    "Illuminated by light source",
+    "Complex geometric shapes",
+    "Sparkling appearance from light reflection",
+    "Often found indoors",
+    "Uses chains or rods for support"
+  ],
+  "computer": [
+    "computer case",
+    "screen display",
+    "keyboard layout",
+    "mouse shape",
+    "monitor size",
+    "power button",
+    "fan noise",
+    "ports variety",
+    "brand logo"
+  ],
+  "cow": [
+    "cow's horns",
+    "udder presence",
+    "long ears",
+    "curly tail",
+    "white coat",
+    "black and white patches",
+    "round body",
+    "short legs",
+    "long neck",
+    "high shoulders"
+  ],
+  "cruise_ship": [
+    "White hull",
+    "Large size",
+    "Deck antennas",
+    "Multiple decks",
+    "Propellers at stern",
+    "Funnel stack",
+    "Deck chairs",
+    "Swimming pools",
+    "Restaurants on deck",
+    "Colorful lifeboats"
+  ],
+  "face": [
+    "Skin tone",
+    "Facial hair",
+    "Eye color",
+    "Nose shape",
+    "Lip shape",
+    "Ear shape",
+    "Hair texture",
+    "Facial symmetry"
+  ],
+  "flower": [
+    "Bloom color",
+    "Leaf shape",
+    "Stem texture",
+    "Petal arrangement",
+    "Seed pod presence",
+    "Petal size variation",
+    "Sepal pattern complexity",
+    "Flower scent intensity",
+    "Pistil length relative to stamen",
+    "Color gradient on petals"
+  ],
+  "guitar": [
+    "Guitar shape",
+    "Wood texture",
+    "Six strings",
+    "Body size",
+    "Headstock design",
+    "Fretboard length",
+    "Bridge position",
+    "Pickup configuration",
+    "Tuning pegs arrangement"
+  ],
+  "mosquito": [
+    "Mosquito has two pairs of transparent wings",
+    "Mosquito has a slender body",
+    "Mosquito has long legs",
+    "Mosquito has a proboscis for sucking blood",
+    "Mosquito has small, black eyes",
+    "Mosquito has white or grayish body color",
+    "Mosquito has distinctive black and white stripes on thorax",
+    "Mosquito flies with rapid, zigzag movements"
+  ],
+  "piano": [
+    "Piano keys",
+    "Black and white keys",
+    "Keyboard layout",
+    "Hammer action mechanism",
+    "String arrangement",
+    "Cabinet shape",
+    "Pedals presence",
+    "Size comparison to human",
+    "Wood texture"
+  ],
+  "pineapple": [
+    "Color: yellow, green eyes",
+    "Texture: rough, spiky scales",
+    "Pattern: hexagonal eyes, spots",
+    "Shape: conical, segmented rings",
+    "Proportions: large eye-to-body ratio",
+    "Body parts: three pairs of legs",
+    "Structural elements: exoskeleton, antennae"
+  ],
+  "sun": [
+    "Sun appears as a bright, spherical object",
+    "Radiates yellowish-white light",
+    "Often seen in clear skies during daytime",
+    "Has a distinct circular shape",
+    "Illuminates surroundings with a warm glow",
+    "Can cast shadows on objects",
+    "Visible from Earth's surface at dawn and dusk",
+    "Sometimes accompanied by sunspots or solar flares"
+  ],
+  "truck": [
+    "Large size",
+    "Boxy shape",
+    "Flat bed",
+    "High roof",
+    "Windows for cab",
+    "Wheels on axles",
+    "Tow hitch",
+    "Cargo doors",
+    "Painted metal",
+    "Glass windows"
+  ],
+  "windmill": [
+    "Large size",
+    "Vertical axis",
+    "Spokes radiating",
+    "Turbine at top",
+    "Wooden or metal structure",
+    "Fan-like blades",
+    "Concrete or stone base",
+    "Often white or gray",
+    "Located outdoors"
+  ]
+}

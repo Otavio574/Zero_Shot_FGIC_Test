@@ -1,0 +1,337 @@
+{
+    "Abyssinian": [
+        "slightly larger body size",
+        "rounded, non-hairy ears",
+        "curvier body"
+    ],
+    "American_Pit_Bull": [
+        "bulder build",
+        "larger size",
+        "wider head"
+    ],
+    "American_bulldog": [
+        "distinctive white mask",
+        "distinctive head shape",
+        "distinctive bull-shaped head",
+        "distinctive white blaze",
+        "larger size"
+    ],
+    "Basset": [
+        "distinctively droopy ears",
+        "distinctive loose skin",
+        "smaller head",
+        "flatter face",
+        "distinctively long ears",
+        "distinctively colored spots",
+        "wider head",
+        "distinctively shaped head",
+        "slightly smaller size",
+        "smaller ears",
+        "shorter snout",
+        "distinctly shaped head",
+        "larger ears"
+    ],
+    "Beagle": [
+        "smaller overall size"
+    ],
+    "Bengal": [
+        "distinctive rosette patterns",
+        "distinct rosette coat pattern",
+        "distinctive rosette pattern",
+        "slightly larger size",
+        "curved, tufted ears",
+        "slimmer body",
+        "distinct M-shaped marking",
+        "shorter legs",
+        "larger ears",
+        "smaller ears",
+        "longer ears",
+        "slimmer body build",
+        "hairy body"
+    ],
+    "Birman": [
+        "distinct blue eyes"
+    ],
+    "Bombay": [
+        "distinctive black stripes",
+        "shorter whiskers",
+        "shorter tail",
+        "larger ears",
+        "rounder ears",
+        "tail without a brush",
+        "distinctive tortoiseshell pattern",
+        "thicker tail",
+        "larger and rounder head",
+        "shorter, rounder body",
+        "shorter legs",
+        "shorter snout",
+        "slightly larger size",
+        "slimmer body shape",
+        "less distinct color patterns"
+    ],
+    "Boxer": [
+        "larger size",
+        "distinctive tricolor pattern",
+        "distinctive white stripe",
+        "narrower snout",
+        "shorter snout",
+        "distinctive white stripes",
+        "smaller ears",
+        "larger ears",
+        "smaller size",
+        "less pronounced fangs",
+        "square head",
+        "rougher fur texture"
+    ],
+    "British_Shorthair": [
+        "lighter body color",
+        "lighter tail tip",
+        "rounded body shape",
+        "slimmer body shape",
+        "lighter belly fur",
+        "shorter whiskers",
+        "wider, almond-shaped eyes",
+        "distinctive blue eyes"
+    ],
+    "Chiuaua": [
+        "distinctively long ears",
+        "distinctively perky ears",
+        "larger, rounder ears",
+        "pointier ears",
+        "shorter snout"
+    ],
+    "Egyptian_Mau": [
+        "shorter legs",
+        "slightly longer tail",
+        "slimmer body shape",
+        "shorter tail",
+        "slimmer body",
+        "lighter body spots",
+        "short hair"
+    ],
+    "English_Cocker_Spaniel": [
+        "distinctively longer tail",
+        "larger, rounder ears",
+        "larger body size",
+        "longer ears"
+    ],
+    "English_Setter": [
+        "distinctively longer ears",
+        "distinctively shaped ears",
+        "shorter muzzle",
+        "larger ears",
+        "lighter overall color",
+        "slimmer body"
+    ],
+    "German_Shorthair": [
+        "distinct diamond-shaped marking",
+        "distinct diamond marking",
+        "wider set eyes",
+        "distinct roaning pattern",
+        "distinctive tan patches",
+        "distinctively marked coat",
+        "lighter, more mottled coat",
+        "darker eye color",
+        "smaller ears"
+    ],
+    "Great_Pyrenees": [
+        "distinctive white coat pattern",
+        "larger overall size",
+        "whiter fur color",
+        "heavier build",
+        "distinctive white coat",
+        "whiter coat",
+        "shorter, stouter body",
+        "distinctively white underbelly",
+        "shorter, straighter ears",
+        "larger size",
+        "shorter muzzle",
+        "larger, flatter face",
+        "wider head"
+    ],
+    "Havanese": [
+        "smaller head size",
+        "lighter coat color",
+        "smaller ear size"
+    ],
+    "Japanese_Chin": [
+        "smaller body size",
+        "shorter, straighter tail",
+        "distinctively pointed ears",
+        "smaller size",
+        "lighter body coat"
+    ],
+    "Keeshond": [
+        "smaller overall size",
+        "smaller head size",
+        "smaller size",
+        "distinctive tricolor coat",
+        "larger spots",
+        "distinctive facial markings",
+        "smaller ears",
+        "distinctive white blaze"
+    ],
+    "Leonberger": [
+        "darker muzzle",
+        "darker fur shade",
+        "larger size",
+        "shorter muzzle",
+        "distinctive reddish-brown coat",
+        "distinctively longer muzzle",
+        "square-shaped head",
+        "larger body size",
+        "wider head",
+        "wider head profile",
+        "distinctively spotted coat",
+        "different coat texture",
+        "shorter, stouter legs"
+    ],
+    "Maine_Coon": [
+        "distinctively long hair",
+        "distinct M marking",
+        "distinctively longer whiskers",
+        "distinctive long ears",
+        "more oval-shaped ears"
+    ],
+    "Miniature_Pinscher": [
+        "different coat texture",
+        "distinct head shape",
+        "distinctively marked tail",
+        "smaller body size",
+        "darker nose",
+        "larger ears",
+        "smaller size"
+    ],
+    "Newfoundland": [
+        "larger body size",
+        "slimmer body",
+        "curly tail",
+        "larger size",
+        "distinctive wavy coat",
+        "shorter legs",
+        "shorter, stouter build",
+        "rounder head profile",
+        "thicker fur coat",
+        "thicker fur texture",
+        "distinctly longer legs",
+        "distinctive white blaze",
+        "distinctively long legs",
+        "rounded head"
+    ],
+    "Persian": [
+        "distinctive white blaze",
+        "thicker fur texture",
+        "lighter body color",
+        "shorter whiskers",
+        "darker body coat",
+        "longer whiskers"
+    ],
+    "Pomeranian": [
+        "distinctively longer ears",
+        "smaller size",
+        "smaller body",
+        "thick double coat",
+        "smaller body size",
+        "whiter coat color",
+        "brighter fur colors",
+        "shorter, bushier tail",
+        "smaller ears",
+        "shorter snout",
+        "larger ears"
+    ],
+    "Pug": [
+        "smaller overall size",
+        "distinctive 'U' shaped mouth",
+        "distinctively folded ears",
+        "smaller size",
+        "thicker neck",
+        "different coat texture"
+    ],
+    "Ragdoll": [
+        "distinctive blue eyes",
+        "distinctively colored fur pattern",
+        "blonde or cream fur",
+        "distinct blue eyes",
+        "roundish to oval body shape",
+        "larger ears",
+        "slimmer body shape",
+        "flatter face",
+        "distinct M-shaped marking",
+        "shorter ears",
+        "larger body size"
+    ],
+    "Russian_Blue": [
+        "distinctive blue-gray color",
+        "bluer coat color",
+        "distinctive blue fur",
+        "bluer fur color",
+        "bluer coat",
+        "wider set eyes",
+        "larger, more oval eyes",
+        "slimmer body shape",
+        "less distinct cheek patterns",
+        "smaller spots",
+        "pointed ear tips",
+        "rounder ear tips"
+    ],
+    "Saint_Bernard": [
+        "distinctive white patches",
+        "larger size",
+        "larger body size",
+        "reddish-brown fur",
+        "wider head shape",
+        "wider head",
+        "smaller, upturned nose",
+        "distinctively furry coat",
+        "thicker fur texture",
+        "thicker fur",
+        "shorter legs"
+    ],
+    "Samoyed": [
+        "whiter predominant color",
+        "whiter fur",
+        "thicker coat",
+        "thicker fur coat",
+        "thicker fur"
+    ],
+    "Scottish_Terrier": [
+        "larger ears"
+    ],
+    "Shiba_Inu": [
+        "unique red and white coloring",
+        "thicker fur texture",
+        "richer fur colors",
+        "distinct fox-like head shape",
+        "smaller ears",
+        "rounder ears"
+    ],
+    "Siamese": [
+        "pointed ears",
+        "blue eye color"
+    ],
+    "Sphynx": [
+        "distinctive cat-like face",
+        "large, round ears",
+        "distinctive cat shape",
+        "hairless body",
+        "smooth, hair-free nose",
+        "triangular ears",
+        "large ears",
+        "smooth skin texture"
+    ],
+    "Staffordshre_Bull": [
+        "distinctive bull terrier facial wrinkles"
+    ],
+    "Wheaten_Terrier": [
+        "distinct white markings",
+        "distinct white blaze",
+        "lighter body coat",
+        "larger size",
+        "smaller, more compact body",
+        "distinctly smoother coat"
+    ],
+    "Yorkshire_Terrier": [
+        "smaller overall size",
+        "larger size"
+    ]
+}

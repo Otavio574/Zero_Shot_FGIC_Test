@@ -1,0 +1,86 @@
+{
+    "Danaus_Plexippus": [
+        "distinct monarch orange color",
+        "wider wing span",
+        "wider, more rectangular wings",
+        "wider black borders on wings",
+        "brighter orange wings",
+        "elbowed pattern on forewings",
+        "distinct black and yellow pattern",
+        "broader hindwing base",
+        "larger body size",
+        "distinct black and yellow upperside pattern",
+        "distinct black and yellow stripes",
+        "distinct black spots",
+        "larger size"
+    ],
+    "Heliconius_charitonius": [
+        "distinct black spots",
+        "wider black borders",
+        "finer white lines on wings"
+    ],
+    "Heliconius_erato": [
+        "lighter red patches",
+        "wider black borders",
+        "smaller size",
+        "slightly larger size",
+        "slightly larger body size",
+        "smaller body size",
+        "reddish orange thorax",
+        "brighter wing color"
+    ],
+    "Junonia_Coenia": [
+        "distinctive blue and black wings",
+        "distinctively blue wings",
+        "triangular shaped wings",
+        "wings with broad, white stripes",
+        "brighter orange underside",
+        "distinct blue spots",
+        "larger size than Vanessa cardui"
+    ],
+    "Lycaena_Phlaeas": [
+        "less distinct black spots",
+        "wider black stripes",
+        "smaller overall size",
+        "smaller body size",
+        "wider wing spots",
+        "wider, more square head"
+    ],
+    "Nymphalis_Antiopa": [
+        "wider hindwing borders",
+        "distinctively marked hindwings",
+        "wider hindwing margin",
+        "unique forewing pattern",
+        "slightly more pointed wings",
+        "distinct blue spots",
+        "shorter proboscis",
+        "distinct orange spots",
+        "bluer coloration",
+        "shorter hind claws",
+        "shorter antennae",
+        "slightly upturned antennae",
+        "larger size"
+    ],
+    "Papilio_Cresphontes": [
+        "brighter yellow patches",
+        "brighter yellow color"
+    ],
+    "Pieris_Rapae": [
+        "distinct white spots",
+        "distinct white patches",
+        "smaller body size"
+    ],
+    "Vanessa_atalanta": [
+        "brighter orange underside",
+        "distinctively marked hindwings",
+        "triangular-shaped tail",
+        "distinctively larger size",
+        "wider hindwing spots",
+        "slimmer body profile",
+        "slightly larger size"
+    ],
+    "Vanessa_cardui": [
+        "distinct orange spots",
+        "distinctive orange spots"
+    ]
+}

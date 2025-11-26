@@ -1,0 +1,142 @@
+[
+  {
+    "dataset": "Birdsnap",
+    "num_images": 847,
+    "avg_width": 2573.13,
+    "avg_height": 2221.13,
+    "path": "datasets/Birdsnap"
+  },
+  {
+    "dataset": "Caltech_256",
+    "num_images": 5032,
+    "avg_width": 377.55,
+    "avg_height": 268.43,
+    "path": "datasets/Caltech_256"
+  },
+  {
+    "dataset": "CompCars",
+    "num_images": 5079,
+    "avg_width": 853.15,
+    "avg_height": 588.55,
+    "path": "datasets/CompCars"
+  },
+  {
+    "dataset": "CUB_200_2011",
+    "num_images": 5033,
+    "avg_width": 453.6,
+    "avg_height": 390.41,
+    "path": "datasets/CUB_200_2011"
+  },
+  {
+    "dataset": "DTD",
+    "num_images": 5040,
+    "avg_width": 499.44,
+    "avg_height": 458.37,
+    "path": "datasets/DTD"
+  },
+  {
+    "dataset": "FGVC_Aircraft",
+    "num_images": 3333,
+    "avg_width": 1098.68,
+    "avg_height": 747.2,
+    "path": "datasets/FGVC_Aircraft"
+  },
+  {
+    "dataset": "Flavia_Leaves",
+    "num_images": 1904,
+    "avg_width": 1600.0,
+    "avg_height": 1200.0,
+    "path": "datasets/Flavia_Leaves"
+  },
+  {
+    "dataset": "food-101",
+    "num_images": 5000,
+    "avg_width": 496.4,
+    "avg_height": 490.43,
+    "path": "datasets/food-101"
+  },
+  {
+    "dataset": "FoodX-251",
+    "num_images": 5038,
+    "avg_width": 343.13,
+    "avg_height": 280.36,
+    "path": "datasets/FoodX-251"
+  },
+  {
+    "dataset": "Leaf",
+    "num_images": 3323,
+    "avg_width": 256.0,
+    "avg_height": 256.0,
+    "path": "datasets/Leaf"
+  },
+  {
+    "dataset": "Leeds_Butterfly",
+    "num_images": 832,
+    "avg_width": 584.33,
+    "avg_height": 448.72,
+    "path": "datasets/Leeds_Butterfly"
+  },
+  {
+    "dataset": "LZUPSD",
+    "num_images": 4496,
+    "avg_width": 192.0,
+    "avg_height": 272.0,
+    "path": "datasets/LZUPSD"
+  },
+  {
+    "dataset": "MIT_Indoor_Scenes",
+    "num_images": 5250,
+    "avg_width": 526.43,
+    "avg_height": 451.51,
+    "path": "datasets/MIT_Indoor_Scenes"
+  },
+  {
+    "dataset": "MNIST_Butterfly",
+    "num_images": 500,
+    "avg_width": 224.0,
+    "avg_height": 224.0,
+    "path": "datasets/MNIST_Butterfly"
+  },
+  {
+    "dataset": "NA_Fish",
+    "num_images": 5000,
+    "avg_width": 590.0,
+    "avg_height": 445.0,
+    "path": "datasets/NA_Fish"
+  },
+  {
+    "dataset": "Oxford-IIIT_Pet_Dataset",
+    "num_images": 5189,
+    "avg_width": 445.56,
+    "avg_height": 399.63,
+    "path": "datasets/Oxford-IIIT_Pet_Dataset"
+  },
+  {
+    "dataset": "Oxford_Flowers_192",
+    "num_images": 818,
+    "avg_width": 625.81,
+    "avg_height": 551.89,
+    "path": "datasets/Oxford_Flowers_192"
+  },
+  {
+    "dataset": "SlowSketch",
+    "num_images": 1702,
+    "avg_width": 1053.0,
+    "avg_height": 927.0,
+    "path": "datasets/SlowSketch"
+  },
+  {
+    "dataset": "Stanford_Cars",
+    "num_images": 5037,
+    "avg_width": 789.32,
+    "avg_height": 548.62,
+    "path": "datasets/Stanford_Cars"
+  },
+  {
+    "dataset": "Stanford_Dogs",
+    "num_images": 5014,
+    "avg_width": 429.59,
+    "avg_height": 368.56,
+    "path": "datasets/Stanford_Dogs"
+  }
+]

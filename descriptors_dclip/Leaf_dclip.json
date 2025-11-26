@@ -1,0 +1,101 @@
+{
+  "Tomato_Bacterial_spot": [
+    "plant class-level visual trait"
+  ],
+  "Tomato_Early_blight": [
+    "Dark spots on leaves",
+    "Yellowing of lower leaves",
+    "Brown lesions spreading",
+    "Fuzzy white mycelium",
+    "Circular to irregular leaf spots",
+    "Powdery white spores",
+    "Stunted growth",
+    "Early leaf drop",
+    "Discolored fruit patches"
+  ],
+  "Tomato_Late_blight": [
+    "tomato-like shape",
+    "red coloration",
+    "spotty pattern",
+    "dark lesions",
+    "oval to round",
+    "smooth texture",
+    "high contrast edges",
+    "faint yellowing",
+    "leaf margin involvement"
+  ],
+  "Tomato_Leaf_Mold": [
+    "Distinctive leaf spots",
+    "Dark lesions on leaves",
+    "Yellowing of leaf margins",
+    "Powdery white fungal growth",
+    "Blister-like blisters on leaves",
+    "Curling of leaf edges",
+    "Reduced leaf size",
+    "Early leaf drop",
+    "Mottled leaf coloration"
+  ],
+  "Tomato_Septoria_leaf_spot": [
+    "Red discoloration on leaves",
+    "Circular to irregular spots",
+    "Brown margins around spots",
+    "Yellowing within spots",
+    "Powdery white mycelium",
+    "Faint concentric rings",
+    "Surface roughness",
+    "Vein distortion near spots"
+  ],
+  "Tomato_Spider_mites_Two_spotted_spider_mite": [
+    "Two-spotted markings",
+    "Reddish coloration",
+    "Small size",
+    "Four legs",
+    "Flat body",
+    "Long, thin legs",
+    "Oval shape",
+    "Pale underbelly"
+  ],
+  "Tomato__Target_Spot": [
+    "Red color",
+    "Round shape",
+    "Smooth texture",
+    "Small size",
+    "Yellow spots",
+    "Dark borders on spots",
+    "Central black dot in spots",
+    "Veins visible through skin"
+  ],
+  "Tomato__Tomato_YellowLeaf__Curl_Virus": [
+    "tomato yellowleaf curl virus",
+    "yellow leaves",
+    "curled edges",
+    "dark spots",
+    "red fruit",
+    "green veins",
+    "long stems",
+    "round shape"
+  ],
+  "Tomato__Tomato_mosaic_virus": [
+    "Tomato mosaic virus symptoms on leaves",
+    "Distinct yellowing and necrotic patterns",
+    "Vein discoloration in infected plants",
+    "Mosaic appearance on tomato foliage",
+    "Presence of viral particles under microscope",
+    "Characteristic viral-induced leaf curling",
+    "Abnormal fruit development due to infection",
+    "Reduced plant vigor and growth suppression",
+    "Specific leaf margin browning pattern",
+    "Increased susceptibility to other diseases"
+  ],
+  "Tomato_healthy": [
+    "Red color",
+    "Smooth texture",
+    "Round shape",
+    "Green stem",
+    "Five lobed leaves",
+    "Small size",
+    "Smooth surface",
+    "No spots",
+    "Full foliage"
+  ]
+}

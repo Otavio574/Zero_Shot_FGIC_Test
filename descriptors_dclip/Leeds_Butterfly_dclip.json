@@ -1,0 +1,102 @@
+{
+  "Danaus_Plexippus": [
+    "Large wingspan",
+    "Bright orange and black wings",
+    "White spots on wings",
+    "U-shaped marking on forewing upperside",
+    "Dotted lines on hindwing undersides",
+    "Veined wing structure",
+    "Rounded wing tips",
+    "Four wings",
+    "Two pairs of wings",
+    "Butterfly body shape"
+  ],
+  "Heliconius_charitonius": [
+    "Large wingspan",
+    "Bright orange and black coloration",
+    "Distinct white spots on wings",
+    "Red and blue bands across abdomen",
+    "Elaborate wing patterns",
+    "Broad, rounded wings",
+    "Veined wing structure",
+    "Four wings in total"
+  ],
+  "Heliconius_erato": [
+    "Wings: orange, black borders, white spots",
+    "Antennae: long, clubbed ends",
+    "Body: slender, brown underside",
+    "Veins: distinct, branching patterns",
+    "Scale texture: iridescent, smooth",
+    "Wing shape: rounded, large size",
+    "Color variation: individual patterns may differ"
+  ],
+  "Junonia_Coenia": [
+    "Large wingspan",
+    "Bright blue coloration",
+    "White underwings",
+    "Black markings",
+    "Distinct orange spots",
+    "Veined wing pattern",
+    "Rounded wing tips",
+    "Broad, triangular forewing shape"
+  ],
+  "Lycaena_Phlaeas": [
+    "Large wingspan",
+    "Bright orange and black wings",
+    "White spots on wings",
+    "U-shaped marking on hindwing underside",
+    "Two pairs of wings",
+    "Veined wing structure",
+    "Antennae extending from head",
+    "Four distinct life stages"
+  ],
+  "Nymphalis_Antiopa": [
+    "Large size",
+    "Orange wings",
+    "Black markings",
+    "White spots",
+    "Blue underbelly",
+    "Rounded wings",
+    "Veined pattern"
+  ],
+  "Papilio_Cresphontes": [
+    "Large wingspan",
+    "Blue and yellow coloration",
+    "Black borders on wings",
+    "White spots on forewings",
+    "Orange patches on hindwings",
+    "Veined wing structure",
+    "Rounded wing tips",
+    "Broad thorax",
+    "Four distinct legs"
+  ],
+  "Pieris_Rapae": [
+    "Pieris rapae's wings are greenish-yellow",
+    "Wings have black borders and spots",
+    "Antennae are club-shaped",
+    "Body is slender, brownish",
+    "Wingspan is about 3-4 cm",
+    "Hindwings have a row of black dots",
+    "Caterpillar has yellow-green body, black stripes"
+  ],
+  "Vanessa_atalanta": [
+    "Large size",
+    "Orange wings",
+    "Black markings",
+    "White spots",
+    "Blue underbelly",
+    "Elongated body",
+    "Broad wingspan",
+    "Veined wings"
+  ],
+  "Vanessa_cardui": [
+    "Large size",
+    "Orange wings",
+    "Black markings",
+    "White spots",
+    "Blue underbelly",
+    "Rounded wings",
+    "Veined pattern",
+    "Elongated proboscis"
+  ]
+}

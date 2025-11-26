@@ -1,0 +1,989 @@
+{
+  "alpine sea holly": [
+    "Needle-like leaves",
+    "Blue-violet flowers",
+    "Spiny texture",
+    "Towering stem",
+    "White base on petals",
+    "Dense cluster of blooms",
+    "Narrow leaf shape",
+    "Strong, upright posture"
+  ],
+  "anthurium": [
+    "anthurium's large, glossy leaves",
+    "pink, red, or white flowers",
+    "unique spathes surrounding blooms",
+    "textured, veined leaf surfaces",
+    "elongated, arching stems",
+    "planted in tropical regions",
+    "native to South America",
+    "large, showy inflorescences"
+  ],
+  "artichoke": [
+    "Large thistle-like leaves",
+    "Flower head covered in scales",
+    "Central cone structure",
+    "Fuzzy texture on scales",
+    "Open, trumpet-shaped flower",
+    "Dark purple or green color",
+    "Spiky outer leaves",
+    "Yellow center with pollen"
+  ],
+  "azalea": [
+    "Azalea's vibrant red color",
+    "Showy white petals",
+    "Bright pink blooms",
+    "Soft, velvety texture",
+    "Clustered flowers on stems",
+    "Five-petaled shape",
+    "Green, glossy leaves",
+    "Compact, bushy growth habit"
+  ],
+  "ball moss": [
+    "Green leaves",
+    "White flowers",
+    "Fleshy stems",
+    "Clump growth habit",
+    "Small size",
+    "Hairy texture",
+    "Round to oval shape"
+  ],
+  "balloon flower": [
+    "Balloon-like shape",
+    "Bright purple color",
+    "Soft, velvety texture",
+    "Large size",
+    "White base with purple veins",
+    "Rounded petals",
+    "Central yellow stamen cluster"
+  ],
+  "barbeton daisy": [
+    "Petals yellow and white",
+    "Disk florets brown",
+    "Ray florets absent",
+    "Disk tightly packed",
+    "Leaves narrow, linear",
+    "Stem erect, branched",
+    "Plant grows up to 1m tall",
+    "Blooms in spring"
+  ],
+  "bearded iris": [
+    "Bearded texture on petals",
+    "Bright color contrast",
+    "Curved, slender sepals",
+    "Large, showy flowers",
+    "Multiple petals per bloom",
+    "Yellow center with spots",
+    "Green, sword-like leaves",
+    "Tall stem height"
+  ],
+  "bee balm": [
+    "Reddish-pink flowers",
+    "Cone-shaped flower heads",
+    "Green, lanceolate leaves",
+    "Strong, spicy scent",
+    "Hairy, glandular surfaces",
+    "Stem with nodes and internodes",
+    "Single, terminal inflorescence",
+    "Butterflies often visiting"
+  ],
+  "bird of paradise": [
+    "Large, showy flowers",
+    "Brightly colored petals",
+    "Central disc structure",
+    "Asymmetrical shape",
+    "Wide, spreading sepals",
+    "Long, slender style",
+    "Nectar guide markings"
+  ],
+  "bishop of llandaff": [
+    "Petals white with yellow centers",
+    "Six petals arranged in two sets of three",
+    "Central stamens longer than petals",
+    "Green sepals forming a cup at base",
+    "Five sepals, unequal in size",
+    "Rounded to oval shape",
+    "Smooth, waxy texture on surface"
+  ],
+  "black-eyed susan": [
+    "Petals yellow, center dark brown",
+    "Center's dark color contrasts with petals' yellow",
+    "Center has a prominent dark spot",
+    "Flower head diameter about 5 cm",
+    "Flower head has a slight bend outward",
+    "Leaves are slightly glossy",
+    "Disk flowers numerous, surrounding center",
+    "Leaves lanceolate, toothed edges",
+    "Stem erect, up to 1 meter tall",
+    "Petals' edge fringed"
+  ],
+  "blackberry lily": [
+    "Petals dark red, orange at base",
+    "Large, showy flowers",
+    "Foliage broad, green leaves",
+    "Stem erect, robust",
+    "Single bloom per stem",
+    "Clusters of blooms",
+    "Rounded, cup-like petals",
+    "Strong, distinct fragrance"
+  ],
+  "blanket flower": [
+    "Petals yellow and orange",
+    "Disk florets brown",
+    "Ray florets absent",
+    "Daisy-like appearance",
+    "Composite flower structure",
+    "Five-parted corolla",
+    "Central disk prominent",
+    "Leaves narrow and linear",
+    "Stem erect and branched"
+  ],
+  "bolero deep blue": [
+    "Deep blue color",
+    "Petals arranged in a trumpet shape",
+    "Smooth surface texture",
+    "Large size compared to other flowers",
+    "Central stigma stands out",
+    "Four petal lobes",
+    "Narrow base of petals",
+    "Rounded top of petals"
+  ],
+  "bougainvillea": [
+    "Bougainvillea's vibrant red, pink, orange blooms",
+    "Showy bracts in shades of purple, yellow, white",
+    "Thorny stems and branches",
+    "Clusters of small, white flowers inside",
+    "Fleshy, papery bracts surrounding flowers",
+    "Triangular, toothed leaves",
+    "Twining vines for climbing",
+    "Brightly colored, often glossy petals"
+  ],
+  "bromelia": [
+    "Bromelia's distinctive rosette shape",
+    "Brightly colored flowers",
+    "Sharp, sword-like leaves",
+    "Showy, often red or blue",
+    "Central spiky structure",
+    "Clusters of small, green leaves at base",
+    "Unique, often sculptural form",
+    "Often grows on trees or rocks"
+  ],
+  "buttercup": [
+    "buttercup yellow petals",
+    "buttercup green leaves",
+    "buttercup daisy-like flower shape",
+    "small size",
+    "round flower head",
+    "5-parted corolla",
+    "long stamens",
+    "short style",
+    "central disk"
+  ],
+  "californian poppy": [
+    "Large, bright orange petals",
+    "Rounded, yellow center",
+    "Five-petaled shape",
+    "Single stem",
+    "Wide, flat leaves",
+    "Deep green color",
+    "Strong, pungent scent"
+  ],
+  "camellia": [
+    "Camellia's large size",
+    "Petals' smooth texture",
+    "Reddish-pink coloration",
+    "Five-petaled arrangement",
+    "Central stamens and pistil",
+    "Glossy green leaves",
+    "White or pink interior",
+    "Rounded flower shape"
+  ],
+  "canna lily": [
+    "Large size",
+    "Bright orange color",
+    "Long, narrow leaves",
+    "Showy, trumpet-shaped flowers",
+    "Ruffled edges on petals",
+    "Foliage grows in clumps",
+    "Bulbous underground storage",
+    "Yellow stamens and pistil"
+  ],
+  "canterbury bells": [
+    "Petals white, greenish at base",
+    "Central disk yellow",
+    "Five petals, sepals green",
+    "Oblong leaves, serrated edges",
+    "Stem erect, up to 1m tall",
+    "Flowers in clusters, terminal spike",
+    "Calyx five-parted, greenish",
+    "Rounded to bell-shaped flower outline"
+  ],
+  "cape flower": [
+    "Cape flower's distinctive color: vibrant orange",
+    "Petals arranged in a circular pattern",
+    "Central stigma stands out, yellow",
+    "Long, slender sepals, greenish",
+    "Bloom size: medium to large",
+    "Leaves alternate, lanceolate shape",
+    "Stem erect, robust",
+    "Flower head sits atop a tall stalk"
+  ],
+  "carnation": [
+    "Petals in shades of pink, red, white, and purple",
+    "Six petals arranged in two sets of three",
+    "Central stamens and stigma",
+    "Soft, velvety texture",
+    "Rounded, cup-like shape",
+    "Single layer of petals",
+    "Often grown as an ornamental plant"
+  ],
+  "cautleya spicata": [
+    "Petals: purple, trumpet-shaped",
+    "Sepals: green, lanceolate",
+    "Stamen: yellow, long",
+    "Style: white, slender",
+    "Leaves: linear, dark green",
+    "Inflorescence: terminal spike",
+    "Calyx: five-parted, green",
+    "Bloom time: spring/summer"
+  ],
+  "clematis": [
+    "Clematis flowers have distinctive bell-shaped petals",
+    "Show off vibrant colors like purple, blue, pink",
+    "Often feature intricate, winding vines",
+    "Display large, showy blooms",
+    "Have a soft, velvety texture",
+    "Petals arranged in a symmetrical pattern",
+    "Vines can grow up to several meters long",
+    "Bloom in late spring to early summer"
+  ],
+  "colt's foot": [
+    "Single yellow flower",
+    "Petals arranged in a cup shape",
+    "Four petals per flower",
+    "Oblong leaves with serrated edges",
+    "Stem grows up to 1 meter tall",
+    "Leaves have a smooth texture",
+    "Flowers bloom in spring",
+    "Plant has a woody base"
+  ],
+  "columbine": [
+    "Petals five, white, trumpet-shaped",
+    "Sepals four, green, lanceolate",
+    "Center yellow, nectar-rich",
+    "Leaves linear, dark green",
+    "Stem slender, up to 1 meter",
+    "Flowering April to June"
+  ],
+  "common dandelion": [
+    "Yellow flower head",
+    "Brown seed plume",
+    "Round flower head",
+    "Single stem",
+    "Green leaves",
+    "Composite flower structure",
+    "Ray florets and disc florets",
+    "Soft, papery seeds"
+  ],
+  "corn poppy": [
+    "Petals orange-yellow",
+    "Oblong shape",
+    "Smooth texture",
+    "Central black spot",
+    "Narrow stamen",
+    "Long pistil",
+    "Single layer of petals"
+  ],
+  "cyclamen": [
+    "Cyclamen flowers have purple petals",
+    "Petals often have white or pink edges",
+    "Leaves are heart-shaped",
+    "Surface of leaves is waxy",
+    "Flowers grow on a single stem",
+    "Stem is usually short and thick",
+    "Flowers face upwards or outwards",
+    "Petals are slightly ruffled or crinkled"
+  ],
+  "daffodil": [
+    "Petals yellow, trumpet shape",
+    "Six petals, three sepals",
+    "Curved, thin leaves",
+    "Single bloom per stem",
+    "Yellow center, orange tips",
+    "Smooth, glossy texture",
+    "Rounded base, tapering top"
+  ],
+  "desert-rose": [
+    "Large, pinkish-red blooms",
+    "Crystalline, prismatic petals",
+    "Irregular, branching structure",
+    "Shiny, smooth surface",
+    "Intricate, lace-like patterns",
+    "Drought-resistant, succulent leaves",
+    "Pale green, waxy texture"
+  ],
+  "english marigold": [
+    "Petals yellow and orange",
+    "Disk center dark brown",
+    "Ray florets numerous",
+    "Disk florets tubular",
+    "Leaves alternate, toothed margins",
+    "Stem erect, branched",
+    "Flower head diameter about 5 cm",
+    "Plant height up to 1 meter"
+  ],
+  "fire lily": [
+    "Fire orange petals",
+    "Yellow center",
+    "Long slender leaves",
+    "Clasping base",
+    "Single bloom",
+    "Spike shape",
+    "Smooth surface",
+    "Opened fully"
+  ],
+  "foxglove": [
+    "Large size",
+    "Purple flowers",
+    "Bell-shaped petals",
+    "White stamens",
+    "Green leaves",
+    "Stem with nodes",
+    "Round seed capsule"
+  ],
+  "frangipani": [
+    "Petals: white, yellow, pink, orange",
+    "Shape: funnel-like",
+    "Texture: smooth, velvety",
+    "Pattern: spots, stripes",
+    "Proportion: large size",
+    "Structure: five petals, multiple stamens",
+    "Color contrast: green leaves",
+    "Bloom time: summer"
+  ],
+  "fritillary": [
+    "Large, showy flowers",
+    "Yellow and orange hues",
+    "Butterfly-like markings",
+    "Densely packed petals",
+    "Open, flat top surface",
+    "Central disk structure",
+    "Veined, textured sepals",
+    "Symmetrical shape",
+    "Ruffled edges"
+  ],
+  "garden phlox": [
+    "Large, showy flowers",
+    "Pink, purple, white petals",
+    "Strong, sweet fragrance",
+    "Lanceolate leaves, toothed margins",
+    "Branched stems, sprawling habit",
+    "Deeply lobed calyx",
+    "Blooms mid-summer to fall"
+  ],
+  "gaura": [
+    "Gaura's distinctive pink flowers",
+    "Long, narrow leaves",
+    "Clustered blooms",
+    "Soft, delicate petals",
+    "White stamens",
+    "Green, bushy foliage",
+    "Small, compact size"
+  ],
+  "gazania": [
+    "Large, yellow petals",
+    "Red center disc",
+    "Ray-like structure",
+    "Daisy-like appearance",
+    "Bright color contrast",
+    "Rounded, flat head",
+    "Numerous, small leaves",
+    "Green foliage",
+    "Sun-loving plant"
+  ],
+  "geranium": [
+    "Petals pink, white, or red",
+    "Leaves green, lanceolate",
+    "Stem upright, sometimes branched",
+    "Flowers in clusters",
+    "Calyx green, five-parted",
+    "Seed pods dry, split open"
+  ],
+  "giant white arum lily": [
+    "White petals",
+    "Large size",
+    "Arched shape",
+    "Central stigma",
+    "Green leaves",
+    "Striped pattern on leaves",
+    "Rounded base",
+    "Tall stem"
+  ],
+  "globe thistle": [
+    "Globe-shaped flowers",
+    "Blue-violet petals",
+    "Dark purple center",
+    "Spiny, gray-green leaves",
+    "Tall, upright stem",
+    "Dense, compact growth habit"
+  ],
+  "globe-flower": [
+    "Globe-shaped flowers",
+    "Bright red color",
+    "Five petals",
+    "Yellow center",
+    "Smooth surface texture",
+    "Petals slightly curved outward",
+    "Green sepals at base",
+    "Small size compared to other flowers"
+  ],
+  "grape hyacinth": [
+    "Petals purple, white center",
+    "Six petals arranged in two sets",
+    "Narrow, pointed leaves",
+    "Bulbous underground storage",
+    "Clusters of flowers on stem",
+    "Strong, upright growth habit"
+  ],
+  "great masterwort": [
+    "Large purple flowers",
+    "Narrow green leaves",
+    "Dense cluster of blooms",
+    "White central anthers",
+    "Rounded flower head",
+    "Deep purple coloration",
+    "Fine textured foliage",
+    "Strong stem support"
+  ],
+  "hard-leaved pocket orchid": [
+    "Green flowers",
+    "Stem color: Brown",
+    "Lip color: Red",
+    "Column length: Short",
+    "Petal texture: Smooth",
+    "Hard leaves",
+    "Spots on petals",
+    "Lip structure",
+    "Column shape",
+    "Flower size: Small"
+  ],
+  "hibiscus": [
+    "Reddish-pink color",
+    "Large size",
+    "Rounded base",
+    "Smooth, glossy texture",
+    "Central yellow stamen cluster",
+    "Petals overlap slightly",
+    "White at petal base",
+    "Narrow green calyx"
+  ],
+  "hippeastrum": [
+    "Hippeastrum's bulbous shape",
+    "Showy, often brightly colored petals",
+    "Striped or spotted patterns on petals",
+    "Long, green leaves",
+    "Central stamens and stigma",
+    "Diverse range of colors from white to red",
+    "Often grown indoors for ornamental purposes"
+  ],
+  "japanese anemone": [
+    "japanese anemone has white petals",
+    "petal edges are fringed",
+    "center is yellow",
+    "flower shape is daisy-like",
+    "leaves are lanceolate",
+    "stems are often upright",
+    "grows in clumps"
+  ],
+  "king protea": [
+    "Large size",
+    "Bright yellow color",
+    "Spiky bracts",
+    "Cone-shaped head",
+    "Dark brown center",
+    "Woody stem",
+    "Multiple branches"
+  ],
+  "lenten rose": [
+    "Petals white, trumpet shape",
+    "Leaves green, oval",
+    "Stem erect, about 30 cm tall",
+    "Bloom in winter, early spring",
+    "Foliage evergreen",
+    "Flower solitary on stem",
+    "Petal edges wavy",
+    "Base of stem swollen, bulb-like"
+  ],
+  "lotus": [
+    "Lotus flower's distinctive white petals",
+    "Large size compared to other flowers",
+    "Central stigma stands tall",
+    "Narrow, pointed leaves",
+    "Foliage forms dense patches",
+    "Calyx at base of stem",
+    "Rounded, flat seed pods",
+    "Soft, velvety texture on petals"
+  ],
+  "love in the mist": [
+    "Petals blue-violet, white center",
+    "Green calyx contrasts with blue-violet petals",
+    "White center adds a striking contrast",
+    "Seed pods turn brown upon drying",
+    "Each petal tip has a tiny white dot",
+    "Flowers often grow in clusters on slender stems",
+    "Small size, 2-3 cm diameter",
+    "Five petals arranged in a star shape",
+    "Calyx green, tubular shape",
+    "Seed pods dry, split open"
+  ],
+  "magnolia": [
+    "Large white petals",
+    "Showy stamens",
+    "Fragrant scent",
+    "Distinctive shape",
+    "Soft texture",
+    "Five-petaled structure",
+    "Central cluster of stamens",
+    "Pale green leaves"
+  ],
+  "mallow": [
+    "Mallow's distinctive white or pink flowers",
+    "Soft, velvety petals",
+    "Five-petaled structure",
+    "Green, lance-shaped leaves",
+    "Stems covered in fine hairs",
+    "Rounded or oval flower heads",
+    "White or pink stamens and pistils"
+  ],
+  "marigold": [
+    "marigold has yellow petals",
+    "petals have brown centers",
+    "flower head is daisy-like",
+    "numerous small petals around a disk",
+    "petals are flat and smooth",
+    "plant has green leaves",
+    "leaves are lanceolate",
+    "plant grows in clusters"
+  ],
+  "mexican aster": [
+    "Petals yellow and orange",
+    "Ray florets white",
+    "Disk florets purple",
+    "Densely packed flowers",
+    "Central dark brown disc",
+    "Green, lanceolate leaves",
+    "Stem covered in fine hairs"
+  ],
+  "mexican petunia": [
+    "Petal color: Bright pink, occasionally white",
+    "Petal shape: Narrow, trumpet-like",
+    "Leaf texture: Smooth, glossy",
+    "Stem color: Green, sometimes reddish",
+    "Flower size: About 2 inches wide",
+    "Plant height: Up to 3 feet tall",
+    "Leaf arrangement: Opposite, oval-shaped",
+    "Bloom time: Throughout summer and fall"
+  ],
+  "monkshood": [
+    "Monkshood's distinctive blue-violet flowers",
+    "Large white anthers",
+    "Narrow, lance-shaped leaves",
+    "Tall, upright stem",
+    "Clasping basal leaves",
+    "Bell-shaped flower head",
+    "Smooth, glossy foliage",
+    "Dark purple stigma"
+  ],
+  "moon orchid": [
+    "Moon-like silver-white petals",
+    "Dark purple spots on petals",
+    "Long, slender sepals",
+    "Rounded, cup-shaped flower form",
+    "Green, lanceolate leaves",
+    "Strong, woody stem",
+    "White, tubular throat inside flower",
+    "Veins on leaves and petals"
+  ],
+  "morning glory": [
+    "Morning glory's trumpet-shaped flowers",
+    "Blue or purple color",
+    "Spiral pattern on the flower",
+    "Large size compared to other nearby plants",
+    "Silky texture of petals",
+    "Central yellow or white part",
+    "Vining growth habit",
+    "Heart-shaped leaves"
+  ],
+  "orange dahlia": [
+    "Orange petals",
+    "Dahlias' large size",
+    "Ruffled edges",
+    "Yellow center",
+    "Round shape",
+    "Five petals",
+    "Smooth texture",
+    "Bold color contrast"
+  ],
+  "osteospermum": [
+    "Flowers are yellow",
+    "Petals have wavy edges",
+    "Central disk is dark",
+    "Leaves are lanceolate",
+    "Stem is slender",
+    "Plant has a woody base",
+    "Blooms in summer",
+    "Has a sweet fragrance"
+  ],
+  "oxeye daisy": [
+    "Daisy-like appearance",
+    "Yellow center",
+    "White ray petals",
+    "Disk florets in yellow",
+    "Five-petaled head",
+    "Green, lanceolate leaves",
+    "Stem with nodes for leaf attachment",
+    "Round, flat seed head"
+  ],
+  "passion flower": [
+    "Passionate purple hues",
+    "Intricate white markings",
+    "Lacy green tendrils",
+    "Large trumpet-shaped blooms",
+    "Five-pointed petals",
+    "Soft velvety texture",
+    "Central stamens cluster",
+    "Delicate filigree veins"
+  ],
+  "pelargonium": [
+    "Petals pink, white, or red",
+    "Leaves green, toothed edges",
+    "Stem upright, sometimes branched",
+    "Flowers in clusters",
+    "Calyx green, five-parted",
+    "Leaves oppositely arranged",
+    "Stipules present, often spiny",
+    "Flower diameter about 2 cm"
+  ],
+  "peruvian lily": [
+    "Peruvian lily color: bright red, orange, yellow",
+    "Petal shape: long, narrow, curved",
+    "Petal texture: smooth, velvety",
+    "Central stigma: large, yellow",
+    "Leaf pattern: solid green, sometimes spotted",
+    "Stem structure: tall, slender",
+    "Inflorescence: terminal spike, multiple flowers",
+    "Flower size: large, up to 10 cm across"
+  ],
+  "petunia": [
+    "petunia's vibrant purple color",
+    "small, tubular flowers",
+    "leafy, heart-shaped foliage",
+    "bushy growth habit",
+    "annual plant species",
+    "compact size",
+    "scentless blooms",
+    "white or pink variants available"
+  ],
+  "pincushion flower": [
+    "pincushion shape",
+    "red, pink, or white color",
+    "abundant, soft, spiky texture",
+    "many small petals arranged in a rosette",
+    "center filled with many small, dark stamens and pistils",
+    "highly contrasted color pattern at center",
+    "unique, intricate structure"
+  ],
+  "pink primrose": [
+    "pink petals",
+    "oval leaves",
+    "long stem",
+    "fine texture",
+    "small size",
+    "five-petaled bloom",
+    "white stamens",
+    "green sepals"
+  ],
+  "pink-yellow dahlia": [
+    "pink hue",
+    "yellow petals",
+    "daisy-like shape",
+    "large size",
+    "curved stamens",
+    "rounded center",
+    "long stem",
+    "white blotches"
+  ],
+  "poinsettia": [
+    "poinsettia's red and green coloration",
+    "lobed leaves with toothed edges",
+    "bright red bracts surrounding yellow flowers",
+    "large size compared to other plants",
+    "white veins on dark green leaves",
+    "unique star-like shape at base",
+    "yellow stamens in center",
+    "often grown indoors for festive decorations"
+  ],
+  "primula": [
+    "Primula's vibrant purple petals",
+    "Yellow stamens contrasting petals",
+    "Narrow, lance-shaped leaves",
+    "Clustered blooms on stem",
+    "Soft, velvety texture",
+    "Delicate, daisy-like appearance",
+    "Rounded, bell-shaped flowers",
+    "Bright green foliage"
+  ],
+  "prince of wales feathers": [
+    "White and blue color contrast",
+    "Checkered pattern with black accents",
+    "flower class-level visual trait"
+  ],
+  "purple coneflower": [
+    "petal color: deep purple",
+    "center cone: golden yellow",
+    "flower shape: composite, ray and disk florets",
+    "leaves: lanceolate, green, serrated margins",
+    "stem: erect, green, sometimes branched",
+    "plant habit: perennial, branching from base"
+  ],
+  "red ginger": [
+    "Red color",
+    "Spicy scent",
+    "Tall stem",
+    "Large, showy flowers",
+    "Bright red petals",
+    "Yellow center",
+    "Narrow leaves",
+    "Clump-forming growth habit"
+  ],
+  "rose": [
+    "Petals: pink, white, red",
+    "Shape: cup-like, layered",
+    "Texture: smooth, velvety",
+    "Pattern: spots, stripes",
+    "Proportion: large size, long stem",
+    "Color contrast: green leaves, yellow stamens"
+  ],
+  "ruby-lipped cattleya": [
+    "Ruby lips",
+    "White petals",
+    "Large size",
+    "Complex pattern",
+    "Curved sepals",
+    "Strong contrast",
+    "Yellow center",
+    "Symmetrical shape"
+  ],
+  "siam tulip": [
+    "Petals: bright orange, fringed edges",
+    "Sepals: green, lance-shaped",
+    "Center: yellow, cup-like",
+    "Stem: slender, green, about 30 cm tall",
+    "Leaves: dark green, oval, serrated edges",
+    "Flower size: 5-7 cm across",
+    "Growth habit: upright, compact",
+    "Bloom time: late spring to early summer"
+  ],
+  "silverbush": [
+    "Silvery foliage",
+    "White flowers",
+    "Small size",
+    "Rounded shape",
+    "Soft texture",
+    "Fine leaves",
+    "Pale green stems",
+    "Clustered blooms"
+  ],
+  "snapdragon": [
+    "Snapdragon's distinctive shape",
+    "Long, curved style",
+    "Fuzzy, green anthers",
+    "Bright, showy petals",
+    "Complex, intricate structure",
+    "Bold, contrasting colors",
+    "Elongated, slender sepals",
+    "Open, trumpet-like mouth"
+  ],
+  "spear thistle": [
+    "Distinctively spiky leaves",
+    "Yellow flower heads",
+    "Central dark purple cone",
+    "White ray florets surrounding",
+    "Strong, rigid stem",
+    "Fuzzy, green bracts",
+    "Clustered at base",
+    "Narrow, elongated petals"
+  ],
+  "spring crocus": [
+    "Spring crocus color: vibrant yellow, purple edges",
+    "Petals: six, large, daisy-like",
+    "Sepals: six, green, narrow, spreading",
+    "Stem: slender, upright, 10-30 cm tall",
+    "Leaves: grass-like, narrow, green, appearing later",
+    "Flowering time: early spring, March-April"
+  ],
+  "stemless gentian": [
+    "Blue-violet flowers",
+    "Lanceolate leaves",
+    "Five-petaled blooms",
+    "Narrow, elongated petals",
+    "Club-shaped flower head",
+    "White or yellow throat inside",
+    "Smooth, glossy surface texture"
+  ],
+  "sunflower": [
+    "Sunflower head",
+    "Yellow petals",
+    "Brown center",
+    "Tall stem",
+    "Disk shape",
+    "Large size",
+    "Golden color",
+    "Ray and disk florets"
+  ],
+  "sweet pea": [
+    "Sweet color palette: pastel, vibrant",
+    "Petal shape: trumpet-like",
+    "Texture: smooth, velvety",
+    "Color pattern: solid, spotted",
+    "Proportion: delicate, balanced",
+    "Structure: four-petaled, clustered",
+    "Leaf arrangement: opposite, narrow",
+    "Bloom time: spring, summer"
+  ],
+  "sweet william": [
+    "Petals are purple",
+    "Leaves are lanceolate",
+    "Stem is erect",
+    "Bloom time is spring",
+    "Flowers are solitary",
+    "Calyx is bell-shaped",
+    "Plant height is about 30 cm",
+    "Blooms in clusters",
+    "Petal edges are fringed",
+    "Seed pods are dry and split open"
+  ],
+  "sword lily": [
+    "Sword-shaped leaves",
+    "Large, showy flowers",
+    "Orange or yellow color",
+    "Spiky stigma",
+    "Broad petals",
+    "Clump-forming growth habit",
+    "Long, slender style",
+    "Fleshy, tuberous bulb"
+  ],
+  "thorn apple": [
+    "Thorn-like protrusions",
+    "Brightly colored petals",
+    "Large size",
+    "Distinctive shape",
+    "Complex patterns on surface",
+    "Green stem",
+    "Five-petaled structure",
+    "Central stigma",
+    "White or yellow coloration"
+  ],
+  "tiger lily": [
+    "Large size",
+    "Orange petals",
+    "Yellow center",
+    "Spotted petals",
+    "Long stamens",
+    "Narrow leaves",
+    "Clump-forming habit"
+  ],
+  "toad lily": [
+    "toad-like leaves",
+    "pink trumpet-shaped flowers",
+    "green foliage",
+    "large size",
+    "dappled markings on leaves",
+    "yellow stamens",
+    "white petals",
+    "round flower heads"
+  ],
+  "tree mallow": [
+    "Large pink flowers",
+    "Rounded, bushy growth habit",
+    "Green, lanceolate leaves",
+    "Single, erect stem",
+    "Found in meadows, gardens",
+    "Blooms mid-summer to early fall"
+  ],
+  "tree poppy": [
+    "Large, showy flowers",
+    "Bright red and orange hues",
+    "Densely packed petals",
+    "Rounded, cup-like shape",
+    "Central cone structure",
+    "Green, compound leaves",
+    "Stem with smooth bark"
+  ],
+  "trumpet creeper": [
+    "Bright red flowers",
+    "Showy bracts",
+    "Five-petaled blooms",
+    "Smooth, green stems",
+    "Heart-shaped leaves",
+    "Clinging vines",
+    "Thick, woody base"
+  ],
+  "wallflower": [
+    "Petals yellow and orange",
+    "Central disk yellow",
+    "Five petals arranged radially",
+    "Six stamens",
+    "Green sepals",
+    "Rounded base",
+    "Smooth surface texture"
+  ],
+  "water lily": [
+    "Water-like texture",
+    "Large size",
+    "White color",
+    "Green leaves",
+    "Floating position",
+    "Petal shape",
+    "Yellow center",
+    "Round form"
+  ],
+  "watercress": [
+    "watercress has narrow, elongated leaves",
+    "leaves are often pinnately divided",
+    "leaf edges may have tiny teeth",
+    "stems are slender and upright",
+    "flowers are small, white or yellowish",
+    "plants grow in water or damp soil",
+    "clustered flowers form on the top of stems",
+    "leaves can be smooth or slightly wavy",
+    "green color, sometimes tinged with red at the base"
+  ],
+  "wild pansy": [
+    "Petals purple, white center",
+    "Five-petaled shape",
+    "Oblong leaves, serrated edges",
+    "Stem slender, green",
+    "Calyx green, five-parted",
+    "Seedpod dry, brown",
+    "Bloom time spring",
+    "Sun-loving, grows in meadows"
+  ],
+  "windflower": [
+    "Petals in vibrant shades of pink and white",
+    "Five-petaled arrangement",
+    "Central stamens and stigma",
+    "Oblong leaves with serrated edges",
+    "Soft, velvety surface feel",
+    "Rounded, bell-like shape"
+  ],
+  "yellow iris": [
+    "Petals yellow, distinct shape",
+    "Central stigma longer than stamens",
+    "Smooth surface texture",
+    "Six petals arranged in a circle",
+    "Narrow, pointed tips on petals",
+    "Central disc structure present",
+    "Uniform color without spots or markings"
+  ]
+}

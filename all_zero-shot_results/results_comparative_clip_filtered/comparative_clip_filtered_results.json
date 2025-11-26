@@ -1,0 +1,142 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.35182998819362454,
+        "accuracy_top5": 0.8665879574970484,
+        "num_classes": 15,
+        "num_images": 847,
+        "method": "comparative_clip_filtered"
+    },
+    "Caltech_256": {
+        "accuracy_top1": 0.8281438886529225,
+        "accuracy_top5": 0.9461887803443657,
+        "num_classes": 257,
+        "num_images": 30607,
+        "method": "comparative_clip_filtered"
+    },
+    "CompCars": {
+        "accuracy_top1": 0.003822132907776267,
+        "accuracy_top5": 0.014283744114112339,
+        "num_classes": 663,
+        "num_images": 50757,
+        "method": "comparative_clip_filtered"
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.5282299084435402,
+        "accuracy_top5": 0.8378263818243472,
+        "num_classes": 200,
+        "num_images": 11796,
+        "method": "comparative_clip_filtered"
+    },
+    "DTD": {
+        "accuracy_top1": 0.4952127659574468,
+        "accuracy_top5": 0.8051418439716312,
+        "num_classes": 47,
+        "num_images": 5640,
+        "method": "comparative_clip_filtered"
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.22562256225622562,
+        "accuracy_top5": 0.6003600360036003,
+        "num_classes": 70,
+        "num_images": 3333,
+        "method": "comparative_clip_filtered"
+    },
+    "Flavia_Leaves": {
+        "accuracy_top1": 0.16806722689075632,
+        "accuracy_top5": 0.4264705882352941,
+        "num_classes": 32,
+        "num_images": 1904,
+        "method": "comparative_clip_filtered"
+    },
+    "food-101": {
+        "accuracy_top1": 0.7962475247524753,
+        "accuracy_top5": 0.9532277227722772,
+        "num_classes": 101,
+        "num_images": 101000,
+        "method": "comparative_clip_filtered"
+    },
+    "FoodX-251": {
+        "accuracy_top1": 0.616141404035351,
+        "accuracy_top5": 0.8689344672336168,
+        "num_classes": 251,
+        "num_images": 11994,
+        "method": "comparative_clip_filtered"
+    },
+    "Leaf": {
+        "accuracy_top1": 0.27384893168823354,
+        "accuracy_top5": 0.6554318386999699,
+        "num_classes": 10,
+        "num_images": 3323,
+        "method": "comparative_clip_filtered"
+    },
+    "Leeds_Butterfly": {
+        "accuracy_top1": 0.5973557692307693,
+        "accuracy_top5": 0.9290865384615384,
+        "num_classes": 10,
+        "num_images": 832,
+        "method": "comparative_clip_filtered"
+    },
+    "LZUPSD": {
+        "accuracy_top1": 0.025133451957295373,
+        "accuracy_top5": 0.09697508896797152,
+        "num_classes": 88,
+        "num_images": 4496,
+        "method": "comparative_clip_filtered"
+    },
+    "MIT_Indoor_Scenes": {
+        "accuracy_top1": 0.8052405663399321,
+        "accuracy_top5": 0.9699532321096803,
+        "num_classes": 67,
+        "num_images": 15609,
+        "method": "comparative_clip_filtered"
+    },
+    "MNIST_Butterfly": {
+        "accuracy_top1": 0.318,
+        "accuracy_top5": 0.536,
+        "num_classes": 100,
+        "num_images": 500,
+        "method": "comparative_clip_filtered"
+    },
+    "NA_Fish": {
+        "accuracy_top1": 0.5741111111111111,
+        "accuracy_top5": 0.9866666666666667,
+        "num_classes": 9,
+        "num_images": 9000,
+        "method": "comparative_clip_filtered"
+    },
+    "Oxford-IIIT_Pet_Dataset": {
+        "accuracy_top1": 0.8128298822574097,
+        "accuracy_top5": 0.982406279604818,
+        "num_classes": 37,
+        "num_images": 7389,
+        "method": "comparative_clip_filtered"
+    },
+    "Oxford_Flowers_192": {
+        "accuracy_top1": 0.7004889975550123,
+        "accuracy_top5": 0.8704156479217604,
+        "num_classes": 102,
+        "num_images": 818,
+        "method": "comparative_clip_filtered"
+    },
+    "SlowSketch": {
+        "accuracy_top1": 0.718566392479436,
+        "accuracy_top5": 0.9377203290246768,
+        "num_classes": 20,
+        "num_images": 1702,
+        "method": "comparative_clip_filtered"
+    },
+    "Stanford_Cars": {
+        "accuracy_top1": 0.5644646365422397,
+        "accuracy_top5": 0.9039783889980354,
+        "num_classes": 196,
+        "num_images": 8144,
+        "method": "comparative_clip_filtered"
+    },
+    "Stanford_Dogs": {
+        "accuracy_top1": 0.5732750242954324,
+        "accuracy_top5": 0.8857628765792032,
+        "num_classes": 120,
+        "num_images": 20580,
+        "method": "comparative_clip_filtered"
+    }
+}

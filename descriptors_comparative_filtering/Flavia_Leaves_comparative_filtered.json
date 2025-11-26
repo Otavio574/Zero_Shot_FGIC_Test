@@ -1,0 +1,333 @@
+{
+    "Anhui_Barberry": [
+        "rounder leaves",
+        "leaves with distinct serrations",
+        "spiny leaves",
+        "finer texture leaves",
+        "slimmer, more elongated leaves",
+        "smaller size",
+        "distinctively shaped thorns"
+    ],
+    "Beale's_Barberry": [
+        "spiny leaves",
+        "distinctively shaped leaves",
+        "finely toothed leaves",
+        "oval-shaped leaves",
+        "finer, more compact leaves",
+        "smaller leaves",
+        "distinctively shaped thorns"
+    ],
+    "Big_fruited_holly": [
+        "finely toothed leaves",
+        "finer texture leaves",
+        "finer texture on leaves",
+        "finer, more delicate leaves",
+        "thicker leaves",
+        "lighter bark color",
+        "slimmer shape",
+        "whiter bark",
+        "more compact shape",
+        "smaller stature",
+        "redder winter foliage",
+        "taller overall height",
+        "finer texture",
+        "redder color"
+    ],
+    "Canadian_Poplar": [
+        "pinnate leaves",
+        "finer leaves",
+        "larger leaves",
+        "wider and taller leaves",
+        "smaller, more compact leaves",
+        "smaller leaves"
+    ],
+    "Castor_aralia": [
+        "rounder leaf shape",
+        "oval-shaped leaves",
+        "smaller leaf size",
+        "greenish leaves",
+        "different leaf arrangement",
+        "larger leaves",
+        "smaller leaves"
+    ],
+    "Chinese_Cinnamon": [
+        "smaller leaf size",
+        "smaller leaves",
+        "thinner leaves"
+    ],
+    "Chinese_Redbud": [
+        "leaves appear more serrated",
+        "oval-shaped leaves",
+        "finely toothed leaves",
+        "wider leaf margins",
+        "less spiny leaves",
+        "less dense foliage",
+        "slightly larger size",
+        "smaller overall size"
+    ],
+    "Chinese_Toon": [
+        "absence of bark or leaves",
+        "simpler patterns",
+        "simpler geometric shapes",
+        "absence of natural textures",
+        "brighter color palette",
+        "simplified geometric shapes",
+        "distinctive red face markings"
+    ],
+    "Chinese_Tulip_Tree": [
+        "distinctively shaped leaves",
+        "rounded leaf tips",
+        "distinctively green leaves",
+        "smaller leaf size",
+        "rounded leaves with toothed margins",
+        "distinctively green foliage",
+        "greenish leaves vs yellowish",
+        "wider, toothed leaf margins",
+        "absence of thorns",
+        "yellow versus green color"
+    ],
+    "Chinese_horse_Chestnut": [
+        "rounded leaf margins",
+        "larger leaves",
+        "brown vs green color",
+        "Chinese horse Chestnut has distinctive visual features",
+        "oval vs cylindrical shape",
+        "smaller, more oval seeds",
+        "brown vs red color"
+    ],
+    "Crape_myrtle__Crepe_Myrtle": [
+        "lobed leaves",
+        "larger leaves",
+        "smaller leaves",
+        "smaller size"
+    ],
+    "Ford_Woodlotus": [
+        "different leaf shape",
+        "smaller leaf size",
+        "leaves with serrated edges",
+        "larger, more spread leaves",
+        "angular tail feathers",
+        "sharp, angular edges",
+        "finer, white spots",
+        "thinner, more slender limbs",
+        "shorter, straight beak",
+        "taller tree height",
+        "shorter, straighter stem"
+    ],
+    "Glossy_Privet": [
+        "smaller leaf size",
+        "finely toothed edges",
+        "slimmer stem structure",
+        "shiny, green leaves",
+        "shiny, dark-green leaves",
+        "smaller overall size",
+        "smaller size"
+    ],
+    "Japan_Arrowwood": [
+        "different leaf shape",
+        "smaller leaf size",
+        "finer leaves",
+        "finer, more delicate leaves",
+        "thinner leaves",
+        "shorter peduncle length",
+        "lighter bark color",
+        "slightly curved branches",
+        "less pronounced purple spots",
+        "wider sepals",
+        "less pronounced thorns",
+        "brighter flower color",
+        "less robust stem",
+        "distinctively purple stems",
+        "smaller size"
+    ],
+    "Japanese_Cheesewood": [
+        "smaller leaf size",
+        "wider, flat leaves",
+        "slightly curved branches",
+        "less pronounced thorns",
+        "less pronounced spines",
+        "slightly more conical tree shape"
+    ],
+    "Japanese_Flowering_Cherry": [
+        "rounded leaves with distinct white edges",
+        "finer leaves",
+        "finer, more delicate leaves",
+        "finer leaves texture",
+        "single, smooth bark",
+        "clustered flowers vs individual leaves",
+        "rounded canopy",
+        "smaller size",
+        "slightly larger size",
+        "smaller overall size",
+        "non-toxic to humans"
+    ],
+    "Japanese_maple": [
+        "distinctively shaped leaves",
+        "smaller leaf size",
+        "distinctively lobed leaves",
+        "more lobed leaf shape",
+        "less pronounced lobes",
+        "smaller size",
+        "lobed rather than palmate leaves"
+    ],
+    "Nanmu": [
+        "slightly narrower leaves",
+        "smaller leaf size",
+        "coarser texture",
+        "lighter overall color"
+    ],
+    "Oleander": [
+        "finer leaf texture",
+        "distinctively shaped leaves",
+        "larger leaves",
+        "finer, more delicate leaves",
+        "distinctive leaves shape",
+        "more pointed leaves",
+        "slimmer stem",
+        "thornier stems",
+        "thorny stems",
+        "smaller size",
+        "distinctively shaped fruit",
+        "smaller overall size",
+        "less pronounced thorns"
+    ],
+    "Peach": [
+        "blunter nose tip",
+        "shorter, straighter stem",
+        "shorter stem",
+        "smoother surface",
+        "smoother skin texture",
+        "redder color",
+        "redder hue",
+        "less segmented pattern",
+        "oval shape",
+        "smaller size",
+        "rounder shape"
+    ],
+    "Southern_Magnolia": [
+        "rounder leaves",
+        "leaves with coarser texture",
+        "greenish leaves",
+        "wider leaf margins",
+        "wider, darker leaves",
+        "larger leaves",
+        "thicker stems"
+    ],
+    "Sweet_Osmanthus": [
+        "leaves with fine teeth",
+        "leaves with finer teeth",
+        "smaller leaves",
+        "less pointed leaves",
+        "Sweet Osmanthus has distinctive visual features"
+    ],
+    "Tangerine": [
+        "teardrop shape",
+        "smooth skin",
+        "pointed ends",
+        "distinct stem end",
+        "less intense blue color",
+        "distinct segmented stem",
+        "smoother surface texture",
+        "smaller size",
+        "absence of wings",
+        "smooth surface",
+        "brighter orange hue",
+        "round shape",
+        "less fuzzy texture"
+    ],
+    "Trident_Maple": [
+        "trident-shaped leaves",
+        "smaller leaf size",
+        "distinctive trident-shaped leaf arrangement",
+        "smaller leaf size compared to goldenrain tree",
+        "distinctive trident-shaped leaves",
+        "distinctive three-pronged leaf structure",
+        "distinctively lobed leaves",
+        "finer leaves with deep lobes",
+        "smaller overall size compared to Chinese Tulip Tree",
+        "more jagged leaf margins",
+        "three-pronged branching pattern",
+        "distinctive trident-shaped branches",
+        "reddish-brown color"
+    ],
+    "camphortree": [
+        "smaller leaf size",
+        "finely serrated leaves",
+        "larger leaves",
+        "smaller leaves",
+        "spikier leaves"
+    ],
+    "deodar": [
+        "smaller leaf size",
+        "distinctive cone shape",
+        "large evergreen needles",
+        "taller conical shape",
+        "distinctive conical shape",
+        "larger leaves",
+        "taller and more conical",
+        "steeper trunk angle",
+        "wider and taller cones",
+        "less pronounced resin scent",
+        "larger size",
+        "larger and rounder cones",
+        "smaller, more compact size",
+        "distinctive scent"
+    ],
+    "ginkgo_maidenhair_tree": [
+        "distinctive fan-shaped leaf structure",
+        "distinctive fan-shaped leaf arrangement",
+        "narrower leaf margins",
+        "distinctive fan-shaped crown",
+        "finer, feathery leaves",
+        "narrower leaves",
+        "smaller leaves",
+        "coarser leaves texture",
+        "larger size",
+        "smaller, more compact size",
+        "coarser, wider leaves",
+        "coarser texture"
+    ],
+    "goldenrain_tree": [
+        "smaller leaf size",
+        "distinctively shaped leaves",
+        "lobed vs simple leaves",
+        "finer leaves",
+        "smaller leaves",
+        "yellowish leaves vs green",
+        "smaller flower size"
+    ],
+    "pubescent_bamboo": [
+        "smaller leaf size",
+        "green tint",
+        "smaller leaves",
+        "finely textured surface",
+        "thinner stem",
+        "greenish tint",
+        "less pronounced nodes",
+        "slimmer stem"
+    ],
+    "true_indigo": [
+        "rounder leaf tips",
+        "smaller leaf size",
+        "smaller size",
+        "smaller leaves"
+    ],
+    "wintersweet": [
+        "spiny leaves",
+        "distinctively shaped leaves",
+        "leaves not glossy",
+        "leaves remain green year-round",
+        "leaves with finer teeth",
+        "stronger, spicy scent",
+        "stronger scent",
+        "smaller size"
+    ],
+    "yew_plum_pine": [
+        "needle-like leaves",
+        "pointed leaves",
+        "distinctively shaped needles",
+        "green needles",
+        "conical shape",
+        "yew plum pine has distinctive visual features"
+    ]
+}

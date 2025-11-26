@@ -1,0 +1,671 @@
+{
+    "AM General Hummer SUV 2000": [
+        "larger size and bulkier shape",
+        "larger size",
+        "taller stance",
+        "taller and more angular"
+    ],
+    "Acura Integra Type R 2001": [
+        "shorter, compact body shape",
+        "lower, more aggressive front bumper"
+    ],
+    "Acura RL Sedan 2012": [
+        "slightly more angular design",
+        "taller roofline",
+        "larger wheels"
+    ],
+    "Acura TL Sedan 2012": [
+        "shorter hood",
+        "different alloy wheel style",
+        "sharper headlight design"
+    ],
+    "Acura TL Type-S 2008": [],
+    "Acura TSX Sedan 2012": [
+        "less pronounced grille"
+    ],
+    "Acura ZDX Hatchback 2012": [],
+    "Aston Martin V8 Vantage Convertible 2012": [],
+    "Aston Martin V8 Vantage Coupe 2012": [
+        "slightly different grille design",
+        "distinctive Aston Martin grille",
+        "different window layout",
+        "distinctive front grille"
+    ],
+    "Aston Martin Virage Convertible 2012": [
+        "faster roof mechanism",
+        "slimmer headlamps",
+        "distinctive grille design",
+        "larger, more angular headlights",
+        "grill design",
+        "open-air design",
+        "distinctive Aston Martin grille"
+    ],
+    "Aston Martin Virage Coupe 2012": [
+        "lack of convertible top mechanism",
+        "shorter wheelbase",
+        "bolder color palette",
+        "closed coupe windows",
+        "rounded roofline"
+    ],
+    "Audi 100 Sedan 1994": [
+        "smaller alloy wheels",
+        "different alloy wheel style",
+        "shorter roofline",
+        "less pronounced side air intakes",
+        "brighter front lighting design",
+        "older model year"
+    ],
+    "Audi 100 Wagon 1994": [
+        "larger size",
+        "smaller wheel size"
+    ],
+    "Audi A5 Coupe 2012": [],
+    "Audi R8 Coupe 2012": [
+        "harder, sportier lines"
+    ],
+    "Audi RS 4 Convertible 2008": [
+        "convertible roof design"
+    ],
+    "Audi S4 Sedan 2007": [],
+    "Audi S4 Sedan 2012": [],
+    "Audi S5 Convertible 2012": [
+        "soft top roof",
+        "convertible roof"
+    ],
+    "Audi S5 Coupe 2012": [
+        "less pronounced air vents",
+        "lack of convertible top"
+    ],
+    "Audi S6 Sedan 2011": [
+        "larger size"
+    ],
+    "Audi TT Hatchback 2011": [],
+    "Audi TT RS Coupe 2012": [
+        "Audi TT RS Coupe 2012 has distinctive visual features",
+        "shorter hood",
+        "longer hood",
+        "less pronounced air vents",
+        "no convertible top"
+    ],
+    "Audi TTS Coupe 2012": [],
+    "Audi V8 Sedan 1994": [
+        "older model year",
+        "round headlights",
+        "premium alloy wheels",
+        "smaller wheels",
+        "rounded headlights"
+    ],
+    "BMW 1 Series Convertible 2012": [
+        "louder exhaust notes",
+        "convertible soft top"
+    ],
+    "BMW 1 Series Coupe 2012": [],
+    "BMW 3 Series Sedan 2012": [
+        "lacks roof rack"
+    ],
+    "BMW 3 Series Wagon 2012": [],
+    "BMW 6 Series Convertible 2007": [
+        "convertible soft top"
+    ],
+    "BMW ActiveHybrid 5 Sedan 2012": [
+        "sedan profile vs coupe",
+        "lower, sleeker profile",
+        "lower, more streamlined profile"
+    ],
+    "BMW M3 Coupe 2012": [
+        "shorter, sloping roofline",
+        "steeper roofline",
+        "distinctive gull-wing doors",
+        "shorter, more angular body",
+        "lower roofline"
+    ],
+    "BMW M5 Sedan 2010": [
+        "lack of SUV roof rack",
+        "lower, more aggressive front bumper",
+        "larger size"
+    ],
+    "BMW M6 Convertible 2010": [
+        "open-top design"
+    ],
+    "BMW X3 SUV 2012": [
+        "boxy shape"
+    ],
+    "BMW X5 SUV 2007": [],
+    "BMW X6 SUV 2012": [
+        "larger size"
+    ],
+    "BMW Z4 Convertible 2012": [
+        "less luxurious interior details"
+    ],
+    "Bentley Arnage Sedan 2009": [],
+    "Bentley Continental Flying Spur Sedan 2007": [
+        "shorter hood"
+    ],
+    "Bentley Continental GT Coupe 2007": [
+        "larger wheels",
+        "slightly larger wheels",
+        "shorter hood"
+    ],
+    "Bentley Continental GT Coupe 2012": [
+        "lack of convertible top",
+        "shorter wheelbase",
+        "shorter hood"
+    ],
+    "Bentley Continental Supersports Conv. Convertible 2012": [
+        "convertible roof",
+        "lower, more aerodynamic profile",
+        "open air design",
+        "two-door body style"
+    ],
+    "Bentley Mulsanne Sedan 2011": [
+        "slight variation in body curves"
+    ],
+    "Bugatti Veyron 16.4 Convertible 2009": [
+        "expensive luxury branding",
+        "signature W16 engine",
+        "soft top material",
+        "larger size",
+        "flying wing design"
+    ],
+    "Bugatti Veyron 16.4 Coupe 2009": [],
+    "Buick Enclave SUV 2012": [],
+    "Buick Rainier SUV 2007": [
+        "curvier lines",
+        "shorter length",
+        "boxy shape"
+    ],
+    "Buick Regal GS 2012": [
+        "more aggressive bumper design"
+    ],
+    "Buick Verano Sedan 2012": [
+        "softer, smoother lines",
+        "less pronounced hood scoop"
+    ],
+    "Cadillac CTS-V Sedan 2012": [
+        "four door",
+        "longer hood",
+        "lower, sportier stance",
+        "brighter, more aggressive front grille",
+        "sedan body style"
+    ],
+    "Cadillac Escalade EXT Crew Cab 2007": [
+        "premium chrome accents",
+        "finer detailing",
+        "metallic silver finish"
+    ],
+    "Cadillac SRX SUV 2012": [],
+    "Chevrolet Avalanche Crew Cab 2012": [
+        "shorter bed"
+    ],
+    "Chevrolet Camaro Convertible 2012": [
+        "lower, sportier stance",
+        "shorter hood"
+    ],
+    "Chevrolet Cobalt SS 2010": [],
+    "Chevrolet Corvette Convertible 2012": [],
+    "Chevrolet Corvette Ron Fellows Edition Z06 2007": [
+        "specific alloy wheel style",
+        "unique alloy wheel style",
+        "convertible top absence"
+    ],
+    "Chevrolet Corvette ZR1 2012": [],
+    "Chevrolet Express Cargo Van 2007": [],
+    "Chevrolet Express Van 2007": [
+        "boxy van shape"
+    ],
+    "Chevrolet HHR SS 2010": [
+        "larger, boxy body shape"
+    ],
+    "Chevrolet Impala Sedan 2007": [
+        "lighter color shade"
+    ],
+    "Chevrolet Malibu Hybrid Sedan 2010": [
+        "larger size",
+        "lighter alloy rims"
+    ],
+    "Chevrolet Malibu Sedan 2007": [
+        "different wheel style",
+        "different alloy wheel design"
+    ],
+    "Chevrolet Monte Carlo Coupe 2007": [
+        "metallic blue paint"
+    ],
+    "Chevrolet Silverado 1500 Classic Extended Cab 2007": [
+        "older model year",
+        "Shorter wheelbase"
+    ],
+    "Chevrolet Silverado 1500 Extended Cab 2012": [
+        "shorter bed",
+        "Taller bed",
+        "shorter bed length",
+        "different wheel style",
+        "shorter hood"
+    ],
+    "Chevrolet Silverado 1500 Hybrid Crew Cab 2012": [
+        "crew cab profile",
+        "shorter bed length"
+    ],
+    "Chevrolet Silverado 1500 Regular Cab 2012": [
+        "less robust build",
+        "shorter bed"
+    ],
+    "Chevrolet Silverado 2500HD Regular Cab 2012": [
+        "shorter bed",
+        "taller and boxier shape",
+        "shorter crew cab",
+        "bigger wheels"
+    ],
+    "Chevrolet Sonic Sedan 2012": [],
+    "Chevrolet Tahoe Hybrid SUV 2012": [
+        "taller and more robust body"
+    ],
+    "Chevrolet TrailBlazer SS 2009": [
+        "larger size"
+    ],
+    "Chevrolet Traverse SUV 2012": [],
+    "Chrysler 300 SRT-8 2010": [],
+    "Chrysler Aspen SUV 2009": [
+        "taller SUV profile",
+        "larger size",
+        "larger size and bulkier shape",
+        "vertical rather than sloping windshield"
+    ],
+    "Chrysler Crossfire Convertible 2008": [
+        "shorter, more angular design"
+    ],
+    "Chrysler PT Cruiser Convertible 2008": [
+        "curvier body线条",
+        "larger size"
+    ],
+    "Chrysler Sebring Convertible 2010": [],
+    "Chrysler Town and Country Minivan 2012": [
+        "sleeker body design",
+        "tail灯 shape"
+    ],
+    "Daewoo Nubira Wagon 2002": [],
+    "Dodge Caliber Wagon 2007": [],
+    "Dodge Caliber Wagon 2012": [],
+    "Dodge Caravan Minivan 1997": [
+        "shorter, boxier shape"
+    ],
+    "Dodge Challenger SRT8 2011": [
+        "slightly longer hood",
+        "shorter hood",
+        "slightly shorter length"
+    ],
+    "Dodge Charger SRT-8 2009": [
+        "larger, boxy body style"
+    ],
+    "Dodge Charger Sedan 2012": [
+        "no quad exhaust"
+    ],
+    "Dodge Dakota Club Cab 2007": [
+        "shorter wheelbase",
+        "shorter bed length",
+        "slightly different wheel style",
+        "slightly more angular design"
+    ],
+    "Dodge Dakota Crew Cab 2010": [
+        "shorter bed",
+        "slightly shorter bed"
+    ],
+    "Dodge Durango SUV 2007": [
+        "lower, more enclosed roof"
+    ],
+    "Dodge Durango SUV 2012": [
+        "boxy SUV shape"
+    ],
+    "Dodge Journey SUV 2012": [],
+    "Dodge Magnum Wagon 2008": [],
+    "Dodge Ram Pickup 3500 Crew Cab 2010": [
+        "shorter bed"
+    ],
+    "Dodge Ram Pickup 3500 Quad Cab 2009": [
+        "slightly different wheel design"
+    ],
+    "Dodge Sprinter Cargo Van 2009": [
+        "different wheel style",
+        "boxier rear design"
+    ],
+    "Eagle Talon Hatchback 1998": [
+        "different headlight design",
+        "brighter front grille",
+        "slimmer headlamps",
+        "distinctive front grille",
+        "rounded front grille",
+        "shorter roofline"
+    ],
+    "FIAT 500 Abarth 2012": [
+        "lower, more compact profile",
+        "slightly more compact size",
+        "slightly larger size"
+    ],
+    "FIAT 500 Convertible 2012": [
+        "distinctiveFIATlogo",
+        "open roof",
+        "slightlylargeroverall"
+    ],
+    "Ferrari 458 Italia Convertible 2012": [
+        "different wheel style"
+    ],
+    "Ferrari 458 Italia Coupe 2012": [
+        "bright red color"
+    ],
+    "Ferrari California Convertible 2012": [],
+    "Ferrari FF Coupe 2012": [],
+    "Fisker Karma Sedan 2012": [],
+    "Ford E-Series Wagon Van 2012": [],
+    "Ford Edge SUV 2012": [],
+    "Ford Expedition EL SUV 2009": [],
+    "Ford F-150 Regular Cab 2007": [
+        "shorter wheelbase",
+        "shorter rear cab",
+        "different color scheme"
+    ],
+    "Ford F-150 Regular Cab 2012": [
+        "new alloy wheel style",
+        "crew cab vs regular cab"
+    ],
+    "Ford F-450 Super Duty Crew Cab 2012": [
+        "slightly more aggressive styling",
+        "taller and more angular"
+    ],
+    "Ford Fiesta Sedan 2012": [],
+    "Ford Focus Sedan 2007": [],
+    "Ford Freestar Minivan 2007": [
+        "lower, boxier shape"
+    ],
+    "Ford GT Coupe 2006": [
+        "Ford GT Coupe 2006 has distinctive visual features",
+        "angular vs smooth body design",
+        "hardtop vs convertible roof",
+        "distinctive trapezoidal headlights"
+    ],
+    "Ford Mustang Convertible 2007": [
+        "slimmer side profile",
+        "different color scheme"
+    ],
+    "Ford Ranger SuperCab 2011": [
+        "2011 model year details"
+    ],
+    "GMC Acadia SUV 2012": [],
+    "GMC Canyon Extended Cab 2012": [],
+    "GMC Savana Van 2012": [
+        "different window design"
+    ],
+    "GMC Terrain SUV 2012": [
+        "less chrome trim",
+        "smooth body without cargo bed"
+    ],
+    "GMC Yukon Hybrid SUV 2012": [],
+    "Geo Metro Convertible 1993": [
+        "cheaper material"
+    ],
+    "HUMMER H2 SUT Crew Cab 2009": [
+        "different chrome accents",
+        "brighter, more aggressive bumper design",
+        "angular body lines"
+    ],
+    "HUMMER H3T Crew Cab 2010": [
+        "taller and more rugged profile",
+        "unique tailgate design",
+        "distinctive grill design",
+        "different roof style",
+        "shorter body"
+    ],
+    "Honda Accord Coupe 2012": [],
+    "Honda Accord Sedan 2012": [],
+    "Honda Odyssey Minivan 2007": [],
+    "Honda Odyssey Minivan 2012": [
+        "lighter shade of silver exterior",
+        "shorter wheelbase",
+        "large sliding doors",
+        "slightly more aerodynamic shape",
+        "slightly more aerodynamic profile"
+    ],
+    "Hyundai Accent Sedan 2012": [
+        "shorter, boxier shape",
+        "less luxurious interior",
+        "simpler design",
+        "lighter alloy wheels",
+        "less luxurious exterior finish"
+    ],
+    "Hyundai Azera Sedan 2012": [
+        "different wheel style",
+        "different window profile",
+        "slightly longer hood",
+        "slightly more modern styling",
+        "grill design",
+        "larger size",
+        "less aggressive front bumper design"
+    ],
+    "Hyundai Elantra Sedan 2007": [],
+    "Hyundai Elantra Touring Hatchback 2012": [],
+    "Hyundai Genesis Sedan 2012": [
+        "premium leather interior"
+    ],
+    "Hyundai Santa Fe SUV 2012": [],
+    "Hyundai Sonata Hybrid Sedan 2012": [
+        "different body style: sedan vs hatchback",
+        "less pronounced grille",
+        "shorter overhangs",
+        "distinct hybrid badge",
+        "slightly different front bumper"
+    ],
+    "Hyundai Sonata Sedan 2012": [
+        "sedan shape vs hatchback"
+    ],
+    "Hyundai Tucson SUV 2012": [],
+    "Hyundai Veloster Hatchback 2012": [],
+    "Hyundai Veracruz SUV 2012": [
+        "taller roofline",
+        "taller and more boxy",
+        "different roofline",
+        "larger size"
+    ],
+    "Infiniti G Coupe IPL 2012": [
+        "different color palette",
+        "lower, more compact stance"
+    ],
+    "Infiniti QX56 SUV 2011": [],
+    "Isuzu Ascender SUV 2008": [],
+    "Jaguar XK XKR 2012": [
+        "faster car model"
+    ],
+    "Jeep Compass SUV 2012": [],
+    "Jeep Grand Cherokee SUV 2012": [
+        "boxier profile"
+    ],
+    "Jeep Liberty SUV 2012": [],
+    "Jeep Patriot SUV 2012": [
+        "different wheel style"
+    ],
+    "Jeep Wrangler SUV 2012": [],
+    "Lamborghini Aventador Coupe 2012": [
+        "slightly longer hood",
+        "less pronounced rear wing",
+        "signature LP logo",
+        "slightly more aerodynamic profile",
+        "bigger rear wing",
+        "distinctive angular headlights",
+        "slimmer headlights"
+    ],
+    "Lamborghini Diablo Coupe 2001": [
+        "bright yellow color",
+        "different front bumper style",
+        "higher body profile",
+        "larger wheel size",
+        "distinctive angular design",
+        "larger size"
+    ],
+    "Lamborghini Gallardo LP 570-4 Superleggera 2012": [
+        "different color palette"
+    ],
+    "Lamborghini Reventon Coupe 2008": [
+        "signature Y-shaped headlights",
+        "angular headlights",
+        "angular headlights vs round"
+    ],
+    "Land Rover LR2 SUV 2012": [
+        "taller and more upright profile"
+    ],
+    "Land Rover Range Rover SUV 2012": [
+        "premium alloy wheel style",
+        "luxurious exterior finish",
+        "sleeker profile"
+    ],
+    "Lincoln Town Car Sedan 2011": [],
+    "MINI Cooper Roadster Convertible 2012": [
+        "hardtop convertible",
+        "boxy shape"
+    ],
+    "Maybach Landaulet Convertible 2012": [
+        "hardtop vs convertible roof"
+    ],
+    "Mazda Tribute SUV 2011": [],
+    "McLaren MP4-12C Coupe 2012": [
+        "signature McLaren logo"
+    ],
+    "Mercedes-Benz 300-Class Convertible 1993": [
+        "convertible roof",
+        "Mercedes-Benz logo",
+        "convertible top vs sedan roofline"
+    ],
+    "Mercedes-Benz C-Class Sedan 2012": [
+        "sharper, more angular design",
+        "less luxurious exterior finish"
+    ],
+    "Mercedes-Benz E-Class Sedan 2012": [
+        "longer hood compared to coupe"
+    ],
+    "Mercedes-Benz S-Class Sedan 2012": [
+        "车灯设计更独特",
+        "车身线条更流畅",
+        "grill更具豪华感",
+        "尾部造型更运动"
+    ],
+    "Mercedes-Benz SL-Class Coupe 2009": [],
+    "Mercedes-Benz Sprinter Van 2012": [
+        "larger size and boxier shape",
+        "logo style",
+        "larger size",
+        "slightly larger size",
+        "silver metallic paint",
+        "Mercedes logo",
+        "larger, more angular headlights"
+    ],
+    "Mitsubishi Lancer Sedan 2012": [
+        "slightly more aggressive front bumper"
+    ],
+    "Nissan 240SX Coupe 1998": [],
+    "Nissan Juke Hatchback 2012": [],
+    "Nissan Leaf Hatchback 2012": [],
+    "Nissan NV Passenger Van 2012": [
+        "sleeker body线条"
+    ],
+    "Plymouth Neon Coupe 1999": [
+        "different color scheme",
+        "distinctive front grille design",
+        "slightly smaller size",
+        "shorter overall length",
+        "slightly larger size",
+        "coupe roofline",
+        "rounded coupe body",
+        "shorter, angular body",
+        "distinctive front grille",
+        "slimmer headlights",
+        "angular front grille"
+    ],
+    "Porsche Panamera Sedan 2012": [
+        "lower, more aggressive stance",
+        "different wheel style",
+        "angular vs sleek body style"
+    ],
+    "Ram C_V Cargo Van Minivan 2012": [
+        "brighter white paint",
+        "cargo van shape"
+    ],
+    "Rolls-Royce Ghost Sedan 2012": [
+        "shorter hood",
+        "shorter hood proportion"
+    ],
+    "Rolls-Royce Phantom Drophead Coupe Convertible 2012": [
+        "softer, smoother body lines",
+        "more traditional grille design",
+        "longer hood compared to sedan"
+    ],
+    "Rolls-Royce Phantom Sedan 2012": [],
+    "Scion xD Hatchback 2012": [
+        "hatchback shape",
+        "slightly larger wheels"
+    ],
+    "Spyker C8 Convertible 2009": [
+        "brighter color palette",
+        "different color palette",
+        "slightly larger wheels"
+    ],
+    "Spyker C8 Coupe 2009": [
+        "slightly more angular design",
+        "hardtop vs convertible roof"
+    ],
+    "Suzuki Aerio Sedan 2007": [
+        "different color palette",
+        "different wheel style"
+    ],
+    "Suzuki Kizashi Sedan 2012": [
+        "slightly different taillights",
+        "shorter rear overhang",
+        "different wheel style",
+        "distinct front bumper design"
+    ],
+    "Suzuki SX4 Hatchback 2012": [],
+    "Suzuki SX4 Sedan 2012": [
+        "different wheel style",
+        "sedan has a trunk",
+        "hatchback has a liftgate"
+    ],
+    "Tesla Model S Sedan 2012": [
+        "lower and sleeker profile",
+        "lower, sleeker profile",
+        "lower roofline",
+        "slightly more aerodynamic profile"
+    ],
+    "Toyota 4Runner SUV 2012": [],
+    "Toyota Camry Sedan 2012": [
+        "slightly more aggressive front bumper",
+        "different wheel style"
+    ],
+    "Toyota Corolla Sedan 2012": [
+        "Toyota Corolla Sedan 2012 has distinctive visual features",
+        "grayer exterior"
+    ],
+    "Toyota Sequoia SUV 2012": [],
+    "Volkswagen Beetle Hatchback 2012": [
+        "lower and more compact body"
+    ],
+    "Volkswagen Golf Hatchback 1991": [
+        "familiar Volvo grille"
+    ],
+    "Volkswagen Golf Hatchback 2012": [
+        "modern, sleek design"
+    ],
+    "Volvo 240 Sedan 1993": [
+        "lighter body color",
+        "sedan shape",
+        "different color palette",
+        "larger size and body shape",
+        "boxier body shape"
+    ],
+    "Volvo C30 Hatchback 2012": [
+        "Volvo C30 Hatchback 2012 has distinctive visual features",
+        "hatchback body style",
+        "different color palette"
+    ],
+    "Volvo XC90 SUV 2007": [
+        "Volvo XC90 SUV 2007 has distinctive visual features",
+        "larger size"
+    ],
+    "smart fortwo Convertible 2012": [
+        "shorter, boxy shape"
+    ]
+}

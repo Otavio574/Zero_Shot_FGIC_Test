@@ -1,0 +1,5838 @@
+{
+    "2021_Vision_Gran_Turismo": [
+        "brighter red body",
+        "brighter red color",
+        "distinctive GT logo",
+        "distinctive aerodynamic profile",
+        "distinctive GT lines",
+        "distinctive aerodynamic curves",
+        "distinctive aerodynamic lines",
+        "larger rear wing",
+        "slightly larger size",
+        "unique rear diffuser"
+    ],
+    "Acadia": [
+        "slimmer body profile",
+        "smaller size",
+        "wider wheel arches",
+        "brighter front lighting",
+        "less complex pattern",
+        "larger rear window"
+    ],
+    "Accord": [
+        "larger overall size",
+        "larger body size",
+        "slightly smaller overall size",
+        "slightly larger size",
+        "slimmer body profile",
+        "distinctive Honda emblem",
+        "slimmer profile",
+        "shorter wheelbase",
+        "shorter hood",
+        "distinctive grill design",
+        "slightly more sloped roofline"
+    ],
+    "Active_Tourer": [
+        "different taillights",
+        "louder exhaust pipes",
+        "slightly taller profile",
+        "louder exhaust",
+        "unique taillights",
+        "distinctive front grille design",
+        "unique LED light signature",
+        "faster acceleration",
+        "distinctive grille design",
+        "slimmer profile",
+        "angular window lines",
+        "larger front grille",
+        "larger body size",
+        "unique side mirrors",
+        "distinctive front grille"
+    ],
+    "Aifei": [
+        "rounder body",
+        "lighter color",
+        "slimmer body shape"
+    ],
+    "Airstream": [
+        "distinctive streamlined body",
+        "distinctive aerodynamic curves",
+        "slimmer profile",
+        "smaller size compared to Super Duty",
+        "slightly larger size",
+        "curved front design",
+        "slimmer body profile",
+        "metallic exterior finish",
+        "distinctive logo",
+        "distinctive logo placement",
+        "larger rear doors",
+        "distinctive streamlined shape",
+        "metallic finish",
+        "rounded front",
+        "unique logo placement"
+    ],
+    "Allroad": [
+        "wider track than Audi A6",
+        "higher ground clearance",
+        "all-terrain tires",
+        "wider track",
+        "taller roofline",
+        "slightly larger body size"
+    ],
+    "Amarok_Pickup": [
+        "different wheel style",
+        "slightly more angular body"
+    ],
+    "Aojun": [
+        "brighter metallic finish",
+        "slimmer body profile",
+        "slimmer body shape",
+        "curvier tail",
+        "shorter wingspan",
+        "slimmer build",
+        "distinctive blue marking"
+    ],
+    "Aolong": [
+        "slimmer body shape",
+        "pointier tail",
+        "smaller size",
+        "rounded rather than pointed tail",
+        "distinctive bright spots"
+    ],
+    "Armada": [
+        "smooth, metallic finish",
+        "unique color scheme",
+        "distinctive logo",
+        "wider body",
+        "multiple vehicles"
+    ],
+    "Arnage": [
+        "bolder side gills",
+        "larger wheel arches",
+        "slimmer body profile",
+        "larger size",
+        "finer wheel detailing",
+        "different grille design",
+        "slower-moving",
+        "shorter bonnet"
+    ],
+    "Atlas": [
+        "lighter body color",
+        "distinctive blue body",
+        "larger size"
+    ],
+    "Audi_A1": [],
+    "Audi_A3_convertible": [
+        "louder exhaust",
+        "open roof"
+    ],
+    "Audi_A3_e-tron": [
+        "slightly more aerodynamic profile",
+        "lower, more aerodynamic profile",
+        "larger size"
+    ],
+    "Audi_A3_hatchback": [
+        "louder grille",
+        "distinct grill design"
+    ],
+    "Audi_A4L": [
+        "less luxurious design",
+        "smaller and sleeker profile"
+    ],
+    "Audi_A4_estate": [
+        "different alloy wheel design",
+        "slightly more conservative design"
+    ],
+    "Audi_A5_convertible": [
+        "open roof design",
+        "convertible soft top",
+        "larger body size",
+        "more angular design",
+        "rear window slope",
+        "convertible roof",
+        "coupe's fixed roof",
+        "slightly smaller size",
+        "different badge designs",
+        "slightly longer body",
+        "lower rear decklid"
+    ],
+    "Audi_A5_coupe": [
+        "slightly smaller wheels",
+        "slightly more aggressive front bumper",
+        "slightly less aggressive front bumper design",
+        "less pronounced bumper design"
+    ],
+    "Audi_A6": [
+        "slightly more angular design",
+        "slightly more angular lines",
+        "slightly longer body",
+        "shorter hood"
+    ],
+    "Audi_A6L": [],
+    "Audi_A6_hybrid": [],
+    "Audi_A7": [
+        "steeper roof line",
+        "slightly more sloped roof",
+        "slightly larger wheels",
+        "steeper roof"
+    ],
+    "Audi_A8L": [
+        "larger wheels"
+    ],
+    "Audi_A8L_hybrid": [
+        "slightly more conservative styling",
+        "slightly larger size",
+        "larger size"
+    ],
+    "Audi_Cross": [
+        "brighter colored body"
+    ],
+    "Audi_Q3": [],
+    "Audi_Q5": [
+        "sharper, more angular design"
+    ],
+    "Audi_Q5_hybrid": [
+        "distinctive grill design",
+        "more refined headlights",
+        "slightly more rounded headlights",
+        "less aggressive bumper",
+        "less aggressive grille",
+        "darker grille",
+        "slightly more angular shape"
+    ],
+    "Audi_Q7": [
+        "taller and more rugged appearance",
+        "larger size"
+    ],
+    "Audi_RS3": [
+        "RS3 has larger alloy wheels",
+        "larger and more aggressive air intakes",
+        "RS3 has more aggressive front grille",
+        "smaller size",
+        "larger wheels",
+        "distinctive quad exhausts",
+        "RS3 includes sportier side skirts",
+        "distinctive quad exhaust",
+        "shorter, less sloped roofline",
+        "distinctive honeycomb grille",
+        "shorter roofline",
+        "RS3 features quad exhaust pipes",
+        "different grille design",
+        "shorter bonnet"
+    ],
+    "Audi_RS4": [
+        "distinctive quad exhaust",
+        "slightly different headlight design",
+        "RS4 features larger air intakes",
+        "larger size",
+        "RS4 has quad exhaust tips",
+        "slightly more aggressive front bumper",
+        "shorter hood length"
+    ],
+    "Audi_RS5": [
+        "RS5 has a more aggressive front grille",
+        "RS5 features carbon fiber exterior accents",
+        "slightly more aggressive front grille",
+        "different front grille",
+        "distinctive front grille design",
+        "slimmer front grille",
+        "shorter hood",
+        "slightly more angular design",
+        "shorter hood length",
+        "RS5 has quad exhaust tips",
+        "slightly larger overall size"
+    ],
+    "Audi_RS6": [
+        "distinctive quad exhausts",
+        "steeper rear slope",
+        "distinctively shaped rear wing",
+        "larger size",
+        "larger overall size",
+        "slightly shorter length"
+    ],
+    "Audi_RS7": [
+        "Audi RS7 has distinctive visual features",
+        "RS7 typically has wider wheel arches",
+        "RS7 is typically larger and wider",
+        "larger size",
+        "RS7 features quad exhaust tips",
+        "RS7 has more aggressive front grille",
+        "RS7 features larger exhaust pipes",
+        "RS7 has a more aggressive front grille",
+        "rear spoiler absent",
+        "distinctive quad exhausts",
+        "slightly larger size",
+        "RS7's roofline slopes more dramatically"
+    ],
+    "Audi_RS_Q3": [
+        "distinctive quad exhausts",
+        "slightly more angular design",
+        "aggressive front bumper design",
+        "aggressive front splitter"
+    ],
+    "Audi_S1": [
+        "slightly larger wheels",
+        "shorter hood",
+        "smaller size",
+        "aggressive front bumper design",
+        "slightly more aggressive front bumper",
+        "different alloy wheel design"
+    ],
+    "Audi_S3_sedan": [
+        "slightly more sloped roof",
+        "more pronounced rear diffuser",
+        "slightly more aggressive design",
+        "slightly different headlight design",
+        "slightly more aggressive front bumper",
+        "distinctive quad exhaust tips",
+        "slightly larger wheels",
+        "different alloy wheel design"
+    ],
+    "Audi_S4": [
+        "sharper, more angular design",
+        "larger size",
+        "distinctive quad exhausts",
+        "different wheel design",
+        "sportier grille design",
+        "slightly longer and wider body"
+    ],
+    "Audi_S5_convertible": [
+        "distinctive quad exhaust",
+        "openable roof",
+        "convertible's soft top",
+        "different tailpipe layout",
+        "slightly more aggressive front bumper",
+        "larger wheel size",
+        "slightly longer hood",
+        "larger body size",
+        "larger size",
+        "rear deck spoiler",
+        "slightly larger wheels",
+        "slightly longer body",
+        "different rear styling",
+        "rear diffuser with quad exhausts",
+        "sportier front grille"
+    ],
+    "Audi_S5_coupe": [
+        "shorter, more angular body",
+        "slightly smaller wheels",
+        "different alloy wheel design",
+        "S5 features quad exhausts",
+        "less pronounced body lines",
+        "shorter rear overhang",
+        "lower roofline",
+        "different rear styling",
+        "S5 is typically slightly larger"
+    ],
+    "Audi_S5_hatchback": [
+        "slightly more sloped roofline",
+        "slightly more aggressive bumper",
+        "shorter hood",
+        "slightly smaller size",
+        "hatchback body style",
+        "distinctive quad exhaust",
+        "sportier grille",
+        "slightly larger size",
+        "rear liftgate",
+        "hatchback roofline"
+    ],
+    "Audi_S7": [
+        "distinctive quad exhausts",
+        "distinctive quad tailpipe",
+        "distinctive quad exhaust tips",
+        "slimmer rear bumper",
+        "larger wheel arches",
+        "lower and sportier profile",
+        "angular front bumper",
+        "more aggressive bumper styling",
+        "larger size",
+        "lower roofline",
+        "rear spoiler for improved aerodynamics",
+        "larger wheels"
+    ],
+    "Audi_SQ5": [
+        "higher ride height",
+        "larger size"
+    ],
+    "Audi_TTS_convertible": [
+        "convertible's soft top",
+        "convertible soft top",
+        "open roof design",
+        "TTS's sportier grille"
+    ],
+    "Audi_TTS_coupe": [
+        "sharper, more angular design",
+        "lack of retractable hardtop",
+        "slightly more angular design"
+    ],
+    "Audi_TT_RS": [
+        "angular vs sleeker design",
+        "distinctive quad exhausts",
+        "fixed roof compared to soft top",
+        "distinctive quad exhaust",
+        "fixed rear wing",
+        "slightly smaller wheels",
+        "slightly more angular design",
+        "fixed roof",
+        "sport exhaust",
+        "larger wheel arches",
+        "shorter hood",
+        "slightly more aggressive front bumper",
+        "larger air intakes",
+        "larger rear diffuser",
+        "shorter overhangs at rear"
+    ],
+    "Audi_TT_convertible": [
+        "non-existent quad exhaust tips",
+        "slightly less aggressive styling",
+        "less aggressive bumper styling",
+        "shorter overhangs",
+        "slightly larger wheels",
+        "distinctive grill design",
+        "slightly more curved roofline",
+        "convertible soft top",
+        "smaller size",
+        "open roof",
+        "distinctive angular headlights"
+    ],
+    "Audi_TT_coupe": [
+        "hardtop vs soft top",
+        "lack of convertible top",
+        "lower, sportier stance",
+        "slightly more angular design",
+        "slightly larger wheels",
+        "19-inch alloy wheels",
+        "shorter hood",
+        "different wheel design",
+        "less aggressive front grille"
+    ],
+    "Audi_Urban": [
+        "angular head shape",
+        "sharper, more angular design",
+        "smaller size",
+        "shorter, squared-off design",
+        "less pronounced grille design",
+        "distinctive angular design",
+        "slightly smaller size",
+        "shorter, sportier profile",
+        "distinctive roofline slope",
+        "flat roofline",
+        "distinct grill design",
+        "shorter, more angular headlights",
+        "distinctive urban-inspired decals",
+        "distinctive LED light signature",
+        "slightly larger wheel size"
+    ],
+    "Avenger": [
+        "brighter color scheme",
+        "metallic finish",
+        "less pronounced wing spines",
+        "darker body color"
+    ],
+    "BAW_B90": [
+        "lighter body hue",
+        "brighter silver metallic finish",
+        "slimmer and longer body profile"
+    ],
+    "BAW_BJ40": [
+        "shorter wheelbase",
+        "larger front grille",
+        "distinctive grill pattern",
+        "distinctive front bumper design",
+        "angular head shape",
+        "different colored roof",
+        "sharper, more angular head shape",
+        "larger wheel size",
+        "lighter, less defined tail",
+        "wider wheel arches",
+        "distinctive fender flares",
+        "lighter wing color",
+        "shorter, squared-off tail",
+        "slightly taller roof"
+    ],
+    "BAW_C50E": [
+        "distinctive logo",
+        "thinner legs",
+        "distinctive diamond-shaped tail",
+        "different color scheme",
+        "smaller body size",
+        "distinctive tail shape",
+        "larger size",
+        "slightly larger size",
+        "unique tail shape"
+    ],
+    "BAW_C51X": [
+        "distinctive diamond-shaped tail",
+        "slimmer body profile",
+        "smaller, sleek body",
+        "distinctive red stripe",
+        "distinctive tail shape"
+    ],
+    "BAW_C90L": [
+        "slimmer body profile",
+        "larger size and bulkier shape",
+        "larger size"
+    ],
+    "BAW_E150_EV": [
+        "angular tail design",
+        "larger size",
+        "slightly larger size"
+    ],
+    "BAW_E_Series_hatchback": [
+        "distinctive grille design",
+        "brighter front grille",
+        "angular front grille",
+        "angular front headlights",
+        "angular headlights",
+        "distinctive chrome grille",
+        "distinctive BAW logo"
+    ],
+    "BAW_E_Series_sedan": [
+        "different logo",
+        "different color shade",
+        "slightly more angular design",
+        "distinctive BAW logo",
+        "different wheel style",
+        "different grille style",
+        "slightly more aerodynamic design",
+        "slightly larger size",
+        "distinctive grill design",
+        "more conservative styling",
+        "longer roof line"
+    ],
+    "BAW_T60": [],
+    "BJ212": [
+        "unique Chinese characters",
+        "taller roofline",
+        "absence of luxury branding",
+        "distinctive front grille design",
+        "different wheel style",
+        "distinctive grill design"
+    ],
+    "BWM_1_Series_convertible": [
+        "less luxurious exterior design",
+        "smaller body size",
+        "less complex grille design",
+        "slightly more angular body",
+        "smaller size",
+        "less aggressive front grille",
+        "shorter hood",
+        "shorter hood length",
+        "distinctive 1 Series logo",
+        "slightly less aggressive front grille"
+    ],
+    "BWM_1_Series_couple": [
+        "simpler grille",
+        "less luxurious design",
+        "less aggressive bumper design",
+        "distinctive kidney-shaped grille",
+        "slimmer headlights",
+        "distinctive kidney grille"
+    ],
+    "BWM_1_Series_hatchback": [
+        "smaller wheels",
+        "slimmer headlights",
+        "slightly larger size",
+        "less aggressive front grille",
+        "distinctive kidney-shaped grille",
+        "two doors"
+    ],
+    "BWM_2_Series": [
+        "less complex grill design",
+        "distinctive kidney grille design",
+        "non-hybrid badge",
+        "less pronounced fender flares",
+        "slightly less aggressive front bumper",
+        "distinctive kidney-shaped grille",
+        "distinctive kidney grille",
+        "shorter, straighter headlights",
+        "shorter bonnet",
+        "slimmer LED lights",
+        "slimmer headlights",
+        "sporty rear spoiler",
+        "slightly more angular headlights",
+        "sharp LED headlights",
+        "sportier rear spoiler"
+    ],
+    "BWM_2_Series_Active_Tourer": [
+        "more spacious rear cargo area",
+        "unique L-shaped taillights",
+        "slimmer tail lights",
+        "faster rear wheels",
+        "sportier bumper design",
+        "larger body size",
+        "slightly more rounded front bumper",
+        "lower roofline",
+        "sharper headlines",
+        "slightly more angular design",
+        "slightly larger size",
+        "distinctive kidney-shaped grille",
+        "slightly sloping roofline",
+        "smaller size"
+    ],
+    "BWM_3_Series": [
+        "non-hybrid badge",
+        "slightly shorter hood",
+        "less pronounced grill",
+        "shorter rear overhang",
+        "non-lit hybrid wheels",
+        "shorter bonnet"
+    ],
+    "BWM_3_Series_GT": [
+        "larger wheels"
+    ],
+    "BWM_3_Series_convertible": [
+        "distinctive boot shape",
+        "rear roll bars",
+        "shorter, squared-off tail",
+        "larger body size",
+        "less aggressive front grille",
+        "smaller size",
+        "less aggressive front bumper",
+        "smaller overall size",
+        "different wheel design",
+        "slimmer window pillars",
+        "slightly shorter hood",
+        "slightly more angular head",
+        "open roof design"
+    ],
+    "BWM_3_Series_coupe": [
+        "slightly more angular design",
+        "slightly larger wheels",
+        "slimmer side mirrors",
+        "larger wheels",
+        "different front grille",
+        "slimmer windows",
+        "lower, more streamlined profile",
+        "larger size",
+        "angular front grille",
+        "distinctive coupe silhouette",
+        "less pronounced rear spoiler"
+    ],
+    "BWM_3_Series_estate": [
+        "distinctive boot design",
+        "smaller size",
+        "slightly smaller overall size",
+        "different grille style",
+        "larger size",
+        "less pronounced fender flares",
+        "different wheel design",
+        "fasterback styling",
+        "slimmer side profile",
+        "more spacious interior",
+        "distinctive boot/trunk"
+    ],
+    "BWM_3_Series_hybrid": [
+        "less pronounced grille",
+        "hybrid badge",
+        "slimmer headlights",
+        "slightly different grille",
+        "slightly more angular headlights",
+        "slightly more aggressive front bumper",
+        "distinctive hybrid badge"
+    ],
+    "BWM_5_Series": [
+        "hybrid light signature",
+        "less luxurious lighting",
+        "distinctive kidney-shaped grilles",
+        "slightly less aggressive front bumper"
+    ],
+    "BWM_5_Series_GT": [
+        "19-inch alloy wheels",
+        "smaller body size",
+        "different front grille",
+        "slimmer headlamps",
+        "slightly larger size",
+        "larger body size",
+        "distinct kidney-shaped grille",
+        "distinctive kidney grille"
+    ],
+    "BWM_5_Series_estate": [
+        "slightly more aerodynamic shape",
+        "larger body size",
+        "rear roofline slope",
+        "more sophisticated lighting",
+        "slightly larger size",
+        "sharper, more angular design",
+        "distinct rear roofline slope",
+        "larger size",
+        "larger cargo area",
+        "distinctive boot design",
+        "slightly different front grille design"
+    ],
+    "BWM_5_Series_hybrid": [
+        "hybrid light signature",
+        "angular front grille",
+        "slightly different grille design",
+        "distinctive kidney grille design"
+    ],
+    "BWM_6_Series": [
+        "slightly shorter hood",
+        "less pronounced grille",
+        "slightly longer hood",
+        "less pronounced kidney grille",
+        "slimmer headlamps",
+        "non-hybrid badge",
+        "slimmer headlights",
+        "more angular headlights"
+    ],
+    "BWM_6_Series_convertible": [
+        "larger body size",
+        "different rear silhouette",
+        "premium finish",
+        "less aggressive front grille",
+        "slightly more athletic silhouette",
+        "slightly larger size",
+        "larger size",
+        "slightly more rounded body lines",
+        "shorter hood",
+        "less spacious roofline",
+        "slimmer headlamps",
+        "more aggressive front grille",
+        "convertible's retractable roof"
+    ],
+    "BWM_6_Series_couple": [
+        "slimmer side profile",
+        "distinctive rear spoiler",
+        "more luxurious styling",
+        "slightly longer hood",
+        "sportier design",
+        "sportier rear diffuser",
+        "distinctive kidney-shaped grille",
+        "shorter bonnet",
+        "faster rear lights",
+        "unique taillights",
+        "more aerodynamic profile",
+        "distinctive kidney grille",
+        "slightly smaller wheels",
+        "slimmer headlights",
+        "brighter chrome details"
+    ],
+    "BWM_7_Series": [
+        "slightly more aerodynamic profile",
+        "premium alloy wheels",
+        "hybrid badge on rear"
+    ],
+    "BWM_7_Series_hybrid": [
+        "more sophisticated grille design",
+        "slightly longer hood",
+        "unique hybrid light signature",
+        "hybrid badge",
+        "distinctive hybrid badge",
+        "distinctive kidney-shaped grille",
+        "lower, more athletic stance",
+        "premium alloy wheels",
+        "distinctive kidney grille",
+        "slightly more aerodynamic profile",
+        "larger sedan shape"
+    ],
+    "BWM_GINA": [
+        "less aggressive grille",
+        "less pronounced grill design",
+        "more angular grille design",
+        "distinctive kidney-shaped grille",
+        "unique chrome detailing",
+        "angular front lights",
+        "distinctive kidney-shaped headlights",
+        "slightly curved front lights",
+        "different alloy wheel design",
+        "slightly curved rear roofline",
+        "rounder headlights"
+    ],
+    "BWM_M3": [
+        "lighter alloy wheels",
+        "smaller rear wing",
+        "slightly lower, sportier stance",
+        "sharper, more angular shape",
+        "distinctive kidney grille",
+        "shorter bonnet",
+        "distinctive kidney-shaped grille",
+        "larger size",
+        "shorter, more upright headlights",
+        "larger, more aggressive air intakes",
+        "aggressive air intakes",
+        "less pronounced kidney grille"
+    ],
+    "BWM_M3_convertible": [
+        "slightly more compact size",
+        "slightly smaller wheels",
+        "angular rather than smooth body lines",
+        "slightly longer hood",
+        "distinctive aerodynamic spoilers",
+        "brighter LED strip lighting",
+        "shorter hood",
+        "rear roll bars",
+        "larger, more aggressive front grille",
+        "distinctive kidney grille",
+        "distinctive aggressive front grille",
+        "slightly more aggressive front grille",
+        "recessed headlights",
+        "retracted rear decklid",
+        "distinctive convertible roof"
+    ],
+    "BWM_M3_coupe": [
+        "distinctive gullwing doors",
+        "distinctive gill slits",
+        "slightly smaller overall size",
+        "slightly less aggressive design",
+        "distinctive kidney grille",
+        "slightly longer body",
+        "less pronounced grille",
+        "smaller size",
+        "different alloy wheel design",
+        "larger body size",
+        "slightly larger wheels",
+        "lower, sportier stance",
+        "shorter hood",
+        "larger, more aggressive grille",
+        "distinctive coupé roofline"
+    ],
+    "BWM_M4_coupe": [
+        "slightly more aerodynamic profile",
+        "distinctive kidney grille design",
+        "larger size",
+        "distinctive kidney grille",
+        "less pronounced kidney grille",
+        "different front grille",
+        "shorter bonnet",
+        "larger, angular air vents",
+        "larger air intakes",
+        "shorter wheelbase",
+        "distinctive quad exhaust",
+        "slightly larger wheels",
+        "sportier roofline"
+    ],
+    "BWM_M5": [
+        "larger kidney grille",
+        "distinctive kidney-shaped grille",
+        "distinctive aggressive styling",
+        "quad exhaust pipes",
+        "larger wheels",
+        "lower, more aggressive stance",
+        "distinctive quad exhausts",
+        "shorter bonnet",
+        "angular LED headlights",
+        "larger size",
+        "slightly smaller size",
+        "unique quad exhaust layout"
+    ],
+    "BWM_M6": [
+        "sportier design",
+        "larger wheel size",
+        "distinctive kidney grille",
+        "distinctive kidney-shaped grille",
+        "slimmer head shape"
+    ],
+    "BWM_M6_coupe": [
+        "rear wing integrated into body",
+        "distinctive quad exhausts",
+        "distinctive quad exhaust",
+        "flying buttress roofline",
+        "larger body size",
+        "shorter rear deck",
+        "angular front grille",
+        "larger size",
+        "distinctive kidney grille design",
+        "slightly different alloy wheel design",
+        "slimmer front grille",
+        "slightly longer hood",
+        "distinctive kidney grille",
+        "slimmer headlights",
+        "aggressive front bumper"
+    ],
+    "BWM_X1": [
+        "BWM X1 has distinctive visual features",
+        "less pronounced grille",
+        "distinctive grille design",
+        "less aggressive grille design",
+        "less aggressive front grille",
+        "distinctive kidney-shaped headlights",
+        "shorter roofline",
+        "shorter, squared-off roofline",
+        "distinct rear cargo area shape",
+        "slimmer profile",
+        "slimmer headlights",
+        "shorter wheelbase",
+        "slightly more compact body"
+    ],
+    "BWM_X3": [
+        "less aggressive grille design",
+        "shorter roofline",
+        "less aggressive grille",
+        "slightly shorter roof",
+        "distinct grill design",
+        "slightly sloped roofline",
+        "shorter, more angular",
+        "less pronounced grill",
+        "slimmer headlights",
+        "curved roofline",
+        "distinctive kidney-shaped headlights",
+        "shorter hood"
+    ],
+    "BWM_X4": [
+        "faster vehicle silhouette",
+        "less aggressive grille design",
+        "angular rear design",
+        "distinctive kidney-shaped grille",
+        "less aggressive grille",
+        "slightly sloping roofline",
+        "shorter, more angular design",
+        "sportier roofline",
+        "shorter, straighter headlights",
+        "slimmer profile",
+        "distinctive kidney-shaped headlights",
+        "smaller wheels",
+        "shorter hood",
+        "slimmer headlights"
+    ],
+    "BWM_X5": [
+        "distinctive grill design",
+        "different alloy wheel design",
+        "slightly different alloy wheel design",
+        "bolder front grille",
+        "larger front grille",
+        "distinctive kidney-shaped headlights",
+        "slightly sloping roofline",
+        "slightly shorter roofline",
+        "slightly smaller wheels",
+        "distinctive kidney-shaped grilles",
+        "more aggressive front grille",
+        "distinctive M badge",
+        "slightly more angular headlights"
+    ],
+    "BWM_X5_M": [
+        "slightly sloping roofline",
+        "different grille design",
+        "distinctive M logo on rear",
+        "steeper roofline",
+        "quad exhaust tips",
+        "slightly smaller wheels",
+        "distinctive quad exhausts",
+        "wider body",
+        "unique alloy wheel design",
+        "distinctive kidney-shaped grille",
+        "distinctive grill design",
+        "more aggressive front grille",
+        "aggressive front grille",
+        "shorter, squared-off tail",
+        "shorter length"
+    ],
+    "BWM_X6": [
+        "sportier front grille",
+        "distinctive kidney-shaped grille",
+        "slightly more aggressive front grille",
+        "slightly longer hood",
+        "slightly sloping roofline",
+        "different alloy wheel design",
+        "more aggressive front grille",
+        "distinctive kidney-shaped grilles",
+        "slimmer headlights",
+        "distinctive kidney-shaped tail"
+    ],
+    "BWM_X6_M": [
+        "distinctive kidney-shaped grille",
+        "larger alloy wheels",
+        "slightly sloping roofline",
+        "sportier grille",
+        "slightly more aggressive front grille",
+        "larger wheel size",
+        "faster model badge",
+        "taller and more muscular profile",
+        "distinctive kidney-shaped headlights",
+        "distinctive kidney-shaped grilles"
+    ],
+    "BWM_X6_Series_hybrid": [
+        "larger SUV body",
+        "lower, more athletic stance",
+        "larger SUV silhouette",
+        "larger SUV profile",
+        "slightly larger wheels"
+    ],
+    "BWM_i3": [
+        "slimmer profile",
+        "rounded rear design",
+        "two-tone roof",
+        "absence of rear doors",
+        "rounded rear bumper",
+        "distinctive kidney-shaped grille",
+        "lack of grille",
+        "angular front grille"
+    ],
+    "BWM_i8": [
+        "slightly smaller size",
+        "angular rather than rounded design",
+        "sharper, more angular body shape",
+        "distinctive butterfly-shaped tail",
+        "angular rather than smooth edges",
+        "angular rather than curved body lines",
+        "hybrid badge",
+        "slightly larger size",
+        "larger wheel size",
+        "brighter front grille",
+        "slimmer headlights",
+        "angular rear spoiler",
+        "distinctive kidney-shaped headlights",
+        "sharp LED headlights",
+        "brighter blue metallic finish"
+    ],
+    "BYD_F3": [
+        "distinct grill design"
+    ],
+    "BYD_F3DM": [
+        "different alloy wheel design",
+        "shorter rear overhang"
+    ],
+    "BYD_F3R": [
+        "shorter, more angular design",
+        "smaller wheels",
+        "different roofline slope",
+        "slightly smaller wheels",
+        "slightly larger wheels",
+        "shorter bonnet",
+        "slimmer side mirrors",
+        "slightly larger wheel size",
+        "slightly shorter hood"
+    ],
+    "BYD_F6": [
+        "shorter wheelbase",
+        "finer body contouring",
+        "slightly more angular design",
+        "shorter hood"
+    ],
+    "BYD_G3": [
+        "shorter wheelbase",
+        "slightly larger wheel size",
+        "shorter hood"
+    ],
+    "BYD_G3R": [
+        "shorter wheelbase",
+        "slightly larger wheels",
+        "shorter bonnet",
+        "smaller wheels",
+        "shorter, squared-off tail"
+    ],
+    "BYD_G5": [
+        "shorter, more angular design",
+        "shorter, squared-off tail",
+        "shorter wheelbase"
+    ],
+    "BYD_G6": [
+        "lighter rear bumper design",
+        "shorter hood length",
+        "shorter, squared-off tail"
+    ],
+    "BYD_L3": [
+        "smaller rear bumper",
+        "slimmer profile",
+        "shorter, more angular head",
+        "slimmer body profile",
+        "distinctive LED taillights",
+        "different alloy wheel style"
+    ],
+    "BYD_S6": [
+        "different alloy wheel design",
+        "shorter hood",
+        "larger wheels",
+        "slimmer head profile",
+        "slimmer profile",
+        "distinctive LED light strip",
+        "slightly more angular design",
+        "larger overall size"
+    ],
+    "BYD_S7": [
+        "larger wheel size",
+        "different wheel style"
+    ],
+    "BYD_e6": [
+        "different alloy wheel design",
+        "different tail shape",
+        "slimmer head shape"
+    ],
+    "Baimawangzi": [
+        "thinner legs"
+    ],
+    "Baojun_610": [
+        "unique rear bumper design",
+        "different alloy wheel style",
+        "slightly different window line",
+        "less pronounced roof spoiler"
+    ],
+    "Baojun_610_CROSS": [
+        "slightly smaller size",
+        "slightly larger size",
+        "slightly more angular head"
+    ],
+    "Baojun_630": [
+        "unique taillights shape",
+        "slightly taller roof",
+        "unique taillights pattern",
+        "unique taillights",
+        "larger wheels",
+        "different window profile",
+        "shorter hood",
+        "shorter overhangs"
+    ],
+    "Baojun_730": [
+        "larger size",
+        "slightly taller profile"
+    ],
+    "Beetle_convertible": [
+        "slightly more angular design",
+        "slightly more angular headlights"
+    ],
+    "Benben": [
+        "unique taillight design",
+        "lighter body tone",
+        "distinctive logo placement",
+        "thicker rim around windows",
+        "lighter body color",
+        "smaller, compact size",
+        "distinctive red marking",
+        "larger size",
+        "slightly larger size",
+        "smaller size",
+        "smaller body size",
+        "slimmer wing shape",
+        "slightly upturned nose",
+        "distinctive red markings",
+        "sharp, angular head"
+    ],
+    "Benben_MINI": [
+        "unique branding",
+        "clearly visible brand name",
+        "different grille design",
+        "slightly larger size",
+        "brighter color scheme",
+        "unique body shape"
+    ],
+    "Bentley_Falcon": [
+        "smaller, rounder headlights",
+        "wider wheel arches",
+        "shorter, more angular body",
+        "larger, circular headlights",
+        "fancier headlights",
+        "different window placement",
+        "lighter side panels",
+        "lower, more aerodynamic profile",
+        "more aggressive front bumper",
+        "distinctive grill design",
+        "slightly curved roofline",
+        "slightly more elongated body",
+        "distinctive grille design",
+        "flying butterfly badge",
+        "premium metallic paint finish"
+    ],
+    "Benz_A_Class": [
+        "slimmer body profile",
+        "shorter body profile",
+        "shorter wheelbase",
+        "slightly smaller wheels",
+        "smaller wheels",
+        "less curved roofline",
+        "smaller size",
+        "shorter hood",
+        "slightly curved hood",
+        "shorter rear end"
+    ],
+    "Benz_A_Class_AMG": [
+        "different alloy wheel design",
+        "different alloy wheel style",
+        "shorter, more compact body",
+        "smaller size",
+        "shorter wheelbase",
+        "slightly more angular design",
+        "shorter hood",
+        "slightly more aggressive styling",
+        "distinctive angular grille"
+    ],
+    "Benz_B_Class": [
+        "slightly more angular head",
+        "slightly more angular design",
+        "slightly more angular body lines",
+        "younger model appearance"
+    ],
+    "Benz_CLA_Class": [
+        "larger alloy wheels",
+        "slimmer profile",
+        "larger wheel arches",
+        "slimmer body profile",
+        "shorter wheelbase",
+        "smaller size"
+    ],
+    "Benz_CLA_Class_AMG": [
+        "slimmer body profile",
+        "larger alloy wheels",
+        "smaller body size",
+        "slightly shorter hood",
+        "AMG logo",
+        "slimmer side profile",
+        "lower, sportier stance",
+        "smaller size",
+        "shorter wheelbase",
+        "shorter hood",
+        "unique quad exhaust tips"
+    ],
+    "Benz_CLS_Class_AMG": [
+        "distinctive quad exhaust tips",
+        "different roofline curve",
+        "shorter roofline",
+        "larger exhaust pipes",
+        "distinct kidney-shaped taillights",
+        "distinctive rear spoiler",
+        "larger body size",
+        "distinctive taillights",
+        "unique double-barrel exhaust",
+        "shorter, squared-off design",
+        "slightly more aggressive front bumper",
+        "slightly longer hood",
+        "sportier side skirts"
+    ],
+    "Benz_CLS_Class_Shooting_Brake": [
+        "larger vehicle size",
+        "unique C-pillar design",
+        "larger body size",
+        "slightly smaller size"
+    ],
+    "Benz_CL_Class_AMG": [
+        "slightly more angular design",
+        "different alloy wheel design",
+        "slightly longer hood",
+        "slimmer headlamps",
+        "unique quad exhaust tips",
+        "larger size",
+        "aggressive bumper design",
+        "shorter hood",
+        "slightly smaller wheels"
+    ],
+    "Benz_C_Class": [
+        "slimmer body profile",
+        "faster model suffix",
+        "lacks cargo doors",
+        "shorter wheelbase",
+        "larger size",
+        "smaller body size",
+        "distinctive sedan shape",
+        "smaller wheel size"
+    ],
+    "Benz_C_Class_AMG": [
+        "different alloy wheel design",
+        "smaller size",
+        "slightly smaller size",
+        "larger size",
+        "slimmer headlamps"
+    ],
+    "Benz_C_Class_estate": [
+        "different alloy wheel design",
+        "slightly shorter hood",
+        "different roofline",
+        "different roofline slope",
+        "narrower side panels",
+        "distinctive grille design",
+        "less pronounced grille",
+        "distinctive roof line"
+    ],
+    "Benz_C_Class_hybird": [
+        "distinct grill design"
+    ],
+    "Benz_Citan": [
+        "smaller size",
+        "boxier shape",
+        "smaller overall size",
+        "larger size",
+        "shorter, squared-off design"
+    ],
+    "Benz_E_Class": [
+        "distinctive C-pillar design",
+        "boxy shape",
+        "larger vehicle size",
+        "slightly more angular lines",
+        "larger overall size",
+        "slimmer body profile"
+    ],
+    "Benz_E_Class_AMG": [
+        "slimmer profile",
+        "slightly more aggressive exterior styling",
+        "larger body size",
+        "different wheel size",
+        "smaller wheels",
+        "lower, sportier suspension",
+        "shorter hood",
+        "slightly more aggressive styling",
+        "unique alloy wheel pattern",
+        "distinctive quad exhausts"
+    ],
+    "Benz_E_Class_convertible": [
+        "different wheel design",
+        "slightly more angular headlights",
+        "slightly smaller body size",
+        "standard headlights vs. aggressive LED lights",
+        "less pronounced roofline slope",
+        "sportier side profile",
+        "convertible roof design",
+        "larger body size",
+        "hardtop vs convertible roof",
+        "open-air seating experience",
+        "retracted hard top",
+        "different roofline"
+    ],
+    "Benz_E_Class_couple": [
+        "slimmer profile",
+        "distinct C-pillar design",
+        "slimmer body profile",
+        "higher腰线",
+        "less boxy design",
+        "slimmer side profile",
+        "more angular lines",
+        "larger body size",
+        "slightly longer hood",
+        "distinct radiator grille design",
+        "steeper roofline",
+        "slightly shorter wheelbase"
+    ],
+    "Benz_E_Class_estate": [
+        "distinctive C-pillar design",
+        "rear cargo area",
+        "larger, more elongated body",
+        "non-AMG badging",
+        "distinct grill design",
+        "different alloy wheel style"
+    ],
+    "Benz_F125": [
+        "slimmer window frames",
+        "slightly curved front bumper",
+        "shorter hood",
+        "larger wheels",
+        "slightly more aggressive front grille",
+        "larger size"
+    ],
+    "Benz_F800": [
+        "hybrid badge",
+        "slightly more angular body shape",
+        "larger wheels",
+        "distinctive angular design"
+    ],
+    "Benz_GLA_Class": [
+        "slightly more angular body lines",
+        "less aggressive front bumper",
+        "distinctive LED light strip",
+        "shorter wheelbase"
+    ],
+    "Benz_GLA_Class_AMG": [
+        "lower, more aggressive stance",
+        "unique rear diffuser",
+        "shorter hood",
+        "shorter hood length",
+        "AMG logo"
+    ],
+    "Benz_GLK_Class": [
+        "taller and boxier profile",
+        "boxier shape"
+    ],
+    "Benz_GL_Class": [
+        "larger alloy wheels",
+        "taller roofline"
+    ],
+    "Benz_GL_Class_AMG": [
+        "distinctive rear diffuser",
+        "unique rear diffuser",
+        "slightly more angular body shape",
+        "sporty side skirts",
+        "shorter, more angular hood",
+        "angular LED taillights",
+        "larger vehicle size",
+        "different window profile",
+        "larger size",
+        "unique quad exhaust tips",
+        "AMG logo"
+    ],
+    "Benz_G_Class": [
+        "different alloy wheel design",
+        "distinctive Lorinser logo",
+        "taller and more rugged body",
+        "sharper, more angular design",
+        "slightly more aerodynamic profile",
+        "slightly larger wheels",
+        "unique rear bumper design"
+    ],
+    "Benz_G_Class_AMG": [
+        "unique alloy wheel design",
+        "taller and more robust profile",
+        "taller roofline",
+        "AMG logo",
+        "taller and more rugged profile",
+        "larger SUV silhouette",
+        "larger vehicle size",
+        "sportier grille",
+        "larger wheels",
+        "more rugged body design",
+        "larger size"
+    ],
+    "Benz_M_Class": [
+        "distinct C-pillar design",
+        "different alloy wheel style",
+        "taller and more squared-off roofline",
+        "taller roofline"
+    ],
+    "Benz_M_Class_AMG": [
+        "larger vehicle size",
+        "larger overall size",
+        "bigger alloy wheels",
+        "larger size",
+        "larger wheels",
+        "slightly smaller wheels",
+        "shorter, squared-off head",
+        "distinctive quad tailpipe",
+        "taller roofline",
+        "shorter hood"
+    ],
+    "Benz_R_Class": [
+        "curved roofline",
+        "slimmer side profile",
+        "slightly more angular body shape",
+        "distinctive roofline",
+        "sleeker body style",
+        "slightly longer body",
+        "shorter, squared-off rear",
+        "larger size",
+        "unique rear spoiler"
+    ],
+    "Benz_SLK_Class_AMG": [
+        "shorter hood"
+    ],
+    "Benz_SLS_Class_AMG": [
+        "distinct kidney-shaped tail",
+        "distinctive gull-wing door",
+        "unique quad exhaust tips",
+        "shorter, more angular design",
+        "slimmer and longer profile",
+        "slightly smaller in size",
+        "distinctive gull-wing doors",
+        "slimmer and longer body profile",
+        "shorter hood",
+        "faster rear wheels",
+        "angular rear wing",
+        "larger body size",
+        "different alloy wheel design"
+    ],
+    "Benz_SL_Class_AMG": [
+        "slimmer body profile",
+        "larger wheel size",
+        "larger, round air intakes",
+        "shorter hood length",
+        "distinct rear spoiler",
+        "unique quad exhaust tips",
+        "larger size",
+        "shorter wheelbase",
+        "shorter hood",
+        "slimmer headlights",
+        "slimmer headlight design"
+    ],
+    "Benz_S_Class_AMG": [
+        "lower, sportier suspension",
+        "shorter hood"
+    ],
+    "Benz_S_Class_coupe": [
+        "exclusive tailpipe design",
+        "smooth, aerodynamic curves",
+        "faster car silhouette",
+        "slightly longer hood",
+        "no side skirts",
+        "shorter wheelbase",
+        "faster rear spoiler",
+        "larger body size"
+    ],
+    "Benz_V_Class": [
+        "boxier shape",
+        "robust bumper",
+        "boxier body shape",
+        "larger vehicle size",
+        "high roof profile"
+    ],
+    "Benz_Vision_AMG": [
+        "different alloy wheel design",
+        "slimmer headlights",
+        "distinctive front grille design",
+        "different grille pattern",
+        "larger front air intakes",
+        "slimmer profile",
+        "slightly longer body",
+        "distinctive angular design",
+        "larger wheel size",
+        "slightly more compact size",
+        "distinctive diamond grille",
+        "distinctive V-shaped grille",
+        "unique LED light signature",
+        "unique side air intakes",
+        "different wheel style"
+    ],
+    "Besturn_B90": [
+        "slimmer side profile"
+    ],
+    "Big_MPV": [
+        "brighter exterior color",
+        "brighter color palette",
+        "different headlight design",
+        "softer, smoother body lines",
+        "boxier body shape",
+        "larger body size",
+        "fewer distinct markings",
+        "larger size",
+        "square-shaped rear",
+        "differently styled grille",
+        "larger overall size"
+    ],
+    "Bilian": [
+        "lighter underbelly"
+    ],
+    "Biome": [
+        "smaller, finer scales",
+        "no metallic sheen",
+        "shorter, straighter legs",
+        "abundant wildlife",
+        "typical fauna presence",
+        "distinct animal life"
+    ],
+    "BladeGlider": [
+        "absence of automotive logos",
+        "absence of engine",
+        "distinctive aerodynamic lines",
+        "compact body",
+        "distinctive logo",
+        "narrower wings",
+        "slimmer profile",
+        "slimmer body profile",
+        "sharp nose cone",
+        "distinctive fin",
+        "finer wings"
+    ],
+    "BlueSport": [
+        "bluer hue than Super Sport",
+        "bluer body tone",
+        "thinner, more streamlined profile",
+        "brighter blue color",
+        "rounded body design"
+    ],
+    "Boxster": [
+        "larger size",
+        "rear-mounted engine",
+        "larger front grille",
+        "lighter wheel design",
+        "shorter tail",
+        "less aggressive front grille",
+        "larger wheels",
+        "rounded rather than angular sides",
+        "slimmer body profile",
+        "distinctive Porsche emblem",
+        "slimmer profile",
+        "hardtop vs. soft top"
+    ],
+    "Bravo": [
+        "lighter body color",
+        "darker body hue",
+        "shorter neck",
+        "smaller body size",
+        "larger body size",
+        "larger size",
+        "slightly pointed tail",
+        "unique white stripes",
+        "slightly upturned nose"
+    ],
+    "Brooklands": [
+        "lighter body color",
+        "slimmer, more aerodynamic profile",
+        "finer texture on body",
+        "thicker rim around eyes",
+        "rounded roof with aerodynamic spoilers",
+        "brighter highlights",
+        "less vibrant colors",
+        "larger size than BWM X4",
+        "distinctive diamond pattern",
+        "broader base",
+        "softer body curves",
+        "distinctive radiator grille",
+        "finer texture",
+        "smaller size",
+        "smaller head"
+    ],
+    "Buggy_Up": [
+        "bulkier body",
+        "less aerodynamic profile",
+        "rounder body shape",
+        "shorter antennae",
+        "distinctive grill design",
+        "brighter color",
+        "larger wheels"
+    ],
+    "Buick_Business": [
+        "slightly larger wheels",
+        "larger vehicle size",
+        "slightly smaller in size",
+        "more angular body shape",
+        "slightly more compact size",
+        "shorter, squared-off tail",
+        "larger size",
+        "softer, more rounded edges",
+        "larger grille size",
+        "angular tail",
+        "shorter hood",
+        "slimmer window pillars",
+        "larger front grille",
+        "distinctive corporate logo",
+        "less pronounced chrome grille"
+    ],
+    "Buick_Encore": [
+        "lack of side sliding doors",
+        "less pronounced roof rack"
+    ],
+    "Buick_GL8_Luxury_Business": [
+        "more rectangular windows",
+        "sliding doors",
+        "larger vehicle size",
+        "more spacious interior"
+    ],
+    "Buick_Riviera": [
+        "less pronounced hood scoop",
+        "slightly smaller size",
+        "slightly longer hood",
+        "brighter chrome accents"
+    ],
+    "Buick_Verano": [
+        "less pronounced fenders"
+    ],
+    "Bulli": [
+        "shorter wheelbase",
+        "larger wheels",
+        "distinctive horns",
+        "slightly more compact size",
+        "distinctive bull logo",
+        "rounder rear end",
+        "larger size",
+        "rounded rather than pointed ears",
+        "smaller size"
+    ],
+    "CROSS_307": [
+        "distinctive grille design",
+        "different front grille",
+        "larger front grille",
+        "thicker legs",
+        "distinctive angular design",
+        "distinctive logo",
+        "different wheel style",
+        "unique color scheme",
+        "unique taillights",
+        "different roofline",
+        "larger size",
+        "slightly curved, shorter beak",
+        "rounded tail",
+        "slightly larger size",
+        "angular tail"
+    ],
+    "Cabrio-Coupe": [
+        "steeper roof slope",
+        "convertible roof",
+        "openable roof",
+        "convertible design"
+    ],
+    "Caddy_abroad_version": [
+        "shorter, boxier shape",
+        "smaller size",
+        "brighter front lighting",
+        "sleeker body style",
+        "different color scheme",
+        "angular front grille",
+        "distinctive angular design"
+    ],
+    "Cadillac_ATS": [
+        "shorter rear decklid",
+        "smaller size",
+        "slightly smaller size",
+        "different alloy wheel design",
+        "narrower width",
+        "lighter body color",
+        "shorter rear end",
+        "angular window lines",
+        "shorter length",
+        "sportier profile"
+    ],
+    "Cadillac_ATS-L": [],
+    "Cadillac_BLS": [
+        "different alloy wheel design",
+        "unique tail design",
+        "shorter hood length",
+        "slightly shorter hood",
+        "slightly more angular front bumper",
+        "slightly smaller size",
+        "smaller size",
+        "shorter, squared-off design",
+        "shorter rear overhang",
+        "different head shape",
+        "smaller grille size",
+        "less pronounced grille",
+        "slightly larger size",
+        "shorter, squared-off rear",
+        "distinctive emblem placement"
+    ],
+    "Cadillac_CTS": [
+        "slightly larger wheels",
+        "shorter, more angular head",
+        "slightly larger size"
+    ],
+    "Cadillac_Ciel": [
+        "faster backseat access",
+        "different wheel style",
+        "slimmer headlamps",
+        "larger body size",
+        "curved LED headlights",
+        "slimmer headlights",
+        "slightly larger size",
+        "larger size",
+        "longer hood",
+        "distinctive emblem placement",
+        "distinctive front grille design"
+    ],
+    "Cadillac_ELR": [
+        "slightly smaller size"
+    ],
+    "Cadillac_SRX": [
+        "distinctive grill design",
+        "different headlamp shape",
+        "distinctive D-pillar shape"
+    ],
+    "Cadillac_XTS": [
+        "heavier body profile",
+        "slightly longer body",
+        "slightly more angular head shape",
+        "slightly longer hood",
+        "larger body size"
+    ],
+    "Caliber": [
+        "brighter metallic finish",
+        "larger, more elongated silhouette",
+        "distinctive logo",
+        "metallic finish",
+        "distinctive angular shape",
+        "brighter color contrast",
+        "brighter color palette",
+        "larger, more robust size",
+        "angular tail shape",
+        "smaller size",
+        "larger size",
+        "shorter, straighter legs",
+        "distinct logo marking",
+        "distinctive angular edges",
+        "distinct logo"
+    ],
+    "Canyenne_hybrid": [
+        "larger front grille",
+        "slimmer headlights",
+        "distinctive fender vents",
+        "slimmer body shape",
+        "slimmer body"
+    ],
+    "Caravelle": [
+        "different alloy wheel design",
+        "rounder front grille",
+        "distinctive VW badge",
+        "different logo",
+        "distinctive sail-like feature",
+        "distinctive grille",
+        "Caravelle has distinctive visual features",
+        "shorter length",
+        "smaller size"
+    ],
+    "Carrera_GT": [
+        "lighter front grille",
+        "different front grille",
+        "slimmer profile",
+        "distinctive butterfly doors",
+        "distinctive rear spoiler",
+        "slightly larger wheels",
+        "larger wheels",
+        "shorter, more angular design"
+    ],
+    "Cayman": [
+        "shorter, more angular design",
+        "rounded, less angular shape",
+        "lighter body color",
+        "distinctive side vents",
+        "smaller, rounder head",
+        "less pronounced fenders",
+        "larger overall size",
+        "distinctly shaped headlights",
+        "distinctive tail shape"
+    ],
+    "Challenger": [
+        "smaller, compact body",
+        "distinctive crest",
+        "smaller body size",
+        "larger size",
+        "steeper body angle"
+    ],
+    "Challenger_SRT": [
+        "slightly smaller size",
+        "larger size",
+        "slightly longer hood",
+        "shorter bonnet",
+        "bigger wheel size",
+        "slightly different wing pattern",
+        "different wheel style",
+        "sporty rear spoiler",
+        "unique tail shape",
+        "distinctive orange stripe",
+        "rounded rather than angular headlights"
+    ],
+    "Changan_CS30_hatchback": [
+        "distinct grill design",
+        "distinct grille design",
+        "smaller size",
+        "distinctive grille design"
+    ],
+    "Changan_CS35": [
+        "different headlamp shape",
+        "different color scheme",
+        "slimmer head profile",
+        "smaller size"
+    ],
+    "Changan_CS75": [
+        "smaller size",
+        "larger window size",
+        "slightly larger size"
+    ],
+    "Changan_CS95": [
+        "larger size"
+    ],
+    "Changan_CX20": [
+        "smaller size"
+    ],
+    "Changan_Ounuo": [
+        "lighter tint on hood",
+        "slightly larger wheels",
+        "less pronounced grill design",
+        "slimmer body profile",
+        "slimmer body",
+        "different headlight design",
+        "brighter front grille",
+        "lighter, more uniform body color",
+        "distinctive chrome grille",
+        "distinctive logo",
+        "slightly smaller size",
+        "thinner legs",
+        "distinctive red roof",
+        "larger size",
+        "smaller size"
+    ],
+    "Changan_SENSE": [
+        "slimmer body profile",
+        "smaller size",
+        "slimmer head profile",
+        "slightly larger size",
+        "different window layout",
+        "slightly longer hood",
+        "brighter front lights",
+        "distinctive logo",
+        "rounded roofline",
+        "distinctive grill design"
+    ],
+    "Changan_Shenqi": [],
+    "Changan_Star": [
+        "shorter, more angular hood",
+        "less pronounced grille",
+        "smaller, more compact body"
+    ],
+    "Changan_Star_7": [],
+    "Changan_Star_S460": [],
+    "Changan_Xiaoka": [
+        "lighter overall color",
+        "lighter color",
+        "lighter underbelly color",
+        "rounder body shape",
+        "round headlights",
+        "distinctive red front grille",
+        "slimmer body shape",
+        "different wheel design"
+    ],
+    "Charger_SRT": [
+        "slightly smaller size",
+        "larger wheel size",
+        "different wheel design",
+        "distinctive hood scoop",
+        "different front grille design",
+        "shorter hood ornament",
+        "slightly larger size",
+        "wider body stance",
+        "angular headlights",
+        "shorter and wider body"
+    ],
+    "Cherokee": [
+        "brighter color palette",
+        "larger size",
+        "slimmer body shape",
+        "unique tail shape"
+    ],
+    "Chuanqi_GA3": [
+        "different wheel style",
+        "unique taillights pattern",
+        "thicker rim around windows",
+        "slimmer side profile",
+        "different taillight shape",
+        "larger rear bumper",
+        "shorter hood ornament",
+        "distinct grill design"
+    ],
+    "Chuanqi_GA5": [
+        "red taillights",
+        "unique taillights design",
+        "unique taillights shape",
+        "unique tail design",
+        "distinctive grille design",
+        "shorter hood ornament",
+        "distinctive front grille design",
+        "different wheel style",
+        "distinctive radiator grille",
+        "slimmer body shape",
+        "unique alloy wheel pattern",
+        "distinctive logo",
+        "distinctive red tail"
+    ],
+    "Chuanqi_GS5": [
+        "slightly larger wheels",
+        "unique taillights shape",
+        "unique taillights",
+        "different roofline contour",
+        "rear roof spoiler",
+        "different front bumper style",
+        "distinctive C-shaped taillights",
+        "shorter, boxier design",
+        "distinctive grill design",
+        "distinctive grille design"
+    ],
+    "Circuit_EV": [
+        "slimmer tires",
+        "smooth, glossy finish",
+        "slimmer body profile",
+        "slimmer profile",
+        "electric blue color",
+        "lack of exhaust pipe",
+        "rounded front grille",
+        "angular tail design",
+        "unique aerodynamic lines"
+    ],
+    "City": [
+        "distinctive man-made structures",
+        "distinctive street patterns",
+        "busy roads and intersections",
+        "broader avenues",
+        "dense urban landscape",
+        "urban green spaces",
+        "more diverse signage",
+        "busy streets",
+        "more diverse architectural styles",
+        "diverse street lights"
+    ],
+    "Civic": [
+        "distinctive hybrid badge",
+        "smaller size",
+        "slightly smaller size",
+        "slightly larger size",
+        "shorter, more angular body",
+        "hybrid logo on rear",
+        "less luxurious interior",
+        "slimmer headlights",
+        "angular front grille",
+        "distinctive Honda logo",
+        "shorter, straighter headlights",
+        "different window layout",
+        "distinct logo",
+        "smaller, rounder headlights",
+        "bolder front grille"
+    ],
+    "Civic_hybrid": [
+        "slightly more aerodynamic"
+    ],
+    "Classic_Focus_hatchback": [
+        "distinctive liftgate",
+        "less aggressive front grille",
+        "distinctive grill design",
+        "brighter front grille",
+        "slimmer headlights",
+        "distinctive chrome grille",
+        "slightly larger size",
+        "hatchback roofline",
+        "smaller size",
+        "shorter body",
+        "distinctive honeycomb grille",
+        "slightly smaller size",
+        "distinctive angular design",
+        "shorter rear end",
+        "different window shape"
+    ],
+    "Classic_Focus_sedan": [
+        "smaller wheel size",
+        "slightly smaller size",
+        "slimmer headlights",
+        "larger wheels",
+        "larger glass area",
+        "steeper rear slope",
+        "distinctive front grille design",
+        "different grille design",
+        "different window profile",
+        "distinctive badge",
+        "rounded headlights",
+        "less aggressive grille",
+        "shorter roofline",
+        "slimmer rear profile",
+        "slightly longer hood"
+    ],
+    "Cleo": [
+        "larger size"
+    ],
+    "Compass": [
+        "metallic body finish",
+        "no side mirrors",
+        "north arrow indicator",
+        "red housing",
+        "rotatable base"
+    ],
+    "ConnectedDrive": [
+        "sleeker body design",
+        "lack of racing stripes",
+        "smooth body surface",
+        "unique color scheme",
+        "futuristic design",
+        "no Lavide logo"
+    ],
+    "Coupe_SUV": [
+        "higher ground clearance",
+        "larger ground clearance",
+        "boxier rear design",
+        "higher roofline",
+        "louder exhaust",
+        "shorter roofline",
+        "shorter wheelbase",
+        "distinct SUV rear profile",
+        "steeper roof angle",
+        "slightly elevated profile",
+        "taller and boxier shape",
+        "larger rear cargo space"
+    ],
+    "Crider": [
+        "lighter body color",
+        "thicker antenna",
+        "shorter antennae",
+        "smaller body size"
+    ],
+    "CrossBlue": [
+        "slimmer body"
+    ],
+    "Cross_Coupe": [
+        "distinct SUV profile",
+        "slimmer body profile",
+        "higher ground clearance",
+        "slimmer head shape",
+        "slimmer side profile",
+        "slightly more angular body",
+        "shorter wheelbase",
+        "shorter, squared-off tail",
+        "larger, rounder wheels",
+        "steeper roof angle",
+        "taller roofline"
+    ],
+    "Cross_Golf": [
+        "brighter front grille",
+        "slimmer, more aerodynamic profile",
+        "shorter wheelbase",
+        "distinctive chrome accents",
+        "distinctive chrome grille",
+        "slightly larger headlights",
+        "unique tail design",
+        "slightly larger size",
+        "slightly smaller overall size",
+        "unique color scheme"
+    ],
+    "Cross_Lavida": [
+        "distinctive front grille design",
+        "shorter rear end",
+        "distinctive chrome grille",
+        "unique taillights design",
+        "slimmer body profile",
+        "slimmer body shape",
+        "slightly longer hood",
+        "slimmer body silhouette",
+        "unique forked tail",
+        "slightly larger size"
+    ],
+    "Cross_Polo": [
+        "shorter wheelbase",
+        "more rugged exterior styling",
+        "slightly more rugged exterior",
+        "higher ground clearance",
+        "slightly larger wheels",
+        "lighter body color",
+        "larger wheels",
+        "unique tail design",
+        "distinctive grille design",
+        "slightly larger headlights",
+        "boxier rear end",
+        "taller body profile",
+        "distinctive grill design",
+        "distinctive front grille",
+        "different wheel style"
+    ],
+    "Crosstour": [
+        "less豪华外观",
+        "shorter, boxier design",
+        "smaller, more compact",
+        "shorter, squared-off design",
+        "slightly smaller size",
+        "brighter front grille",
+        "slightly larger size",
+        "slightly smaller wheel size",
+        "distinctive front grille",
+        "shorter wheelbase",
+        "higher ground clearance",
+        "slimmer headlights",
+        "slightly larger wheels",
+        "angular window lines",
+        "less pronounced roof rack"
+    ],
+    "DFSK_C37": [
+        "distinctive front grille design",
+        "different wheel style",
+        "distinctive grille design",
+        "angular front bumper",
+        "unique taillights shape",
+        "distinctive grill design",
+        "unique taillights",
+        "slightly larger wheel size",
+        "shorter hood overhang"
+    ],
+    "DFSK_K07": [
+        "distinctive front grille design",
+        "distinctive front grille",
+        "distinctive grille design",
+        "distinct grill design",
+        "unique taillights shape",
+        "distinctive grill design",
+        "unique taillights",
+        "different wheel style",
+        "slightly larger wheels",
+        "shorter bonnet"
+    ],
+    "DFSK_K07II": [
+        "distinctive front grille design",
+        "distinctive grille design",
+        "different alloy wheel style",
+        "distinctive front grille",
+        "shorter, straighter front bumper",
+        "unique taillights design",
+        "unique taillights shape",
+        "slightly longer wheelbase",
+        "unique taillights",
+        "finer body lines",
+        "distinct grill design",
+        "slightly taller body profile",
+        "slightly larger wheels"
+    ],
+    "DFSK_V22": [
+        "distinctive front grille design",
+        "angular headlights",
+        "distinctive grille design",
+        "smaller front grille",
+        "distinct rear bumper shape",
+        "slightly larger wheels",
+        "slightly larger grille",
+        "distinctive chrome accents",
+        "unique taillights shape",
+        "lighter wheel design",
+        "distinctive grill design"
+    ],
+    "DFSK_V27": [
+        "slightly larger wheels",
+        "finer texture on body panels",
+        "unique taillights shape",
+        "shorter rear overhang",
+        "slightly larger dimensions"
+    ],
+    "DFSK_V29": [
+        "distinctive front grille design",
+        "angular headlights",
+        "unique taillights shape",
+        "slimmer headlights",
+        "different tail lamp shape",
+        "distinct grill design",
+        "distinctive grill design",
+        "unique taillights",
+        "different taillights",
+        "shorter wheelbase",
+        "different roofline contour",
+        "different wheel style"
+    ],
+    "DS_3": [
+        "shorter body",
+        "distinctive grill design",
+        "slimmer window pillars",
+        "smaller size"
+    ],
+    "DS_5": [
+        "rounded instead of pointed hood",
+        "angular tail design",
+        "lighter front panels",
+        "slimmer body profile",
+        "less pronounced air vents"
+    ],
+    "DS_5LS": [
+        "larger size",
+        "slightly smaller size",
+        "distinct grill design",
+        "slightly longer hood"
+    ],
+    "DS_6": [
+        "larger size",
+        "slightly larger size",
+        "slimmer headlamps",
+        "different wheel style",
+        "distinctive logo",
+        "shorter roofline"
+    ],
+    "DS_9": [
+        "Lower, more aggressive front bumper",
+        "distinctive red stripe",
+        "distinctive red stripes",
+        "distinctive red and black stripes",
+        "Distinct DS logo on grille",
+        "brighter red color",
+        "angular, rather than aerodynamic shape",
+        "primary red and black color scheme",
+        "DS 9 features a more aerodynamic profile",
+        "distinctive trapezoidal shape"
+    ],
+    "DS_Wild_Rubis": [
+        "shorter wings",
+        "slightly sharper wings",
+        "larger size",
+        "slightly larger size"
+    ],
+    "Dachaishen": [
+        "smaller, compact body",
+        "lighter body color",
+        "shorter, boxy shape",
+        "distinctive logo",
+        "lighter underbelly",
+        "darker body hue",
+        "lighter overall color",
+        "rounder tail"
+    ],
+    "Dart": [
+        "slimmer body"
+    ],
+    "Delica": [
+        "larger, more angular headlights",
+        "shorter, straighter beak",
+        "unique front grille",
+        "distinctive diamond-shaped windows",
+        "distinctive front grille",
+        "boxier shape",
+        "distinctive grille design",
+        "angular front lights",
+        "larger size",
+        "slimmer body profile",
+        "sharp, angular edges",
+        "shorter antenna-like structures",
+        "shorter, squared-off tail",
+        "lower roof line",
+        "slightly larger size"
+    ],
+    "DeltaWing": [
+        "aggressive front grille",
+        "distinctive gull-wing design",
+        "slightly more streamlined profile",
+        "distinctive gull-wing body"
+    ],
+    "Doblo": [
+        "boxier design",
+        "slightly taller roof"
+    ],
+    "Dongfeng_HUV": [
+        "unique taillights design",
+        "unique taillights shape",
+        "unique taillights",
+        "slightly more aerodynamic profile",
+        "rounded rear design"
+    ],
+    "Durango": [
+        "distinctive angular body",
+        "distinctive angular design",
+        "shorter, squared-off tail",
+        "slimmer, more athletic profile"
+    ],
+    "E-Bugster": [
+        "larger rear wing",
+        "shorter, angular design",
+        "angular rather than rounded body",
+        "distinctive angular design",
+        "slightly more aerodynamic body",
+        "distinctive air intakes",
+        "slimmer side profile",
+        "unique rear spoiler",
+        "shorter and more compact",
+        "brighter color palette",
+        "rounded rather than angular front end"
+    ],
+    "E-jet": [
+        "distinctive aerodynamic design"
+    ],
+    "EXALT": [
+        "slimmer body",
+        "smaller body size",
+        "slimmer body shape",
+        "thicker, stockier body",
+        "smaller size"
+    ],
+    "EXCELLE_GT": [
+        "thinner rim around eyes",
+        "distinctive logo",
+        "lighter, more uniform color",
+        "larger 'E' in logo",
+        "metallic finish"
+    ],
+    "EXCELLE_XT": [
+        "rounder body shape",
+        "distinctive logo",
+        "slightly smaller body"
+    ],
+    "Ecosport": [],
+    "Edge": [
+        "thinner body profile",
+        "thinner and sharper than EXALT",
+        "thinner profile",
+        "brighter color tone",
+        "shorter and more stubby legs",
+        "less rounded edges",
+        "distinctive color gradient",
+        "distinctively straighter edges",
+        "sharp, defined lines",
+        "sharp, angular shape",
+        "bright color contrast",
+        "finer texture on surface",
+        "thin, defined lines",
+        "distinct corner points",
+        "sharper corners"
+    ],
+    "EfficientDynamics": [
+        "sleeker body shape",
+        "lighter body color",
+        "larger, more streamlined body",
+        "distinctive angular design",
+        "distinct performance markers",
+        "distinct aerodynamic design",
+        "more streamlined shape",
+        "slimmer body profile",
+        "distinctive cooling vents",
+        "brighter color scheme",
+        "lighter color scheme",
+        "brighter color palette",
+        "rounded rather than pointed tail",
+        "less vibrant colors",
+        "faster moving components"
+    ],
+    "Elmiraj": [
+        "brighter front grille",
+        "rounded rather than squared headlights",
+        "lighter overall color",
+        "smaller size",
+        "distinctive angular design",
+        "smaller body size",
+        "wider wingspan",
+        "slimmer body profile"
+    ],
+    "Elysion": [
+        "lighter body hue",
+        "slimmer body profile"
+    ],
+    "Enclave": [
+        "brighter exterior color",
+        "larger size compared to encore",
+        "distinctive logo",
+        "distinctly smaller size"
+    ],
+    "Ener-G-Force": [],
+    "Envision": [
+        "smaller, more compact body",
+        "distinctive aerodynamic lines",
+        "larger overall size",
+        "slimmer body",
+        "distinctive logo",
+        "larger size",
+        "less distinct markings",
+        "brighter spots",
+        "smaller head",
+        "darker body",
+        "distinctive angular edges",
+        "simplified design",
+        "brighter colors"
+    ],
+    "Envision_abroad_version": [
+        "larger body size",
+        "slimmer, elongated body",
+        "slimmer, elongated wings",
+        "slightly larger size",
+        "larger size",
+        "slimmer body shape",
+        "unique black stripe pattern",
+        "gold metallic accents",
+        "distinctive red legs",
+        "slightly curved beak",
+        "unique tail feathers"
+    ],
+    "Escalade": [
+        "taller and more upright profile",
+        "taller and boxier shape",
+        "taller and more boxy",
+        "smaller overall size",
+        "larger size",
+        "taller and sleeker profile",
+        "heavier duty wheels",
+        "taller roofline"
+    ],
+    "Escalade_hybrid": [
+        "slightly smaller size"
+    ],
+    "Escort": [
+        "smaller body size",
+        "smaller size",
+        "slimmer body shape",
+        "slimmer body profile",
+        "shorter wheelbase",
+        "distinctive front grille",
+        "larger, rounder head",
+        "brighter underbelly color"
+    ],
+    "Exclle": [
+        "distinctive logo"
+    ],
+    "Expedition": [
+        "larger, bulkier frame",
+        "brighter color scheme",
+        "distinctive flag-like markings",
+        "larger size"
+    ],
+    "Explorer": [
+        "less complex pattern",
+        "Distinctively larger size",
+        "slightly lighter overall hue",
+        "larger body size",
+        "less distinct markings",
+        "smaller size"
+    ],
+    "Extrem": [
+        "thicker, bulkier body",
+        "smaller body size",
+        "lighter wingtips",
+        "less distinct pattern",
+        "larger, more angular body",
+        "shorter, straighter legs",
+        "brighter belly color",
+        "steeper body angle"
+    ],
+    "F12berlinetta": [
+        "distinctive LED taillights",
+        "larger rear wing",
+        "shorter rear spoiler",
+        "distinctive front grille design",
+        "angular front grille",
+        "slightly larger wheels",
+        "slimmer body profile",
+        "different front grille",
+        "brighter front grille",
+        "larger size",
+        "slightly more aerodynamic profile",
+        "shorter bonnet",
+        "slightly larger size",
+        "slimmer head shape",
+        "unique rear spoiler"
+    ],
+    "FIAT_126P": [
+        "less angular body",
+        "less pronounced grill",
+        "earmuff-like rear end"
+    ],
+    "FIAT_500C": [
+        "slightly longer hood",
+        "bigger wheels",
+        "shorter wheelbase"
+    ],
+    "FIAT_Fiorino_Qubo": [
+        "different wheel design"
+    ],
+    "FIAT_Panda": [
+        "slightly more angular body",
+        "slightly more angular design",
+        "rounder headlights",
+        "less pronounced hood bulge",
+        "distinctive LED headlights",
+        "distinct grill design"
+    ],
+    "FIAT_Strada": [],
+    "FIAT_Uno": [
+        "louder exhaust"
+    ],
+    "FOS": [
+        "lighter body color",
+        "lighter overall color",
+        "smaller, more compact size",
+        "slimmer body shape",
+        "rounder body",
+        "smaller, compact head",
+        "shorter, straighter legs",
+        "larger size",
+        "smaller eyes"
+    ],
+    "Falcon": [
+        "broad, spread wings"
+    ],
+    "Feixiang": [
+        "slimmer body shape"
+    ],
+    "Fengshen_A30": [
+        "unique rear vent design",
+        "brighter red color",
+        "slimmer body profile",
+        "distinctive red stripe",
+        "brighter front grille",
+        "distinct rear spoiler design",
+        "distinctive logo",
+        "larger front grille",
+        "unique taillights"
+    ],
+    "Fengshen_CROSS": [
+        "slimmer body proportion",
+        "slimmer body profile",
+        "squared-off tail tip",
+        "angular rather than rounded edges",
+        "thicker cross design",
+        "cross-shaped body marking",
+        "bolder color contrast",
+        "larger, more spread-out wings",
+        "larger, more spread wings",
+        "redder color tone",
+        "cross-shaped design",
+        "brighter red scales",
+        "larger size",
+        "thicker base design",
+        "brighter color palette"
+    ],
+    "Fengshen_E30L": [
+        "distinctive front grille design",
+        "slimmer profile",
+        "distinctive diamond-shaped grille",
+        "distinctive logo",
+        "slightly different head shape",
+        "distinctive grille design",
+        "larger size",
+        "brighter front grill",
+        "distinctive chrome grille",
+        "slimmer body profile",
+        "slightly larger headlights",
+        "shorter wheelbase"
+    ],
+    "Fengshen_H30": [
+        "distinctive front grille design",
+        "angular rather than rounded headlights",
+        "slightly curved front bumper",
+        "distinctive grill design",
+        "curvier body shape",
+        "slimmer body profile",
+        "distinctive logo",
+        "unique taillights",
+        "distinctive red crest",
+        "unique taillight cluster"
+    ],
+    "Fengshen_S30": [
+        "larger rear bumper design",
+        "finer detailing on wheels",
+        "slightly more angular body shape",
+        "slightly more angular body silhouette",
+        "angular tail design",
+        "unique body pattern",
+        "distinctive front grille design",
+        "distinctive logo placement"
+    ],
+    "Fengxing_CM7": [
+        "different wheel style",
+        "unique taillights design",
+        "different front bumper style",
+        "unique chrome strip on side",
+        "unique taillights shape",
+        "slightly different taillight design"
+    ],
+    "Ferrari_458": [
+        "curved rear spoiler",
+        "different rear spoiler shape",
+        "different rear wing design",
+        "distinctive badge placement",
+        "less pronounced rear wing",
+        "slightly smaller overall size",
+        "lighter front grille",
+        "different front grille design",
+        "slightly lighter overall color",
+        "angular and sleek body shape",
+        "distinctive prancing horse logo",
+        "angular front grille",
+        "larger size",
+        "distinctive air intake design",
+        "less pronounced air vents"
+    ],
+    "Ferrari_599": [
+        "distinctive跃frog logo",
+        "larger wheels",
+        "larger size",
+        "slightly longer hood",
+        "slightly shorter length",
+        "shorter, more angular head",
+        "shorter hood",
+        "distinctive rear wing"
+    ],
+    "Ferrari_FF": [
+        "slightly smaller size",
+        "独特轮毂设计",
+        "更明显的棱角设计",
+        "distinctive跃造型尾灯",
+        "不同颜色的车身条纹",
+        "更宽的进气格栅"
+    ],
+    "Fiesta_ST": [
+        "lower, sportier stance",
+        "smaller size",
+        "shorter length",
+        "sportier grille",
+        "slightly more aggressive front bumper",
+        "smaller wheel size",
+        "larger rear wing"
+    ],
+    "Fiesta_abroad_version": [
+        "different alloy wheel style",
+        "larger, rounder body",
+        "brighter red color",
+        "distinctive white stripe",
+        "larger front grille",
+        "larger wheels",
+        "distinctive chrome grille",
+        "slightly curved beak",
+        "slightly larger body size",
+        "distinctive grill design",
+        "shorter, straighter beak",
+        "brighter colored accents",
+        "unique bumper design",
+        "sharp, distinct wing patterns",
+        "rooftop luggage carrier"
+    ],
+    "Fiesta_hatchback": [
+        "slightly more aerodynamic profile",
+        "slightly smaller size",
+        "smaller size",
+        "slightly more angular body shape"
+    ],
+    "Fiesta_sedan": [
+        "slimmer profile",
+        "less sporty styling",
+        "standard rear spoiler",
+        "less pronounced body kit",
+        "standard sedan profile",
+        "non-aggressive front grille",
+        "slightly larger size",
+        "shorter hood",
+        "slightly different front grille",
+        "distinctive trapezoidal grille",
+        "horizontal grille vs trapezoidal",
+        "curvier front bumper",
+        "larger rear window"
+    ],
+    "Fit": [
+        "lighter body color",
+        "smooth, glossy finish",
+        "distinctive stripes",
+        "sharp, defined features",
+        "utilitarian materials",
+        "functional design",
+        "distinctive muscle definition",
+        "slimmer build",
+        "shorter wings",
+        "distinctive logo",
+        "less ornate details",
+        "slimmer body shape"
+    ],
+    "Fit_hybrid": [
+        "slightly smaller wheels",
+        "slimmer body shape",
+        "slimmer body",
+        "distinctive paneling",
+        "shorter wheelbase",
+        "slightly larger size"
+    ],
+    "Focus_ST": [
+        "distinctive three-bar logo",
+        "19-inch alloy wheels",
+        "distinctive ST badge",
+        "lower, sportier stance",
+        "slightly larger size",
+        "smaller grille",
+        "larger front bumper openings",
+        "larger front grille",
+        "distinctive ST badges",
+        "slightly longer hood",
+        "distinctive honeycomb grille",
+        "rounder headlights",
+        "distinctive chrome grille",
+        "sharper head edges",
+        "sportier grille"
+    ],
+    "Focus_abroad_version": [
+        "unique logo placement",
+        "shorter, straighter legs",
+        "distinctive angular design",
+        "unique tail shape",
+        "brighter, contrasting colors",
+        "larger, angular body",
+        "larger, more elaborate design"
+    ],
+    "Ford_B-MAX": [
+        "slightly more angular headshape",
+        "less boxy shape"
+    ],
+    "Ford_C-MAX": [],
+    "Ford_E": [
+        "angular rather than curvy lines",
+        "shorter, squared-off design",
+        "smaller size",
+        "lighter color tone",
+        "brighter, more uniform color",
+        "distinctive logo",
+        "different window profile",
+        "slightly shorter hood"
+    ],
+    "Ford_Evos": [
+        "more aerodynamic profile",
+        "slightly more angular body shape",
+        "slightly larger size",
+        "angular rather than smooth lines",
+        "modern body lines",
+        "faster vehicle silhouette",
+        "unique alloy wheel design",
+        "different wheel design"
+    ],
+    "Ford_F-150": [
+        "taller and more boxy shape",
+        "slightly narrower body",
+        "slightly shorter bed",
+        "smaller size",
+        "signature grill design",
+        "distinctive grill design",
+        "larger size"
+    ],
+    "Ford_F-250": [
+        "boxier shape",
+        "heavier duty design",
+        "angular tail lights",
+        "bigger wheel arches",
+        "taller profile",
+        "different logo design",
+        "sturdier bumper",
+        "slightly smaller size"
+    ],
+    "Ford_F-350": [
+        "slightly smaller size",
+        "taller and boxier profile",
+        "distinctive grill design",
+        "unique grille design"
+    ],
+    "Ford_F-650": [
+        "different wheel spacing",
+        "different wheel style",
+        "slightly more angular body shape",
+        "taller and boxier profile",
+        "distinctive grill design",
+        "distinctive grille design",
+        "slightly more angular headlights",
+        "angular front bumper"
+    ],
+    "Ford_Flex": [
+        "curved roofline",
+        "slightly sloping roofline",
+        "curvier body shape"
+    ],
+    "Ford_Fusion": [
+        "slightly more aerodynamic profile",
+        "shorter wheelbase",
+        "curvier body lines",
+        "specific alloy wheel style",
+        "slightly larger size",
+        "slightly sloping roofline"
+    ],
+    "Ford_Ka": [],
+    "Ford_Transit": [
+        "slightly taller stature",
+        "boxier design",
+        "white roof",
+        "less powerful hood design"
+    ],
+    "Ford_iosis_max": [],
+    "Freemont": [
+        "distinctive chrome grille",
+        "larger wheels",
+        "Brighter metallic finish",
+        "chrome accents",
+        "finer, more elongated body shape",
+        "metallic finish",
+        "slimmer window design",
+        "larger size"
+    ],
+    "Friend-ME": [
+        "rounder body shape",
+        "slimmer build"
+    ],
+    "Frontier": [
+        "lighter body hue",
+        "smaller, more compact size",
+        "larger, more robust body"
+    ],
+    "Fshion": [
+        "metallic accents",
+        "shorter, straighter legs",
+        "distinctive logo pattern",
+        "smaller size compared to FOS",
+        "distinctive brand logo",
+        "slimmer silhouette",
+        "distinctive floral patterns"
+    ],
+    "Funyun": [
+        "distinctive white stripes",
+        "shorter, straighter legs",
+        "curved horns",
+        "larger, more circular shape",
+        "less pronounced markings",
+        "shorter, straighter beak",
+        "curvier shape",
+        "larger size",
+        "brighter red color",
+        "distinct hexagonal shape",
+        "brighter color palette"
+    ],
+    "Furuida": [
+        "lighter body color",
+        "smaller, more compact size",
+        "distinctive red markings",
+        "slimmer body",
+        "bright red legs",
+        "flatter head profile"
+    ],
+    "GMC3500": [
+        "unique alloy wheel design",
+        "angular headlight design",
+        "angular grille design",
+        "angular GMC grille",
+        "rounded front grille",
+        "slightly smaller size",
+        "rounded headlights",
+        "distinctive grille design"
+    ],
+    "GMC_CANYON": [
+        "taller and boxier profile",
+        "slightly smaller wheels",
+        "smaller size",
+        "larger wheel arches",
+        "distinctive grill design"
+    ],
+    "GOL": [
+        "lighter body tone",
+        "slimmer body",
+        "stouter body",
+        "slimmer body shape",
+        "brighter color palette",
+        "smaller overall size",
+        "shorter wings",
+        "shorter neck"
+    ],
+    "Gaguar_C-TYPE": [
+        "distinctive blue tail",
+        "less pronounced crest",
+        "less pronounced stripes",
+        "distinctive blue stripes",
+        "smaller eyes"
+    ],
+    "Gaguar_C-X17": [
+        "lighter body hue",
+        "larger, more rounded ears",
+        "distinctive Gaguar logo"
+    ],
+    "Gaguar_C-X75": [
+        "different front grille design",
+        "angular headlights",
+        "unique front grille pattern",
+        "distinctive grill design",
+        "shorter wheelbase",
+        "distinctive aerodynamic curves",
+        "distinctive aerodynamic lines",
+        "distinctive air intake design",
+        "slimmer body profile",
+        "brighter color scheme",
+        "unique honeycomb paneling",
+        "different color scheme",
+        "larger rear wing",
+        "unique triangular windows"
+    ],
+    "Gaguar_E-TYPE": [
+        "thinner legs",
+        "shorter neck",
+        "slightly larger eyes",
+        "slimmer body shape",
+        "shorter, more angular head",
+        "sharp, angular head",
+        "slimmer body"
+    ],
+    "Gaguar_F-TYPE": [
+        "larger, rounder head",
+        "shorter, angular head",
+        "shorter, more angular head",
+        "distinctive front grille design",
+        "shorter tail",
+        "shorter, squared-off tail",
+        "slightly smaller wheels",
+        "slimmer window frames",
+        "slimmer, longer side mirrors",
+        "angular headlights",
+        "slimmer body profile"
+    ],
+    "Gaguar_XE": [
+        "slimmer body",
+        "larger wheels",
+        "lighter underbelly"
+    ],
+    "Gaguar_XF": [
+        "lighter body color",
+        "slimmer body profile",
+        "slightly smaller body size"
+    ],
+    "Gaguar_XJ": [
+        "distinctive angular design",
+        "slimmer, aerodynamic profile",
+        "more angular head",
+        "lighter eye color",
+        "larger, rounder wheels",
+        "slimmer body",
+        "less pronounced fangs",
+        "lighter body color",
+        "unique metallic finish",
+        "shorter neck",
+        "shorter, straighter beak",
+        "slightly larger size",
+        "sharper, more angular head",
+        "smaller size"
+    ],
+    "Gaguar_XK": [
+        "larger, more robust body",
+        "slightly pointed ears",
+        "darker body hue"
+    ],
+    "Galaxy": [
+        "no distinct appendages",
+        "elliptical vs linear shape",
+        "absence of wings"
+    ],
+    "Galibier": [
+        "lighter wing edges",
+        "lighter coloration",
+        "smaller body size",
+        "shorter handle",
+        "shorter tines",
+        "shorter, straighter beak",
+        "less rounded head"
+    ],
+    "Golf": [
+        "slightly smaller size",
+        "smaller size",
+        "lack of roof-mounted cargo space",
+        "open tail",
+        "openable roof",
+        "smaller rear end",
+        "bright yellow color",
+        "non-aggressive bumper design",
+        "shorter trunk",
+        "convertible top",
+        "less pronounced grille",
+        "distinctive logo",
+        "different roofline",
+        "harder roof",
+        "oval-shaped"
+    ],
+    "Golf_GTI": [
+        "larger body size",
+        "18-inch alloy wheels",
+        "rear window frame differs",
+        "slimmer headlamps",
+        "convertible soft top visible",
+        "lack of roof",
+        "slightly more angular body lines",
+        "slightly longer hood",
+        "rear spoiler"
+    ],
+    "Golf_GTI_convertible": [
+        "GTI has a more aerodynamic design",
+        "GTI convertible has a different front grille",
+        "R convertible includes sportier side skirts",
+        "R model features a larger rear wing",
+        "rear roll bars",
+        "lower, sportier stance",
+        "larger body size",
+        "sportier grille"
+    ],
+    "Golf_R": [
+        "angular front bumper design",
+        "slightly smaller size",
+        "slightly larger size",
+        "slightly lower and sportier profile",
+        "angular headlights",
+        "lack of convertible top"
+    ],
+    "Golf_R_convertible": [
+        "sportier design",
+        "smaller size",
+        "convertible soft top",
+        "larger wheels",
+        "distinctive R alloy wheels",
+        "larger, rounder headlights",
+        "distinctive convertible wheels",
+        "lower, more athletic stance",
+        "rear roll bars",
+        "larger, more aggressive wheels",
+        "different grille design",
+        "lower, sportier suspension",
+        "different rear bumper design"
+    ],
+    "Golf_convertible": [
+        "openable roof",
+        "open roof design",
+        "less aggressive front grille",
+        "different grille design",
+        "luggage space behind seats",
+        "slightly more aggressive bumper",
+        "slightly smaller size",
+        "shorter rear deck",
+        "convertible top",
+        "unique alloy wheel style"
+    ],
+    "Golf_estate": [
+        "different front grille",
+        "distinctive front grille",
+        "larger cargo area",
+        "different wheel design",
+        "distinctive rear roofline",
+        "different logo placement",
+        "distinctive boot area",
+        "distinct rear roofline",
+        "square rear windows",
+        "different window layout",
+        "distinct trunk rear",
+        "larger rear overhang",
+        "clearer windows",
+        "slightly more boxy shape",
+        "unique taillights"
+    ],
+    "Gran_Lavida": [
+        "rounder body shape",
+        "larger size",
+        "larger body size"
+    ],
+    "Gran_Lusso": [
+        "larger overall size",
+        "slimmer body shape",
+        "finer, more intricate patterns",
+        "sharper, more angular design",
+        "shorter, straighter beak",
+        "slimmer body profile",
+        "slimmer, sportier profile",
+        "larger size",
+        "distinctive red crest",
+        "unique, intricate grille pattern",
+        "larger, more pronounced grille",
+        "larger wheels",
+        "elegantly sloped roofline"
+    ],
+    "Grand_Cherokee": [
+        "smaller overall size",
+        "shorter hood",
+        "larger size",
+        "angular headlamps"
+    ],
+    "Great_Wall_C20R": [
+        "distinctive front grille design",
+        "shorter, straighter front grille",
+        "slimmer body profile",
+        "slightly lighter color",
+        "lighter color",
+        "shorter wheelbase",
+        "larger wheel size",
+        "slightly more angular body style",
+        "shorter body",
+        "smaller wheels",
+        "thinner profile",
+        "distinctive pentagon emblem",
+        "larger, more angular headlights",
+        "different logo placement",
+        "distinctive logo placement"
+    ],
+    "Great_Wall_C30": [
+        "lighter color",
+        "lighter color tone",
+        "brighter yellow color"
+    ],
+    "Great_Wall_C50": [
+        "distinctive front grille design",
+        "slightly lighter color",
+        "lighter body hue",
+        "slimmer side profile",
+        "distinctive embossed logo",
+        "thinner body",
+        "different shaped turrets",
+        "distinctive logo placement",
+        "angular roof design",
+        "larger rear diffuser",
+        "smaller wheel size",
+        "slightly larger size",
+        "shorter length",
+        "larger size"
+    ],
+    "Great_Wall_C70": [
+        "brighter red color",
+        "distinctive X-shaped grille",
+        "distinctive embossed logo",
+        "slightly taller roofline",
+        "slightly larger wheels",
+        "wider body",
+        "larger wheels",
+        "larger body size",
+        "distinctive angular design",
+        "angled roof",
+        "thicker chrome trim",
+        "slightly more angular design",
+        "shorter length",
+        "slightly larger size",
+        "larger size"
+    ],
+    "Great_Wall_M1": [
+        "lighter body color",
+        "slightly longer length",
+        "distinctive angular design",
+        "different color shade",
+        "shorter, more angular design",
+        "shorter, straighter front bumper",
+        "thicker front legs",
+        "smaller wheel size",
+        "distinctive embossed logo",
+        "shorter length",
+        "brighter red color",
+        "angular head shape",
+        "smaller size",
+        "slightly thicker legs",
+        "shorter, straighter beak"
+    ],
+    "Great_Wall_M2": [
+        "different front grille design",
+        "smaller wheel size",
+        "smaller body size",
+        "distinctive corner design",
+        "distinctive red markings",
+        "slightly curved front",
+        "smaller size",
+        "slightly more angular design"
+    ],
+    "Great_Wall_M4": [
+        "distinctive front grille design",
+        "distinctive X-shaped grille",
+        "lighter body tone",
+        "lighter body hue",
+        "slightly smaller wheels",
+        "slightly more curved roof",
+        "slightly longer body",
+        "larger rear wheels",
+        "slightly different logo",
+        "distinctive red stripes",
+        "shorter, more angular design",
+        "distinctive red badge",
+        "shorter, straighter antenna",
+        "shorter length",
+        "larger, more angular head"
+    ],
+    "Great_Wall_V80": [
+        "distinctive front grille design",
+        "distinctive grille design",
+        "slightly more angular body shape",
+        "angular roof lines",
+        "slightly curved roof",
+        "taller rear profile",
+        "distinctive grill design",
+        "larger wheel size",
+        "distinctive chrome grille",
+        "distinctive logo",
+        "larger vehicle size",
+        "taller roofline",
+        "different roofline",
+        "larger window size",
+        "metallic silver finish"
+    ],
+    "Haige_H5C": [
+        "distinctive chrome grille",
+        "lighter body color",
+        "slimmer headlights",
+        "shorter hood ratio",
+        "distinctive logo"
+    ],
+    "Haige_H5V": [
+        "slimmer body shape",
+        "lighter body color",
+        "distinctive red logo",
+        "slimmer body profile",
+        "unique chrome grille",
+        "larger rear window"
+    ],
+    "Haima_C3": [
+        "slightly more angular body shape",
+        "shorter, more angular design"
+    ],
+    "Haima_Me": [
+        "lighter body color",
+        "slimmer body profile",
+        "curvier tail",
+        "unique chrome grille design",
+        "smaller size",
+        "larger rear bumper overhang",
+        "smaller body size"
+    ],
+    "Haima_Prince": [
+        "slightly more angular head",
+        "smaller, more compact body",
+        "flatter head profile",
+        "distinct logo placement",
+        "slimmer body shape",
+        "slimmer head profile",
+        "shorter, straighter beak",
+        "larger body size",
+        "shorter wings",
+        "smaller body size",
+        "distinctive front grille design",
+        "distinctive red hood",
+        "brighter red body hue",
+        "angular side mirrors"
+    ],
+    "Haval_E": [],
+    "Haval_H2": [
+        "thinner tailpipes",
+        "smaller rear spoiler",
+        "shorter bonnet",
+        "distinctive rear lamp shape",
+        "shorter body"
+    ],
+    "Haval_H5": [
+        "narrower width",
+        "larger overall size",
+        "different window layout",
+        "shorter length",
+        "shorter, squared-off design",
+        "slightly smaller size"
+    ],
+    "Haval_H6": [
+        "larger overall size",
+        "shorter length",
+        "larger size",
+        "slightly smaller size",
+        "narrower width",
+        "slightly larger dimensions",
+        "slimmer body"
+    ],
+    "Haval_H7": [
+        "slightly more angular head shape",
+        "larger body size",
+        "slightly larger size",
+        "slightly smaller size"
+    ],
+    "Haval_H8": [
+        "larger overall size",
+        "larger body size",
+        "larger size"
+    ],
+    "Haval_IF": [
+        "shorter, straighter beak",
+        "angular head shape",
+        "slightly more angular body shape",
+        "shorter, squared-off design",
+        "slightly larger dimensions",
+        "less rounded head",
+        "slightly larger size",
+        "distinctly shorter length",
+        "distinct grill pattern",
+        "shorter overhangs",
+        "slimmer headlights",
+        "slimmer, more angular headlights",
+        "lighter wheel design",
+        "different wheel style",
+        "lighter grille pattern"
+    ],
+    "Haval_π": [
+        "slightly curved roofline",
+        "different tail lights",
+        "shorter wheelbase",
+        "slightly more angular body",
+        "slightly larger size",
+        "angular head shape",
+        "distinct grill design",
+        "smaller size",
+        "slimmer headlights",
+        "unique taillights"
+    ],
+    "Honda_AC-x": [
+        "larger size",
+        "different logo placement",
+        "slightly larger size",
+        "smaller size",
+        "lack of Honda ONE logo",
+        "slightly different logo placement",
+        "unique LED light signature",
+        "rectangular shape",
+        "distinctive logo placement"
+    ],
+    "Honda_CONCEPT_M": [
+        "slimmer headlights",
+        "larger body size",
+        "shorter rear overhang",
+        "distinctive aerodynamic scoop",
+        "slightly larger size",
+        "shorter, squared-off tail",
+        "distinctive Honda logo",
+        "distinctive LED headlights",
+        "angular head shape",
+        "larger front grille",
+        "shorter, more angular design",
+        "distinctive angular design"
+    ],
+    "Honda_CR-Z": [
+        "different grille design",
+        "slightly more aerodynamic profile",
+        "different front grille",
+        "smaller rear wing",
+        "lower, more aerodynamic profile",
+        "brighter front grille",
+        "slightly larger wheels",
+        "distinctive aerodynamic lines",
+        "smaller wheel size"
+    ],
+    "Honda_EV-Ster": [
+        "angular rear design",
+        "slimmer LED headlights",
+        "slimmer headlights",
+        "larger size",
+        "slightly larger size",
+        "slightly more aerodynamic profile",
+        "larger rear wheels",
+        "larger rear wing",
+        "distinctive angular design"
+    ],
+    "Honda_FCX": [
+        "distinctive Honda FCX logo",
+        "lower profile design",
+        "slightly larger size"
+    ],
+    "Honda_Gear": [
+        "slimmer front grille",
+        "angular tail design",
+        "brighter color",
+        "rectangular shape",
+        "distinctive Honda logo",
+        "smaller engine"
+    ],
+    "Honda_HR-V": [],
+    "Honda_HSV-010_GT": [
+        "larger size",
+        "angular front grille",
+        "slightly larger size",
+        "angular body design",
+        "large, angular headlights"
+    ],
+    "Honda_Insight": [],
+    "Honda_Legend": [
+        "larger wheel size",
+        "wider track",
+        "unique alloy wheel design",
+        "different alloy wheel style",
+        "slightly longer hood",
+        "slightly curved roofline",
+        "unique alloy wheel style"
+    ],
+    "Honda_N-WGN": [
+        "brighter front grille design",
+        "different roofline slope",
+        "distinctive front grille design",
+        "shorter, straighter headlights",
+        "angular rather than round headlights",
+        "shorter wheelbase",
+        "distinctive front grille",
+        "shorter rear overhang",
+        "distinctive rear roofline",
+        "larger rear door"
+    ],
+    "Honda_NSX": [
+        "different front grille",
+        "distinctive front grille",
+        "rounded front bumper",
+        "rounded rear bumper",
+        "unique quad-round headlights",
+        "distinctive angular body design",
+        "sportier body shape",
+        "distinctive angular design",
+        "larger size",
+        "slightly larger size",
+        "sharper headlights"
+    ],
+    "Honda_N_BOX": [
+        "different roof rack style",
+        "slightly larger wheels",
+        "slightly taller roofline"
+    ],
+    "Honda_ONE": [
+        "unique tail design",
+        "unique rear spoiler"
+    ],
+    "Honda_P-NUT": [
+        "distinctive hexagonal pattern",
+        "larger size"
+    ],
+    "Honda_Ridgeline": [
+        "slimmer headlamps",
+        "slightly more angular design",
+        "brighter front grille",
+        "utilitarian exterior accents",
+        "shorter bed length",
+        "shorter, boxier shape",
+        "distinctive grille design"
+    ],
+    "Honda_S2000": [
+        "bolder, sportier grille",
+        "slightly more rounded body shape",
+        "slimmer headlamps",
+        "distinctive front grille",
+        "slightly larger size",
+        "larger wheels",
+        "different rear spoiler design",
+        "rounded rear bumper",
+        "shorter, less curved roofline",
+        "shorter, less curved roof",
+        "distinctive rear spoiler",
+        "curved side profile",
+        "distinctive round headlights",
+        "distinctive air vents",
+        "larger, rounder headlights"
+    ],
+    "Honda_S660": [
+        "slimmer front grille",
+        "distinctive round headlights",
+        "brighter front grille",
+        "distinctive Honda logo",
+        "different grille design",
+        "curved front grille",
+        "distinctive front grille",
+        "round headlights",
+        "slightly more angular body",
+        "lack of roof antenna",
+        "smaller size"
+    ],
+    "Honda_Step_Bus": [
+        "boxier rear design",
+        "shorter, squared-off rear",
+        "shorter, squared-off tail",
+        "slightly taller profile",
+        "absence of FC badge",
+        "distinctive step roof design",
+        "steeper windshield angle",
+        "slightly taller front grille",
+        "distinctive roof ladder",
+        "distinctive front grille",
+        "distinctive Honda emblem",
+        "rounded front grille",
+        "slightly larger size"
+    ],
+    "Honda_Urban": [
+        "different wheel design",
+        "larger size",
+        "shorter, squared-off tail"
+    ],
+    "Huanghai_Challenger": [
+        "slimmer body shape",
+        "pointier tail",
+        "slimmer body profile",
+        "slimmer wing shape",
+        "unique black stripe"
+    ],
+    "Huanghai_N1": [
+        "distinctive blue stripe",
+        "slimmer body profile",
+        "different color scheme",
+        "distinct logo placement"
+    ],
+    "Huansu_S2": [
+        "distinctive red logo",
+        "shorter wheelbase",
+        "different rear bumper design",
+        "unique window placement",
+        "angular rear design",
+        "angular rear lights",
+        "slightly larger front bumper"
+    ],
+    "Huansu_S3": [
+        "different alloy wheel style",
+        "metallic silver finish",
+        "different color scheme",
+        "slimmer body"
+    ],
+    "Ideal": [
+        "larger size",
+        "distinctive golden markings",
+        "brighter highlights",
+        "distinctive geometric pattern",
+        "smoother surface",
+        "distinctive logo",
+        "smoother texture",
+        "cleaner lines",
+        "less texture variety",
+        "brighter color palette",
+        "slimmer build",
+        "more symmetrical",
+        "rounded corners",
+        "less pronounced patterns",
+        "less pronounced tail feathers"
+    ],
+    "Invitation": [
+        "inviting tone",
+        "Rounder corners"
+    ],
+    "Isetta": [
+        "smaller size compared to FIAT 500C",
+        "smaller size",
+        "distinctive egg-shaped body",
+        "rounded front grille",
+        "unique front grill design",
+        "single round head without wings",
+        "futuristic, rounded front",
+        "lack of front grille",
+        "rounded front grill"
+    ],
+    "Jade": [],
+    "Jeep_J12": [
+        "round headlamp design",
+        "taller and boxier profile",
+        "shorter hood",
+        "slightly smaller wheel size"
+    ],
+    "Jetta": [
+        "slimmer body profile",
+        "larger size",
+        "slightly smaller overall size",
+        "slightly larger size",
+        "lighter side panels",
+        "slightly smaller wheel size",
+        "shorter rear overhang",
+        "slightly more angular design",
+        "less sporty exhaust"
+    ],
+    "Jetta_abroad_version": [
+        "slightly more angular design",
+        "slightly larger size",
+        "slightly shorter wings"
+    ],
+    "Jindier": [
+        "slimmer body"
+    ],
+    "Jingling": [
+        "smaller, more compact body",
+        "brighter metallic body",
+        "slimmer body",
+        "flatter head profile"
+    ],
+    "Jingyi": [],
+    "Jingyi_S50": [
+        "slightly curved windshield",
+        "unique alloy wheel design",
+        "distinctive logo",
+        "metallic finish",
+        "larger size",
+        "distinct logo"
+    ],
+    "Jingyi_X3": [
+        "distinct logo placement",
+        "distinct logo design",
+        "slightly lighter color",
+        "larger size",
+        "distinctive red stripe",
+        "slimmer body shape",
+        "slightly larger size",
+        "shorter antenna-like protrusions",
+        "brighter color scheme",
+        "smaller size",
+        "distinctively shaped antenna",
+        "thicker frame",
+        "slimmer body profile",
+        "shorter antenna-like structures",
+        "brighter red color"
+    ],
+    "Jingyi_X5": [
+        "distinctive red stripe",
+        "larger size",
+        "distinctive red logo",
+        "unique blue stripe on side",
+        "slimmer body",
+        "more pronounced rear spoiler",
+        "distinctive red stripes",
+        "slightly larger size",
+        "distinctive red markings",
+        "smaller size"
+    ],
+    "Jiulong_A5": [
+        "rounded front grille",
+        "slightly longer hood",
+        "slimmer body profile",
+        "lighter color",
+        "distinct logo placement"
+    ],
+    "Journey": [
+        "smaller, more compact body",
+        "lighter color tone",
+        "smaller in size",
+        "swift movement",
+        "softer, warmer color palette",
+        "smaller size",
+        "less distinct markings",
+        "wider trail",
+        "darker trail edges",
+        "varied terrain textures",
+        "steeper ascent"
+    ],
+    "Junfeng": [
+        "wider tail"
+    ],
+    "Junfeng_CV03": [
+        "lighter body color",
+        "slimmer body shape",
+        "unique color gradient",
+        "distinctive logo",
+        "slimmer body profile",
+        "lighter blue color"
+    ],
+    "Junyi": [
+        "lighter overall color",
+        "slimmer body shape",
+        "distinctively smaller size"
+    ],
+    "Koenigsegg_Agera": [
+        "futuristic body shape",
+        "distinctive angular design",
+        "slightly different headlight design",
+        "distinct exhaust placement",
+        "shorter front grille",
+        "angular headlights",
+        "larger rear wing",
+        "unique rear wing shape",
+        "slimmer headlights",
+        "distinctive rear wing",
+        "sharp LED headlights",
+        "retracted side skirts",
+        "unique rear wing",
+        "larger side intakes"
+    ],
+    "Koenigsegg_CCR": [
+        "smaller size",
+        "less pronounced tail",
+        "slimmer body profile",
+        "distinctive silver stripes",
+        "distinctive angular design",
+        "slightly larger size",
+        "shorter wings",
+        "unique Gullwing doors",
+        "unique front grille",
+        "slightly more rounded headlights",
+        "larger rear wing"
+    ],
+    "Koenigsegg_CCXR": [
+        "distinctive angular design",
+        "different logo placement",
+        "slightly more elongated body",
+        "signature Gull-wing doors",
+        "angular front grille",
+        "slimmer body profile",
+        "futuristic air intakes"
+    ],
+    "Koleos": [
+        "slimmer profile",
+        "slimmer body profile",
+        "lighter body hue",
+        "shorter antenna",
+        "shorter hood",
+        "less pronounced grille design",
+        "less aggressive front grille",
+        "lighter tinted windows",
+        "slightly smaller in size",
+        "slightly smaller size"
+    ],
+    "Kuga": [
+        "smaller body size",
+        "smaller size",
+        "shorter, more stubby tail",
+        "slimmer body shape",
+        "rounded tail"
+    ],
+    "Kuxiong": [
+        "lighter overall color",
+        "finer, more delicate legs",
+        "unique wing patterns",
+        "slimmer wings",
+        "rounded rather than pointed tail",
+        "rounded tail",
+        "distinctively colored belly"
+    ],
+    "LaFerrari": [
+        "hybrid badge",
+        "slightly different front grille design",
+        "rounded front grille",
+        "unique hybrid badge",
+        "slightly longer body",
+        "unique rear wing design",
+        "distinctive prancing horse logo",
+        "brighter front grille",
+        "slightly more aerodynamic body shape",
+        "LaFerrari has distinctive visual features",
+        "distinctive aerodynamic body lines",
+        "distinctive angular design",
+        "slightly larger overall size"
+    ],
+    "Lacrosse_eAssist": [
+        "absence of aerodynamic features"
+    ],
+    "Laguna": [
+        "rounder, smoother body shape",
+        "lighter overall hue"
+    ],
+    "Laguna_Gu_Bbe": [],
+    "Landwind_X5": [
+        "shorter, more angular design",
+        "angular rather than round headlights",
+        "smaller wheel size"
+    ],
+    "Landwind_X8": [
+        "angular body design",
+        "bolder side cladding",
+        "different alloy wheel pattern",
+        "rounded roofline",
+        "slimmer headlamps",
+        "slightly more angular body lines",
+        "Landwind X8 has distinctive visual features",
+        "larger alloy wheels",
+        "larger wheel size"
+    ],
+    "Latitude": [
+        "slimmer profile",
+        "shorter, straighter legs",
+        "slightly lighter hue",
+        "shorter legs",
+        "shorter wings",
+        "smaller overall size",
+        "no texture variation",
+        "distinctive meridian pattern",
+        "distinctive latitude logo",
+        "smaller scale",
+        "non-geographical elements",
+        "smooth, flat surface",
+        "Omnipresent North/South indicator"
+    ],
+    "Lavide": [
+        "slightly lighter body color",
+        "smaller size",
+        "slimmer body",
+        "smaller body size",
+        "slimmer body shape"
+    ],
+    "Lechi": [
+        "slimmer body build"
+    ],
+    "Lincoln_MKC": [
+        "premium finish paint",
+        "larger wheel size"
+    ],
+    "Lincoln_MKS": [
+        "different alloy wheel style"
+    ],
+    "Lincoln_MKT": [],
+    "Lincoln_MKX": [],
+    "Linea": [
+        "shorter wheelbase",
+        "brighter front lights",
+        "brighter color",
+        "brighter color tone",
+        "brighter color palette",
+        "finer, parallel lines",
+        "thinner profile",
+        "thinner body",
+        "no zigzag pattern",
+        "distinctive red markings",
+        "distinct logo emblem",
+        "slimmer body shape"
+    ],
+    "Lingao": [
+        "lighter body color",
+        "smaller, more compact body"
+    ],
+    "Lingzhi": [
+        "larger cap size",
+        "slimmer stem shape",
+        "different cap texture",
+        "larger size"
+    ],
+    "Longwei": [
+        "wider tail",
+        "slimmer body shape"
+    ],
+    "Lorinser_C_Class": [
+        "shorter rear overhang",
+        "less pronounced kidney-shaped headlights",
+        "distinctive front grille design",
+        "distinctive Lorinser front grille",
+        "elegant chrome grille",
+        "distinctive front grille",
+        "unique taillights",
+        "unique taillight shape",
+        "slimmer body profile",
+        "angular front grille",
+        "slightly larger wheels",
+        "finer chrome detailing",
+        "slightly smaller wheels",
+        "distinctive grill design",
+        "unique alloy wheel design"
+    ],
+    "Lorinser_E_Class": [
+        "distinctive front grille design",
+        "metallic silver finish",
+        "unique alloy wheel design",
+        "brighter front grille",
+        "distinctive front grille",
+        "rounded front grille",
+        "slimmer body profile",
+        "slimmer taillights",
+        "shorter hood",
+        "larger wheels",
+        "shorter hood length",
+        "slightly more angular body lines",
+        "slightly smaller wheel size",
+        "distinctive Lorinser logo"
+    ],
+    "Lorinser_G_Class": [
+        "unique alloy wheel design",
+        "lower and sleeker profile",
+        "distinctive Lorinser emblem"
+    ],
+    "Lorinser_M_Class": [
+        "different alloy wheel style",
+        "wider rear diffuser",
+        "angled rear spoiler",
+        "unique LED light signature",
+        "slimmer headlight clusters",
+        "different front grille",
+        "distinctive front grille design",
+        "slightly more aggressive body styling",
+        "distinctive front grille",
+        "unique taillight pattern",
+        "unique color scheme",
+        "unique taillights",
+        "larger wheels",
+        "larger wheel size",
+        "taller and more aggressive stance"
+    ],
+    "Lubao": [
+        "lighter body color",
+        "lighter overall color",
+        "smaller size",
+        "lighter overall hue",
+        "larger size",
+        "lighter underbelly"
+    ],
+    "Luling": [
+        "smaller, more compact body"
+    ],
+    "MINI": [
+        "smaller size",
+        "slightly larger wheels",
+        "slightly more angular design",
+        "distinctive grill design",
+        "brighter color palette",
+        "shorter wheelbase"
+    ],
+    "MINI_BEACHCOMBER": [
+        "shorter, rounder body",
+        "lighter exterior color",
+        "shorter wheelbase",
+        "distinctive front grill",
+        "brighter front grille",
+        "slimmer body profile",
+        "slightly larger wheel size",
+        "brighter color scheme",
+        "distinctive round air vents",
+        "distinctive gull-wing doors",
+        "rounded rather than angular front grille"
+    ],
+    "MINI_CABRIO": [
+        "faster backseat access",
+        "distinctive gull-wing doors",
+        "convertible roof design",
+        "open-top design",
+        "distinctive gullwing doors",
+        "taller roofline",
+        "shorter wheelbase",
+        "slightly longer hood",
+        "more upright windshield angle",
+        "convertible roof",
+        "shorter roofline",
+        "soft top convertible feature",
+        "distinctive circular headlights",
+        "open rear deck",
+        "shorter rear deck"
+    ],
+    "MINI_CLUBMAN": [],
+    "MINI_CLUBVAN": [
+        "larger cargo area",
+        "shorter wheelbase",
+        "more squared-off rear",
+        "larger size",
+        "boxier rear design",
+        "futuristic front grille design",
+        "larger body size"
+    ],
+    "MINI_COUNTRYMAN": [
+        "shorter hood"
+    ],
+    "MINI_COUPE": [
+        "lack of cargo area",
+        "slightly larger wheels",
+        "lower, more sloping roof",
+        "less open roof",
+        "slimmer body profile"
+    ],
+    "MINI_E": [
+        "slimmer body profile",
+        "larger wheel size",
+        "unique eco-friendly materials",
+        "slightly larger size",
+        "brighter color palette",
+        "shorter body length",
+        "smaller size"
+    ],
+    "MINI_JCW": [
+        "unique alloy wheel pattern",
+        "shorter body",
+        "slightly smaller size",
+        "distinctive JCW branding",
+        "slightly longer body",
+        "shorter wheelbase",
+        "distinctive roofline",
+        "different roofline",
+        "distinct grill design",
+        "slimmer headlights"
+    ],
+    "MINI_JCW_COUNTRYMAN": [
+        "roof rack",
+        "larger wheels",
+        "larger body size",
+        "distinctive roofline",
+        "shorter wheelbase",
+        "fender flares",
+        "shorter overhangs"
+    ],
+    "MINI_JCW_COUPE": [
+        "coupe roofline",
+        "shorter roofline",
+        "angular front grille",
+        "more aggressive bumper design",
+        "larger front grille",
+        "slightly larger size",
+        "distinctive gill-like air intakes",
+        "distinctive air vents",
+        "unique front splitter",
+        "slightly longer bonnet",
+        "faster rear spoiler",
+        "slightly different wheel style",
+        "unique roofline",
+        "slimmer headlamps",
+        "larger rear wing"
+    ],
+    "MINI_JCW_PACEMAN": [
+        "shorter body",
+        "distinctive gill-like air intakes",
+        "shorter, more angular body",
+        "angular front grille",
+        "distinctive gurney flap",
+        "larger, more aggressive front grille"
+    ],
+    "MINI_PACEMAN": [
+        "brighter body color",
+        "shorter, more angular body",
+        "larger overall size"
+    ],
+    "MINI_ROADSTER": [
+        "shorter rear deck",
+        "sportier front grille",
+        "slimmer body profile",
+        "shorter body profile",
+        "larger front grille",
+        "slimmer profile",
+        "larger rear wheels",
+        "slimmer headlights",
+        "shorter wheelbase",
+        "hardtop vs convertible roof",
+        "distinct roadster body style",
+        "open-top design",
+        "rounded front grille",
+        "distinctive gull-wing doors",
+        "slightly wider stance"
+    ],
+    "MINI_Superleggera": [
+        "larger, more aggressive front grille",
+        "slimmer body profile",
+        "angular rear wing",
+        "more aggressive front grille"
+    ],
+    "MINI_VISION": [
+        "brighter color palette",
+        "distinctive LED light signature",
+        "slightly smaller size",
+        "smaller size",
+        "distinctive LED lighting",
+        "square-shaped body",
+        "distinctive logo",
+        "slightly longer hood",
+        "reduced grille"
+    ],
+    "Ma_Chi": [
+        "slimmer body build",
+        "slimmer body shape"
+    ],
+    "Macan": [
+        "slimmer A-pillars",
+        "smaller, rounder wheels",
+        "sharper, more angular design",
+        "lighter, more uniform body color"
+    ],
+    "Magotan": [
+        "tail with integrated spoiler",
+        "slightly different taillights",
+        "shorter trunk",
+        "larger rear spoiler",
+        "distinctive front grille design",
+        "slimmer headlights",
+        "unique taillights",
+        "smaller wheels",
+        "angular headlights",
+        "distinctive grille design",
+        "rounded headlights",
+        "different window profile",
+        "faster back wheels",
+        "lack of roof",
+        "cleaner exterior"
+    ],
+    "Magotan_estate": [
+        "unique taillights",
+        "distinctive grill design",
+        "larger rear window",
+        "slightly more boxy shape",
+        "larger overall size",
+        "brighter facade colors",
+        "distinctive red roof",
+        "larger window spacing",
+        "larger window size"
+    ],
+    "Mendeo": [
+        "slimmer body shape",
+        "slightly larger body size",
+        "less distinct spots",
+        "larger, more oval eyes"
+    ],
+    "Mendeo_Zhisheng": [
+        "shorter wings",
+        "slimmer body shape",
+        "redder cap color",
+        "smaller size"
+    ],
+    "Milano": [
+        "slimmer body profile",
+        "slimmer, more elongated body",
+        "larger size",
+        "finer, more intricate design",
+        "larger overall size",
+        "absence of vehicle elements",
+        "shorter, straighter legs",
+        "distinctive triangular tail",
+        "brighter chrome accents",
+        "larger, more imposing size",
+        "shorter, sharper beak",
+        "distinctive skyline",
+        "brighter red beak"
+    ],
+    "Minyi": [
+        "smaller body size",
+        "smaller size",
+        "slightly larger size"
+    ],
+    "Morgan_4-4": [
+        "unique white tail band",
+        "distinctive logo"
+    ],
+    "Morgan_Aero": [
+        "slimmer body profile",
+        "larger wheels",
+        "brighter red color",
+        "larger, more rounded tail",
+        "larger size",
+        "distinctive aerodynamic lines",
+        "brighter red accents",
+        "slimmer headlights",
+        "unique honeycomb grille",
+        "slimmer front grille",
+        "flat, squared-off tail",
+        "distinctive grille design",
+        "distinctive circular headlights",
+        "slightly more streamlined body",
+        "slightly curved bonnet line"
+    ],
+    "Morgan_Plus_8": [
+        "distinctive horseshoe grill",
+        "e-shaped grille",
+        "larger headlights",
+        "slimmer body profile",
+        "distinctive grille design",
+        "softer body lines",
+        "distinctive front grille"
+    ],
+    "Mulsanne": [
+        "larger wheel size",
+        "taller bonnet profile",
+        "slightly longer hood",
+        "faster vehicle silhouette",
+        "bolder side profile",
+        "larger size",
+        "Mulsanne has distinctive visual features",
+        "slightly different taillights"
+    ],
+    "Multivan": [
+        "sleeker front design",
+        "square-shaped rear window",
+        "telescopic rear cargo area",
+        "fewer windows",
+        "distinctive VW logo",
+        "boxier rear end"
+    ],
+    "Murano": [
+        "distinctive front grille design",
+        "slimmer body shape",
+        "lighter color tone",
+        "larger wheel size",
+        "distinctive chrome grille",
+        "slimmer body profile",
+        "smaller window size",
+        "faster rear wheels",
+        "slightly larger size",
+        "wider, more angular head"
+    ],
+    "Mustang": [
+        "shorter wheelbase",
+        "slightly longer body",
+        "larger front grille",
+        "larger wheels",
+        "signature three-bar tail lamp",
+        "slimmer headlights",
+        "larger, round headlights",
+        "distinctive rear spoiler",
+        "shorter rear end",
+        "angular body shape",
+        "distinctive hood scoop",
+        "angular and muscular body",
+        "angular rear bumper"
+    ],
+    "NMC": [
+        "Rounder body shape",
+        "larger size than Multivan",
+        "larger size"
+    ],
+    "Nanuk": [
+        "taller, more slender legs",
+        "distinctive white blaze",
+        "larger size",
+        "larger body size"
+    ],
+    "Navigator": [
+        "brighter color scheme",
+        "slimmer antenna design",
+        "slimmer profile",
+        "absence of stripes",
+        "lighter color"
+    ],
+    "New_Compact": [
+        "sleeker body shape",
+        "slimmer design",
+        "silver color",
+        "distinctive logo",
+        "angular edges",
+        "smooth surface",
+        "brighter color",
+        "brighter color scheme"
+    ],
+    "New_Focus_sedan": [
+        "slimmer grille design",
+        "slimmer body profile",
+        "sedan profile",
+        "non-aggressive front grille",
+        "lighter body color",
+        "distinctive grille design",
+        "standard alloy wheels",
+        "distinctive chrome grille",
+        "different window shape",
+        "larger size",
+        "softer body lines",
+        "different window profile",
+        "slightly larger size"
+    ],
+    "New_Sylphy": [
+        "distinctive rear light cluster",
+        "distinctive front grille design",
+        "slimmer profile",
+        "slightly more sloped roofline",
+        "distinctive chrome grille design",
+        "slimmer headlamps",
+        "distinctive chrome grille",
+        "different alloy wheel style",
+        "slightly larger size",
+        "shorter wheelbase",
+        "slightly more angular body shape",
+        "more pronounced rear spoiler",
+        "slimmer LED taillights",
+        "sharper, more angular design",
+        "different wheel style"
+    ],
+    "Nils": [
+        "slimmer body shape"
+    ],
+    "Nissan_370Z": [],
+    "Nissan_Cube": [
+        "angular rather than round head"
+    ],
+    "Nissan_D22_Cargo": [
+        "different wheel size",
+        "different grill design",
+        "larger cargo area"
+    ],
+    "Nissan_D22_Pickup": [
+        "different alloy wheel design",
+        "grill design",
+        "narrower body",
+        "angular headlights",
+        "tail light shape",
+        "Pickup has a rear cargo area",
+        "wheel size and style",
+        "slightly curved front grille",
+        "distinctive logo",
+        "shorter length",
+        "angular front grille",
+        "slightly larger size",
+        "side window position"
+    ],
+    "Nissan_GT-R": [
+        "distinctive gull-wing doors",
+        "angular and sleek body style",
+        "larger size"
+    ],
+    "Nissan_Juke": [
+        "slightly smaller wheel size"
+    ],
+    "Nissan_NV200": [
+        "boxier shape"
+    ],
+    "Nissan_NV3500": [
+        "curved front grille",
+        "distinctive side mirrors",
+        "different grille design"
+    ],
+    "Nitro": [
+        "Distinctive red logo",
+        "Rounder, more compact body",
+        "Brighter red plumage",
+        "redder plumage",
+        "distinctively pointed ears",
+        "brighter color",
+        "smaller overall size",
+        "smaller size",
+        "Smoother finish surface",
+        "distinctive spots",
+        "shorter legs",
+        "Distinctively larger size",
+        "Brighter orange body",
+        "brighter orange color",
+        "larger eyes"
+    ],
+    "Northeast_V4": [
+        "unique paint finish",
+        "smaller, more compact body",
+        "distinctive logo"
+    ],
+    "Northeast_V7": [
+        "brighter front grille",
+        "larger, more pronounced eyes",
+        "slimmer body profile",
+        "shorter wheelbase",
+        "slightly more elongated body shape",
+        "unique paint shade",
+        "distinctive logo"
+    ],
+    "Odyssey": [
+        "larger size"
+    ],
+    "Oley_hatchback": [
+        "louder grille design",
+        "different color scheme",
+        "distinctive grill design",
+        "distinctive front grille design"
+    ],
+    "Oley_sedan": [
+        "less aggressive grille design",
+        "slimmer body profile",
+        "finer body lines",
+        "different grille design",
+        "slightly longer hood",
+        "flatter roof line",
+        "distinctive grille design",
+        "different wheel style",
+        "distinctive chrome grille"
+    ],
+    "Oula": [
+        "distinctive red marking",
+        "distinctive red crown",
+        "slimmer body",
+        "smaller size",
+        "slightly larger size"
+    ],
+    "Oulove": [
+        "slimmer profile",
+        "lighter body hue",
+        "larger size",
+        "smaller size",
+        "smaller body size"
+    ],
+    "Paladin": [
+        "lighter body hue",
+        "lighter hair color",
+        "smaller, rounder wings",
+        "softer, more rounded horns",
+        "brighter color palette"
+    ],
+    "Palazzi": [
+        "taller and more slender",
+        "flat and wide roof"
+    ],
+    "Palio": [
+        "slimmer, more aerodynamic profile",
+        "lighter body color",
+        "shorter, more angular design",
+        "distinctive X-shaped grille",
+        "rounded hood",
+        "shorter neck",
+        "larger body size",
+        "distinctive stripes",
+        "distinctive red hood",
+        "smaller size",
+        "different tail shape",
+        "slimmer wings",
+        "pointed tail",
+        "slightly larger size",
+        "lighter overall color palette"
+    ],
+    "Panamera": [
+        "lower, more sedan-like profile",
+        "larger body size",
+        "larger size",
+        "slimmer profile",
+        "distinctive hybrid exhaust",
+        "different hybrid badge",
+        "distinctive four-door design"
+    ],
+    "Panamera_hybrid": [
+        "larger body size",
+        "solar panel-like roof",
+        "larger size",
+        "four-door body style"
+    ],
+    "Park_Avenue": [],
+    "Passat": [
+        "slightly more angular body shape",
+        "larger overall size",
+        "slightly larger size",
+        "larger size",
+        "slightly smaller size",
+        "more pronounced grille",
+        "distinctive front grille design",
+        "slightly more sloped roof",
+        "distinctive grille design",
+        "distinctive grill design",
+        "slightly more rounded headlights",
+        "slimmer headlights",
+        "brighter headlight design",
+        "slightly different wheel pattern",
+        "shorter rear overhang"
+    ],
+    "Passat_abroad_version": [
+        "slightly larger size",
+        "slightly different color palette",
+        "larger body size",
+        "larger, more boxy shape"
+    ],
+    "Pathfinder": [
+        "larger, more angular eyes",
+        "brighter color palette",
+        "distinctive angular design"
+    ],
+    "Patriot": [
+        "less streamlined shape",
+        "wider wingspan",
+        "smaller, rounder wings",
+        "thicker, more robust body",
+        "steeper head angle",
+        "larger size",
+        "shorter wings",
+        "smaller size"
+    ],
+    "Peugeot_108": [
+        "lack of rear roof spoiler",
+        "less aggressive styling"
+    ],
+    "Peugeot_207CC": [
+        "openable roof for top-down driving experience",
+        "slightly more angular head shape",
+        "shorter, more angular body",
+        "slightly smaller wheels",
+        "distinctive folding roof mechanism"
+    ],
+    "Peugeot_207_sedan": [
+        "distinctive rear convertible feature",
+        "different roof type",
+        "slightly shorter hood",
+        "more sophisticated grille",
+        "different tail lights",
+        "shorter rear overhang"
+    ],
+    "Peugeot_301": [
+        "less aggressive bumper design",
+        "shorter wheelbase"
+    ],
+    "Peugeot_307_sedan": [
+        "unique taillights shape",
+        "distinct trunk",
+        "slightly more angular headshape",
+        "unique taillights",
+        "larger wheels",
+        "slightly shorter wheelbase",
+        "distinct grill design",
+        "different grill design",
+        "smaller body size",
+        "slightly smaller size",
+        "larger size",
+        "distinctive rear window shape",
+        "slightly longer body"
+    ],
+    "Peugeot_308": [
+        "less complex grille"
+    ],
+    "Peugeot_308SW": [
+        "larger cargo area",
+        "smaller body size",
+        "slightly shorter hood",
+        "smaller size",
+        "larger size",
+        "lower and sleeker profile"
+    ],
+    "Peugeot_308_abroad_version": [
+        "larger size",
+        "smaller size",
+        "additional local branding",
+        "different wheel style"
+    ],
+    "Peugeot_4008": [
+        "slightly more angular design"
+    ],
+    "Peugeot_408": [
+        "slightly more angular head",
+        "smaller wheels"
+    ],
+    "Peugeot_5008": [
+        "slightly different tail lights",
+        "different headlight design",
+        "slightly more squared headlights",
+        "different headlight shape",
+        "distinctive LED light signature",
+        "distinct grill design",
+        "distinct grille design",
+        "distinctive front grille"
+    ],
+    "Peugeot_508": [
+        "larger size",
+        "shorter hood"
+    ],
+    "Peugeot_508_abroad_version": [
+        "larger size"
+    ],
+    "Peugeot_HR1": [
+        "slimmer rear bumper design",
+        "unique window placement",
+        "slightly larger size",
+        "smaller overall size",
+        "shorter, squared-off head"
+    ],
+    "Peugeot_HX1": [],
+    "Peugeot_Onyx": [
+        "bolder front grille",
+        "larger front grille",
+        "distinctive front grille design",
+        "distinctive diamond grille",
+        "slimmer headlights",
+        "unique honeycomb grille",
+        "different roofline curvature",
+        "shorter rear end",
+        "distinctive LED light signature",
+        "slightly curved roofline",
+        "slightly more curved roofline",
+        "angular rather than sleek profile",
+        "distinctive angular design",
+        "rounded rear design",
+        "slightly more compact size"
+    ],
+    "Peugeot_SR1": [
+        "lighter, smoother body surface",
+        "slimmer profile"
+    ],
+    "Peugeot_SXC": [
+        "different tail shape",
+        "different tail lights pattern",
+        "slimmer head profile",
+        "unique roof spoiler"
+    ],
+    "Peugeot_iON": [
+        "lighter colored roof"
+    ],
+    "Phaeton": [
+        "different alloy wheel style",
+        "slimmer body profile",
+        "larger overall size",
+        "larger size",
+        "slimmer side profile",
+        "larger wheel size",
+        "distinctive grill design",
+        "larger body size",
+        "distinct grill design",
+        "premium finish accents",
+        "different wheel style",
+        "different rear lamp shape",
+        "distinctive grille design",
+        "lower roofline",
+        "slightly sloping roofline"
+    ],
+    "Polo_GTI": [
+        "compact body shape",
+        "smaller size",
+        "slightly smaller size"
+    ],
+    "Polo_abroad_version": [
+        "slightly larger size",
+        "angular headlights",
+        "slimmer body profile",
+        "slightly taller profile",
+        "distinctive LED light signature",
+        "distinctive chrome accents",
+        "larger side mirrors",
+        "shorter wheelbase"
+    ],
+    "Polo_hatchback": [
+        "hatchback roofline",
+        "smaller overall size",
+        "rear cargo area",
+        "slightly larger size",
+        "shorter hood",
+        "smaller window size",
+        "slightly more angular design",
+        "slight variation in wheel size"
+    ],
+    "Polo_sedan": [
+        "slightly larger wheel size",
+        "less aggressive design",
+        "different wheel design",
+        "different color scheme",
+        "non-existent spoilers",
+        "slightly smaller size",
+        "smaller size"
+    ],
+    "Porsche_911": [
+        "aggressive front bumper design",
+        "rounded rather than angular design"
+    ],
+    "Porsche_917": [
+        "unique air intake patterns",
+        "different front grille design",
+        "shorter, squared-off tail",
+        "angular front grille",
+        "distinctive front grille",
+        "larger front air intakes",
+        "futuristic front bumper design",
+        "distinctive rear wing design",
+        "larger size",
+        "slightly smaller overall size",
+        "rounded side profiles",
+        "distinctive rear wing shape",
+        "less pronounced wings",
+        "distinctive front spoiler",
+        "smaller rear wing"
+    ],
+    "Porsche_918": [
+        "slimmer tail lights",
+        "slimmer rear wing",
+        "more aerodynamic rear wing",
+        "larger rear wing",
+        "larger central exhaust",
+        "angular rear wing",
+        "different badge placement",
+        "central exhaust system",
+        "unique rear wing design",
+        "slightly more aerodynamic body",
+        "distinctive hybrid design",
+        "slightly more aggressive styling",
+        "larger size",
+        "distinctive LED headlights"
+    ],
+    "Porsche_919": [
+        "slightly different front grille",
+        "larger size",
+        "slightly more aerodynamic body"
+    ],
+    "Pulsar": [
+        "rounder body shape",
+        "lack of arms",
+        "shorter wings",
+        "compact size",
+        "smaller size"
+    ],
+    "Punto": [
+        "no wings"
+    ],
+    "Qashqai": [],
+    "Qiangwawangzi": [
+        "brighter colors"
+    ],
+    "Qin": [
+        "lighter body color"
+    ],
+    "Qisheng_F1": [
+        "unique taillights",
+        "different wheel style",
+        "slimmer body profile",
+        "slimmer body shape",
+        "different wheel design",
+        "slimmer front profile",
+        "brighter color palette",
+        "distinctive logo"
+    ],
+    "Qisheng_V3": [
+        "slightly curved wings",
+        "lighter body color",
+        "different tail shape",
+        "different color palette",
+        "distinctive logo",
+        "larger, rounder body"
+    ],
+    "Qishi": [
+        "slimmer body shape",
+        "distinctive black stripes",
+        "thicker, segmented legs",
+        "larger body size",
+        "slightly larger size",
+        "smaller body size",
+        "shorter antennae",
+        "slimmer tail",
+        "shorter legs",
+        "distinctively colored underbelly",
+        "less pronounced tail feathers"
+    ],
+    "Qiteng_M70": [
+        "distinctive logo",
+        "distinctive logo design",
+        "unique black stripe"
+    ],
+    "Rampage": [
+        "broader base",
+        "distinctive logo",
+        "darker tread markings",
+        "lighter color tone",
+        "brighter coloration"
+    ],
+    "Ranger": [
+        "distinctive angular design",
+        "smaller, compact size",
+        "narrower and more angular",
+        "shorter, straighter legs",
+        "distinctive logo",
+        "taller roofline"
+    ],
+    "Regal": [
+        "smaller, compact body",
+        "lighter body color",
+        "elegantly curved neck",
+        "more angular head shape",
+        "softer, more flowing lines",
+        "angular head shape",
+        "broader shoulders",
+        "richer, deeper color palette",
+        "shorter neck",
+        "formal attire",
+        "taller stature"
+    ],
+    "Renault_Scenic": [
+        "bigger size"
+    ],
+    "Renegade": [
+        "distinctive angular design",
+        "lighter body hue",
+        "brighter metallic finish",
+        "brighter color scheme",
+        "slightly larger size"
+    ],
+    "Reno_Alpine": [
+        "smaller, compact body",
+        "stouter body",
+        "smaller, compact body size",
+        "slimmer body",
+        "lighter overall color",
+        "distinctive white stripe",
+        "larger wheel size"
+    ],
+    "Reno_Captur": [
+        "angular head shape",
+        "larger wheel size",
+        "slightly larger size",
+        "slightly smaller size"
+    ],
+    "Reno_Frendzy": [
+        "larger, more angular headlights",
+        "slimmer body shape",
+        "rounded, larger headlights",
+        "slightly larger size"
+    ],
+    "Reno_Kwid": [
+        "slimmer body shape",
+        "smaller, rounder wheels",
+        "smaller size"
+    ],
+    "Reno_Symbol": [
+        "slimmer body profile",
+        "distinctive red emblem",
+        "brighter red color",
+        "distinctive red badge",
+        "simpler logo structure",
+        "simpler pattern compared to Frendzy",
+        "slimmer wings",
+        "larger size",
+        "larger eye size",
+        "larger circular design"
+    ],
+    "Reno_Twin-Run": [
+        "slimmer profile",
+        "slimmer body profile",
+        "slightly larger size",
+        "slightly lighter overall color",
+        "sharp, angular head",
+        "sharp, angular edges"
+    ],
+    "Reno_Twin-Z": [
+        "smaller, more compact body",
+        "smaller, compact body",
+        "slightly more slender body",
+        "sharp, angular head shape",
+        "distinctive red markings",
+        "larger, rounder eyes",
+        "brighter red body",
+        "smaller body size",
+        "different tail shape",
+        "smaller eye size",
+        "sharp, angular head",
+        "shorter neck",
+        "smaller size",
+        "lighter wing tips",
+        "shorter, straighter beak"
+    ],
+    "Reno_Twingo": [],
+    "Reno_Twizy": [
+        "brighter red color",
+        "absence of roof",
+        "slimmer body profile",
+        "shorter body",
+        "distinctive grill design",
+        "smaller wheels",
+        "unique rear design",
+        "slightly more aerodynamic body shape",
+        "smaller size"
+    ],
+    "Reno_Wind": [
+        "lighter body tone",
+        "slimmer body",
+        "slimmer body structure",
+        "slimmer tail",
+        "distinctive white patch",
+        "rounded tail",
+        "shorter wings",
+        "lighter color",
+        "sharp, distinct wing tips",
+        "distinctive crest",
+        "slightly larger size",
+        "more dynamic movement",
+        "smaller size",
+        "shorter, straighter beak",
+        "distinctive wind patterns"
+    ],
+    "Reno_ZOE": [
+        "slightly upturned nose",
+        "lighter color"
+    ],
+    "Resonance": [
+        "Smaller, more compact body",
+        "smaller, compact body",
+        "slimmer body silhouette",
+        "distinctively shaped body",
+        "larger, more rounded body",
+        "Distinctively longer antennae",
+        "larger, more segmented body",
+        "shorter antenna",
+        "shorter antennae",
+        "brighter color palette"
+    ],
+    "Rogue": [
+        "smaller, compact body",
+        "slimmer body profile",
+        "lighter, more uniform color",
+        "lighter color tone",
+        "sharp, angular head",
+        "slimmer body build",
+        "slimmer waist",
+        "sharp, angular head shape",
+        "smaller wings",
+        "distinctive hood marking",
+        "less pronounced tail feathers"
+    ],
+    "Routan": [
+        "distinctive front grille design",
+        "distinctive grille design",
+        "distinctive grill design",
+        "lighter body color",
+        "unique taillight pattern",
+        "shorter bonnet",
+        "rounded headlights",
+        "unique taillights",
+        "slimmer profile",
+        "different brand logo"
+    ],
+    "Ruiling": [
+        "slimmer body build",
+        "larger size",
+        "smaller size",
+        "slimmer body"
+    ],
+    "Ruiping": [
+        "lighter body tone",
+        "brighter coloration"
+    ],
+    "Ruiqi_Cargo": [
+        "silver metallic finish",
+        "slimmer profile",
+        "flat bottom"
+    ],
+    "Ruiqi_Pickup": [
+        "larger body size",
+        "smaller size",
+        "slightly more angular body",
+        "different color scheme",
+        "slightly larger size"
+    ],
+    "Ruitu": [
+        "wider tail fins"
+    ],
+    "Ruixing": [
+        "smaller, more compact body",
+        "lighter overall color tone",
+        "slightly larger size"
+    ],
+    "S-MAX": [
+        "angular vs rounded body shape",
+        "rounded roofline",
+        "lighter wheel arches"
+    ],
+    "S-MAX_abroad_version": [
+        "larger size",
+        "slightly larger size",
+        "different roofline"
+    ],
+    "Sagitar": [
+        "rounded front grille",
+        "slimmer profile compared to Multivan",
+        "slightly larger wheels",
+        "shorter, more robust body",
+        "slimmer body",
+        "different color shade"
+    ],
+    "Sagitar_GLI": [
+        "distinctive chrome grille",
+        "distinctive honeycomb grille",
+        "distinctive front grille",
+        "unique taillights",
+        "slimmer, longer headlights",
+        "premium alloy wheels",
+        "angular taillights",
+        "slimmer headlights",
+        "faster rear wheels",
+        "larger wheels",
+        "shorter wheelbase",
+        "distinctive red grille",
+        "distinctive grill design",
+        "slimmer profile",
+        "larger rear exhaust pipes"
+    ],
+    "Saima": [
+        "lighter body color",
+        "distinctively smaller size",
+        "distinctive red markings",
+        "smaller size",
+        "larger body size",
+        "slightly larger size",
+        "shorter neck"
+    ],
+    "Santana": [
+        "smaller, compact body",
+        "slimmer body shape",
+        "lighter overall color tone",
+        "cleaner lines",
+        "smaller size",
+        "slightly larger nose"
+    ],
+    "Santana_Vista": [
+        "slimmer body shape",
+        "single-color body",
+        "larger overall size",
+        "slightly smaller size",
+        "larger size"
+    ],
+    "Savana": [
+        "unique grille design",
+        "distinctive grill design",
+        "unique taillight shape",
+        "different window layout"
+    ],
+    "Scenic": [
+        "narrow, distinct stripes",
+        "large, round eyes",
+        "short, stocky body",
+        "mountainous background",
+        "narrow, winding roads"
+    ],
+    "Scirocco": [
+        "smaller overall size",
+        "slightly larger body size",
+        "less aggressive front bumper design",
+        "slightly larger size",
+        "brighter color palette",
+        "shorter, squared-off tail",
+        "faster roofline slope",
+        "distinct grill design",
+        "sharp, angular headlights",
+        "distinctive R logo",
+        "slimmer side profile",
+        "shorter, more angular headlights",
+        "different interior design"
+    ],
+    "Scirocco_R": [
+        "shorter rear overhang",
+        "different window profile",
+        "larger rear wing",
+        "unique roofline",
+        "angular body lines",
+        "slightly larger size",
+        "unique taillights shape",
+        "shorter wheelbase",
+        "faster car model",
+        "faster rear wheels",
+        "unique quad exhaust tips",
+        "sports exhaust"
+    ],
+    "Sentra": [
+        "larger body size",
+        "smaller size",
+        "slightly larger size",
+        "non-flying",
+        "slightly smaller overall size",
+        "less aggressive design",
+        "slimmer profile"
+    ],
+    "Sergio": [
+        "larger, more open grille",
+        "shorter neck",
+        "slimmer body",
+        "distinctive angular design",
+        "rounded instead of sharp edges",
+        "brighter eyes"
+    ],
+    "Seville_SLS": [
+        "slimmer profile",
+        "slimmer body profile",
+        "slimmer body",
+        "distinctive grille design",
+        "shorter neck",
+        "smaller body size",
+        "smaller size",
+        "thicker, stockier body",
+        "less rounded head",
+        "larger, more angular windows",
+        "larger, more oval eyes",
+        "distinctive hood marking",
+        "brighter front lights"
+    ],
+    "Sharan": [
+        "brighter front lights",
+        "rear bumper with integrated diffuser",
+        "distinctive grille front design",
+        "angular front headlights",
+        "distinctive chrome detailing",
+        "distinctive grille design",
+        "larger, more upright headlights",
+        "lighter tint on body",
+        "smaller, rounder wheels",
+        "slimmer body profile",
+        "rounded, shorter hood compared to Sagitar",
+        "larger size"
+    ],
+    "Shuaike": [
+        "slimmer body shape",
+        "lighter overall color",
+        "distinctive red markings",
+        "brighter body color",
+        "smaller size",
+        "brighter color"
+    ],
+    "Si_Rui": [
+        "smaller, more compact body",
+        "slimmer body frame",
+        "lighter underbelly"
+    ],
+    "Sierra": [
+        "distinctive angular shape",
+        "smaller, more compact size",
+        "slimmer body shape",
+        "slimmer legs",
+        "slimmer body profile",
+        "sharper, more angular head",
+        "lighter body tone",
+        "shorter hood",
+        "distinctive triangular markings"
+    ],
+    "Silver_Arrow": [
+        "slightly lighter overall hue",
+        "less pronounced fender flares",
+        "silver hue",
+        "slightly lighter silver hue",
+        "silver color"
+    ],
+    "Space_Up": [
+        "smaller, more compact body",
+        "jet-black paint finish",
+        "brighter, metallic finish",
+        "smaller, rounder tail",
+        "shorter, straighter legs",
+        "brighter star background",
+        "brighter uniform color",
+        "lack of urban structures",
+        "brighter colored hull",
+        "larger, more angular shape",
+        "futuristic transparent panels",
+        "distinctive alien logo",
+        "angular antenna design"
+    ],
+    "Spirior": [
+        "slimmer body shape",
+        "slimmer body structure"
+    ],
+    "Sports_Sedan": [
+        "larger rear wing"
+    ],
+    "Sprinter": [
+        "larger, more streamlined body",
+        "slightly smaller size",
+        "narrower body",
+        "shorter, boxier design",
+        "shorter, straighter legs",
+        "larger rear cargo area",
+        "shorter wheelbase",
+        "longer limbs",
+        "brighter colors",
+        "distinctive logo",
+        "narrower waist"
+    ],
+    "Sprinter_abroad_version": [
+        "more aerodynamic design",
+        "larger body size",
+        "slightly larger size",
+        "slightly longer hood",
+        "larger front grille",
+        "larger size",
+        "slightly different wheel design",
+        "distinctive logo placement",
+        "distinctive logo",
+        "distinctive badge placement",
+        "distinctive international branding",
+        "different color scheme",
+        "rear cargo doors",
+        "taller roofline",
+        "unique taillights design"
+    ],
+    "Style_Coupe": [
+        "slimmer profile",
+        "slightly larger wheels",
+        "sportier wheels",
+        "distinctive aerodynamic lines",
+        "slimmer front grille",
+        "shorter wheelbase",
+        "distinctive air vents on doors",
+        "slightly larger size",
+        "brighter front grille"
+    ],
+    "Su_Rui": [],
+    "Sunshine": [
+        "smaller size",
+        "bright white spots",
+        "sharp contrast with dark objects",
+        "rounder shape",
+        "smoother texture",
+        "no clouds",
+        "brighter yellow color",
+        "brighter yellow hue",
+        "bright yellow color",
+        "brighter color palette",
+        "sharp, pointy edges",
+        "no shadows",
+        "shorter legs",
+        "no distinct markings",
+        "round and warm glow"
+    ],
+    "Super_Duty": [
+        "sturdier wheel design",
+        "larger frame",
+        "larger overall size",
+        "taller and boxier profile",
+        "larger size",
+        "heavier duty frame",
+        "heavier duty branding",
+        "distinctive logo placement",
+        "sturdier grille design",
+        "distinctive logo",
+        "sturdier bumpers"
+    ],
+    "Super_Sport": [
+        "sportier alloy wheels",
+        "sharper, more streamlined shape",
+        "brighter, sporty colored accents",
+        "faster car speed",
+        "shorter, more muscular hood",
+        "bolder front grille",
+        "bigger, more aggressive grille",
+        "brighter headlights",
+        "brighter color scheme",
+        "brighter color palette",
+        "bolder stripes",
+        "taller, more angular profile",
+        "distinctive aerodynamic spoilers",
+        "rounder tail",
+        "larger wheel size"
+    ],
+    "Sylphy": [
+        "slimmer profile",
+        "slimmer side profile",
+        "slimmer body profile",
+        "distinctive blue stripe",
+        "distinctive chrome grille",
+        "angular rather than round headlights",
+        "brighter front grille",
+        "distinctive grille design",
+        "shorter hood",
+        "shorter, more angular body",
+        "sharper edges on body",
+        "distinctive grill design"
+    ],
+    "T-ROC": [
+        "lighter color tone",
+        "shorter, more angular body",
+        "shorter, more angular design",
+        "angular rather than sleek design",
+        "roof-mounted antenna",
+        "slimmer side profile",
+        "smaller wheel size",
+        "slightly larger wheels",
+        "distinctive T-shaped logo",
+        "distinctive front grille design",
+        "lower and more compact stance",
+        "shorter roofline"
+    ],
+    "Taigun": [
+        "distinctive front grille",
+        "lighter body color",
+        "larger rear window",
+        "unique taillights",
+        "distinctive angular design",
+        "unique triangular tail",
+        "slightly taller profile",
+        "rounded rear end",
+        "more angular head",
+        "distinctive grill design",
+        "slimmer tail"
+    ],
+    "Taurus": [
+        "smaller, more compact body",
+        "lighter body color",
+        "rounder body",
+        "smaller size",
+        "lighter brown color",
+        "less pronounced muscles",
+        "wider, flatter head",
+        "less pronounced spikes",
+        "darker body color",
+        "wider base",
+        "shorter horns",
+        "less curved neck",
+        "softer, smoother scales",
+        "rounder face"
+    ],
+    "Teana": [
+        "slimmer body profile",
+        "slimmer profile",
+        "smaller, compact body",
+        "slimmer body",
+        "less pronounced hood over eyes",
+        "distinctive logo",
+        "slimmer body shape"
+    ],
+    "Terra": [
+        "smaller, more compact size",
+        "flatter head profile",
+        "shorter, less developed tail",
+        "lighter, more uniform color",
+        "shorter, straighter legs",
+        "sharp, pointed tail",
+        "smaller size",
+        "distinctive green scales"
+    ],
+    "Terrain": [
+        "shorter, straighter legs",
+        "darker overall hue",
+        "varied elevation changes"
+    ],
+    "Territory": [
+        "sharp, specialized talons",
+        "varied elevation",
+        "larger size than scenic elements",
+        "starker color contrasts",
+        "reddish-brown color"
+    ],
+    "Tiguan": [
+        "taller and more rugged appearance",
+        "slightly larger wheels",
+        "slightly smaller wheels",
+        "shorter, more compact size",
+        "shorter, more angular head",
+        "slightly smaller size",
+        "slightly smaller overall size"
+    ],
+    "Tiguan_abroad_version": [
+        "larger, boxier shape",
+        "different alloy wheel style",
+        "smaller size",
+        "larger vehicle size",
+        "larger size"
+    ],
+    "Tiida": [
+        "smaller wheels",
+        "slimmer body shape",
+        "slimmer body"
+    ],
+    "Titan": [
+        "larger size",
+        "absence of wings"
+    ],
+    "Touareg": [
+        "angular head shape",
+        "distinctive hood pattern",
+        "shorter, straighter beak",
+        "slightly larger size",
+        "shorter antenna",
+        "smaller size",
+        "lighter overall color",
+        "slimmer profile"
+    ],
+    "Touareg_hybrid": [
+        "larger overall size",
+        "larger size",
+        "slightly more angular head shape",
+        "distinctive hybrid emblem"
+    ],
+    "Touran": [
+        "larger vehicle size",
+        "softer body lines",
+        "angular rear lights",
+        "larger, rounder headlights",
+        "slightly curved windshield",
+        "slightly more rounded body",
+        "rounded front bumper",
+        "unique taillights",
+        "lighter underbelly",
+        "smaller size"
+    ],
+    "Tourneo_Courier": [
+        "lighter wheel design",
+        "slightly more angular design"
+    ],
+    "Tourneo_Custom": [
+        "boxier body shape",
+        "slightly smaller wheels",
+        "different wheel style",
+        "less angular body shape",
+        "slightly larger size",
+        "shorter, boxier design",
+        "bolder, more angular lines",
+        "rounded rear design",
+        "slightly smaller size"
+    ],
+    "Tower_Siman": [
+        "slimmer body profile",
+        "shorter neck",
+        "unique logo placement",
+        "larger overall size",
+        "slimmer, taller structure",
+        "distinctive red stripe"
+    ],
+    "Transit": [
+        "utilitarian, functional design",
+        "smaller size",
+        "no tail",
+        "flat roof",
+        "rectangular shape",
+        "larger, boxier shape",
+        "larger size",
+        "distinctive logo",
+        "faster, dynamic movement",
+        "red roof"
+    ],
+    "Troller": [
+        "less streamlined body",
+        "shorter neck",
+        "shorter legs",
+        "less distinct stripes"
+    ],
+    "Trumpchi_GA3S_horizon": [],
+    "Tuteng_T2": [
+        "slimmer body shape",
+        "slimmer body",
+        "smaller body size",
+        "larger, rounder eyes",
+        "slightly larger body size",
+        "brighter color palette",
+        "shorter antennae"
+    ],
+    "Tuteng_T3": [
+        "distinctive red eyes",
+        "slimmer body shape",
+        "slimmer body profile",
+        "finer texture on body",
+        "smaller body size",
+        "larger size"
+    ],
+    "Unimog": [
+        "utilitarian body design",
+        "utility-oriented body",
+        "taller and boxier profile",
+        "higher ground clearance",
+        "distinctive U-shaped grill",
+        "distinctive U-shaped grille",
+        "open cabin design",
+        "stepped grille"
+    ],
+    "Urban_Crossover": [
+        "slimmer, aerodynamic profile",
+        "angular front grille",
+        "distinctive grill design",
+        "distinctive chrome accents",
+        "larger rear diffuser",
+        "angular rather than sleek profile",
+        "shorter, boxier shape",
+        "shorter, more angular body",
+        "taller profile",
+        "larger wheel rims",
+        "angular tail shape",
+        "distinctive logo or emblem",
+        "smaller size",
+        "utilitarian color scheme",
+        "broader shoulder pads"
+    ],
+    "V3_Lingyue": [
+        "slimmer body profile",
+        "slightly longer tail",
+        "smaller body size",
+        "shorter tail"
+    ],
+    "V5_Lingzhi": [],
+    "V6_Lingyue": [
+        "slimmer body silhouette",
+        "slimmer body shape",
+        "slimmer body profile",
+        "larger size"
+    ],
+    "Variant": [
+        "shorter wheelbase",
+        "slightly larger size",
+        "distinctive angular design"
+    ],
+    "Versa": [
+        "lighter body color",
+        "distinctive D-pillar shape",
+        "slimmer body profile",
+        "slimmer profile",
+        "distinctive angular design",
+        "slightly different roofline curvature",
+        "larger rear bumper",
+        "shorter tail",
+        "smaller wheel size",
+        "brighter color palette",
+        "smaller size",
+        "smaller, compact size"
+    ],
+    "Vertrek": [],
+    "Veyron": [
+        "larger vehicle size",
+        "bright red color",
+        "sporty rear wing",
+        "distinctive angular design",
+        "less aerodynamic shape",
+        "brighter colored body",
+        "unique rear wing design",
+        "flying V front grille",
+        "distinctly shaped headlights",
+        "distinctive front splitter",
+        "Veyron has distinctive visual features",
+        "larger size",
+        "flat, wide rear",
+        "distinctive diamond-shaped headlights"
+    ],
+    "Vezel": [
+        "shorter wheelbase",
+        "slightly smaller wheels",
+        "lighter body color",
+        "unique taillights shape",
+        "distinct V-shaped grille"
+    ],
+    "Viper_SRT": [
+        "distinctive hood scoop",
+        "larger wheel size",
+        "slimmer head profile",
+        "different logo design",
+        "slimmer body profile",
+        "angular front grille",
+        "larger, round headlights",
+        "larger rear wing",
+        "distinctive snake-like body",
+        "distinctive V-shaped grille",
+        "larger size",
+        "bigger, more angular body",
+        "unique quad exhaust tips",
+        "brighter red color",
+        "angular and muscular body"
+    ],
+    "Vision_Future_Luxury": [
+        "shimmering metallic finish",
+        "smoother surface finish",
+        "metallic finish",
+        "brighter metallic colors",
+        "larger, more advanced headlights",
+        "high-tech metallic finish",
+        "softer, ergonomic handles",
+        "richer color palette",
+        "curvier lines",
+        "larger, more ornate wheels"
+    ],
+    "Volkswagen_CC": [],
+    "Volkswagen_Eos": [
+        "less pronounced roofline",
+        "slightly larger wheels",
+        "less luxurious chrome details",
+        "curvier body lines",
+        "curvier side profile",
+        "slightly more compact size",
+        "Volkswagen Eos has distinctive visual features"
+    ],
+    "Volkswagen_Fox": [
+        "less aggressive bumper styling",
+        "slightly more angular head shape",
+        "shorter rear overhang",
+        "different window profile",
+        "different alloy wheel pattern"
+    ],
+    "Volkswagen_R36": [
+        "slightly more angular design",
+        "slightly more angular body shape",
+        "larger size"
+    ],
+    "Volkswagen_Up!Lite": [
+        "rounder headlights",
+        "lighter roof color",
+        "lighter color palette",
+        "slightly larger size",
+        "smaller size",
+        "distinctive front grille",
+        "smaller headlights"
+    ],
+    "Volkswagen_up": [
+        "slightly larger wheels",
+        "slightly more compact body",
+        "slightly larger size",
+        "larger size",
+        "slightly more compact size",
+        "distinctive front grille design"
+    ],
+    "Wei_Ting": [
+        "smaller, more compact tail",
+        "slimmer body frame",
+        "slimmer build"
+    ],
+    "Wei_Yanuo": [
+        "slimmer body frame",
+        "slimmer body shape",
+        "thinner legs",
+        "distinctive red marking",
+        "slimmer body build",
+        "slimmer body structure"
+    ],
+    "Weiwang_205": [
+        "different window design",
+        "metallic finish",
+        "lighter color",
+        "unique color scheme",
+        "distinctive logo",
+        "slightly curved tail",
+        "wider body"
+    ],
+    "Weiwang_306": [
+        "distinctive front grille design",
+        "different tail shape",
+        "unique side air vents",
+        "slightly larger headlights",
+        "brighter red color"
+    ],
+    "Weiwang_307": [
+        "larger, rounder wheels",
+        "slimmer body profile",
+        "different window placement"
+    ],
+    "Weiwang_M20": [
+        "brighter red color",
+        "distinctive logo design",
+        "different color shade"
+    ],
+    "Wind_Lang": [
+        "lighter body color",
+        "smaller, more compact body",
+        "pointier tail",
+        "larger body size",
+        "shorter wings",
+        "lighter underbelly",
+        "smaller size",
+        "lighter wing tips",
+        "slimmer tail shape",
+        "distinctive red markings",
+        "brighter plumage",
+        "sharper, more angular head"
+    ],
+    "Wingle_3": [
+        "slimmer body shape",
+        "slimmer wing shape"
+    ],
+    "Wingle_5": [
+        "slimmer body profile",
+        "brighter color palette"
+    ],
+    "Wingle_6": [
+        "unique tail shape",
+        "bigger, rounder eyes",
+        "slimmer wing shape"
+    ],
+    "Wrangler": [
+        "shorter, more angular head",
+        "smaller, rounder wheels",
+        "smaller tail",
+        "shorter horns",
+        "larger wheel size",
+        "wider tail",
+        "darker body shading",
+        "less angular jaw",
+        "unique wheel design",
+        "rounder shoulders",
+        "lighter body color",
+        "distinctive hood bumper",
+        "shorter neck",
+        "less aggressive grill design",
+        "lighter, speckled coat"
+    ],
+    "X-Trail": [
+        "slimmer body profile",
+        "slimmer profile",
+        "grander proportions",
+        "shorter, more angular design",
+        "smaller size",
+        "slightly larger size",
+        "larger size"
+    ],
+    "Xiaochaishen": [
+        "lighter body color",
+        "distinctively spotted body"
+    ],
+    "Xiwang": [
+        "rounder tail",
+        "distinctive blue body",
+        "rounded tail",
+        "rounder head",
+        "whiter underbelly",
+        "slimmer body"
+    ],
+    "Xuanli": [
+        "slimmer body shape",
+        "slimmer body structure",
+        "distinctive red marking",
+        "unique tail pattern",
+        "slightly larger size",
+        "distinctive black spots"
+    ],
+    "Xuanli_CROSS": [
+        "slimmer body shape",
+        "curvier antenna",
+        "thinner, more elongated legs",
+        "brighter overall color",
+        "sharp tips on wings",
+        "thinner neck",
+        "shorter, straighter beak",
+        "shorter, broader wings",
+        "distinctive cross pattern",
+        "unique black spot pattern",
+        "unique leg structure",
+        "distinctive blue stripes",
+        "larger size",
+        "distinctive red markings",
+        "slightly larger size"
+    ],
+    "Yida": [
+        "lighter overall color",
+        "finer, more slender body",
+        "unique white markings",
+        "rounder body shape",
+        "slightly larger size",
+        "slimmer body"
+    ],
+    "Yidong": [
+        "slimmer body shape",
+        "slimmer body structure",
+        "slimmer body",
+        "distinctively smaller size",
+        "smaller body size",
+        "larger, more spread wings",
+        "distinctively colored legs"
+    ],
+    "Yuexiang_V3": [
+        "slimmer body shape",
+        "slimmer body profile",
+        "lighter color"
+    ],
+    "Yuexiang_V5": [
+        "thinner legs",
+        "larger, more rounded body",
+        "distinctive logo",
+        "slightly longer legs",
+        "larger, more oval eyes"
+    ],
+    "Yuexiang_hatchback": [
+        "distinct rear styling",
+        "unique taillights造型",
+        "different wheel style"
+    ],
+    "Yuexiang_sedan": [
+        "slightly larger wheel size",
+        "slightly smaller size",
+        "larger body size",
+        "different grille design",
+        "slightly larger size",
+        "shorter hood length",
+        "different wheel style",
+        "different front grille design",
+        "different window shape",
+        "slightly longer hood",
+        "different color palette"
+    ],
+    "Yufeng": [
+        "distinctive red marking",
+        "smaller body size"
+    ],
+    "Yujun": [
+        "slimmer build",
+        "slightly larger size",
+        "shorter wings"
+    ],
+    "Yukon": [
+        "smaller, round wheels",
+        "shorter, boxier shape",
+        "distinctive hooded front",
+        "smooth surface",
+        "larger body size",
+        "larger size",
+        "slimmer, more angular profile",
+        "taller roofline",
+        "brighter front lighting",
+        "broader forehead",
+        "distinctive grille design",
+        "shorter, squared-off tail",
+        "distinctive grille",
+        "distinctive white stripe",
+        "distinctive logo"
+    ],
+    "Yusheng_007": [
+        "slimmer body profile",
+        "slimmer body shape",
+        "distinctive logo"
+    ],
+    "Yuxuan": [
+        "smaller, more compact head",
+        "unique tail pattern",
+        "angular wingtips",
+        "slimmer body structure",
+        "smaller size",
+        "distinctive red markings"
+    ],
+    "Zagato_Coupe": [
+        "angular body design",
+        "larger, more streamlined body",
+        "distinctive aerodynamic lines",
+        "slightly taller profile",
+        "slightly more streamlined profile",
+        "shorter wheelbase",
+        "slightly larger size",
+        "distinctive Zagato grille",
+        "distinctive Zagato curves",
+        "lack of convertible top",
+        "elegant, flowing lines",
+        "signature Zagato badge",
+        "slimmer body profile",
+        "slimmer headlamps"
+    ],
+    "Zhixiang": [
+        "lighter body color",
+        "smaller, more compact body",
+        "slimmer body shape",
+        "lighter underbelly",
+        "brighter coloration"
+    ],
+    "Zhiyue": [
+        "slimmer body shape",
+        "slimmer body",
+        "distinctive blue markings",
+        "distinctive white stripe",
+        "smaller size",
+        "slightly smaller size",
+        "slightly larger size",
+        "distinctive black stripes"
+    ],
+    "Zhongyi_V5": [
+        "different wheel pattern",
+        "distinctive red stripe",
+        "distinctive logo design",
+        "distinct logo design"
+    ],
+    "Zunludabawang": [
+        "smaller, more compact body",
+        "lighter underbelly",
+        "larger body size",
+        "smaller size",
+        "brighter color",
+        "distinctive bright spots",
+        "shorter wings",
+        "brighter body color",
+        "slimmer body shape"
+    ],
+    "Zunxing": [
+        "slimmer body shape",
+        "unique tail pattern",
+        "shorter, stockier legs",
+        "slimmer body structure"
+    ],
+    "concept500": [
+        "distinctive logo",
+        "smooth, metallic finish",
+        "sleeker body shape",
+        "distinctive front grille",
+        "slimmer profile",
+        "distinctive red spots",
+        "slimmer, elongated body",
+        "distinctive blue hue"
+    ],
+    "concept900": [
+        "slimmer body shape",
+        "slimmer, elongated legs",
+        "larger body size",
+        "distinctive angular design",
+        "larger circular wheels",
+        "brighter metallic finish",
+        "larger size",
+        "angular tail shape",
+        "shorter, straighter beak",
+        "distinctive red markings"
+    ],
+    "e-Co-Motion": [
+        "rounded rear end",
+        "slimmer wheel profile",
+        "distinctive logo placement",
+        "rounded front design",
+        "rounded tail design",
+        "slightly more streamlined shape",
+        "slimmer frame",
+        "different wheel design",
+        "distinctive logo"
+    ],
+    "e-linker": [
+        "lighter body hue",
+        "brighter overall color",
+        "distinctively shaped body",
+        "distinctive blue stripe",
+        "less complex texture pattern",
+        "brighter color scheme"
+    ],
+    "encore": [
+        "smaller, compact body",
+        "lighter body color",
+        "slimmer body shape",
+        "brighter color scheme",
+        "distinctive circular logo",
+        "smaller size",
+        "larger body size",
+        "shorter wings"
+    ]
+}
