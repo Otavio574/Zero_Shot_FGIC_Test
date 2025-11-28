@@ -133,7 +133,7 @@ def generate_matrix_for_model(model_name: str):
     # 4. SALVAR CSV
     model_safe_name = model_name.replace('/', '-')
     output_path = OUTPUT_DIR / f"accuracy_matrix_{model_safe_name}.csv"
-    df_percent.to_csv(output_path, index=False, sep=';')
+    df_percent.to_csv(output_path, index=False, sep=',')
     
     print("\n✅ Matriz de acurácia gerada com sucesso! (percentual, 2 casas decimais)")
     print(f"\n💾 Arquivo salvo em: {output_path}")
