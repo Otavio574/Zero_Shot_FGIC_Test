@@ -1,2 +1,2 @@
-from pathlib import Path
-print(Path("./outputs/analysis/summary.json"))
+import clip
+print(clip.available_models())

@@ -1,0 +1,182 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.5171192443919717,
+        "accuracy_top5": 0.9563164108618654,
+        "num_classes": 15,
+        "num_images": 847,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Caltech_256": {
+        "accuracy_top1": 0.9102492893782468,
+        "accuracy_top5": 0.9662495507563629,
+        "num_classes": 257,
+        "num_images": 30607,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "CompCars": {
+        "accuracy_top1": 0.0013397166893236402,
+        "accuracy_top5": 0.011190574699056289,
+        "num_classes": 663,
+        "num_images": 50757,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.6447100712105799,
+        "accuracy_top5": 0.9228552051542895,
+        "num_classes": 200,
+        "num_images": 11796,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "DTD": {
+        "accuracy_top1": 0.5457446808510639,
+        "accuracy_top5": 0.851418439716312,
+        "num_classes": 47,
+        "num_images": 5640,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.5154515451545154,
+        "accuracy_top5": 0.8751875187518752,
+        "num_classes": 70,
+        "num_images": 3333,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Flavia_Leaves": {
+        "accuracy_top1": 0.14285714285714285,
+        "accuracy_top5": 0.46691176470588236,
+        "num_classes": 32,
+        "num_images": 1904,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "food-101": {
+        "accuracy_top1": 0.9133465346534654,
+        "accuracy_top5": 0.9870891089108911,
+        "num_classes": 101,
+        "num_images": 101000,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "FoodX-251": {
+        "accuracy_top1": 0.7358679339669835,
+        "accuracy_top5": 0.9365516091379023,
+        "num_classes": 251,
+        "num_images": 11994,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Leaf": {
+        "accuracy_top1": 0.25127896479085166,
+        "accuracy_top5": 0.6758952753535962,
+        "num_classes": 10,
+        "num_images": 3323,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Leeds_Butterfly": {
+        "accuracy_top1": 0.6598557692307693,
+        "accuracy_top5": 0.9891826923076923,
+        "num_classes": 10,
+        "num_images": 832,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "LZUPSD": {
+        "accuracy_top1": 0.01912811387900356,
+        "accuracy_top5": 0.07295373665480427,
+        "num_classes": 88,
+        "num_images": 4496,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "MIT_Indoor_Scenes": {
+        "accuracy_top1": 0.8345185469921199,
+        "accuracy_top5": 0.9859696329040938,
+        "num_classes": 67,
+        "num_images": 15609,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "MNIST_Butterfly": {
+        "accuracy_top1": 0.392,
+        "accuracy_top5": 0.628,
+        "num_classes": 100,
+        "num_images": 500,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "NA_Fish": {
+        "accuracy_top1": 0.6928888888888889,
+        "accuracy_top5": 0.9973333333333333,
+        "num_classes": 9,
+        "num_images": 9000,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Oxford-IIIT_Pet_Dataset": {
+        "accuracy_top1": 0.9024225199621059,
+        "accuracy_top5": 0.9940452023277846,
+        "num_classes": 37,
+        "num_images": 7389,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Oxford_Flowers_192": {
+        "accuracy_top1": 0.7799511002444988,
+        "accuracy_top5": 0.9193154034229829,
+        "num_classes": 102,
+        "num_images": 818,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "SlowSketch": {
+        "accuracy_top1": 0.8049353701527615,
+        "accuracy_top5": 0.9353701527614571,
+        "num_classes": 20,
+        "num_images": 1702,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Stanford_Cars": {
+        "accuracy_top1": 0.7760314341846758,
+        "accuracy_top5": 0.9820726915520629,
+        "num_classes": 196,
+        "num_images": 8144,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    },
+    "Stanford_Dogs": {
+        "accuracy_top1": 0.7413022351797862,
+        "accuracy_top5": 0.9599125364431487,
+        "num_classes": 120,
+        "num_images": 20580,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "ViT-L/14@336px"
+    }
+}

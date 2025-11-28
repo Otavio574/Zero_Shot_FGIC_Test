@@ -1,0 +1,182 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.4297520661157025,
+        "accuracy_top5": 0.9268004722550177,
+        "num_classes": 15,
+        "num_images": 847,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Caltech_256": {
+        "accuracy_top1": 0.8721534289541608,
+        "accuracy_top5": 0.9546508968536609,
+        "num_classes": 257,
+        "num_images": 30607,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "CompCars": {
+        "accuracy_top1": 0.0023642059223358356,
+        "accuracy_top5": 0.010895048958764308,
+        "num_classes": 663,
+        "num_images": 50757,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.5665479823669041,
+        "accuracy_top5": 0.886656493726687,
+        "num_classes": 200,
+        "num_images": 11796,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "DTD": {
+        "accuracy_top1": 0.49840425531914895,
+        "accuracy_top5": 0.8122340425531915,
+        "num_classes": 47,
+        "num_images": 5640,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.37923792379237925,
+        "accuracy_top5": 0.7620762076207621,
+        "num_classes": 70,
+        "num_images": 3333,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Flavia_Leaves": {
+        "accuracy_top1": 0.11186974789915967,
+        "accuracy_top5": 0.4070378151260504,
+        "num_classes": 32,
+        "num_images": 1904,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "food-101": {
+        "accuracy_top1": 0.8665643564356436,
+        "accuracy_top5": 0.9748019801980198,
+        "num_classes": 101,
+        "num_images": 101000,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "FoodX-251": {
+        "accuracy_top1": 0.6765882941470736,
+        "accuracy_top5": 0.9041187260296815,
+        "num_classes": 251,
+        "num_images": 11994,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Leaf": {
+        "accuracy_top1": 0.09659945832079446,
+        "accuracy_top5": 0.6521215768883539,
+        "num_classes": 10,
+        "num_images": 3323,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Leeds_Butterfly": {
+        "accuracy_top1": 0.5276442307692307,
+        "accuracy_top5": 0.9915865384615384,
+        "num_classes": 10,
+        "num_images": 832,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "LZUPSD": {
+        "accuracy_top1": 0.013567615658362989,
+        "accuracy_top5": 0.053158362989323846,
+        "num_classes": 88,
+        "num_images": 4496,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "MIT_Indoor_Scenes": {
+        "accuracy_top1": 0.7962073162918829,
+        "accuracy_top5": 0.9775129732846435,
+        "num_classes": 67,
+        "num_images": 15609,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "MNIST_Butterfly": {
+        "accuracy_top1": 0.318,
+        "accuracy_top5": 0.536,
+        "num_classes": 100,
+        "num_images": 500,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "NA_Fish": {
+        "accuracy_top1": 0.6257777777777778,
+        "accuracy_top5": 0.9965555555555555,
+        "num_classes": 9,
+        "num_images": 9000,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Oxford-IIIT_Pet_Dataset": {
+        "accuracy_top1": 0.8883475436459602,
+        "accuracy_top5": 0.9953985654351062,
+        "num_classes": 37,
+        "num_images": 7389,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Oxford_Flowers_192": {
+        "accuracy_top1": 0.7127139364303179,
+        "accuracy_top5": 0.882640586797066,
+        "num_classes": 102,
+        "num_images": 818,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "SlowSketch": {
+        "accuracy_top1": 0.782608695652174,
+        "accuracy_top5": 0.9318448883666275,
+        "num_classes": 20,
+        "num_images": 1702,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Stanford_Cars": {
+        "accuracy_top1": 0.706286836935167,
+        "accuracy_top5": 0.9641453831041258,
+        "num_classes": 196,
+        "num_images": 8144,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    },
+    "Stanford_Dogs": {
+        "accuracy_top1": 0.6590864917395529,
+        "accuracy_top5": 0.9193391642371235,
+        "num_classes": 120,
+        "num_images": 20580,
+        "method": "description_clip",
+        "template": "a photo of a {class}, which {descriptor}",
+        "model_name": "RN50x16"
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.3624557260920897,
+        "accuracy_top5": 0.8571428571428571,
+        "num_classes": 15,
+        "num_images": 847,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.2
+    },
+    "Caltech_256": {
+        "accuracy_top1": 0.8160878230470154,
+        "accuracy_top5": 0.938804848564054,
+        "num_classes": 257,
+        "num_images": 30607,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.700389105058367
+    },
+    "CompCars": {
+        "accuracy_top1": 0.0025809247985499537,
+        "accuracy_top5": 0.009062789368954036,
+        "num_classes": 663,
+        "num_images": 50757,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.06184012066365
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.48202780603594436,
+        "accuracy_top5": 0.8040013563919973,
+        "num_classes": 200,
+        "num_images": 11796,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 17.405
+    },
+    "DTD": {
+        "accuracy_top1": 0.4198581560283688,
+        "accuracy_top5": 0.7269503546099291,
+        "num_classes": 47,
+        "num_images": 5640,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.74468085106383
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.22862286228622863,
+        "accuracy_top5": 0.573057305730573,
+        "num_classes": 70,
+        "num_images": 3333,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.228571428571428
+    },
+    "Flavia_Leaves": {
+        "accuracy_top1": 0.12394957983193278,
+        "accuracy_top5": 0.3634453781512605,
+        "num_classes": 32,
+        "num_images": 1904,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.375
+    },
+    "food-101": {
+        "accuracy_top1": 0.7670792079207921,
+        "accuracy_top5": 0.9436534653465346,
+        "num_classes": 101,
+        "num_images": 101000,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.455445544554454
+    },
+    "FoodX-251": {
+        "accuracy_top1": 0.5953810238452559,
+        "accuracy_top5": 0.851509087877272,
+        "num_classes": 251,
+        "num_images": 11994,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.211155378486055
+    },
+    "Leaf": {
+        "accuracy_top1": 0.11766476075835089,
+        "accuracy_top5": 0.6789046042732471,
+        "num_classes": 10,
+        "num_images": 3323,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 18.7
+    },
+    "Leeds_Butterfly": {
+        "accuracy_top1": 0.5841346153846154,
+        "accuracy_top5": 0.9338942307692307,
+        "num_classes": 10,
+        "num_images": 832,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.6
+    },
+    "LZUPSD": {
+        "accuracy_top1": 0.020685053380782917,
+        "accuracy_top5": 0.07695729537366548,
+        "num_classes": 88,
+        "num_images": 4496,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.272727272727273
+    },
+    "MIT_Indoor_Scenes": {
+        "accuracy_top1": 0.78563649176757,
+        "accuracy_top5": 0.9676468703952847,
+        "num_classes": 67,
+        "num_images": 15609,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.91044776119403
+    },
+    "MNIST_Butterfly": {
+        "accuracy_top1": 0.282,
+        "accuracy_top5": 0.442,
+        "num_classes": 100,
+        "num_images": 500,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.17
+    },
+    "NA_Fish": {
+        "accuracy_top1": 0.5336666666666666,
+        "accuracy_top5": 0.9727777777777777,
+        "num_classes": 9,
+        "num_images": 9000,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 16.333333333333332
+    },
+    "Oxford-IIIT_Pet_Dataset": {
+        "accuracy_top1": 0.7681688997157937,
+        "accuracy_top5": 0.9599404520232778,
+        "num_classes": 37,
+        "num_images": 7389,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 17.945945945945947
+    },
+    "Oxford_Flowers_192": {
+        "accuracy_top1": 0.6650366748166259,
+        "accuracy_top5": 0.8606356968215159,
+        "num_classes": 102,
+        "num_images": 818,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 18.558823529411764
+    },
+    "SlowSketch": {
+        "accuracy_top1": 0.6891891891891891,
+        "accuracy_top5": 0.8877790834312573,
+        "num_classes": 20,
+        "num_images": 1702,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 19.25
+    },
+    "Stanford_Cars": {
+        "accuracy_top1": 0.5960216110019646,
+        "accuracy_top5": 0.9200638506876228,
+        "num_classes": 196,
+        "num_images": 8144,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 20.698979591836736
+    },
+    "Stanford_Dogs": {
+        "accuracy_top1": 0.5511661807580175,
+        "accuracy_top5": 0.8653061224489796,
+        "num_classes": 120,
+        "num_images": 20580,
+        "method": "comparative_clip",
+        "model_name": "RN101",
+        "template": "a photo of a {class}, {comparative_descriptor}",
+        "avg_descriptors_per_class": 17.391666666666666
+    }
+}

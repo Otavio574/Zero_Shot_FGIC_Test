@@ -1,0 +1,202 @@
+{
+    "Birdsnap": {
+        "accuracy_top1": 0.42857142857142855,
+        "accuracy_top5": 0.8772136953955135,
+        "num_classes": 15,
+        "num_images": 847,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 11.6
+    },
+    "Caltech_256": {
+        "accuracy_top1": 0.8018427157186264,
+        "accuracy_top5": 0.9318456562224328,
+        "num_classes": 257,
+        "num_images": 30607,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 8.15953307392996
+    },
+    "CompCars": {
+        "accuracy_top1": 0.0023642059223358356,
+        "accuracy_top5": 0.011289083279153614,
+        "num_classes": 663,
+        "num_images": 50757,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 6.853695324283559
+    },
+    "CUB_200_2011": {
+        "accuracy_top1": 0.4745676500508647,
+        "accuracy_top5": 0.8169718548660563,
+        "num_classes": 200,
+        "num_images": 11796,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 9.325
+    },
+    "DTD": {
+        "accuracy_top1": 0.45656028368794327,
+        "accuracy_top5": 0.7686170212765957,
+        "num_classes": 47,
+        "num_images": 5640,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 8.553191489361701
+    },
+    "FGVC_Aircraft": {
+        "accuracy_top1": 0.2082208220822082,
+        "accuracy_top5": 0.5385538553855386,
+        "num_classes": 70,
+        "num_images": 3333,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 5.828571428571428
+    },
+    "Flavia_Leaves": {
+        "accuracy_top1": 0.11817226890756302,
+        "accuracy_top5": 0.38760504201680673,
+        "num_classes": 32,
+        "num_images": 1904,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 8.34375
+    },
+    "food-101": {
+        "accuracy_top1": 0.7549207920792079,
+        "accuracy_top5": 0.9399108910891089,
+        "num_classes": 101,
+        "num_images": 101000,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 8.217821782178218
+    },
+    "FoodX-251": {
+        "accuracy_top1": 0.5732866433216608,
+        "accuracy_top5": 0.8390862097715525,
+        "num_classes": 251,
+        "num_images": 11994,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 4.860557768924303
+    },
+    "Leaf": {
+        "accuracy_top1": 0.29822449593740596,
+        "accuracy_top5": 0.7577490219681011,
+        "num_classes": 10,
+        "num_images": 3323,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 11.1
+    },
+    "Leeds_Butterfly": {
+        "accuracy_top1": 0.7139423076923077,
+        "accuracy_top5": 0.953125,
+        "num_classes": 10,
+        "num_images": 832,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 6.4
+    },
+    "LZUPSD": {
+        "accuracy_top1": 0.017348754448398576,
+        "accuracy_top5": 0.08674377224199288,
+        "num_classes": 88,
+        "num_images": 4496,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 3.602272727272727
+    },
+    "MIT_Indoor_Scenes": {
+        "accuracy_top1": 0.7598180536869754,
+        "accuracy_top5": 0.9634185405855596,
+        "num_classes": 67,
+        "num_images": 15609,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 10.402985074626866
+    },
+    "MNIST_Butterfly": {
+        "accuracy_top1": 0.318,
+        "accuracy_top5": 0.502,
+        "num_classes": 100,
+        "num_images": 500,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 8.95
+    },
+    "NA_Fish": {
+        "accuracy_top1": 0.5456666666666666,
+        "accuracy_top5": 0.986,
+        "num_classes": 9,
+        "num_images": 9000,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 11.666666666666666
+    },
+    "Oxford-IIIT_Pet_Dataset": {
+        "accuracy_top1": 0.7810258492353498,
+        "accuracy_top5": 0.9874137231019082,
+        "num_classes": 37,
+        "num_images": 7389,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 7.054054054054054
+    },
+    "Oxford_Flowers_192": {
+        "accuracy_top1": 0.6687041564792175,
+        "accuracy_top5": 0.8581907090464548,
+        "num_classes": 102,
+        "num_images": 818,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 7.745098039215686
+    },
+    "SlowSketch": {
+        "accuracy_top1": 0.5423031727379554,
+        "accuracy_top5": 0.8719153936545241,
+        "num_classes": 20,
+        "num_images": 1702,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 5.25
+    },
+    "Stanford_Cars": {
+        "accuracy_top1": 0.5132612966601179,
+        "accuracy_top5": 0.8675098231827112,
+        "num_classes": 196,
+        "num_images": 8144,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 1.7295918367346939
+    },
+    "Stanford_Dogs": {
+        "accuracy_top1": 0.5277939747327502,
+        "accuracy_top5": 0.8466958211856171,
+        "num_classes": 120,
+        "num_images": 20580,
+        "model": "RN50",
+        "method": "comparative_clip_filtered",
+        "template": "a photo of a {class}, {filtered_descriptor}",
+        "avg_descriptors_per_class": 5.925
+    }
+}

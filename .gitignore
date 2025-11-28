@@ -4,3 +4,5 @@ embeddings/
 embeddings_openai/
 models_local/Miniconda3-latest-Linux-x86_64.sh
 Miniconda3-latest-Linux-x86_64.sh
+__pycache__/
+logs/
