@@ -1,0 +1,584 @@
+{
+  "errors": [
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0071_795627.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Olive_sided_Flycatcher",
+      "confidence": 0.29296875,
+      "top5": [
+        [
+          "Olive_sided_Flycatcher",
+          0.29296875
+        ],
+        [
+          "Great_Crested_Flycatcher",
+          0.09814453125
+        ],
+        [
+          "Swainson_Warbler",
+          0.0826416015625
+        ],
+        [
+          "Warbling_Vireo",
+          0.076416015625
+        ],
+        [
+          "Least_Flycatcher",
+          0.06640625
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0034_795583.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Olive_sided_Flycatcher",
+      "confidence": 0.33544921875,
+      "top5": [
+        [
+          "Olive_sided_Flycatcher",
+          0.33544921875
+        ],
+        [
+          "Least_Flycatcher",
+          0.1767578125
+        ],
+        [
+          "Yellow_bellied_Flycatcher",
+          0.11236572265625
+        ],
+        [
+          "Acadian_Flycatcher",
+          0.0946044921875
+        ],
+        [
+          "Great_Crested_Flycatcher",
+          0.054779052734375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0036_795577.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Tennessee_Warbler",
+      "confidence": 0.226806640625,
+      "top5": [
+        [
+          "Tennessee_Warbler",
+          0.226806640625
+        ],
+        [
+          "Philadelphia_Vireo",
+          0.114013671875
+        ],
+        [
+          "Western_Wood_Pewee",
+          0.08087158203125
+        ],
+        [
+          "Least_Flycatcher",
+          0.0771484375
+        ],
+        [
+          "Acadian_Flycatcher",
+          0.068115234375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0019_795592.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Philadelphia_Vireo",
+      "confidence": 0.129150390625,
+      "top5": [
+        [
+          "Philadelphia_Vireo",
+          0.129150390625
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.1231689453125
+        ],
+        [
+          "Red_eyed_Vireo",
+          0.12127685546875
+        ],
+        [
+          "Least_Flycatcher",
+          0.07470703125
+        ],
+        [
+          "Blue_headed_Vireo",
+          0.0712890625
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0063_795585.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Swainson_Warbler",
+      "confidence": 0.1614990234375,
+      "top5": [
+        [
+          "Swainson_Warbler",
+          0.1614990234375
+        ],
+        [
+          "Ovenbird",
+          0.092041015625
+        ],
+        [
+          "Yellow_bellied_Flycatcher",
+          0.061309814453125
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.06036376953125
+        ],
+        [
+          "Philadelphia_Vireo",
+          0.059417724609375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0068_795590.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Yellow_bellied_Flycatcher",
+      "confidence": 0.391357421875,
+      "top5": [
+        [
+          "Yellow_bellied_Flycatcher",
+          0.391357421875
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.1533203125
+        ],
+        [
+          "Yellow_breasted_Chat",
+          0.08331298828125
+        ],
+        [
+          "Least_Flycatcher",
+          0.060028076171875
+        ],
+        [
+          "Acadian_Flycatcher",
+          0.0474853515625
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0009_29155.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Least_Flycatcher",
+      "confidence": 0.151123046875,
+      "top5": [
+        [
+          "Least_Flycatcher",
+          0.151123046875
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.127197265625
+        ],
+        [
+          "Western_Wood_Pewee",
+          0.10711669921875
+        ],
+        [
+          "Acadian_Flycatcher",
+          0.049041748046875
+        ],
+        [
+          "Yellow_bellied_Flycatcher",
+          0.035888671875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0058_795602.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Warbling_Vireo",
+      "confidence": 0.14111328125,
+      "top5": [
+        [
+          "Warbling_Vireo",
+          0.14111328125
+        ],
+        [
+          "Western_Wood_Pewee",
+          0.12451171875
+        ],
+        [
+          "Red_eyed_Vireo",
+          0.10650634765625
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.092529296875
+        ],
+        [
+          "Black_capped_Vireo",
+          0.06982421875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0065_29070.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Tennessee_Warbler",
+      "confidence": 0.210205078125,
+      "top5": [
+        [
+          "Tennessee_Warbler",
+          0.210205078125
+        ],
+        [
+          "Bay_breasted_Warbler",
+          0.146728515625
+        ],
+        [
+          "Cape_May_Warbler",
+          0.1444091796875
+        ],
+        [
+          "Black_and_white_Warbler",
+          0.0693359375
+        ],
+        [
+          "Kentucky_Warbler",
+          0.058380126953125
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/Acadian_Flycatcher/Acadian_Flycatcher_0052_795610.jpg",
+      "true_class": "Acadian_Flycatcher",
+      "predicted_class": "Swainson_Warbler",
+      "confidence": 0.1678466796875,
+      "top5": [
+        [
+          "Swainson_Warbler",
+          0.1678466796875
+        ],
+        [
+          "Acadian_Flycatcher",
+          0.1171875
+        ],
+        [
+          "Olive_sided_Flycatcher",
+          0.09716796875
+        ],
+        [
+          "Least_Flycatcher",
+          0.07928466796875
+        ],
+        [
+          "Tennessee_Warbler",
+          0.0699462890625
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0030_25092.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.47021484375,
+      "top5": [
+        [
+          "Common_Raven",
+          0.47021484375
+        ],
+        [
+          "White_necked_Raven",
+          0.1226806640625
+        ],
+        [
+          "American_Crow",
+          0.12078857421875
+        ],
+        [
+          "Fish_Crow",
+          0.1116943359375
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.0677490234375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0074_25350.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "White_necked_Raven",
+      "confidence": 0.332275390625,
+      "top5": [
+        [
+          "White_necked_Raven",
+          0.332275390625
+        ],
+        [
+          "Common_Raven",
+          0.27978515625
+        ],
+        [
+          "American_Crow",
+          0.11846923828125
+        ],
+        [
+          "Fish_Crow",
+          0.08270263671875
+        ],
+        [
+          "Boat_tailed_Grackle",
+          0.056854248046875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0085_25260.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Boat_tailed_Grackle",
+      "confidence": 0.443603515625,
+      "top5": [
+        [
+          "Boat_tailed_Grackle",
+          0.443603515625
+        ],
+        [
+          "Common_Raven",
+          0.16064453125
+        ],
+        [
+          "White_necked_Raven",
+          0.11572265625
+        ],
+        [
+          "Fish_Crow",
+          0.11395263671875
+        ],
+        [
+          "Cape_Glossy_Starling",
+          0.09014892578125
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0048_25062.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Boat_tailed_Grackle",
+      "confidence": 0.28662109375,
+      "top5": [
+        [
+          "Boat_tailed_Grackle",
+          0.28662109375
+        ],
+        [
+          "Common_Raven",
+          0.2376708984375
+        ],
+        [
+          "Fish_Crow",
+          0.1822509765625
+        ],
+        [
+          "American_Crow",
+          0.08343505859375
+        ],
+        [
+          "White_necked_Raven",
+          0.0771484375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0068_25198.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.284423828125,
+      "top5": [
+        [
+          "Common_Raven",
+          0.284423828125
+        ],
+        [
+          "Fish_Crow",
+          0.2081298828125
+        ],
+        [
+          "White_necked_Raven",
+          0.1595458984375
+        ],
+        [
+          "Brandt_Cormorant",
+          0.088134765625
+        ],
+        [
+          "American_Crow",
+          0.08544921875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0069_25506.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.65234375,
+      "top5": [
+        [
+          "Common_Raven",
+          0.65234375
+        ],
+        [
+          "Fish_Crow",
+          0.11517333984375
+        ],
+        [
+          "White_necked_Raven",
+          0.11163330078125
+        ],
+        [
+          "American_Crow",
+          0.0286712646484375
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.0193939208984375
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0079_25463.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.25537109375,
+      "top5": [
+        [
+          "Common_Raven",
+          0.25537109375
+        ],
+        [
+          "American_Crow",
+          0.2149658203125
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.134521484375
+        ],
+        [
+          "Fish_Crow",
+          0.11328125
+        ],
+        [
+          "White_necked_Raven",
+          0.043670654296875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0012_25305.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Rusty_Blackbird",
+      "confidence": 0.256591796875,
+      "top5": [
+        [
+          "Rusty_Blackbird",
+          0.256591796875
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.2093505859375
+        ],
+        [
+          "Common_Raven",
+          0.0928955078125
+        ],
+        [
+          "Brewer_Blackbird",
+          0.088623046875
+        ],
+        [
+          "Boat_tailed_Grackle",
+          0.052947998046875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0053_25203.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.323974609375,
+      "top5": [
+        [
+          "Common_Raven",
+          0.323974609375
+        ],
+        [
+          "Fish_Crow",
+          0.196533203125
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.1416015625
+        ],
+        [
+          "Boat_tailed_Grackle",
+          0.09881591796875
+        ],
+        [
+          "White_necked_Raven",
+          0.08856201171875
+        ]
+      ]
+    },
+    {
+      "image_path": "/home/otaviotg/Zero_Shot_FGIC_Test/datasets/CUB_200_2011/American_Crow/American_Crow_0080_25220.jpg",
+      "true_class": "American_Crow",
+      "predicted_class": "Common_Raven",
+      "confidence": 0.37890625,
+      "top5": [
+        [
+          "Common_Raven",
+          0.37890625
+        ],
+        [
+          "Fish_Crow",
+          0.1461181640625
+        ],
+        [
+          "Boat_tailed_Grackle",
+          0.126953125
+        ],
+        [
+          "White_necked_Raven",
+          0.09881591796875
+        ],
+        [
+          "Bronzed_Cowbird",
+          0.060882568359375
+        ]
+      ]
+    }
+  ],
+  "patterns": {
+    "confusion_pairs": {
+      "Acadian_Flycatcher -> Olive_sided_Flycatcher": 2,
+      "Acadian_Flycatcher -> Tennessee_Warbler": 2,
+      "Acadian_Flycatcher -> Philadelphia_Vireo": 1,
+      "Acadian_Flycatcher -> Swainson_Warbler": 2,
+      "Acadian_Flycatcher -> Yellow_bellied_Flycatcher": 1,
+      "Acadian_Flycatcher -> Least_Flycatcher": 1,
+      "Acadian_Flycatcher -> Warbling_Vireo": 1,
+      "American_Crow -> Common_Raven": 6,
+      "American_Crow -> White_necked_Raven": 1,
+      "American_Crow -> Boat_tailed_Grackle": 2,
+      "American_Crow -> Rusty_Blackbird": 1
+    },
+    "problematic_classes": {
+      "Acadian_Flycatcher": 10,
+      "American_Crow": 10
+    },
+    "avg_confidence": 0.29459228515625
+  }
+}
